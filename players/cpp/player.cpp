@@ -102,7 +102,7 @@ void Explore(Ship ship,vector<Turn>& turns){
 
 
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
-    if(ship.index==indexOfExploringShip ){
+    if(ship.index==ourShips[indexOfExploringShip].index ){
         cerr<<"explorujem"<<endl;
         Explore(ship,turns);
         return;
