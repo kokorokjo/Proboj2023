@@ -187,26 +187,26 @@ bool condition(XY a, XY b) {
     return true;
 }
 
-bool condition_for_attack_ship(XY a, XY b){
-    if(!world.mapa.can_move(b)){
-        return false;
-    }
+// bool condition_for_attack_ship(XY a, XY b){
+//     if(!world.mapa.can_move(b)){
+//         return false;
+//     }
 
-    for(Ship ship : world.ships){
-        if(ship.coords == b){
-            return false;
-        }
+//     for(Ship ship : world.ships){
+//         if(ship.coords == b){
+//             return false;
+//         }
     
-    }
+//     }
 
-    for(XY harbor: coords_of_all_harbors){
-        if(abs(harbor.x - b.x) + abs(harbor.y - b.y) <= 5){ //TODO neskor upravit minimalnu vzdialenost
-            return false;
-        }
-    }
+//     for(XY harbor: coords_of_all_harbors){
+//         if(abs(harbor.x - b.x) + abs(harbor.y - b.y) <= 5){ //TODO neskor upravit minimalnu vzdialenost
+//             return false;
+//         }
+//     }
 
-    return true;
-}
+//     return true;
+// }
 
 void add_to_occupant(XY coords, int index){
     bool found = false;
