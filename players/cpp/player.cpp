@@ -7,9 +7,10 @@ vector<pair<XY,bool>> coords_of_all_harbors;
 vector<Harbor> vector_of_found_harbors;
 // vector<pair<int,bool>> ocupied_harbors(world.harbors.size(), make_pair(0,false));
 vector<pair<int,XY>> ship_orders; //,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
+vector<Ship> ourShips;
 int tah=0;
 bool trebaExplorovat = true;
-int indexOfExploringShip = 0;
+int indexOfExploringShip = -1;
 
 bool condition(XY a, XY b) { return world.mapa.can_move(b); }
 int distance(XY& a, XY& b){ return abs(a.x - b.x) + abs(a.y - b.y); }
@@ -25,27 +26,37 @@ int get_ship_resources(Ship ship){
     
 }
 
+void updateShips(vector<Ship> ships){
+    for(Ship ship : world.ships){
+        if(ship.mine && ship.is_wreck){
+            for(int i=0;i<ships.size();i++){
+                if(ships[i].index == ship.index){
+                    ships.erase(ships.begin()+i);
+                    ship_orders.erase(ship_orders.begin()+i);
+                    if(indexOfExploringShip == i) indexOfExploringShip =-1;
+                    break;
+                }
+            }
+        }
+    }
+
+}
+
 
 
 void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0){ return; }
-
-    Ship ship=world.my_ships()[indexOfExploringShip];
-
-    ship_orders[indexOfExploringShip].first = 4;
-    ship_orders[indexOfExploringShip].second = ship.coords;
-    if(ship.health==0){
-        ship_orders.erase(ship_orders.begin()+indexOfExploringShip);
-        for(int i=0;i<world.my_ships().size();i++){
-            if(world.my_ships()[i].health!=0&&ship_orders[i].first==0){
-                indexOfExploringShip = i;
-                ship_orders[i].first = 4;
-                return;
-            }
+    for(int i=0;i<ship_orders.size();i++){
+        if(ship_orders[i].first == 0){
+            indexOfExploringShip = i;
+            ship_orders[i].first = 4;
+            return;
         }
-        
-        
     }
+
+    
+
+    
     cerr<<"explorer: "<<indexOfExploringShip<<endl;
     
     
@@ -147,8 +158,10 @@ vector<Turn> do_turn() {
     if(world.my_ships().size()>ship_orders.size()){
         for(int i=ship_orders.size();i<world.my_ships().size();i++){
             ship_orders.push_back(make_pair(0,world.my_ships()[i].coords));
+            ourShips.push_back(world.my_ships()[i]);
         }
     }
+    updateShips(world.my_ships());
     if(tah == 1){ // predpocitania na zaciatku hry
         for(Harbor harbor : world.harbors){
             coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
@@ -161,7 +174,8 @@ vector<Turn> do_turn() {
     trebaExplorovat = false;
     cerr<<"mam vsetky"<<endl;
      }
-    else{ zijuciExplorer(turns); }
+    else if(indexOfExploringShip ==-1)
+    { zijuciExplorer(turns); }
     //explorovanie
 
     if (world.my_ships().size() < 2) turns.push_back(BuyTurn(ShipsEnum::Cln));

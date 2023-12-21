@@ -463,46 +463,46 @@ pair<Ship, bool> enemy_ship_nearby(XY temp_coords, int range){
     return make_pair(Ship(), false);
 }
 
-void add_attack_ship_turn(vector<Turn>& turns, pair<Ship, Task> ship_task){
-    //TODO co ma robit attack ship
+// void add_attack_ship_turn(vector<Turn>& turns, pair<Ship, Task> ship_task){
+//     //TODO co ma robit attack ship
 
-    Ship ship = ship_task.first;
-    Task task = ship_task.second;
+//     Ship ship = ship_task.first;
+//     Task task = ship_task.second;
 
-    pair<Ship, bool> enemy_ship = enemy_ship_nearby(ship.coords, ship.stats.range);
+//     pair<Ship, bool> enemy_ship = enemy_ship_nearby(ship.coords, ship.stats.range);
 
-    if(enemy_ship.second){
-        turns.push_back(ShootTurn(ship.index, enemy_ship.first.index));
-        return;
-    }
+//     if(enemy_ship.second){
+//         turns.push_back(ShootTurn(ship.index, enemy_ship.first.index));
+//         return;
+//     }
 
-    unordered_map<XY, std::pair<int, XY>> dist;
-    vector<Harbor> harbors = world.harbors;
-    bfs(ship.coords, condition_for_attack_ship, dist); //TODO upravit condition
+//     unordered_map<XY, std::pair<int, XY>> dist;
+//     vector<Harbor> harbors = world.harbors;
+//     bfs(ship.coords, condition_for_attack_ship, dist); //TODO upravit condition
 
-    int min_dist = 1000000;
-    XY closest_ship;
+//     int min_dist = 1000000;
+//     XY closest_ship;
 
-    for(Ship curr: world.ships){
-        if(curr.mine){
+//     for(Ship curr: world.ships){
+//         if(curr.mine){
             
-            if(dist[curr.coords].first < min_dist && dist[curr.coords].first != 0){
-                min_dist = dist[curr.coords].first;
-                closest_ship = curr.coords;
-            }
-        }
-    }
+//             if(dist[curr.coords].first < min_dist && dist[curr.coords].first != 0){
+//                 min_dist = dist[curr.coords].first;
+//                 closest_ship = curr.coords;
+//             }
+//         }
+//     }
 
-    // cerr << world.my_ships() << endl;
+//     // cerr << world.my_ships() << endl;
 
-    // cerr << "vybem sa na z " << ship.coords << "na " << move_to(ship, closest_ship, condition) << endl;
-    // cerr << "najblizsi ship je na " << closest_ship << endl;
-    turns.push_back(MoveTurn(ship.index, move_to(ship, closest_ship, condition)));
-}
+//     // cerr << "vybem sa na z " << ship.coords << "na " << move_to(ship, closest_ship, condition) << endl;
+//     // cerr << "najblizsi ship je na " << closest_ship << endl;
+//     turns.push_back(MoveTurn(ship.index, move_to(ship, closest_ship, condition)));
+// }
 
-void add_loot_ship_turn(vector<Turn>& turns, Ship ship){
-    //TODO co ma robit loot ship
-}
+// void add_loot_ship_turn(vector<Turn>& turns, Ship ship){
+//     //TODO co ma robit loot ship
+// }
 
 
 void add_ship_turns(vector<Turn>& turns, vector<pair<Ship, Task>> ships){
@@ -516,7 +516,7 @@ void add_ship_turns(vector<Turn>& turns, vector<pair<Ship, Task>> ships){
         else if (curr.first.stats.ship_class == ShipClass::SHIP_ATTACK)
         {
             cerr << "som v attack ship" << endl;
-            add_attack_ship_turn(turns, curr);
+            // add_attack_ship_turn(turns, curr);
         }
 
         // else if (curr.stats.ship_class == ShipClass::SHIP_LOOT)
