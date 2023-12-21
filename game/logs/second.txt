@@ -1,0 +1,2004 @@
+New world
+[proboj] ROUND 0/500
+Takto mozete vypisovat do logov
+BUY 0
+
+[proboj] ROUND 1/500
+Takto mozete vypisovat do logov
+STORE 0 -5 BUY 0
+
+[proboj] ROUND 2/500
+Takto mozete vypisovat do logov
+MOVE 0 68 5 STORE 2 -5 BUY 0
+
+[proboj] ROUND 3/500
+Takto mozete vypisovat do logov
+STORE 5 -5 MOVE 0 68 7 MOVE 2 68 5
+
+[proboj] ROUND 4/500
+Takto mozete vypisovat do logov
+MOVE 5 68 5 MOVE 0 68 9 MOVE 2 68 7
+
+[proboj] ROUND 5/500
+Takto mozete vypisovat do logov
+MOVE 2 68 9 MOVE 5 68 5 MOVE 0 68 11
+
+[proboj] ROUND 6/500
+Takto mozete vypisovat do logov
+MOVE 5 68 7 MOVE 0 68 13 MOVE 2 68 9
+
+[proboj] ROUND 7/500
+Takto mozete vypisovat do logov
+MOVE 2 68 11 MOVE 5 68 7 MOVE 0 68 15
+
+[proboj] ROUND 8/500
+Takto mozete vypisovat do logov
+MOVE 2 68 13 MOVE 5 68 9 MOVE 0 68 17
+
+[proboj] ROUND 9/500
+Takto mozete vypisovat do logov
+MOVE 0 68 19 MOVE 2 68 15 MOVE 5 68 11
+
+[proboj] ROUND 10/500
+Takto mozete vypisovat do logov
+MOVE 2 68 17 MOVE 5 68 13 MOVE 0 68 21
+
+[proboj] ROUND 11/500
+Takto mozete vypisovat do logov
+MOVE 2 68 19 MOVE 5 68 15 MOVE 0 68 23
+
+[proboj] ROUND 12/500
+Takto mozete vypisovat do logov
+MOVE 0 68 25 MOVE 2 68 21 MOVE 5 68 17
+
+[proboj] ROUND 13/500
+Takto mozete vypisovat do logov
+MOVE 0 68 27 MOVE 2 68 23 MOVE 5 68 19
+
+[proboj] ROUND 14/500
+Takto mozete vypisovat do logov
+MOVE 0 68 29 MOVE 2 68 25 MOVE 5 68 21
+
+[proboj] ROUND 15/500
+Takto mozete vypisovat do logov
+MOVE 5 68 23 MOVE 0 68 31 MOVE 2 68 27
+
+[proboj] ROUND 16/500
+Takto mozete vypisovat do logov
+MOVE 2 68 29 MOVE 5 68 25 MOVE 0 68 33
+
+[proboj] ROUND 17/500
+Takto mozete vypisovat do logov
+MOVE 2 68 31 MOVE 5 68 27 MOVE 0 68 35
+
+[proboj] ROUND 18/500
+Takto mozete vypisovat do logov
+MOVE 5 68 29 MOVE 0 68 37 MOVE 2 68 33
+
+[proboj] ROUND 19/500
+Takto mozete vypisovat do logov
+MOVE 2 68 35 MOVE 5 68 31 MOVE 0 68 39
+
+[proboj] ROUND 20/500
+Takto mozete vypisovat do logov
+MOVE 5 68 33 MOVE 0 68 41 MOVE 2 68 37
+
+[proboj] ROUND 21/500
+Takto mozete vypisovat do logov
+MOVE 2 68 39 MOVE 5 68 35 MOVE 0 68 43
+
+[proboj] ROUND 22/500
+Takto mozete vypisovat do logov
+MOVE 0 68 45 MOVE 2 68 41 MOVE 5 68 37
+
+[proboj] ROUND 23/500
+Takto mozete vypisovat do logov
+MOVE 0 68 47 MOVE 2 68 43 MOVE 5 68 39
+
+[proboj] ROUND 24/500
+Takto mozete vypisovat do logov
+MOVE 2 68 45 MOVE 5 68 41 MOVE 0 68 49
+
+[proboj] ROUND 25/500
+Takto mozete vypisovat do logov
+MOVE 2 68 47 MOVE 5 68 43 MOVE 0 67 50
+
+[proboj] ROUND 26/500
+Takto mozete vypisovat do logov
+MOVE 5 68 45 MOVE 0 65 50 MOVE 2 68 49
+
+[proboj] ROUND 27/500
+Takto mozete vypisovat do logov
+MOVE 5 68 47 MOVE 0 63 50 MOVE 2 67 50
+
+[proboj] ROUND 28/500
+Takto mozete vypisovat do logov
+MOVE 0 61 50 MOVE 2 65 50 MOVE 5 68 49
+
+[proboj] ROUND 29/500
+Takto mozete vypisovat do logov
+MOVE 0 59 50 MOVE 2 63 50 MOVE 5 67 50
+
+[proboj] ROUND 30/500
+Takto mozete vypisovat do logov
+MOVE 5 65 50 MOVE 0 57 50 MOVE 2 61 50
+
+[proboj] ROUND 31/500
+Takto mozete vypisovat do logov
+MOVE 5 63 50 MOVE 0 55 50 MOVE 2 59 50
+
+[proboj] ROUND 32/500
+Takto mozete vypisovat do logov
+MOVE 0 53 50 MOVE 2 57 50 MOVE 5 61 50
+
+[proboj] ROUND 33/500
+Takto mozete vypisovat do logov
+MOVE 2 55 50 MOVE 5 59 50 MOVE 0 51 50
+
+[proboj] ROUND 34/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 53 50 MOVE 5 57 50
+
+[proboj] ROUND 35/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 51 50 MOVE 5 55 50
+
+[proboj] ROUND 36/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 53 50 MOVE 0 50 50
+
+[proboj] ROUND 37/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 38/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 39/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 40/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 41/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 42/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 43/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 44/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 45/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 46/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 47/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 48/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 49/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 50/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 51/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 52/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 53/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 54/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 55/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 56/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 57/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 58/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 59/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 60/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 61/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 62/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 63/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 64/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 65/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 66/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 67/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 68/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 69/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 70/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 71/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 72/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 73/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 74/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 75/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 76/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 77/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 78/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 79/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 80/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 81/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 82/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 83/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 84/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 85/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 86/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 87/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 88/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 89/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 90/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 91/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 92/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 93/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 94/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 95/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 96/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 97/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 98/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 99/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 100/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 101/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 102/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 103/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 104/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 105/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 106/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 107/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 108/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 109/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 110/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 111/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 112/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 113/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 114/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 115/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 116/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 117/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 118/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 119/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 120/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 121/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 122/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 123/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 124/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 125/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 126/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 127/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 128/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 129/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 130/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 131/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 132/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 133/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 134/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 135/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 136/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 137/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 138/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 139/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 140/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 141/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 142/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 143/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 144/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 145/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 146/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 147/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 148/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 149/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 150/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 151/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 152/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 153/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 154/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 155/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 156/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 157/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 158/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 159/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 160/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 161/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 162/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 163/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 164/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 165/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 166/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 167/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 168/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 169/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 170/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 171/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 172/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 173/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 174/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 175/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 176/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 177/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 178/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 179/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 180/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 181/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 182/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 183/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 184/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 185/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 186/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 187/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 188/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 189/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 190/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 191/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 192/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 193/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 194/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 195/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 196/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 197/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 198/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 199/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 200/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 201/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 202/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 203/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 204/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 205/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 206/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 207/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 208/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 209/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 210/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 211/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 212/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 213/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 214/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 215/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 216/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 217/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 218/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 219/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 220/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 221/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 222/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 223/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 224/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 225/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 226/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 227/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 228/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 229/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 230/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 231/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 232/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 233/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 234/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 235/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 236/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 237/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 238/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 239/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 240/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 241/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 242/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 243/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 244/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 245/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 246/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 247/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 248/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 249/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 250/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 251/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 252/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 253/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 254/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 255/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 256/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 257/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 258/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 259/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 260/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 261/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 262/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 263/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 264/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 265/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 266/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 267/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 268/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 269/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 270/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 271/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 272/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 273/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 274/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 275/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 276/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 277/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 278/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 279/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 280/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 281/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 282/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 283/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 284/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 285/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 286/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 287/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 288/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 289/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 290/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 291/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 292/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 293/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 294/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 295/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 296/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 297/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 298/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 299/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 300/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 301/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 302/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 303/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 304/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 305/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 306/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 307/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 308/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 309/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 310/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 311/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 312/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 313/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 314/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 315/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 316/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 317/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 318/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 319/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 320/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 321/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 322/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 323/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 324/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 325/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 326/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 327/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 328/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 329/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 330/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 331/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 332/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 333/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 334/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 335/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 336/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 337/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 338/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 339/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 340/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 341/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 342/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 343/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 344/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 345/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 346/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 347/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 348/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 349/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 350/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 351/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 352/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 353/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 354/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 355/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 356/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 357/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 358/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 359/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 360/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 361/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 362/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 363/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 364/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 365/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 366/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 367/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 368/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 369/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 370/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 371/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 372/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 373/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 374/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 375/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 376/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 377/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 378/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 379/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 380/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 381/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 382/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 383/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 384/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 385/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 386/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 387/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 388/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 389/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 390/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 391/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 392/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 393/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 394/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 395/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 396/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 397/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 398/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 399/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 400/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 401/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 402/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 403/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 404/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 405/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 406/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 407/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 408/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 409/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 410/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 411/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 412/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 413/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 414/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 415/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 416/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 417/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 418/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 419/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 420/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 421/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 422/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 423/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 424/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 425/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 426/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 427/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 428/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 429/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 430/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 431/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 432/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 433/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 434/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 435/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 436/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 437/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 438/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 439/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 440/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 441/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 442/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 443/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 444/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 445/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 446/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 447/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 448/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 449/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 450/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 451/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 452/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 453/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 454/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 455/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 456/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 457/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 458/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 459/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 460/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 461/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 462/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 463/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 464/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 465/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 466/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 467/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 468/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 469/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 470/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 471/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 472/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 473/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 474/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 475/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 476/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 477/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 478/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 479/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 480/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 481/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 482/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 483/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 484/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 485/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 486/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 487/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 488/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 489/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 490/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 491/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 492/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 493/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 494/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 495/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 496/500
+Takto mozete vypisovat do logov
+MOVE 0 50 50 MOVE 2 50 50 MOVE 5 51 50
+
+[proboj] ROUND 497/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] ROUND 498/500
+Takto mozete vypisovat do logov
+MOVE 2 50 50 MOVE 5 51 50 MOVE 0 50 50
+
+[proboj] ROUND 499/500
+Takto mozete vypisovat do logov
+MOVE 5 51 50 MOVE 0 50 50 MOVE 2 50 50
+
+[proboj] process terminated
+ exit: -1
+ err: <nil>
