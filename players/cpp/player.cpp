@@ -2,10 +2,9 @@
 #include "utils.h"
 using namespace std;
 
+
 World world;
 
-// funkcia na pohyb moze vyzerat napriklad takto
-// z a do b sa da dostat ak b je volne policko
 bool condition(XY a, XY b) { return world.mapa.can_move(b); }
 
 vector<Turn> do_turn() {
