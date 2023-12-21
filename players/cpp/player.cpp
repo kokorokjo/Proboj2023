@@ -5,9 +5,9 @@ World world;
 
 vector<pair<XY,bool>> coords_of_all_harbors;
 vector<Harbor> vector_of_found_harbors;
-vector<pair<int,XY>> ship_orders; //-1=wracked,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
 // vector<pair<int,bool>> ocupied_harbors(world.harbors.size(), make_pair(0,false));
-int tah=1;
+vector<pair<int,XY>> ship_orders; //,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
+int tah=0;
 bool trebaExplorovat = true;
 int indexOfExploringShip = 0;
 
@@ -25,13 +25,17 @@ int get_ship_resources(Ship ship){
     
 }
 
+
+
 void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0){ return; }
 
     Ship ship=world.my_ships()[indexOfExploringShip];
+
     ship_orders[indexOfExploringShip].first = 4;
+    ship_orders[indexOfExploringShip].second = ship.coords;
     if(ship.health==0){
-        ship_orders[indexOfExploringShip].first = -1;
+        ship_orders.erase(ship_orders.begin()+indexOfExploringShip);
         for(int i=0;i<world.my_ships().size();i++){
             if(world.my_ships()[i].health!=0&&ship_orders[i].first==0){
                 indexOfExploringShip = i;
@@ -42,6 +46,8 @@ void zijuciExplorer(vector<Turn>& turns){
         
         
     }
+    cerr<<"explorer: "<<indexOfExploringShip<<endl;
+    
     
 }
 
@@ -86,6 +92,7 @@ void Explore(Ship ship,vector<Turn>& turns){
 
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
     if(ship.index==indexOfExploringShip ){
+        cerr<<"explorujem"<<endl;
         Explore(ship,turns);
         return;
 
@@ -110,6 +117,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
     for (Ship curr: ships)
     {
         if(curr.stats.ship_class == ShipClass::SHIP_TRADE){
+            cerr<<"trade"<<endl;
             add_trade_ship_turn(turns, curr);
         }
 
@@ -141,15 +149,18 @@ vector<Turn> do_turn() {
             ship_orders.push_back(make_pair(0,world.my_ships()[i].coords));
         }
     }
-    tah++;
     if(tah == 1){ // predpocitania na zaciatku hry
         for(Harbor harbor : world.harbors){
             coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
         }
     }
+    tah++;
     //predpocitanie
 
-    if(mamHrbours()){ trebaExplorovat = false; }
+    if(mamHrbours()){ 
+    trebaExplorovat = false;
+    cerr<<"mam vsetky"<<endl;
+     }
     else{ zijuciExplorer(turns); }
     //explorovanie
 

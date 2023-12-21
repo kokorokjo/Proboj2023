@@ -4,2000 +4,3496 @@ Takto mozete vypisovat do logov
 BUY 0
 
 [proboj] ROUND 1/500
+explorer: 0
+trade
 Takto mozete vypisovat do logov
-STORE 1 -5 BUY 0
+BUY 0
 
 [proboj] ROUND 2/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-STORE 3 -5 MOVE 1 93 8 BUY 0
+
 
 [proboj] ROUND 3/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 9 MOVE 3 93 8 STORE 4 -5
+
 
 [proboj] ROUND 4/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 11 MOVE 3 94 9 MOVE 4 93 8
+
 
 [proboj] ROUND 5/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 11 MOVE 4 94 9 MOVE 1 94 13
+
 
 [proboj] ROUND 6/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 15 MOVE 3 94 11 MOVE 4 94 9
+
 
 [proboj] ROUND 7/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 17 MOVE 3 94 13 MOVE 4 94 11
+
 
 [proboj] ROUND 8/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 15 MOVE 4 94 13 MOVE 1 94 19
+
 
 [proboj] ROUND 9/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 17 MOVE 4 94 15 MOVE 1 94 21
+
 
 [proboj] ROUND 10/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 19 MOVE 4 94 17 MOVE 1 94 23
+
 
 [proboj] ROUND 11/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 25 MOVE 3 94 21 MOVE 4 94 19
+
 
 [proboj] ROUND 12/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 27 MOVE 3 94 23 MOVE 4 94 21
+
 
 [proboj] ROUND 13/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 25 MOVE 4 94 23 MOVE 1 94 29
+
 
 [proboj] ROUND 14/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 31 MOVE 3 94 27 MOVE 4 94 25
+
 
 [proboj] ROUND 15/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 33 MOVE 3 94 29 MOVE 4 94 27
+
 
 [proboj] ROUND 16/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 35 MOVE 3 94 31 MOVE 4 94 29
+
 
 [proboj] ROUND 17/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 94 31 MOVE 1 94 37 MOVE 3 94 33
+
 
 [proboj] ROUND 18/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 39 MOVE 3 94 35 MOVE 4 94 31
+
 
 [proboj] ROUND 19/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 41 MOVE 3 94 37 MOVE 4 94 33
+
 
 [proboj] ROUND 20/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 94 43 MOVE 3 94 39 MOVE 4 94 35
+
 
 [proboj] ROUND 21/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 94 41 MOVE 4 94 37 MOVE 1 94 45
+
 
 [proboj] ROUND 22/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 94 39 MOVE 1 94 47 MOVE 3 94 43
+
 
 [proboj] ROUND 23/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 93 48 MOVE 3 94 45 MOVE 4 94 41
+
 
 [proboj] ROUND 24/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 91 48 MOVE 3 94 47 MOVE 4 94 43
+
 
 [proboj] ROUND 25/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 89 48 MOVE 3 93 48 MOVE 4 94 45
+
 
 [proboj] ROUND 26/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 87 48 MOVE 3 91 48 MOVE 4 94 47
+
 
 [proboj] ROUND 27/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 89 48 MOVE 4 93 48 MOVE 1 85 48
+
 
 [proboj] ROUND 28/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 83 48 MOVE 3 87 48 MOVE 4 91 48
+
 
 [proboj] ROUND 29/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 82 49 MOVE 3 85 48 MOVE 4 89 48
+
 
 [proboj] ROUND 30/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 87 48 MOVE 1 81 50 MOVE 3 83 48
+
 
 [proboj] ROUND 31/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 82 49 MOVE 4 85 48 MOVE 1 79 50
+
 
 [proboj] ROUND 32/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 81 50 MOVE 4 83 48 MOVE 1 77 50
+
 
 [proboj] ROUND 33/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 79 50 MOVE 4 82 49 MOVE 1 75 50
+
 
 [proboj] ROUND 34/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 77 50 MOVE 4 81 50 MOVE 1 73 50
+
 
 [proboj] ROUND 35/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 71 50 MOVE 3 75 50 MOVE 4 79 50
+
 
 [proboj] ROUND 36/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 69 50 MOVE 3 73 50 MOVE 4 77 50
+
 
 [proboj] ROUND 37/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 75 50 MOVE 1 67 50 MOVE 3 71 50
+
 
 [proboj] ROUND 38/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 65 50 MOVE 3 69 50 MOVE 4 73 50
+
 
 [proboj] ROUND 39/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 63 50 MOVE 3 67 50 MOVE 4 71 50
+
 
 [proboj] ROUND 40/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 69 50 MOVE 1 61 50 MOVE 3 65 50
+
 
 [proboj] ROUND 41/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 59 50 MOVE 3 63 50 MOVE 4 67 50
+
 
 [proboj] ROUND 42/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 57 50 MOVE 3 61 50 MOVE 4 65 50
+
 
 [proboj] ROUND 43/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 55 50 MOVE 3 59 50 MOVE 4 63 50
+
 
 [proboj] ROUND 44/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 57 50 MOVE 4 61 50 MOVE 1 53 50
+
 
 [proboj] ROUND 45/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 51 50 MOVE 3 55 50 MOVE 4 59 50
+
 
 [proboj] ROUND 46/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 53 50 MOVE 4 57 50 MOVE 1 50 50
+
 
 [proboj] ROUND 47/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 55 50 MOVE 1 50 50 MOVE 3 51 50
+
 
 [proboj] ROUND 48/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 53 50 MOVE 1 50 50
+
 
 [proboj] ROUND 49/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 50/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 51/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 52/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 53/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 54/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 55/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 56/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 57/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 58/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 59/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 60/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 61/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 62/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 63/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 64/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 65/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 66/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 67/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 68/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 69/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 70/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 71/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 72/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 73/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 74/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 75/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 76/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 77/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 78/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 79/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 80/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 81/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 82/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 83/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 84/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 85/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 86/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 87/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 88/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 89/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 90/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 91/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 92/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 93/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 94/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 95/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 96/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 97/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 98/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 99/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 100/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 101/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 102/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 103/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 104/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 105/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 106/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 107/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 108/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 109/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 110/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 111/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 112/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 113/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 114/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 115/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 116/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 117/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 118/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 119/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 120/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 121/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 122/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 123/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 124/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 125/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 126/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 127/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 128/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 129/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 130/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 131/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 132/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 133/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 134/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 135/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 136/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 137/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 138/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 139/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 140/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 141/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 142/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 143/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 144/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 145/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 146/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 147/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 148/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 149/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 150/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 151/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 152/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 153/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 154/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 155/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 156/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 157/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 158/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 159/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 160/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 161/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 162/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 163/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 164/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 165/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 166/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 167/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 168/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 169/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 170/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 171/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 172/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 173/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 174/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 175/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 176/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 177/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 178/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 179/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 180/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 181/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 182/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 183/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 184/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 185/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 186/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 187/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 188/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 189/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 190/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 191/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 192/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 193/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 194/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 195/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 196/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 197/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 198/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 199/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 200/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 201/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 202/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 203/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 204/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 205/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 206/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 207/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 208/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 209/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 210/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 211/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 212/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 213/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 214/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 215/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 216/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 217/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 218/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 219/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 220/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 221/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 222/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 223/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 224/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 225/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 226/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 227/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 228/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 229/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 230/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 231/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 232/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 233/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 234/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 235/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 236/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 237/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 238/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 239/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 240/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 241/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 242/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 243/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 244/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 245/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 246/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 247/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 248/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 249/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 250/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 251/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 252/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 253/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 254/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 255/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 256/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 257/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 258/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 259/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 260/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 261/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 262/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 263/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 264/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 265/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 266/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 267/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 268/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 269/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 270/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 271/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 272/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 273/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 274/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 275/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 276/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 277/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 278/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 279/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 280/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 281/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 282/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 283/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 284/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 285/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 286/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 287/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 288/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 289/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 290/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 291/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 292/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 293/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 294/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 295/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 296/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 297/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 298/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 299/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 300/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 301/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 302/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 303/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 304/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 305/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 306/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 307/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 308/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 309/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 310/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 311/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 312/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 313/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 314/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 315/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 316/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 317/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 318/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 319/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 320/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 321/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 322/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 323/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 324/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 325/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 326/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 327/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 328/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 329/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 330/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 331/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 332/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 333/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 334/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 335/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 336/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 337/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 338/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 339/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 340/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 341/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 342/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 343/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 344/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 345/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 346/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 347/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 348/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 349/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 350/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 351/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 352/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 353/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 354/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 355/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 356/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 357/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 358/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 359/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 360/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 361/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 362/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 363/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 364/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 365/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 366/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 367/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 368/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 369/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 370/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 371/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 372/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 373/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 374/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 375/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 376/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 377/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 378/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 379/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 380/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 381/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 382/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 383/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 384/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 385/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 386/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 387/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 388/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 389/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 390/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 391/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 392/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 393/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 394/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 395/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 396/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 397/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 398/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 399/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 400/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 401/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 402/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 403/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 404/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 405/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 406/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 407/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 408/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 409/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 410/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 411/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 412/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 413/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 414/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 415/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 416/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 417/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 418/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 419/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 420/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 421/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 422/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 423/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 424/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 425/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 426/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 427/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 428/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 429/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 430/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 431/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 432/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 433/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 434/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 435/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 436/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 437/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 438/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 439/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 440/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 441/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 442/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 443/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 444/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 445/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 446/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 447/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 448/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 449/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 450/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 451/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 452/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 453/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 454/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 455/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 456/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 457/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 458/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 459/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 460/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 461/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 462/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 463/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 464/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 465/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 466/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 467/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 468/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 469/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 470/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 471/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 472/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 473/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 474/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 475/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 476/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 477/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 478/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 479/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 480/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 481/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 482/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 483/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 484/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 485/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 486/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 487/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 488/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 489/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 490/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 491/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 492/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 493/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 494/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 495/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 496/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 3 50 50 MOVE 4 51 50 MOVE 1 50 50
+
 
 [proboj] ROUND 497/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] ROUND 498/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 4 51 50 MOVE 1 50 50 MOVE 3 50 50
+
 
 [proboj] ROUND 499/500
+explorer: 0
+trade
+trade
 Takto mozete vypisovat do logov
-MOVE 1 50 50 MOVE 3 50 50 MOVE 4 51 50
+
 
 [proboj] process terminated
  exit: -1
