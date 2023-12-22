@@ -12,7 +12,19 @@ int tah=0;
 bool trebaExplorovat = true;
 int indexOfExploringShip = -1;
 
-bool condition(XY a, XY b) { return world.mapa.can_move(b); }
+bool condition(XY a, XY b) {
+    if(!world.mapa.can_move(b)){
+        return false;
+    }
+    for(Ship ship : world.ships){
+        if(ship.coords == b){
+            return false;
+        }
+    
+    }
+    return true;
+}
+
 int distance(XY& a, XY& b){ return abs(a.x - b.x) + abs(a.y - b.y); }
 bool mamHrbours() { return vector_of_found_harbors.size() == world.harbors.size(); }
 
