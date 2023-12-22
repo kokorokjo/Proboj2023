@@ -97,7 +97,7 @@ void umrtvitExplorera(vector<Turn>& turns){
     }   
 }//zrusim explorera
 
-void Explore(Ship ship,vector<Turn>& turns){
+void Explore(vector<Turn>& turns, Ship ship){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
             for(Harbor harbor : world.harbors){
                 cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
@@ -152,7 +152,8 @@ void Attack(vector<Turn>& turns, Ship ship){
 
 } //pohyb utocnej lode
 
-void Buy(){
+void Buy(vector<Turn>& turns, Ship ship){
+    
 
 }//kupovanie resourcov
 
@@ -165,7 +166,7 @@ void Sell(){
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
     if(ship.index==indexOfExploringShip ){
         cerr<<"explorujem"<<endl;
-        Explore(ship,turns);
+        Explore(turns,ship);
         return;
 
     }
@@ -203,13 +204,13 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
         {
             case 4:
                 cerr<<"explorujem"<<endl;
-                Explore(ship_orders[i].second,turns);
+                Explore(turns,ship_orders[i].second);
                 break;
             case 3:
                 Attack(turns, ship_orders[i].second);
                 break;
             case 2:
-                Buy();
+                Buy(turns, ship_orders[i].second);
                 break;
             case 1:
                 Sell();
