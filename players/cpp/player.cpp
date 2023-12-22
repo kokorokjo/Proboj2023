@@ -86,6 +86,16 @@ void zijuciExplorer(vector<Turn>& turns){
     }   
 }//nastavi explorera
 
+void umrtvitExplorera(vector<Turn>& turns){
+    for(int i=0;i<ship_orders.size();i++){
+        if(ship_orders[i].first == 4){
+            indexOfExploringShip = -1;
+            ship_orders[i].first = 2;
+            cerr<<"umrtvil som explorera"<<endl;
+            return;
+        }
+    }   
+}//zrusim explorera
 
 void Explore(Ship ship,vector<Turn>& turns){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
@@ -228,9 +238,11 @@ vector<Turn> do_turn() {
     if(mamHrbours()){ 
     trebaExplorovat = false;
     cerr<<"mam vsetky"<<endl;
-     }
-    else if(indexOfExploringShip ==-1)
-    { zijuciExplorer(turns); }
+    umrtvitExplorera(turns);
+    }
+    else if(indexOfExploringShip ==-1){ 
+    zijuciExplorer(turns);
+    }
     //explorovanie
 
     if (world.my_ships().size() < 2) turns.push_back(BuyTurn(ShipsEnum::Cln));
