@@ -50,6 +50,7 @@ void zijuciExplorer(vector<Turn>& turns){
         if(ship_orders[i].first == 0){
             indexOfExploringShip = i;
             ship_orders[i].first = 4;
+            cerr<<"explorer: "<<indexOfExploringShip<<endl;
             return;
         }
     }
@@ -57,16 +58,17 @@ void zijuciExplorer(vector<Turn>& turns){
     
 
     
-    cerr<<"explorer: "<<indexOfExploringShip<<endl;
     
     
 }
 
 void Explore(Ship ship,vector<Turn>& turns){
-    if(world.mapa.tiles[ship.coords.x][ship.coords.y].type != TileEnum::TILE_HARBOR){
+    if(world.mapa.tiles[ship.coords.y][ship.coords.x].type != TileEnum::TILE_HARBOR){
+            cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
             unordered_map<XY, pair<int, XY>> dist;
             vector<XY>& transitions = SMERY;
             vector<Harbor> harbors = world.harbors;
+            bfs(ship.coords, condition, dist, transitions);
             int min_dist = 1000000;
             XY min_harbor;
             for(int i=0;i<harbors.size();i++){
@@ -76,16 +78,20 @@ void Explore(Ship ship,vector<Turn>& turns){
                 }
                 
             }
+
             turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
             return;
         }
         else{
             for(Harbor harbor : world.harbors){
+                cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
+                cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
                     for(int i=0;i<coords_of_all_harbors.size();i++){
                         if(coords_of_all_harbors[i].first == harbor.coords){
                             coords_of_all_harbors[i].second = true;
+                            cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
                             break;
                         }
                     }
@@ -165,6 +171,7 @@ vector<Turn> do_turn() {
     if(tah == 1){ // predpocitania na zaciatku hry
         for(Harbor harbor : world.harbors){
             coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
+            cerr<<"harbor: "<<harbor.coords.y<<" "<<harbor.coords.x<<" - "<<endl;
         }
     }
     tah++;
