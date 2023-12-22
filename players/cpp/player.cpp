@@ -5,12 +5,13 @@ World world;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
-vector<pair<int,XY>> ship_orders; //,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
-vector<Ship> ourShips; //vsetky moje lode
+vector<pair<int,Ship>> ship_orders; //,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
 int indexOfExploringShip = -1; //index lode ktora exploruje
-int wrackedShips = 0; //pocet znicenych lodiek
+
+int distance(XY& a, XY& b){ return abs(a.x - b.x) + abs(a.y - b.y); } //vzdialenost dvoch bodov
+bool mamHrbours() { return vector_of_found_harbors.size() == world.harbors.size(); } //ci mam vsetky pristavy
 
 bool condition(XY a, XY b) {
     if(!world.mapa.can_move(b)){
@@ -25,8 +26,12 @@ bool condition(XY a, XY b) {
     return true;
 }//ci sa mozem pohnut na dany bod
 
-int distance(XY& a, XY& b){ return abs(a.x - b.x) + abs(a.y - b.y); } //vzdialenost dvoch bodov
-bool mamHrbours() { return vector_of_found_harbors.size() == world.harbors.size(); } //ci mam vsetky pristavy
+void allHarbours(){
+    for(Harbor harbor : world.harbors){
+            coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
+            cerr<<"Zharbor: "<<harbor.coords.y<<" "<<harbor.coords.x<<" - "<<endl;
+        }
+} //da vsetky pristavy do vectora coords_of_all_harbors
 
 int get_ship_resources(Ship ship){
     int resources = 0;
@@ -38,28 +43,27 @@ int get_ship_resources(Ship ship){
     
 } //sucet vsetkych surovin lode
 
-void addShips(){
-    for(int i=ship_orders.size();i<world.my_ships().size();i++){
-            ship_orders.push_back(make_pair(0,world.my_ships()[i].coords));
-            ourShips.push_back(world.my_ships()[i]);
-        }
-} //pridanie novych lodiek
-
-void clearShips(vector<Ship> ships){
-    for(Ship ship : world.ships){
-        if(ship.mine && ship.is_wreck){
-            for(int i=0;i<ships.size();i++){
-                if(ships[i].index == ship.index){
-                    ships.erase(ships.begin()+i);
-                    ship_orders.erase(ship_orders.begin()+i);
-                    if(indexOfExploringShip == i) indexOfExploringShip =-1;
-                    break;
-                }
+void updateShips(vector<Ship> ships){
+vector<pair<int,Ship>> new_ship_orders;
+bool notin = true;
+bool expoler =false;
+    for (Ship ship : ships)
+    {
+        for(int i=0;i<ship_orders.size();i++){
+            if(ship_orders[i].second.index == ship.index){
+                new_ship_orders.push_back(ship_orders[i]);
+                if(ship_orders[i].first == 4)   expoler = true;
+                notin = false;
+                break;
             }
         }
+        if(notin){
+            new_ship_orders.push_back(make_pair(0,ship));
+        }  
     }
-
-} //odstranenie znicenych lodiek
+    ship_orders = new_ship_orders;
+    if(!expoler) indexOfExploringShip = -1;
+} //aktualizacia lodiek
 
 
 
@@ -67,13 +71,13 @@ void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0){ return; }
     for(int i=0;i<ship_orders.size();i++){
         if(ship_orders[i].first == 0){
-            indexOfExploringShip = i;
+            indexOfExploringShip = ship_orders[i].second.index;
             ship_orders[i].first = 4;
             cerr<<"explorer: "<<indexOfExploringShip<<endl;
             return;
         }
     }   
-}
+}//nastavi explorera
 
 void Explore(Ship ship,vector<Turn>& turns){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
@@ -96,7 +100,7 @@ void Explore(Ship ship,vector<Turn>& turns){
             
             
         
-        }
+        }//ak sa nahcadzam na pristave tak si ho zapisem
     
             cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
             unordered_map<XY, pair<int, XY>> dist;
@@ -116,12 +120,12 @@ void Explore(Ship ship,vector<Turn>& turns){
             turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
             return;
         
-}
+}// najdem najblizsi pristav a pohnem sa na neho
 
 
 
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
-    if(ship.index==ourShips[indexOfExploringShip].index ){
+    if(ship.index==indexOfExploringShip ){
         cerr<<"explorujem"<<endl;
         Explore(ship,turns);
         return;
@@ -138,13 +142,29 @@ void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
     //     return;
     // }
 
-    
-}
-void addAttackShipTurn(vector<Turn>& turns, Ship ship){
-    XY min_harbor=world.harbors[0].coords;
-    turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
 
-}
+    // for (Ship ship : world.my_ships()) {
+    //     if (ship.coords == world.my_base && ship.resources[ResourceEnum::Gold] == 0)
+    //         turns.push_back(StoreTurn(ship.index, -5));
+    // }
+
+    
+} //pohyb obchodnej lode
+
+
+
+
+void addAttackShipTurn(vector<Turn>& turns, Ship ship){
+    //         unordered_map<XY, pair<int, XY>> dist;
+    //         vector<XY>& transitions = SMERY;
+    //         vector<Harbor> harbors = world.harbors;
+    //         bfs(ship.coords, condition, dist, transitions);
+    //         XY min_harbor=world.harbors[0].coords;
+
+    // turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
+    // cerr<<"utocim"<<ship.coords.x<<" "<<ship.coords.y<<endl;
+
+} //pohyb utocnej lode
 
 
 void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
@@ -168,7 +188,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
         }
     }
 
-}
+}//pohyb lodi
 
 
 
@@ -180,14 +200,8 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
 
 vector<Turn> do_turn() {
     vector<Turn> turns;
-    addShips();
-    clearShips(world.my_ships());
-    if(tah == 1){ // predpocitania na zaciatku hry
-        for(Harbor harbor : world.harbors){
-            coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
-            cerr<<"harbor: "<<harbor.coords.y<<" "<<harbor.coords.x<<" - "<<endl;
-        }
-    }
+    updateShips(world.my_ships());
+    if(tah == 1) allHarbours();
     tah++;
     //predpocitanie
 
@@ -205,20 +219,10 @@ vector<Turn> do_turn() {
     add_ship_turns(turns, world.my_ships());
     //pohyb lodi
 
-
-
     
-    // for (Ship ship : world.my_ships()) {
-    //     if (ship.coords == world.my_base && ship.resources[ResourceEnum::Gold] == 0)
-    //         turns.push_back(StoreTurn(ship.index, -5));
-    //     else
-    //         // takto sa pohybuje smerom na suradnice 50 50
-    //         turns.push_back(MoveTurn(ship.index, move_to(ship, {50, 50}, condition)));
-    // }
-    
+    //vypisy
     cerr << "Takto mozete vypisovat do logov" << endl;
     cerr << turns << endl;
-    cerr<<"pocet lodiek: "<<world.my_ships().size()<<endl;
     return turns;
 }
 
