@@ -7,8 +7,8 @@
       "language": "cpp"
     },
     "second": {
-      "command": "./players/python/player.py",
-      "language": "py"
+      "command": "./players/cpp/player",
+      "language": "cpp"
     },
     "windows": {
       "command": "C:/absolutna/cesta/ku/python.exe ../players/python/player.py",
