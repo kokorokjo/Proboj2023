@@ -63,7 +63,28 @@ void zijuciExplorer(vector<Turn>& turns){
 }
 
 void Explore(Ship ship,vector<Turn>& turns){
-    if(world.mapa.tiles[ship.coords.y][ship.coords.x].type != TileEnum::TILE_HARBOR){
+    if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
+            for(Harbor harbor : world.harbors){
+                cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
+                cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
+                if(harbor.coords == ship.coords){
+                    vector_of_found_harbors.push_back(harbor);
+                    for(int i=0;i<coords_of_all_harbors.size();i++){
+                        if(coords_of_all_harbors[i].first == harbor.coords){
+                            coords_of_all_harbors[i].second = true;
+                            cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
+                            break;
+                        }
+                    }
+                    
+                }
+                
+            }
+            
+            
+        
+        }
+    
             cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
             unordered_map<XY, pair<int, XY>> dist;
             vector<XY>& transitions = SMERY;
@@ -81,28 +102,7 @@ void Explore(Ship ship,vector<Turn>& turns){
 
             turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
             return;
-        }
-        else{
-            for(Harbor harbor : world.harbors){
-                cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
-                cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
-                if(harbor.coords == ship.coords){
-                    vector_of_found_harbors.push_back(harbor);
-                    for(int i=0;i<coords_of_all_harbors.size();i++){
-                        if(coords_of_all_harbors[i].first == harbor.coords){
-                            coords_of_all_harbors[i].second = true;
-                            cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
-                            break;
-                        }
-                    }
-                    return;
-                }
-                
-            }
-            
-            return;
         
-        }
 }
 
 
