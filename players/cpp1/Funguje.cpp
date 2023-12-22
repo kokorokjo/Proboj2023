@@ -5,7 +5,7 @@ World world;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
-vector<pair<int,Ship>> ship_orders; //,0=default, 1=predat, 2=kupit, 3=utocit,4=explore
+vector<pair<int,Ship>> ship_orders; //,0=default, 1=kupit, 2=predat, 3=utocit,4=explore
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
 int indexOfExploringShip = -1; //index lode ktora exploruje
@@ -65,14 +65,7 @@ bool expoler =false;
     if(!expoler) indexOfExploringShip = -1;
 } //aktualizacia lodiek
 
-void updateOrders(){
-    for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].first == 0){
-            if(ship_orders[i].second.stats.ship_class==ShipClass::SHIP_ATTACK) ship_orders[i].first = 3;
-            if(ship_orders[i].second.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].first = 2;   
-        }
-    }
-}
+
 
 void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0){ return; }
@@ -86,18 +79,7 @@ void zijuciExplorer(vector<Turn>& turns){
     }   
 }//nastavi explorera
 
-void umrtvitExplorera(vector<Turn>& turns){
-    for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].first == 4){
-            indexOfExploringShip = -1;
-            ship_orders[i].first = 2;
-            cerr<<"umrtvil som explorera"<<endl;
-            return;
-        }
-    }   
-}//zrusim explorera
-
-void Explore(vector<Turn>& turns, Ship ship){
+void Explore(Ship ship,vector<Turn>& turns){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
             for(Harbor harbor : world.harbors){
                 cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
@@ -140,33 +122,12 @@ void Explore(vector<Turn>& turns, Ship ship){
         
 }// najdem najblizsi pristav a pohnem sa na neho
 
-void Attack(vector<Turn>& turns, Ship ship){
-    //         unordered_map<XY, pair<int, XY>> dist;
-    //         vector<XY>& transitions = SMERY;
-    //         vector<Harbor> harbors = world.harbors;
-    //         bfs(ship.coords, condition, dist, transitions);
-    //         XY min_harbor=world.harbors[0].coords;
-
-    // turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
-    // cerr<<"utocim"<<ship.coords.x<<" "<<ship.coords.y<<endl;
-
-} //pohyb utocnej lode
-
-void Buy(vector<Turn>& turns, Ship ship){
-    
-
-}//kupovanie resourcov
-
-void Sell(){
-
-}//predavanie resourcov
-
 
 
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
     if(ship.index==indexOfExploringShip ){
         cerr<<"explorujem"<<endl;
-        Explore(turns,ship);
+        Explore(ship,turns);
         return;
 
     }
@@ -193,12 +154,23 @@ void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
 
 
 
+void addAttackShipTurn(vector<Turn>& turns, Ship ship){
+    //         unordered_map<XY, pair<int, XY>> dist;
+    //         vector<XY>& transitions = SMERY;
+    //         vector<Harbor> harbors = world.harbors;
+    //         bfs(ship.coords, condition, dist, transitions);
+    //         XY min_harbor=world.harbors[0].coords;
 
+    // turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
+    // cerr<<"utocim"<<ship.coords.x<<" "<<ship.coords.y<<endl;
+
+} //pohyb utocnej lode
 
 
 void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
 
-    for(Ship curr : ships){
+    for (Ship curr: ships)
+    {
         if(curr.stats.ship_class == ShipClass::SHIP_TRADE){
             cerr<<"trade"<<endl;
             add_trade_ship_turn(turns, curr);
@@ -206,31 +178,15 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
 
         else if (curr.stats.ship_class == ShipClass::SHIP_ATTACK)
         {
-            Attack(turns, curr);
+            addAttackShipTurn(turns, curr);
            
         }
-    }
 
-    // for (int i=0;i<ships.size();i++)
-    // {
-    //     switch (ship_orders[i].first)
-    //     {
-    //         case 4:
-    //             cerr<<"explorujem"<<endl;
-    //             Explore(turns,ship_orders[i].second);
-    //             break;
-    //         case 3:
-    //             Attack(turns, ship_orders[i].second);
-    //             break;
-    //         case 2:
-    //             Buy(turns, ship_orders[i].second);
-    //             break;
-    //         case 1:
-    //             Sell();
-    //             break;
-            
-    //     }
-    // }
+        else if (curr.stats.ship_class == ShipClass::SHIP_LOOT)
+        {
+
+        }
+    }
 
 }//pohyb lodi
 
@@ -252,18 +208,13 @@ vector<Turn> do_turn() {
     if(mamHrbours()){ 
     trebaExplorovat = false;
     cerr<<"mam vsetky"<<endl;
-    umrtvitExplorera(turns);
-    }
-    else if(indexOfExploringShip ==-1){ 
-    zijuciExplorer(turns);
-    }
+     }
+    else if(indexOfExploringShip ==-1)
+    { zijuciExplorer(turns); }
     //explorovanie
 
     if (world.my_ships().size() < 2) turns.push_back(BuyTurn(ShipsEnum::Cln));
     //zaciatocne kupovanie lodiek
-
-    updateOrders();
-    //aktualizacia lodiek
 
     add_ship_turns(turns, world.my_ships());
     //pohyb lodi
