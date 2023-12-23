@@ -273,7 +273,7 @@ vector<Turn> do_turn() {
     vypisProduction();
     vypisComsumption();
     }
-    else if(indexOfExploringShip ==-1){ 
+    else if(indexOfExploringShip ==-1&&trebaExplorovat){ 
     zijuciExplorer(turns);
     }
     //explorovanie
