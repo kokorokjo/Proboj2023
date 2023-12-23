@@ -197,18 +197,27 @@ void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
 
 
 void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
-
+    int i=0;
     for(Ship curr : ships){
-        if(curr.stats.ship_class == ShipClass::SHIP_TRADE){
-            cerr<<"trade"<<endl;
-            add_trade_ship_turn(turns, curr);
-        }
-
-        else if (curr.stats.ship_class == ShipClass::SHIP_ATTACK)
+        switch (ship_orders[i].first)
         {
-            Attack(turns, curr);
-           
+            case 4:
+                cerr<<"explorujem"<<endl;
+                Explore(turns,curr);
+                break;
+            case 3:
+                Attack(turns,curr);
+                break;
+            case 2:
+                Buy(turns,curr);
+                break;
+            case 1:
+                Sell();
+                break;
+            
         }
+        
+        i++;
     }
 
     // for (int i=0;i<ships.size();i++)
@@ -231,6 +240,16 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
             
     //     }
     // }
+    // if(curr.stats.ship_class == ShipClass::SHIP_TRADE){
+    //         cerr<<"trade"<<endl;
+    //         add_trade_ship_turn(turns, curr);
+    //     }
+
+    //     else if (curr.stats.ship_class == ShipClass::SHIP_ATTACK)
+    //     {
+    //         Attack(turns, curr);
+           
+    //     }
 
 }//pohyb lodi
 
