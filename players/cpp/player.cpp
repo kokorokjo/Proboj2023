@@ -5,8 +5,8 @@ World world;
 
 struct Trade{
     double odhad;
-    Harbor FromH;
-    Harbor ToH;
+    // Harbor FromH;
+    // Harbor ToH;
     int resource;
 
     
@@ -127,9 +127,9 @@ void acquireGold(vector<Turn>& turns, Ship ship){
 
 void Explore(vector<Turn>& turns, Ship ship){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
+            cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
             for(Harbor harbor : world.harbors){
                 cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
-                cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
                     for(int i=0;i<8;i++){
@@ -146,6 +146,7 @@ void Explore(vector<Turn>& turns, Ship ship){
                         if(coords_of_all_harbors[i].first == harbor.coords){
                             coords_of_all_harbors[i].second = true;
                             cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
+                            cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
                             break;
                         }
                     }//oznacim si ze som ho nasel
@@ -265,7 +266,7 @@ vector<Turn> do_turn() {
     tah++;
     //predpocitanie
 
-    if(mamHrbours()){ 
+    if(mamHrbours()&&trebaExplorovat){ 
     trebaExplorovat = false;
     cerr<<"mam vsetky"<<endl;
     umrtvitExplorera(turns);
