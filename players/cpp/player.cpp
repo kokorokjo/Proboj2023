@@ -119,6 +119,11 @@ void acquireGold(vector<Turn>& turns, Ship ship){
         turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
         return;
     }
+    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
+    unordered_map<XY, pair<int, XY>> dist;
+    vector<XY>& transitions = SMERY;
+    bfs(ship.coords, condition, dist, transitions);
+    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
     turns.push_back(MoveTurn(ship.index, move_to(ship, world.my_base, condition)));
     return;
 
