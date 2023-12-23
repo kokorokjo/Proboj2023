@@ -56,7 +56,9 @@ int get_ship_resources(Ship ship){
     
 } //sucet vsetkych surovin lode
 
-void insertProduction()
+void insertProduction(){
+
+}
 
 void updateShips(vector<Ship> ships){
 vector<pair<Ship,pair<int,Trade>>> new_ship_orders;
@@ -177,15 +179,6 @@ void Explore(vector<Turn>& turns, Ship ship){
 }// najdem najblizsi pristav a pohnem sa na neho
 
 void Attack(vector<Turn>& turns, Ship ship){
-    //         unordered_map<XY, pair<int, XY>> dist;
-    //         vector<XY>& transitions = SMERY;
-    //         vector<Harbor> harbors = world.harbors;
-    //         bfs(ship.coords, condition, dist, transitions);
-    //         XY min_harbor=world.harbors[0].coords;
-
-    // turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
-    // cerr<<"utocim"<<ship.coords.x<<" "<<ship.coords.y<<endl;
-
 } //pohyb utocnej lode
 
 void Calculate(vector<Turn>& turns, Ship ship){
@@ -194,6 +187,7 @@ void Calculate(vector<Turn>& turns, Ship ship){
 
     }
 }
+
 void Buy(vector<Turn>& turns, Ship ship){
     
 }//kupovanie resourcov
@@ -203,7 +197,23 @@ void Sell(){
 }//predavanie resourcov
 
 
+void vypisProduction(){
+    for(int i=0;i<8;i++){
+        cerr<<"produkcne: "<<endl;
+        for(int j=0;j<production_of_harbors[i].size();j++){
+            cerr<<production_of_harbors[i][j].first<<" "<<production_of_harbors[i][j].second.coords.x<<" "<<production_of_harbors[i][j].second.coords.y<<endl;
+        }
+    }
+}
+void vypisComsumption(){
+    for(int i=0;i<8;i++){
+        cerr<<"konzumacne: "<<endl;
+        for(int j=0;j<consumption_of_harbours[i].size();j++){
+            cerr<<consumption_of_harbours[i][j].first<<" "<<consumption_of_harbours[i][j].second.coords.x<<" "<<consumption_of_harbours[i][j].second.coords.y<<endl;
+        }
+    }
 
+}
 
 
 
@@ -259,6 +269,8 @@ vector<Turn> do_turn() {
     trebaExplorovat = false;
     cerr<<"mam vsetky"<<endl;
     umrtvitExplorera(turns);
+    vypisProduction();
+    vypisComsumption();
     }
     else if(indexOfExploringShip ==-1){ 
     zijuciExplorer(turns);
