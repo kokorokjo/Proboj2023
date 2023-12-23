@@ -97,6 +97,17 @@ void umrtvitExplorera(vector<Turn>& turns){
     }   
 }//zrusim explorera
 
+void acquireGold(vector<Turn>& turns, Ship ship){
+    if(ship.coords == world.my_base){
+        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
+        return;
+    }
+    turns.push_back(MoveTurn(ship.index, move_to(ship, world.my_base, condition)));
+    return;
+
+}
+
+
 void Explore(vector<Turn>& turns, Ship ship){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
             for(Harbor harbor : world.harbors){
@@ -153,8 +164,10 @@ void Attack(vector<Turn>& turns, Ship ship){
 } //pohyb utocnej lode
 
 void Buy(vector<Turn>& turns, Ship ship){
-    
+    if(ship.resources[ResourceEnum::Gold] == 0) acquireGold(turns,ship);
+    else{
 
+    }
 }//kupovanie resourcov
 
 void Sell(){
@@ -164,12 +177,6 @@ void Sell(){
 
 
 void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
-    if(ship.index==indexOfExploringShip ){
-        cerr<<"explorujem"<<endl;
-        Explore(turns,ship);
-        return;
-
-    }
     // if(get_ship_resources(ship) == 0){
     //     //nemam nic
 
