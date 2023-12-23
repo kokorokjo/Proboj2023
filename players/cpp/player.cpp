@@ -232,15 +232,19 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 Explore(turns,curr);
                 break;
             case 3:
+                cerr<<"utocim"<<endl;
                 Attack(turns,curr);
                 break;
             case 2:
+                cerr<<"kupim"<<endl;
                 Buy(turns,curr);
                 break;
             case 1:
+                cerr<<"predam"<<endl;
                 Sell();
                 break;
             case 5:
+                cerr<<"pocitam"<<endl;
                 Calculate(turns,curr);
                 break;
             
