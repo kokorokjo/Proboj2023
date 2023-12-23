@@ -3,9 +3,22 @@
 using namespace std;
 World world;
 
+struct Trade{
+    double odhad;
+    Harbor FromH;
+    Harbor ToH;
+    int resource;
+
+    
+} trade;
+
+
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
-vector<pair<int,Ship>> ship_orders; //,0=default, 1=predat, 2=kupit, 3=utocit,4=explore
+vector<vector<pair<int,Harbor>>> production_of_harbors(8),consumption_of_harbours(8); //produkcia pristavov, konzumacia pristavov
+vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit, 3=utocit,4=explore,5=calculate
+vector<Trade> trades; //vsetky trades
+
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
 int indexOfExploringShip = -1; //index lode ktora exploruje
@@ -43,22 +56,24 @@ int get_ship_resources(Ship ship){
     
 } //sucet vsetkych surovin lode
 
+void insertProduction()
+
 void updateShips(vector<Ship> ships){
-vector<pair<int,Ship>> new_ship_orders;
+vector<pair<Ship,pair<int,Trade>>> new_ship_orders;
 bool notin = true;
 bool expoler =false;
     for (Ship ship : ships)
     {
         for(int i=0;i<ship_orders.size();i++){
-            if(ship_orders[i].second.index == ship.index){
+            if(ship_orders[i].first.index == ship.index){
                 new_ship_orders.push_back(ship_orders[i]);
-                if(ship_orders[i].first == 4)   expoler = true;
+                if(ship_orders[i].second.first == 4)   expoler = true;
                 notin = false;
                 break;
             }
         }
         if(notin){
-            new_ship_orders.push_back(make_pair(0,ship));
+            new_ship_orders.push_back(make_pair(ship,make_pair(0,trade)));
         }  
     }
     ship_orders = new_ship_orders;
@@ -67,9 +82,9 @@ bool expoler =false;
 
 void updateOrders(){
     for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].first == 0){
-            if(ship_orders[i].second.stats.ship_class==ShipClass::SHIP_ATTACK) ship_orders[i].first = 3;
-            if(ship_orders[i].second.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].first = 2;   
+        if(ship_orders[i].second.first == 0){
+            if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_ATTACK) ship_orders[i].second.first = 3;
+            if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].second.first = 5;   
         }
     }
 }
@@ -77,9 +92,9 @@ void updateOrders(){
 void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0){ return; }
     for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].first == 0){
-            indexOfExploringShip = ship_orders[i].second.index;
-            ship_orders[i].first = 4;
+        if(ship_orders[i].second.first == 0){
+            indexOfExploringShip = ship_orders[i].first.index;
+            ship_orders[i].second.first = 4;
             cerr<<"explorer: "<<indexOfExploringShip<<endl;
             return;
         }
@@ -88,9 +103,9 @@ void zijuciExplorer(vector<Turn>& turns){
 
 void umrtvitExplorera(vector<Turn>& turns){
     for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].first == 4){
+        if(ship_orders[i].second.first == 4){
             indexOfExploringShip = -1;
-            ship_orders[i].first = 2;
+            ship_orders[i].second.first = 5;
             cerr<<"umrtvil som explorera"<<endl;
             return;
         }
@@ -115,13 +130,23 @@ void Explore(vector<Turn>& turns, Ship ship){
                 cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
+                    for(int i=0;i<8;i++){
+                        if(harbor.production.resources[i]>0){
+                            production_of_harbors[i].push_back(make_pair(harbor.production.resources[i],harbor));
+
+                        }
+
+                        if(harbor.production.resources[i]<0){
+                            consumption_of_harbours[i].push_back(make_pair(harbor.production.resources[i],harbor));
+                        }
+                    }//zapisem si produkciu a konzumaciu pristavov
                     for(int i=0;i<coords_of_all_harbors.size();i++){
                         if(coords_of_all_harbors[i].first == harbor.coords){
                             coords_of_all_harbors[i].second = true;
                             cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
                             break;
                         }
-                    }
+                    }//oznacim si ze som ho nasel
                     
                 }
                 
@@ -163,11 +188,14 @@ void Attack(vector<Turn>& turns, Ship ship){
 
 } //pohyb utocnej lode
 
-void Buy(vector<Turn>& turns, Ship ship){
+void Calculate(vector<Turn>& turns, Ship ship){
     if(ship.resources[ResourceEnum::Gold] == 0) acquireGold(turns,ship);
     else{
 
     }
+}
+void Buy(vector<Turn>& turns, Ship ship){
+    
 }//kupovanie resourcov
 
 void Sell(){
@@ -176,26 +204,6 @@ void Sell(){
 
 
 
-void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
-    // if(get_ship_resources(ship) == 0){
-    //     //nemam nic
-
-    //     if(ship.coords == world.my_base){
-    //         turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo, world.gold)));
-    //         return;
-    //     }
-    //     turns.push_back(MoveTurn(ship.index, move_to(ship, world.my_base, condition)));
-    //     return;
-    // }
-
-
-    // for (Ship ship : world.my_ships()) {
-    //     if (ship.coords == world.my_base && ship.resources[ResourceEnum::Gold] == 0)
-    //         turns.push_back(StoreTurn(ship.index, -5));
-    // }
-
-    
-} //pohyb obchodnej lode
 
 
 
@@ -206,7 +214,7 @@ void add_trade_ship_turn(vector<Turn>& turns, Ship ship){
 void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
     int i=0;
     for(Ship curr : ships){
-        switch (ship_orders[i].first)
+        switch (ship_orders[i].second.first)
         {
             case 4:
                 cerr<<"explorujem"<<endl;
@@ -220,6 +228,9 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 break;
             case 1:
                 Sell();
+                break;
+            case 5:
+                Calculate(turns,curr);
                 break;
             
         }
