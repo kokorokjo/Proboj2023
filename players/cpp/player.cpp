@@ -11,6 +11,7 @@ struct Trade{
 
     
 }trade;
+vector<vector<int>> mapka,mapkaD;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
@@ -29,15 +30,33 @@ bool condition(XY a, XY b) {
     if(!world.mapa.can_move(b)){
         return false;
     }
-    for(Ship ship : world.ships){
-        if(ship.coords == b){
-            cerr<<"condition:"<<ship.coords<<" "<<a<<endl;
-            return false;
-        }
+    // for(Ship ship : world.ships){
+    //     if(ship.coords == b){
+    //         cerr<<"condition:"<<ship.coords<<" "<<a<<endl;
+    //         return false;
+    //     }
     
-    }
+    // }
     return true;
 }//ci sa mozem pohnut na dany bod
+
+int manhattanDistance(int x1, int y1, int x2, int y2) {
+  return abs(x1 - x2) + abs(y1 - y2);
+} //manhattan vzdialenost
+
+vector<vector<int>> manhattanBody(int n,int m, int x, int y, int vzdialenost) {
+  vector<vector<int>> body;
+
+  for (int i = 0; i < m; i++) {
+    for (int j = 0; j < n; j++) {
+      if (manhattanDistance(i, j, x, y) <= vzdialenost) {
+        body.push_back({i, j});
+      }
+    }
+  }
+
+  return body;
+}//vrati vsetky body v manhattan vzdialenosti a menej
 
 void allHarbours(){
     for(Harbor harbor : world.harbors){
@@ -89,6 +108,53 @@ void updateOrders(){
             if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].second.first = 5;   
         }
     }
+}
+
+void createMap(){
+    mapkaD.resize(world.mapa.height,vector<int> (world.mapa.width,0));
+    mapka.resize(world.mapa.height,vector<int> (world.mapa.width,0));
+
+    for(int i=0;i<world.mapa.height;i++){
+        for(int j=0;j<world.mapa.width;j++){
+            if(world.mapa.tiles[i][j].type==TileEnum::TILE_BASE){                
+                if(world.my_base!=XY(j,i)){  
+                    vector<vector<int>> body = manhattanBody(world.mapa.height,world.mapa.width, j, i, 4);
+                    for (vector<int> bod : body) {
+                        if(mapkaD[bod[1]][bod[0]]!=1&&mapkaD[bod[1]][bod[0]]!=3)
+                        mapkaD[bod[1]][bod[0]]=2;
+                        }
+                        mapkaD[i][j]=3;
+                }
+                
+            }//base 3 a okolie 2
+            else if(world.mapa.tiles[i][j].type==TileEnum::TILE_GROUND){
+                mapkaD[i][j]=2;
+                
+
+            }//zem 2
+            else if(world.mapa.tiles[i][j].type==TileEnum::TILE_HARBOR){
+                mapkaD[i][j]=1;
+                    vector<vector<int>> body = manhattanBody(world.mapa.height,world.mapa.width, j, i, 8);
+                    for (vector<int> bod : body) {
+                        if(mapkaD[bod[1]][bod[0]]==0)
+                        mapkaD[bod[1]][bod[0]]=4;
+                        }
+                        mapkaD[i][j]=1;
+
+            }//harbor 1 a okolie  4
+            
+        }
+        
+    }
+    for(auto i:mapkaD){
+        for(auto j:i){
+            cerr<<j;
+        }
+        cerr<<endl;
+    }//vypisem si mapku
+}//vytvorim si mapkuD
+void updateMap(){
+    
 }
 
 void zijuciExplorer(vector<Turn>& turns){
@@ -282,8 +348,12 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
 vector<Turn> do_turn() {
     vector<Turn> turns;
     updateShips(world.my_ships());
-    if(tah == 1) allHarbours();
+    if(tah == 1) {
+        allHarbours();
+        createMap();
+        }
     tah++;
+    updateMap();
     //predpocitanie
 
     if(mamHrbours()&&trebaExplorovat){ 
