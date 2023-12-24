@@ -10,8 +10,7 @@ struct Trade{
     int resource;
 
     
-} trade;
-
+}trade;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
@@ -32,6 +31,7 @@ bool condition(XY a, XY b) {
     }
     for(Ship ship : world.ships){
         if(ship.coords == b){
+            cerr<<"condition:"<<ship.coords<<" "<<a<<endl;
             return false;
         }
     
@@ -108,7 +108,7 @@ void umrtvitExplorera(vector<Turn>& turns){
         if(ship_orders[i].second.first == 4){
             indexOfExploringShip = -1;
             ship_orders[i].second.first = 5;
-            cerr<<"umrtvil som explorera"<<endl;
+            cerr<<"umrtvil som explorera"<<ship_orders[i].first.index<<endl;
             return;
         }
     }   
@@ -124,6 +124,8 @@ void acquireGold(vector<Turn>& turns, Ship ship){
     vector<XY>& transitions = SMERY;
     bfs(ship.coords, condition, dist, transitions);
     cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
+    cerr<<"base:"<<world.my_base.x<<" "<<world.my_base.y<<endl;
+    cerr<<"cord"<<move_to(ship, world.my_base, condition).x<<" "<<move_to(ship, world.my_base, condition).y<<endl;
     turns.push_back(MoveTurn(ship.index, move_to(ship, world.my_base, condition)));
     return;
 
@@ -132,9 +134,7 @@ void acquireGold(vector<Turn>& turns, Ship ship){
 
 void Explore(vector<Turn>& turns, Ship ship){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
-            cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
             for(Harbor harbor : world.harbors){
-                cerr<<"harbor: "<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
                     for(int i=0;i<8;i++){
@@ -151,7 +151,6 @@ void Explore(vector<Turn>& turns, Ship ship){
                         if(coords_of_all_harbors[i].first == harbor.coords){
                             coords_of_all_harbors[i].second = true;
                             cerr<<"nasiel som:"<<harbor.coords.x<<" "<<harbor.coords.y<<endl;
-                            cerr<<"ship:   "<<ship.coords.x<<" "<<ship.coords.y<<endl;
                             break;
                         }
                     }//oznacim si ze som ho nasel
@@ -188,10 +187,22 @@ void Attack(vector<Turn>& turns, Ship ship){
 } //pohyb utocnej lode
 
 void Calculate(vector<Turn>& turns, Ship ship){
-    if(ship.resources[ResourceEnum::Gold] == 0) acquireGold(turns,ship);
-    else{
-
+    if(ship.resources[ResourceEnum::Gold] == 0) {
+    if(ship.coords == world.my_base){
+        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
+        return;
     }
+    }
+    // unordered_map<XY, pair<int, XY>> dist;
+    // vector<XY>& transitions = SMERY;
+    // bfs(ship.coords, condition, dist, transitions);
+    // XY mojaBase=world.my_base;
+    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
+    // cerr<<"base:"<<world.my_base.x<<" "<<world.my_base.y<<endl;
+    cerr<<"cord"<<move_to(ship, {50,50}, condition).x<<" "<<move_to(ship, {50,50}, condition).y<<endl;
+    turns.push_back(MoveTurn(ship.index, move_to(ship, {50,50}, condition)));
+    return;
+
 }
 
 void Buy(vector<Turn>& turns, Ship ship){
@@ -233,7 +244,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
         switch (ship_orders[i].second.first)
         {
             case 4:
-                cerr<<"explorujem"<<endl;
+                cerr<<"explorujem"<<curr.index<<endl;
                 Explore(turns,curr);
                 break;
             case 3:
@@ -249,7 +260,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 Sell();
                 break;
             case 5:
-                cerr<<"pocitam"<<endl;
+                cerr<<"pocitam"<<curr.index<<endl;
                 Calculate(turns,curr);
                 break;
             
@@ -298,7 +309,6 @@ vector<Turn> do_turn() {
 
     
     //vypisy
-    cerr << "Takto mozete vypisovat do logov" << endl;
     cerr << turns << endl;
     return turns;
 }
