@@ -27,16 +27,8 @@ int distance(XY& a, XY& b){ return abs(a.x - b.x) + abs(a.y - b.y); } //vzdialen
 bool mamHrbours() { return vector_of_found_harbors.size() == world.harbors.size(); } //ci mam vsetky pristavy
 
 bool condition(XY a, XY b) {
-    if(!world.mapa.can_move(b)){
-        return false;
-    }
-    // for(Ship ship : world.ships){
-    //     if(ship.coords == b){
-    //         cerr<<"condition:"<<ship.coords<<" "<<a<<endl;
-    //         return false;
-    //     }
-    
-    // }
+    if(b.x < 0 || b.x >= world.mapa.width || b.y < 0 || b.y >= world.mapa.height) return false;
+    if(mapka[b.y][b.x]==2) return false;
     return true;
 }//ci sa mozem pohnut na dany bod
 
@@ -154,7 +146,10 @@ void createMap(){
     }//vypisem si mapku
 }//vytvorim si mapkuD
 void updateMap(){
-    
+    mapka=mapkaD;
+    for(Ship ship:world.ships){
+        mapka[ship.coords.y][ship.coords.x]=2;
+    }
 }
 
 void zijuciExplorer(vector<Turn>& turns){
