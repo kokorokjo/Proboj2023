@@ -50,6 +50,17 @@ vector<vector<int>> manhattanBody(int n,int m, int x, int y, int vzdialenost) {
   return body;
 }//vrati vsetky body v manhattan vzdialenosti a menej
 
+XY closest(XY destination){
+    while(true){
+        int vzdialenost = 1;
+        if(mapka[destination.y][destination.x]==0) return destination;
+        vector<vector<int>> body = manhattanBody(world.mapa.height,world.mapa.width, destination.x, destination.y, vzdialenost);
+        for(vector<int> bod : body){
+            if(mapka[bod[1]][bod[0]]!=2) return XY(bod[0],bod[1]);
+        }
+
+    }
+}//najblizsi bod kam pohnut
 void allHarbours(){
     for(Harbor harbor : world.harbors){
             coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
@@ -239,7 +250,7 @@ void Explore(vector<Turn>& turns, Ship ship){
                 
             }
 
-            turns.push_back(MoveTurn(ship.index, move_to(ship, min_harbor, condition)));
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(min_harbor), condition)));
             return;
         
 }// najdem najblizsi pristav a pohnem sa na neho
@@ -260,8 +271,8 @@ void Calculate(vector<Turn>& turns, Ship ship){
     // XY mojaBase=world.my_base;
     cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
     // cerr<<"base:"<<world.my_base.x<<" "<<world.my_base.y<<endl;
-    cerr<<"cord"<<move_to(ship, {50,50}, condition).x<<" "<<move_to(ship, {50,50}, condition).y<<endl;
-    turns.push_back(MoveTurn(ship.index, move_to(ship, {50,50}, condition)));
+    cerr<<"cord"<<move_to(ship, closest({50,50}), condition).x<<" "<<move_to(ship, closest({50,50}), condition).y<<endl;
+    turns.push_back(MoveTurn(ship.index, move_to(ship, closest({50,50}), condition)));
     return;
 
 }
@@ -293,7 +304,58 @@ void vypisComsumption(){
 
 }
 
+void bfs2(vector<XY>& start, bool (*condition)(XY, XY), unordered_map<XY, pair<int, XY>>& dist, vector<XY>& transitions = SMERY) {
+    queue<XY> q;
+    for (auto i : start) {
+        q.push(i);
+        if (dist.find(i) == dist.end()) {
+            dist[i] = {0, i};
+        } else {
+            dist[i].second = i;
+        }
+    }
+    while (!q.empty()) {
+        XY nv = q.front();
+        q.pop();
+        for (auto i : transitions) {
+            if (condition(nv, nv + i) && dist.find(nv + i) == dist.end()) {
+                q.push(nv + i);
+                dist[nv + i] = {dist[nv].first + 1, nv};
+            }
+        }
+    }
+}
+void bfs1(XY start, bool (*condition)(XY, XY), unordered_map<XY, pair<int, XY>>& dist, vector<XY>& transitions = SMERY) {
+    vector<XY> tmp{start};
+    bfs2(tmp, condition, dist, transitions);
 
+}
+vector<XY> recreatePath(XY destination, unordered_map<XY, pair<int, XY>>& dist) {
+    vector<XY> out;
+    XY cur = destination;
+    if (dist.find(destination) == dist.end())
+        return {};
+    while (dist[cur].second != cur) {
+        out.push_back(cur);
+        cur = dist[cur].second;
+    }
+    out.push_back(cur);
+    reverse(out.begin(), out.end());
+    return out;
+}
+XY MoveTo(Ship& ship, XY destination, bool (*condition)(XY,XY), vector<XY>& transitions = SMERY){
+    XY start = ship.coords;
+    int range = ship.stats.max_move_range;
+    unordered_map<XY, pair<int, XY>> dist;
+    bfs1(start, condition, dist, transitions);
+    if (dist.find(destination) == dist.end())
+        return ship.coords;
+    vector<XY> path = recreatePath(destination, dist);
+    return path[min((int)path.size() - 1, range)];
+
+
+
+}
 
 
 
