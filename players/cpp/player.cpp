@@ -88,6 +88,7 @@ bool notin = true;
 bool expoler =false;
     for (Ship ship : ships)
     {
+        notin = true;
         for(int i=0;i<ship_orders.size();i++){
             if(ship_orders[i].first.index == ship.index){
                 new_ship_orders.push_back(ship_orders[i]);
@@ -164,7 +165,7 @@ void updateMap(){
 }
 
 void zijuciExplorer(vector<Turn>& turns){
-    if(world.my_ships().size()==0){ return; }
+    if(world.my_ships().size()==0) return;
     for(int i=0;i<ship_orders.size();i++){
         if(ship_orders[i].second.first == 0){
             indexOfExploringShip = ship_orders[i].first.index;
@@ -187,18 +188,12 @@ void umrtvitExplorera(vector<Turn>& turns){
 }//zrusim explorera
 
 void acquireGold(vector<Turn>& turns, Ship ship){
+    cerr<<"acquire gold"<<endl;
     if(ship.coords == world.my_base){
         turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
         return;
     }
-    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
-    unordered_map<XY, pair<int, XY>> dist;
-    vector<XY>& transitions = SMERY;
-    bfs(ship.coords, condition, dist, transitions);
-    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
-    cerr<<"base:"<<world.my_base.x<<" "<<world.my_base.y<<endl;
-    cerr<<"cord"<<move_to(ship, world.my_base, condition).x<<" "<<move_to(ship, world.my_base, condition).y<<endl;
-    turns.push_back(MoveTurn(ship.index, move_to(ship, world.my_base, condition)));
+    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base), condition)));
     return;
 
 }
@@ -259,21 +254,10 @@ void Attack(vector<Turn>& turns, Ship ship){
 } //pohyb utocnej lode
 
 void Calculate(vector<Turn>& turns, Ship ship){
-    if(ship.resources[ResourceEnum::Gold] == 0) {
-    if(ship.coords == world.my_base){
-        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
-        return;
-    }
-    }
-    // unordered_map<XY, pair<int, XY>> dist;
-    // vector<XY>& transitions = SMERY;
-    // bfs(ship.coords, condition, dist, transitions);
-    // XY mojaBase=world.my_base;
-    cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
-    // cerr<<"base:"<<world.my_base.x<<" "<<world.my_base.y<<endl;
-    cerr<<"cord"<<move_to(ship, closest({50,50}), condition).x<<" "<<move_to(ship, closest({50,50}), condition).y<<endl;
-    turns.push_back(MoveTurn(ship.index, move_to(ship, closest({50,50}), condition)));
+    if(ship.resources.resources[8] == 0) acquireGold(turns, ship);
+    else turns.push_back(MoveTurn(ship.index, move_to(ship, closest({50,50}), condition)));
     return;
+    
 
 }
 
@@ -301,59 +285,6 @@ void vypisComsumption(){
             cerr<<consumption_of_harbours[i][j].first<<" "<<consumption_of_harbours[i][j].second.coords.x<<" "<<consumption_of_harbours[i][j].second.coords.y<<endl;
         }
     }
-
-}
-
-void bfs2(vector<XY>& start, bool (*condition)(XY, XY), unordered_map<XY, pair<int, XY>>& dist, vector<XY>& transitions = SMERY) {
-    queue<XY> q;
-    for (auto i : start) {
-        q.push(i);
-        if (dist.find(i) == dist.end()) {
-            dist[i] = {0, i};
-        } else {
-            dist[i].second = i;
-        }
-    }
-    while (!q.empty()) {
-        XY nv = q.front();
-        q.pop();
-        for (auto i : transitions) {
-            if (condition(nv, nv + i) && dist.find(nv + i) == dist.end()) {
-                q.push(nv + i);
-                dist[nv + i] = {dist[nv].first + 1, nv};
-            }
-        }
-    }
-}
-void bfs1(XY start, bool (*condition)(XY, XY), unordered_map<XY, pair<int, XY>>& dist, vector<XY>& transitions = SMERY) {
-    vector<XY> tmp{start};
-    bfs2(tmp, condition, dist, transitions);
-
-}
-vector<XY> recreatePath(XY destination, unordered_map<XY, pair<int, XY>>& dist) {
-    vector<XY> out;
-    XY cur = destination;
-    if (dist.find(destination) == dist.end())
-        return {};
-    while (dist[cur].second != cur) {
-        out.push_back(cur);
-        cur = dist[cur].second;
-    }
-    out.push_back(cur);
-    reverse(out.begin(), out.end());
-    return out;
-}
-XY MoveTo(Ship& ship, XY destination, bool (*condition)(XY,XY), vector<XY>& transitions = SMERY){
-    XY start = ship.coords;
-    int range = ship.stats.max_move_range;
-    unordered_map<XY, pair<int, XY>> dist;
-    bfs1(start, condition, dist, transitions);
-    if (dist.find(destination) == dist.end())
-        return ship.coords;
-    vector<XY> path = recreatePath(destination, dist);
-    return path[min((int)path.size() - 1, range)];
-
-
 
 }
 
@@ -385,6 +316,9 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
             case 5:
                 cerr<<"pocitam"<<curr.index<<endl;
                 Calculate(turns,curr);
+                break;
+            default:
+                cerr<<"nic"<<endl;
                 break;
             
         }
