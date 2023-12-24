@@ -3,14 +3,16 @@
 using namespace std;
 World world;
 
+
 struct Trade{
     double odhad;
-    // Harbor FromH;
-    // Harbor ToH;
+    Harbor FromH;
+    Harbor ToH;
     int resource;
 
     
 }trade;
+
 vector<vector<int>> mapka,mapkaD;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
