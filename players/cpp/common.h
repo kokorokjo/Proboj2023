@@ -159,6 +159,7 @@ struct Harbor {
     XY coords;
     Resources production, storage;
     bool visible;
+    Harbor() {}
     Harbor(json harbor_dict) {
         coords = XY(harbor_dict["x"].get<int>(), harbor_dict["y"].get<int>());
         production = Resources(harbor_dict["production"]);
