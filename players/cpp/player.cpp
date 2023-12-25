@@ -44,6 +44,9 @@ struct Trade{
     
 }t;
 
+unordered_map<XY,pair<int, XY>> nieco;
+vector<XY> asi;
+
 vector<vector<int>> mapka,mapkaD;
 
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
@@ -225,6 +228,7 @@ void createMap(){
                         }
                         mapkaD[i][j]=3;
                 }
+                else mapkaD[i][j]=3;
                 
             }//base 3 a okolie 2
             else if(world.mapa.tiles[i][j].type==TileEnum::TILE_GROUND){
@@ -293,7 +297,7 @@ void updateGold(vector<Turn>& turns, Ship ship){
         turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo, world.gold)));
         return;
     }
-    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base,ship), condition)));
+    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base,ship), condition,nieco,asi)));
     return;
 
 }//zoberiem zlato z baseky
@@ -349,7 +353,7 @@ void Explore(vector<Turn>& turns, Ship ship){
                 
             }
 
-            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(min_harbor,ship), condition)));
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(min_harbor,ship), condition,nieco,asi)));
             return;
         
 }// najdem najblizsi pristav a pohnem sa na neho
@@ -367,7 +371,7 @@ void Calculate(vector<Turn>& turns, Ship ship){
                 else{
                     ship_orders[i].second.first = 2;
                     ship_orders[i].second.second=trades[0];
-                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(ship_orders[i].second.second.FromH.coords,ship), condition)));
+                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(ship_orders[i].second.second.FromH.coords,ship), condition,nieco,asi)));
                 }
 
                 break;
@@ -392,7 +396,7 @@ void Buy(vector<Turn>& turns, Ship ship){
     }
     else{
         cerr<<"suradky: "<<i.second.second.FromH.coords.x<<" "<<i.second.second.FromH.coords.y<<endl;
-        turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.FromH.coords,ship), condition)));
+        turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.FromH.coords,ship), condition,nieco,asi)));
         return;
         }
     }
@@ -412,7 +416,7 @@ for (auto i:ship_orders){
             return;
         }
         else{
-            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.ToH.coords,ship), condition)));
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.ToH.coords,ship), condition,nieco,asi)));
             return;
         }
     }
@@ -484,7 +488,15 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
 
 
 
-
+void test(){
+    move_to(world.my_ships()[0],{50,50},condition,nieco,asi);
+    for(auto i:nieco){
+        cerr<<i.first.x<<" "<<i.first.y<<" "<<i.second.first<<" "<<i.second.second.x<<" "<<i.second.second.y<<endl;
+    }
+    for(auto i:asi){
+        cerr<<i.x<<" "<<i.y<<endl;
+    }
+}
 
 
 
@@ -496,6 +508,7 @@ vector<Turn> do_turn() {
     if(tah == 1) {
         allHarbours();
         createMap();
+     //   test();
         }
     tah++;
     updateMap();

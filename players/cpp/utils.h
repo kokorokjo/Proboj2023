@@ -118,7 +118,7 @@ std::vector<XY> recreate_path(XY destination, std::unordered_map<XY, std::pair<i
 /// @param condition funkcia, ktorá vráti true ak sa dá pohnúť z bodu a do bodu b
 /// @param transitions povolené smery pohybu (default susedné hranou)
 /// @return bod, kam sa mám posunúť tento ťah
-XY move_to(Ship& ship, XY destination, bool (*condition)(XY, XY),
+XY move_to(Ship& ship, XY destination, bool (*condition)(XY, XY),std::unordered_map<XY, std::pair<int, XY>>& nieco,std::vector<XY>& asi,
            std::vector<XY>& transitions = SMERY) {
     XY start = ship.coords;
     int range = ship.stats.max_move_range;
@@ -127,6 +127,8 @@ XY move_to(Ship& ship, XY destination, bool (*condition)(XY, XY),
     if (dist.find(destination) == dist.end())
         return ship.coords;
     std::vector<XY> path = recreate_path(destination, dist);
+    nieco = dist;
+    asi = path;
     return path[std::min((int)path.size() - 1, range)];
 }
 #endif
