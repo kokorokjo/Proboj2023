@@ -3,7 +3,7 @@ New world
 BUY 0
 
 [proboj] ROUND 1/500
-new: 0
+new ship: 1
 Zharbor: 13 93 - 
 Zharbor: 19 82 - 
 Zharbor: 22 88 - 
@@ -119,3822 +119,2993 @@ Zharbor: 96 16 -
 0000000004444444442244440000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000000444444444444400000000000000000000000000000000000000000000000000000000000000000000000000000
 0000000000044444444444000000000000000000000000000000000000000000000000000000000000000000000000000000
-explorer: 0
-explorujem0
+explorer: 1
+explorujem1
 ship:68 3
-BUY 0 MOVE 0 68 5
+BUY 0 MOVE 1 68 5
 
 [proboj] ROUND 2/500
-old: 0
-new: 2
-default: 2
-explorujem0
+new ship: 2
+explorujem1
 ship:68 5
 pocitam2
 acquire gold
-MOVE 0 68 7 STORE 2 -5
+MOVE 1 68 7 STORE 2 -10
 
 [proboj] ROUND 3/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:68 7
-MOVE 2 68 5 MOVE 0 68 9
+pocitam2
+ship:68 3
+MOVE 1 68 9 MOVE 2 68 5
 
 [proboj] ROUND 4/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:68 9
 pocitam2
-MOVE 0 68 11 MOVE 2 68 7
+ship:68 5
+MOVE 1 68 11 MOVE 2 68 7
 
 [proboj] ROUND 5/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:68 11
 pocitam2
-MOVE 0 68 13 MOVE 2 68 9
+ship:68 7
+MOVE 1 68 13 MOVE 2 68 9
 
 [proboj] ROUND 6/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:68 13
-MOVE 2 68 11 MOVE 0 68 15
+pocitam2
+ship:68 9
+MOVE 1 68 15 MOVE 2 68 11
 
 [proboj] ROUND 7/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:68 15
 pocitam2
-MOVE 0 68 17 MOVE 2 68 13
+ship:68 11
+MOVE 1 68 17 MOVE 2 68 13
 
 [proboj] ROUND 8/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:68 17
-MOVE 2 68 15 MOVE 0 68 19
+pocitam2
+ship:68 13
+MOVE 1 68 19 MOVE 2 68 15
 
 [proboj] ROUND 9/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:68 19
 pocitam2
-MOVE 0 69 20 MOVE 2 68 17
+ship:68 15
+MOVE 1 69 20 MOVE 2 68 17
 
 [proboj] ROUND 10/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:69 20
-MOVE 2 68 19 MOVE 0 71 20
+pocitam2
+ship:68 17
+MOVE 1 71 20 MOVE 2 68 19
 
 [proboj] ROUND 11/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:71 20
-MOVE 2 68 21 MOVE 0 73 20
+pocitam2
+ship:68 19
+MOVE 1 73 20 MOVE 2 70 19
 
 [proboj] ROUND 12/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:73 20
-MOVE 2 68 23 MOVE 0 75 20
+pocitam2
+ship:70 19
+MOVE 1 75 20 MOVE 2 72 19
 
 [proboj] ROUND 13/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:75 20
 pocitam2
-MOVE 0 77 20 MOVE 2 68 25
+ship:72 19
+MOVE 1 77 20 MOVE 2 74 19
 
 [proboj] ROUND 14/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:77 20
-MOVE 2 68 27 MOVE 0 79 20
+pocitam2
+ship:74 19
+MOVE 1 79 20 MOVE 2 76 19
 
 [proboj] ROUND 15/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:79 20
 pocitam2
-MOVE 0 81 20 MOVE 2 68 29
+ship:76 19
+MOVE 1 81 20 MOVE 2 76 21
 
 [proboj] ROUND 16/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:81 20
 pocitam2
-MOVE 0 82 19 MOVE 2 68 31
+ship:76 21
+MOVE 1 82 19 MOVE 2 78 21
 
 [proboj] ROUND 17/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 3
+makeTradeCons
+makeTradeProdtovar: 5
+makeTradeProdtovar: 6
+trades:0
 nasiel som:82 19
 ship:82 19
-MOVE 2 68 33 MOVE 0 82 21
+pocitam2
+ship:78 21
+MOVE 1 82 21 MOVE 2 79 22
 
 [proboj] ROUND 18/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:82 21
 pocitam2
-MOVE 0 83 22 MOVE 2 68 35
+ship:79 22
+MOVE 1 83 22 MOVE 2 81 22
 
 [proboj] ROUND 19/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:83 22
 pocitam2
-MOVE 0 85 22 MOVE 2 68 37
+ship:81 22
+MOVE 1 85 22 MOVE 2 82 23
 
 [proboj] ROUND 20/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:85 22
 pocitam2
-MOVE 0 87 22 MOVE 2 68 39
+ship:82 23
+MOVE 1 87 22 MOVE 2 84 23
 
 [proboj] ROUND 21/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:87 22
-MOVE 2 68 41 MOVE 0 88 22
+pocitam2
+ship:84 23
+MOVE 1 88 22 MOVE 2 86 23
 
 [proboj] ROUND 22/500
-old: 0
-old: 2
-explorujem0
+explorujem1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 5
+makeTradeCons
+trades:1
 nasiel som:88 22
 ship:88 22
 pocitam2
-MOVE 0 89 23 MOVE 2 68 43
+calculate: 82 19
+nieci: 82 19
+MOVE 1 89 23 MOVE 2 85 22
 
 [proboj] ROUND 23/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:89 23
-MOVE 2 68 45 MOVE 0 91 23
+kupim
+suradky: 82 19
+MOVE 1 91 23 MOVE 2 84 21
 
 [proboj] ROUND 24/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:91 23
-pocitam2
-MOVE 0 92 22 MOVE 2 68 47
+kupim
+suradky: 82 19
+MOVE 1 92 22 MOVE 2 83 20
 
 [proboj] ROUND 25/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:92 22
-pocitam2
-MOVE 0 93 21 MOVE 2 68 49
+kupim
+suradky: 82 19
+MOVE 1 93 21 MOVE 2 82 19
 
 [proboj] ROUND 26/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:93 21
-pocitam2
-MOVE 0 93 19 MOVE 2 67 50
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+MOVE 1 93 19 TRADE 2 6 2
 
 [proboj] ROUND 27/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:93 19
-pocitam2
-MOVE 0 94 18 MOVE 2 65 50
+predam
+MOVE 1 94 18
 
 [proboj] ROUND 28/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 18
-pocitam2
-MOVE 0 94 16 MOVE 2 63 50
+predam
+MOVE 1 94 16
 
 [proboj] ROUND 29/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:94 16
-MOVE 2 61 50 MOVE 0 94 14
+predam
+MOVE 1 94 14
 
 [proboj] ROUND 30/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 14
-pocitam2
-MOVE 0 93 13 MOVE 2 59 50
+predam
+MOVE 1 93 13
 
 [proboj] ROUND 31/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
+makeTradeCons
+makeTradeProdtovar: 1
+makeTradeCons
+makeTradeCons
+trades:4
 nasiel som:93 13
 ship:93 13
-MOVE 2 57 50 MOVE 0 94 14
+predam
+MOVE 1 94 14
 
 [proboj] ROUND 32/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 14
-pocitam2
-MOVE 0 94 16 MOVE 2 55 50
+predam
+MOVE 1 94 16
 
 [proboj] ROUND 33/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 16
-pocitam2
-MOVE 0 94 18 MOVE 2 53 50
+predam
+MOVE 1 94 18
 
 [proboj] ROUND 34/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 18
-pocitam2
-MOVE 0 94 20 MOVE 2 51 50
+predam
+MOVE 1 94 20
 
 [proboj] ROUND 35/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 20
-pocitam2
-MOVE 0 94 22 MOVE 2 50 50
+predam
+MOVE 1 94 22
 
 [proboj] ROUND 36/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 22
-pocitam2
-MOVE 0 94 24 MOVE 2 49 50
+predam
+MOVE 1 94 24
 
 [proboj] ROUND 37/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 24
-pocitam2
-MOVE 0 94 26 MOVE 2 50 50
+predam
+MOVE 1 94 26
 
 [proboj] ROUND 38/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:94 26
-MOVE 2 49 50 MOVE 0 94 28
+predam
+MOVE 1 94 28
 
 [proboj] ROUND 39/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 28
-pocitam2
-MOVE 0 94 30 MOVE 2 50 50
+predam
+MOVE 1 94 30
 
 [proboj] ROUND 40/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 30
-pocitam2
-MOVE 0 94 32 MOVE 2 49 50
+predam
+MOVE 1 94 32
 
 [proboj] ROUND 41/500
-old: 0
-old: 2
-explorujem0
+predam
+explorujem1
 ship:94 32
-pocitam2
-MOVE 0 94 34 MOVE 2 50 50
+MOVE 1 94 34
 
 [proboj] ROUND 42/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 34
-pocitam2
-MOVE 0 94 36 MOVE 2 49 50
+predam
+MOVE 1 94 36
 
 [proboj] ROUND 43/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 36
-pocitam2
-MOVE 0 94 38 MOVE 2 50 50
+predam
+MOVE 1 94 38
 
 [proboj] ROUND 44/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:94 38
-MOVE 2 49 50 MOVE 0 94 40
+predam
+MOVE 1 94 40
 
 [proboj] ROUND 45/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 40
-pocitam2
-MOVE 0 94 42 MOVE 2 50 50
+predam
+MOVE 1 94 42
 
 [proboj] ROUND 46/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 42
-pocitam2
-MOVE 0 94 44 MOVE 2 49 50
+predam
+MOVE 1 94 44
 
 [proboj] ROUND 47/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 44
-pocitam2
-MOVE 0 94 46 MOVE 2 50 50
+predam
+MOVE 1 94 46
 
 [proboj] ROUND 48/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:94 46
-MOVE 2 49 50 MOVE 0 94 48
+predam
+MOVE 1 94 48
 
 [proboj] ROUND 49/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 48
-pocitam2
-MOVE 0 94 50 MOVE 2 50 49
+predam
+MOVE 1 94 50
 
 [proboj] ROUND 50/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 50
-pocitam2
-MOVE 0 94 52 MOVE 2 50 50
+predam
+MOVE 1 94 52
 
 [proboj] ROUND 51/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:94 52
-pocitam2
-MOVE 0 93 53 MOVE 2 50 49
+predam
+MOVE 1 93 53
 
 [proboj] ROUND 52/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:93 53
-pocitam2
-MOVE 0 91 53 MOVE 2 50 50
+predam
+MOVE 1 91 53
 
 [proboj] ROUND 53/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:91 53
-pocitam2
-MOVE 0 90 53 MOVE 2 50 49
+predam
+MOVE 1 90 53
 
 [proboj] ROUND 54/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
+makeTradeProdtovar: 0
+makeTradeCons
+makeTradeProdtovar: 2
+makeTradeCons
+trades:9
 nasiel som:90 53
 ship:90 53
-MOVE 2 50 50 MOVE 0 90 55
+predam
+MOVE 1 90 55
 
 [proboj] ROUND 55/500
-old: 0
-old: 2
-explorujem0
+predam
+explorujem1
 ship:90 55
-pocitam2
-MOVE 0 89 56 MOVE 2 49 50
+MOVE 1 89 56
 
 [proboj] ROUND 56/500
-old: 0
-old: 2
-explorujem0
+predam
+explorujem1
 ship:89 56
-pocitam2
-MOVE 0 87 56 MOVE 2 50 49
+MOVE 1 87 56
 
 [proboj] ROUND 57/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:87 56
-pocitam2
-MOVE 0 86 55 MOVE 2 49 50
+predam
+MOVE 1 86 55
 
 [proboj] ROUND 58/500
-old: 0
-old: 2
-explorujem0
+predam
+explorujem1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 7
+trades:12
 nasiel som:86 55
 ship:86 55
-pocitam2
-MOVE 0 86 57 MOVE 2 50 50
+MOVE 1 86 57
 
 [proboj] ROUND 59/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:86 57
-pocitam2
-MOVE 0 86 59 MOVE 2 50 49
+predam
+MOVE 1 86 59
 
 [proboj] ROUND 60/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:86 59
-pocitam2
-MOVE 0 86 61 MOVE 2 49 50
+predam
+MOVE 1 86 61
 
 [proboj] ROUND 61/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:86 61
-pocitam2
-MOVE 0 86 63 MOVE 2 50 50
+predam
+MOVE 1 86 63
 
 [proboj] ROUND 62/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:86 63
-MOVE 2 50 49 MOVE 0 86 65
+predam
+MOVE 1 86 65
 
 [proboj] ROUND 63/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:86 65
-pocitam2
-MOVE 0 85 66 MOVE 2 50 50
+predam
+MOVE 1 85 66
 
 [proboj] ROUND 64/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:85 66
-pocitam2
-MOVE 0 83 66 MOVE 2 49 50
+predam
+MOVE 1 83 66
 
 [proboj] ROUND 65/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:83 66
-pocitam2
-MOVE 0 81 66 MOVE 2 50 50
+predam
+MOVE 1 81 66
 
 [proboj] ROUND 66/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:81 66
-pocitam2
-MOVE 0 79 66 MOVE 2 50 49
+predam
+MOVE 1 79 66
 
 [proboj] ROUND 67/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:79 66
-pocitam2
-MOVE 0 77 66 MOVE 2 49 50
+predam
+MOVE 1 77 66
 
 [proboj] ROUND 68/500
-old: 0
-old: 2
-explorujem0
+predam
+explorujem1
 ship:77 66
-pocitam2
-MOVE 0 75 66 MOVE 2 50 50
+MOVE 1 75 66
 
 [proboj] ROUND 69/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:75 66
-MOVE 2 49 50 MOVE 0 73 66
+predam
+MOVE 1 73 66
 
 [proboj] ROUND 70/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:73 66
-pocitam2
-MOVE 0 71 66 MOVE 2 50 50
+predam
+MOVE 1 71 66
 
 [proboj] ROUND 71/500
-old: 2
-old: 0
-pocitam2
-explorujem0
+explorujem1
 ship:71 66
-MOVE 2 50 49 MOVE 0 69 66
+predam
+MOVE 1 69 66
 
 [proboj] ROUND 72/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:69 66
-pocitam2
-MOVE 0 67 66 MOVE 2 50 50
+predam
+MOVE 1 67 66
 
 [proboj] ROUND 73/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:67 66
-pocitam2
-MOVE 0 66 66 MOVE 2 49 50
+predam
+MOVE 1 66 66
 
 [proboj] ROUND 74/500
-old: 0
-old: 2
-explorujem0
+explorujem1
 ship:66 66
-pocitam2
-MOVE 0 66 67 MOVE 2 50 50
+predam
+MOVE 1 66 67
 
 [proboj] ROUND 75/500
-old: 0
-old: 2
-explorujem0
+explorujem1
+makeTradeProdtovar: 0
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 5
+trades:18
 nasiel som:66 67
 ship:66 67
-pocitam2
-MOVE 0 67 66 MOVE 2 49 50
+predam
+MOVE 1 65 66
 
 [proboj] ROUND 76/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:67 66
-MOVE 2 50 50 MOVE 0 69 66
+explorujem1
+ship:65 66
+predam
+MOVE 1 63 66
 
 [proboj] ROUND 77/500
-old: 0
-old: 2
-explorujem0
-ship:69 66
-pocitam2
-MOVE 0 70 67 MOVE 2 49 50
+explorujem1
+ship:63 66
+predam
+MOVE 1 62 67
 
 [proboj] ROUND 78/500
-old: 0
-old: 2
-explorujem0
-ship:70 67
-pocitam2
-MOVE 0 71 68 MOVE 2 50 50
+explorujem1
+ship:62 67
+predam
+MOVE 1 61 68
 
 [proboj] ROUND 79/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:71 68
-MOVE 2 49 50 MOVE 0 72 69
+explorujem1
+ship:61 68
+predam
+MOVE 1 60 69
 
 [proboj] ROUND 80/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:72 69
-MOVE 2 50 50 MOVE 0 72 71
+explorujem1
+ship:60 69
+predam
+MOVE 1 58 69
 
 [proboj] ROUND 81/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:72 71
-MOVE 2 50 49 MOVE 0 72 73
+explorujem1
+ship:58 69
+predam
+MOVE 1 57 70
 
 [proboj] ROUND 82/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:72 73
-MOVE 2 49 50 MOVE 0 72 75
+explorujem1
+ship:57 70
+predam
+MOVE 1 56 71
 
 [proboj] ROUND 83/500
-old: 0
-old: 2
-explorujem0
-ship:72 75
-pocitam2
-MOVE 0 71 76 MOVE 2 50 50
+explorujem1
+ship:56 71
+predam
+MOVE 1 54 71
 
 [proboj] ROUND 84/500
-old: 0
-old: 2
-explorujem0
-ship:71 76
-pocitam2
-MOVE 0 69 76 MOVE 2 49 50
+explorujem1
+ship:54 71
+predam
+MOVE 1 53 71
 
 [proboj] ROUND 85/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-nasiel som:69 76
-ship:69 76
-MOVE 2 50 50 MOVE 0 69 78
+explorujem1
+ship:53 71
+predam
+MOVE 1 53 72
 
 [proboj] ROUND 86/500
-old: 0
-old: 2
-explorujem0
-ship:69 78
-pocitam2
-MOVE 0 69 80 MOVE 2 49 50
-
-[proboj] ROUND 87/500
-old: 0
-old: 2
-explorujem0
-ship:69 80
-pocitam2
-MOVE 0 69 82 MOVE 2 50 49
-
-[proboj] ROUND 88/500
-old: 0
-old: 2
-explorujem0
-ship:69 82
-pocitam2
-MOVE 0 69 84 MOVE 2 49 50
-
-[proboj] ROUND 89/500
-old: 0
-old: 2
-explorujem0
-ship:69 84
-pocitam2
-MOVE 0 69 86 MOVE 2 50 49
-
-[proboj] ROUND 90/500
-old: 0
-old: 2
-explorujem0
-ship:69 86
-pocitam2
-MOVE 0 69 88 MOVE 2 50 50
-
-[proboj] ROUND 91/500
-old: 0
-old: 2
-explorujem0
-ship:69 88
-pocitam2
-MOVE 0 67 88 MOVE 2 49 50
-
-[proboj] ROUND 92/500
-old: 0
-old: 2
-explorujem0
-ship:67 88
-pocitam2
-MOVE 0 65 88 MOVE 2 50 50
-
-[proboj] ROUND 93/500
-old: 0
-old: 2
-explorujem0
-ship:65 88
-pocitam2
-MOVE 0 63 88 MOVE 2 49 50
-
-[proboj] ROUND 94/500
-old: 0
-old: 2
-explorujem0
-ship:63 88
-pocitam2
-MOVE 0 61 88 MOVE 2 50 50
-
-[proboj] ROUND 95/500
-old: 0
-old: 2
-explorujem0
-ship:61 88
-pocitam2
-MOVE 0 59 88 MOVE 2 50 49
-
-[proboj] ROUND 96/500
-old: 0
-old: 2
-explorujem0
-ship:59 88
-pocitam2
-MOVE 0 57 88 MOVE 2 49 50
-
-[proboj] ROUND 97/500
-old: 0
-old: 2
-explorujem0
-ship:57 88
-pocitam2
-MOVE 0 55 88 MOVE 2 50 50
-
-[proboj] ROUND 98/500
-old: 0
-old: 2
-explorujem0
-ship:55 88
-pocitam2
-MOVE 0 54 87 MOVE 2 49 50
-
-[proboj] ROUND 99/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:54 87
-MOVE 2 50 49 MOVE 0 55 87
-
-[proboj] ROUND 100/500
-old: 0
-old: 2
-explorujem0
-nasiel som:55 87
-ship:55 87
-pocitam2
-MOVE 0 53 87 MOVE 2 50 50
-
-[proboj] ROUND 101/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 87
-MOVE 2 50 49 MOVE 0 52 86
-
-[proboj] ROUND 102/500
-old: 0
-old: 2
-explorujem0
-ship:52 86
-pocitam2
-MOVE 0 52 84 MOVE 2 49 50
-
-[proboj] ROUND 103/500
-old: 0
-old: 2
-explorujem0
-ship:52 84
-pocitam2
-MOVE 0 51 83 MOVE 2 50 49
-
-[proboj] ROUND 104/500
-old: 0
-old: 2
-explorujem0
-ship:51 83
-pocitam2
-MOVE 0 51 82 MOVE 2 49 50
-
-[proboj] ROUND 105/500
-old: 0
-old: 2
-explorujem0
-ship:51 82
-pocitam2
-MOVE 0 52 82 MOVE 2 50 50
-
-[proboj] ROUND 106/500
-old: 0
-old: 2
-explorujem0
-nasiel som:52 82
-ship:52 82
-pocitam2
-MOVE 0 50 82 MOVE 2 50 49
-
-[proboj] ROUND 107/500
-old: 0
-old: 2
-explorujem0
-ship:50 82
-pocitam2
-MOVE 0 49 81 MOVE 2 49 50
-
-[proboj] ROUND 108/500
-old: 0
-old: 2
-explorujem0
-ship:49 81
-pocitam2
-MOVE 0 47 81 MOVE 2 50 50
-
-[proboj] ROUND 109/500
-old: 0
-old: 2
-explorujem0
-ship:47 81
-pocitam2
-MOVE 0 45 81 MOVE 2 50 49
-
-[proboj] ROUND 110/500
-old: 0
-old: 2
-explorujem0
-ship:45 81
-pocitam2
-MOVE 0 43 81 MOVE 2 49 50
-
-[proboj] ROUND 111/500
-old: 0
-old: 2
-explorujem0
-ship:43 81
-pocitam2
-MOVE 0 41 81 MOVE 2 50 49
-
-[proboj] ROUND 112/500
-old: 0
-old: 2
-explorujem0
-ship:41 81
-pocitam2
-MOVE 0 39 81 MOVE 2 49 50
-
-[proboj] ROUND 113/500
-old: 0
-old: 2
-explorujem0
-ship:39 81
-pocitam2
-MOVE 0 37 81 MOVE 2 50 49
-
-[proboj] ROUND 114/500
-old: 0
-old: 2
-explorujem0
-ship:37 81
-pocitam2
-MOVE 0 35 81 MOVE 2 49 50
-
-[proboj] ROUND 115/500
-old: 0
-old: 2
-explorujem0
-ship:35 81
-pocitam2
-MOVE 0 33 81 MOVE 2 50 50
-
-[proboj] ROUND 116/500
-old: 0
-old: 2
-explorujem0
-ship:33 81
-pocitam2
-MOVE 0 31 81 MOVE 2 49 50
-
-[proboj] ROUND 117/500
-old: 0
-old: 2
-explorujem0
-ship:31 81
-pocitam2
-MOVE 0 29 81 MOVE 2 50 50
-
-[proboj] ROUND 118/500
-old: 0
-old: 2
-explorujem0
-ship:29 81
-pocitam2
-MOVE 0 27 81 MOVE 2 49 50
-
-[proboj] ROUND 119/500
-old: 0
-old: 2
-explorujem0
-ship:27 81
-pocitam2
-MOVE 0 27 80 MOVE 2 50 50
-
-[proboj] ROUND 120/500
-old: 0
-old: 2
-explorujem0
-nasiel som:27 80
-ship:27 80
-pocitam2
-MOVE 0 27 82 MOVE 2 50 49
-
-[proboj] ROUND 121/500
-old: 0
-old: 2
-explorujem0
-ship:27 82
-pocitam2
-MOVE 0 27 84 MOVE 2 50 50
-
-[proboj] ROUND 122/500
-old: 0
-old: 2
-explorujem0
-ship:27 84
-pocitam2
-MOVE 0 27 86 MOVE 2 49 50
-
-[proboj] ROUND 123/500
-old: 0
-old: 2
-explorujem0
-ship:27 86
-pocitam2
-MOVE 0 27 88 MOVE 2 50 49
-
-[proboj] ROUND 124/500
-old: 0
-old: 2
-explorujem0
-ship:27 88
-pocitam2
-MOVE 0 25 88 MOVE 2 49 50
-
-[proboj] ROUND 125/500
-old: 0
-old: 2
-explorujem0
-ship:25 88
-pocitam2
-MOVE 0 23 88 MOVE 2 50 49
-
-[proboj] ROUND 126/500
-old: 0
-old: 2
-explorujem0
-ship:23 88
-pocitam2
-MOVE 0 21 88 MOVE 2 50 50
-
-[proboj] ROUND 127/500
-old: 0
-old: 2
-explorujem0
-ship:21 88
-pocitam2
-MOVE 0 19 88 MOVE 2 49 50
-
-[proboj] ROUND 128/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:19 88
-MOVE 2 50 50 MOVE 0 18 88
-
-[proboj] ROUND 129/500
-old: 0
-old: 2
-explorujem0
-ship:18 88
-pocitam2
-MOVE 0 18 89 MOVE 2 50 49
-
-[proboj] ROUND 130/500
-old: 0
-old: 2
-explorujem0
-nasiel som:18 89
-ship:18 89
-pocitam2
-MOVE 0 20 89 MOVE 2 50 50
-
-[proboj] ROUND 131/500
-old: 0
-old: 2
-explorujem0
-ship:20 89
-pocitam2
-MOVE 0 21 90 MOVE 2 50 49
-
-[proboj] ROUND 132/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:21 90
-MOVE 2 50 50 MOVE 0 21 92
-
-[proboj] ROUND 133/500
-old: 0
-old: 2
-explorujem0
-ship:21 92
-pocitam2
-MOVE 0 22 93 MOVE 2 50 49
-
-[proboj] ROUND 134/500
-old: 0
-old: 2
-explorujem0
-ship:22 93
-pocitam2
-MOVE 0 22 95 MOVE 2 50 50
-
-[proboj] ROUND 135/500
-old: 0
-old: 2
-explorujem0
-ship:22 95
-pocitam2
-MOVE 0 22 97 MOVE 2 50 49
-
-[proboj] ROUND 136/500
-old: 0
-old: 2
-explorujem0
-ship:22 97
-pocitam2
-MOVE 0 21 98 MOVE 2 50 50
-
-[proboj] ROUND 137/500
-old: 0
-old: 2
-explorujem0
-ship:21 98
-pocitam2
-MOVE 0 19 98 MOVE 2 50 49
-
-[proboj] ROUND 138/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:19 98
-MOVE 2 49 50 MOVE 0 17 98
-
-[proboj] ROUND 139/500
-old: 0
-old: 2
-explorujem0
-ship:17 98
-pocitam2
-MOVE 0 16 97 MOVE 2 50 49
-
-[proboj] ROUND 140/500
-old: 0
-old: 2
-explorujem0
-ship:16 97
-pocitam2
-MOVE 0 15 96 MOVE 2 50 50
-
-[proboj] ROUND 141/500
-old: 0
-old: 2
-explorujem0
-ship:15 96
-pocitam2
-MOVE 0 16 96 MOVE 2 49 50
-
-[proboj] ROUND 142/500
-old: 0
-old: 2
-explorujem0
-nasiel som:16 96
-ship:16 96
-pocitam2
-MOVE 0 16 98 MOVE 2 50 50
-
-[proboj] ROUND 143/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:16 98
-MOVE 2 49 50 MOVE 0 18 98
-
-[proboj] ROUND 144/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:18 98
-MOVE 2 50 49 MOVE 0 20 98
-
-[proboj] ROUND 145/500
-old: 0
-old: 2
-explorujem0
-ship:20 98
-pocitam2
-MOVE 0 21 97 MOVE 2 50 50
-
-[proboj] ROUND 146/500
-old: 0
-old: 2
-explorujem0
-ship:21 97
-pocitam2
-MOVE 0 22 96 MOVE 2 50 49
-
-[proboj] ROUND 147/500
-old: 0
-old: 2
-explorujem0
-ship:22 96
-pocitam2
-MOVE 0 22 94 MOVE 2 49 50
-
-[proboj] ROUND 148/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:22 94
-MOVE 2 50 50 MOVE 0 22 92
-
-[proboj] ROUND 149/500
-old: 0
-old: 2
-explorujem0
-ship:22 92
-pocitam2
-MOVE 0 22 90 MOVE 2 49 50
-
-[proboj] ROUND 150/500
-old: 0
-old: 2
-explorujem0
-ship:22 90
-pocitam2
-MOVE 0 22 88 MOVE 2 50 50
-
-[proboj] ROUND 151/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:22 88
-MOVE 2 50 49 MOVE 0 22 86
-
-[proboj] ROUND 152/500
-old: 0
-old: 2
-explorujem0
-ship:22 86
-pocitam2
-MOVE 0 22 84 MOVE 2 49 50
-
-[proboj] ROUND 153/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:22 84
-MOVE 2 50 49 MOVE 0 23 83
-
-[proboj] ROUND 154/500
-old: 0
-old: 2
-explorujem0
-ship:23 83
-pocitam2
-MOVE 0 25 83 MOVE 2 49 50
-
-[proboj] ROUND 155/500
-old: 0
-old: 2
-explorujem0
-ship:25 83
-pocitam2
-MOVE 0 26 82 MOVE 2 50 49
-
-[proboj] ROUND 156/500
-old: 0
-old: 2
-explorujem0
-ship:26 82
-pocitam2
-MOVE 0 27 81 MOVE 2 49 50
-
-[proboj] ROUND 157/500
-old: 0
-old: 2
-explorujem0
-ship:27 81
-pocitam2
-MOVE 0 29 81 MOVE 2 50 49
-
-[proboj] ROUND 158/500
-old: 0
-old: 2
-explorujem0
-ship:29 81
-pocitam2
-MOVE 0 30 80 MOVE 2 49 50
-
-[proboj] ROUND 159/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:30 80
-MOVE 2 50 49 MOVE 0 31 79
-
-[proboj] ROUND 160/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:31 79
-MOVE 2 49 50 MOVE 0 32 78
-
-[proboj] ROUND 161/500
-old: 0
-old: 2
-explorujem0
-ship:32 78
-pocitam2
-MOVE 0 33 77 MOVE 2 50 50
-
-[proboj] ROUND 162/500
-old: 0
-old: 2
-explorujem0
-ship:33 77
-pocitam2
-MOVE 0 34 76 MOVE 2 50 49
-
-[proboj] ROUND 163/500
-old: 0
-old: 2
-explorujem0
-ship:34 76
-pocitam2
-MOVE 0 34 74 MOVE 2 49 50
-
-[proboj] ROUND 164/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:34 74
-MOVE 2 50 49 MOVE 0 35 73
-
-[proboj] ROUND 165/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:35 73
-MOVE 2 50 50 MOVE 0 35 71
-
-[proboj] ROUND 166/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:35 71
-MOVE 2 49 50 MOVE 0 36 70
-
-[proboj] ROUND 167/500
-old: 0
-old: 2
-explorujem0
-ship:36 70
-pocitam2
-MOVE 0 38 70 MOVE 2 50 49
-
-[proboj] ROUND 168/500
-old: 0
-old: 2
-explorujem0
-ship:38 70
-pocitam2
-MOVE 0 40 70 MOVE 2 50 50
-
-[proboj] ROUND 169/500
-old: 0
-old: 2
-explorujem0
-ship:40 70
-pocitam2
-MOVE 0 42 70 MOVE 2 49 50
-
-[proboj] ROUND 170/500
-old: 0
-old: 2
-explorujem0
-ship:42 70
-pocitam2
-MOVE 0 44 70 MOVE 2 50 49
-
-[proboj] ROUND 171/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:44 70
-MOVE 2 50 50 MOVE 0 46 70
-
-[proboj] ROUND 172/500
-old: 0
-old: 2
-explorujem0
-ship:46 70
-pocitam2
-MOVE 0 48 70 MOVE 2 49 50
-
-[proboj] ROUND 173/500
-old: 0
-old: 2
-explorujem0
-ship:48 70
-pocitam2
-MOVE 0 50 70 MOVE 2 50 50
-
-[proboj] ROUND 174/500
-old: 0
-old: 2
-explorujem0
-ship:50 70
-pocitam2
-MOVE 0 52 70 MOVE 2 50 49
-
-[proboj] ROUND 175/500
-old: 0
-old: 2
-explorujem0
-ship:52 70
-pocitam2
-MOVE 0 53 71 MOVE 2 49 50
-
-[proboj] ROUND 176/500
-old: 0
-old: 2
-explorujem0
-ship:53 71
-pocitam2
-MOVE 0 53 72 MOVE 2 50 50
-
-[proboj] ROUND 177/500
-old: 0
-old: 2
-explorujem0
+explorujem1
+makeTradeProdtovar: 0
+makeTradeCons
+makeTradeProdtovar: 6
+makeTradeCons
+trades:26
 nasiel som:53 72
 ship:53 72
-pocitam2
-MOVE 0 53 70 MOVE 2 49 50
+predam
+MOVE 1 53 70
+
+[proboj] ROUND 87/500
+explorujem1
+ship:53 70
+predam
+MOVE 1 51 70
+
+[proboj] ROUND 88/500
+predam
+explorujem1
+ship:51 70
+MOVE 1 49 70
+
+[proboj] ROUND 89/500
+explorujem1
+ship:49 70
+predam
+MOVE 1 48 71
+
+[proboj] ROUND 90/500
+predam
+explorujem1
+ship:48 71
+MOVE 1 46 71
+
+[proboj] ROUND 91/500
+explorujem1
+ship:46 71
+predam
+MOVE 1 45 72
+
+[proboj] ROUND 92/500
+explorujem1
+ship:45 72
+predam
+MOVE 1 45 74
+
+[proboj] ROUND 93/500
+explorujem1
+ship:45 74
+predam
+MOVE 1 45 76
+
+[proboj] ROUND 94/500
+explorujem1
+ship:45 76
+predam
+MOVE 1 45 78
+
+[proboj] ROUND 95/500
+explorujem1
+ship:45 78
+predam
+MOVE 1 45 80
+
+[proboj] ROUND 96/500
+explorujem1
+ship:45 80
+predam
+MOVE 1 45 82
+
+[proboj] ROUND 97/500
+explorujem1
+ship:45 82
+predam
+MOVE 1 47 82
+
+[proboj] ROUND 98/500
+explorujem1
+ship:47 82
+predam
+MOVE 1 49 82
+
+[proboj] ROUND 99/500
+explorujem1
+ship:49 82
+predam
+MOVE 1 51 82
+
+[proboj] ROUND 100/500
+explorujem1
+ship:51 82
+predam
+MOVE 1 52 82
+
+[proboj] ROUND 101/500
+explorujem1
+makeTradeProdtovar: 0
+makeTradeProdtovar: 1
+makeTradeProdtovar: 3
+makeTradeCons
+makeTradeCons
+trades:38
+nasiel som:52 82
+ship:52 82
+predam
+MOVE 1 51 83
+
+[proboj] ROUND 102/500
+explorujem1
+ship:51 83
+predam
+MOVE 1 51 85
+
+[proboj] ROUND 103/500
+explorujem1
+ship:51 85
+predam
+MOVE 1 51 87
+
+[proboj] ROUND 104/500
+explorujem1
+ship:51 87
+predam
+MOVE 1 52 88
+
+[proboj] ROUND 105/500
+explorujem1
+ship:52 88
+predam
+MOVE 1 53 87
+
+[proboj] ROUND 106/500
+explorujem1
+ship:53 87
+predam
+MOVE 1 54 87
+
+[proboj] ROUND 107/500
+explorujem1
+ship:54 87
+predam
+MOVE 1 55 87
+
+[proboj] ROUND 108/500
+explorujem1
+makeTradeProdtovar: 0
+makeTradeCons
+makeTradeProdtovar: 3
+makeTradeCons
+trades:45
+nasiel som:55 87
+ship:55 87
+predam
+MOVE 1 56 88
+
+[proboj] ROUND 109/500
+explorujem1
+ship:56 88
+predam
+MOVE 1 57 87
+
+[proboj] ROUND 110/500
+explorujem1
+ship:57 87
+predam
+MOVE 1 58 86
+
+[proboj] ROUND 111/500
+explorujem1
+ship:58 86
+predam
+MOVE 1 59 85
+
+[proboj] ROUND 112/500
+explorujem1
+ship:59 85
+predam
+MOVE 1 59 83
+
+[proboj] ROUND 113/500
+explorujem1
+ship:59 83
+predam
+MOVE 1 60 82
+
+[proboj] ROUND 114/500
+explorujem1
+ship:60 82
+predam
+MOVE 1 61 81
+
+[proboj] ROUND 115/500
+explorujem1
+ship:61 81
+predam
+MOVE 1 62 80
+
+[proboj] ROUND 116/500
+explorujem1
+ship:62 80
+predam
+MOVE 1 64 80
+
+[proboj] ROUND 117/500
+explorujem1
+ship:64 80
+predam
+MOVE 1 65 79
+
+[proboj] ROUND 118/500
+explorujem1
+ship:65 79
+predam
+MOVE 1 67 79
+
+[proboj] ROUND 119/500
+explorujem1
+ship:67 79
+predam
+MOVE 1 68 78
+
+[proboj] ROUND 120/500
+explorujem1
+ship:68 78
+predam
+MOVE 1 69 77
+
+[proboj] ROUND 121/500
+explorujem1
+ship:69 77
+predam
+MOVE 1 69 76
+
+[proboj] ROUND 122/500
+explorujem1
+makeTradeCons
+makeTradeProdtovar: 2
+makeTradeCons
+trades:51
+nasiel som:69 76
+ship:69 76
+predam
+MOVE 1 69 78
+
+[proboj] ROUND 123/500
+explorujem1
+ship:69 78
+predam
+MOVE 1 69 80
+
+[proboj] ROUND 124/500
+explorujem1
+ship:69 80
+predam
+MOVE 1 69 82
+
+[proboj] ROUND 125/500
+explorujem1
+ship:69 82
+predam
+MOVE 1 69 84
+
+[proboj] ROUND 126/500
+explorujem1
+ship:69 84
+predam
+MOVE 1 69 86
+
+[proboj] ROUND 127/500
+explorujem1
+ship:69 86
+predam
+MOVE 1 69 88
+
+[proboj] ROUND 128/500
+explorujem1
+ship:69 88
+predam
+MOVE 1 67 88
+
+[proboj] ROUND 129/500
+explorujem1
+ship:67 88
+predam
+MOVE 1 65 88
+
+[proboj] ROUND 130/500
+explorujem1
+ship:65 88
+predam
+MOVE 1 63 88
+
+[proboj] ROUND 131/500
+explorujem1
+ship:63 88
+predam
+MOVE 1 61 88
+
+[proboj] ROUND 132/500
+predam
+explorujem1
+ship:61 88
+MOVE 1 59 88
+
+[proboj] ROUND 133/500
+explorujem1
+ship:59 88
+predam
+MOVE 1 57 88
+
+[proboj] ROUND 134/500
+explorujem1
+ship:57 88
+predam
+MOVE 1 55 88
+
+[proboj] ROUND 135/500
+explorujem1
+ship:55 88
+predam
+MOVE 1 54 87
+
+[proboj] ROUND 136/500
+explorujem1
+ship:54 87
+predam
+MOVE 1 53 86
+
+[proboj] ROUND 137/500
+explorujem1
+ship:53 86
+predam
+MOVE 1 52 85
+
+[proboj] ROUND 138/500
+explorujem1
+ship:52 85
+predam
+MOVE 1 51 84
+
+[proboj] ROUND 139/500
+predam
+explorujem1
+ship:51 84
+MOVE 1 51 82
+
+[proboj] ROUND 140/500
+predam
+explorujem1
+ship:51 82
+MOVE 1 50 81
+
+[proboj] ROUND 141/500
+explorujem1
+ship:50 81
+predam
+MOVE 1 48 81
+
+[proboj] ROUND 142/500
+explorujem1
+ship:48 81
+predam
+MOVE 1 46 81
+
+[proboj] ROUND 143/500
+explorujem1
+ship:46 81
+predam
+MOVE 1 44 81
+
+[proboj] ROUND 144/500
+explorujem1
+ship:44 81
+predam
+MOVE 1 42 81
+
+[proboj] ROUND 145/500
+explorujem1
+ship:42 81
+predam
+MOVE 1 40 81
+
+[proboj] ROUND 146/500
+predam
+explorujem1
+ship:40 81
+MOVE 1 38 81
+
+[proboj] ROUND 147/500
+explorujem1
+ship:38 81
+predam
+MOVE 1 36 81
+
+[proboj] ROUND 148/500
+explorujem1
+ship:36 81
+predam
+MOVE 1 34 81
+
+[proboj] ROUND 149/500
+explorujem1
+ship:34 81
+predam
+MOVE 1 32 81
+
+[proboj] ROUND 150/500
+explorujem1
+ship:32 81
+predam
+MOVE 1 30 81
+
+[proboj] ROUND 151/500
+explorujem1
+ship:30 81
+predam
+MOVE 1 28 81
+
+[proboj] ROUND 152/500
+explorujem1
+ship:28 81
+predam
+MOVE 1 27 80
+
+[proboj] ROUND 153/500
+explorujem1
+makeTradeProdtovar: 1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 7
+trades:65
+nasiel som:27 80
+ship:27 80
+predam
+MOVE 1 27 82
+
+[proboj] ROUND 154/500
+predam
+explorujem1
+ship:27 82
+MOVE 1 27 84
+
+[proboj] ROUND 155/500
+explorujem1
+ship:27 84
+predam
+MOVE 1 27 86
+
+[proboj] ROUND 156/500
+explorujem1
+ship:27 86
+predam
+MOVE 1 27 88
+
+[proboj] ROUND 157/500
+explorujem1
+ship:27 88
+predam
+MOVE 1 26 89
+
+[proboj] ROUND 158/500
+explorujem1
+ship:26 89
+predam
+MOVE 1 25 88
+
+[proboj] ROUND 159/500
+explorujem1
+ship:25 88
+predam
+MOVE 1 23 88
+
+[proboj] ROUND 160/500
+explorujem1
+ship:23 88
+predam
+MOVE 1 21 88
+
+[proboj] ROUND 161/500
+predam
+explorujem1
+ship:21 88
+MOVE 1 19 88
+
+[proboj] ROUND 162/500
+explorujem1
+ship:19 88
+predam
+MOVE 1 18 88
+
+[proboj] ROUND 163/500
+explorujem1
+ship:18 88
+predam
+MOVE 1 18 89
+
+[proboj] ROUND 164/500
+explorujem1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 4
+makeTradeProdtovar: 5
+makeTradeProdtovar: 7
+trades:82
+nasiel som:18 89
+ship:18 89
+predam
+MOVE 1 20 89
+
+[proboj] ROUND 165/500
+explorujem1
+ship:20 89
+predam
+MOVE 1 21 90
+
+[proboj] ROUND 166/500
+explorujem1
+ship:21 90
+predam
+MOVE 1 21 92
+
+[proboj] ROUND 167/500
+explorujem1
+ship:21 92
+predam
+MOVE 1 22 93
+
+[proboj] ROUND 168/500
+explorujem1
+ship:22 93
+predam
+MOVE 1 22 95
+
+[proboj] ROUND 169/500
+predam
+explorujem1
+ship:22 95
+MOVE 1 22 97
+
+[proboj] ROUND 170/500
+explorujem1
+ship:22 97
+predam
+MOVE 1 21 98
+
+[proboj] ROUND 171/500
+explorujem1
+ship:21 98
+predam
+MOVE 1 19 98
+
+[proboj] ROUND 172/500
+explorujem1
+ship:19 98
+predam
+MOVE 1 17 98
+
+[proboj] ROUND 173/500
+predam
+explorujem1
+ship:17 98
+MOVE 1 16 97
+
+[proboj] ROUND 174/500
+explorujem1
+ship:16 97
+predam
+MOVE 1 15 96
+
+[proboj] ROUND 175/500
+explorujem1
+ship:15 96
+predam
+MOVE 1 16 96
+
+[proboj] ROUND 176/500
+explorujem1
+makeTradeCons
+makeTradeProdtovar: 1
+makeTradeCons
+trades:98
+nasiel som:16 96
+ship:16 96
+predam
+MOVE 1 16 98
+
+[proboj] ROUND 177/500
+predam
+explorujem1
+ship:16 98
+MOVE 1 18 98
 
 [proboj] ROUND 178/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 70
-MOVE 2 50 49 MOVE 0 53 68
+predam
+explorujem1
+ship:18 98
+MOVE 1 20 98
 
 [proboj] ROUND 179/500
-old: 0
-old: 2
-explorujem0
-ship:53 68
-pocitam2
-MOVE 0 53 66 MOVE 2 49 50
+explorujem1
+ship:20 98
+predam
+MOVE 1 21 97
 
 [proboj] ROUND 180/500
-old: 0
-old: 2
-explorujem0
-ship:53 66
-pocitam2
-MOVE 0 53 64 MOVE 2 50 49
+explorujem1
+ship:21 97
+predam
+MOVE 1 22 96
 
 [proboj] ROUND 181/500
-old: 0
-old: 2
-explorujem0
-ship:53 64
-pocitam2
-MOVE 0 53 62 MOVE 2 50 50
+explorujem1
+ship:22 96
+predam
+MOVE 1 22 94
 
 [proboj] ROUND 182/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 62
-MOVE 2 49 50 MOVE 0 53 60
+explorujem1
+ship:22 94
+predam
+MOVE 1 22 92
 
 [proboj] ROUND 183/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 60
-MOVE 2 50 50 MOVE 0 53 58
+explorujem1
+ship:22 92
+predam
+MOVE 1 22 90
 
 [proboj] ROUND 184/500
-old: 0
-old: 2
-explorujem0
-ship:53 58
-pocitam2
-MOVE 0 53 56 MOVE 2 50 49
+explorujem1
+ship:22 90
+predam
+MOVE 1 22 88
 
 [proboj] ROUND 185/500
-old: 0
-old: 2
-explorujem0
-ship:53 56
-pocitam2
-MOVE 0 53 54 MOVE 2 49 50
+explorujem1
+ship:22 88
+predam
+MOVE 1 22 86
 
 [proboj] ROUND 186/500
-old: 0
-old: 2
-explorujem0
-ship:53 54
-pocitam2
-MOVE 0 53 52 MOVE 2 50 49
+explorujem1
+ship:22 86
+predam
+MOVE 1 22 84
 
 [proboj] ROUND 187/500
-old: 0
-old: 2
-explorujem0
-ship:53 52
-pocitam2
-MOVE 0 53 50 MOVE 2 49 50
+explorujem1
+ship:22 84
+predam
+MOVE 1 23 83
 
 [proboj] ROUND 188/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 50
-MOVE 2 50 50 MOVE 0 53 48
+explorujem1
+ship:23 83
+predam
+MOVE 1 25 83
 
 [proboj] ROUND 189/500
-old: 0
-old: 2
-explorujem0
-ship:53 48
-pocitam2
-MOVE 0 53 46 MOVE 2 49 50
+explorujem1
+ship:25 83
+predam
+MOVE 1 26 82
 
 [proboj] ROUND 190/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 46
-MOVE 2 50 50 MOVE 0 53 44
+predam
+explorujem1
+ship:26 82
+MOVE 1 27 81
 
 [proboj] ROUND 191/500
-old: 0
-old: 2
-explorujem0
-ship:53 44
-pocitam2
-MOVE 0 53 42 MOVE 2 50 49
+explorujem1
+ship:27 81
+predam
+MOVE 1 29 81
 
 [proboj] ROUND 192/500
-old: 0
-old: 2
-explorujem0
-ship:53 42
-pocitam2
-MOVE 0 53 40 MOVE 2 50 50
+explorujem1
+ship:29 81
+predam
+MOVE 1 30 80
 
 [proboj] ROUND 193/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:53 40
-MOVE 2 49 50 MOVE 0 53 38
+explorujem1
+ship:30 80
+predam
+MOVE 1 31 79
 
 [proboj] ROUND 194/500
-old: 0
-old: 2
-explorujem0
-ship:53 38
-pocitam2
-MOVE 0 54 37 MOVE 2 50 50
+explorujem1
+ship:31 79
+predam
+MOVE 1 32 78
 
 [proboj] ROUND 195/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:54 37
-MOVE 2 50 49 MOVE 0 54 35
+explorujem1
+ship:32 78
+predam
+MOVE 1 33 77
 
 [proboj] ROUND 196/500
-old: 0
-old: 2
-explorujem0
-ship:54 35
-pocitam2
-MOVE 0 54 34 MOVE 2 49 50
+explorujem1
+ship:33 77
+predam
+MOVE 1 34 76
 
 [proboj] ROUND 197/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-nasiel som:54 34
-ship:54 34
-MOVE 2 50 50 MOVE 0 54 36
+explorujem1
+ship:34 76
+predam
+MOVE 1 34 74
 
 [proboj] ROUND 198/500
-old: 0
-old: 2
-explorujem0
-ship:54 36
-pocitam2
-MOVE 0 54 38 MOVE 2 50 49
+explorujem1
+ship:34 74
+predam
+MOVE 1 35 73
 
 [proboj] ROUND 199/500
-old: 2
-old: 0
-pocitam2
-explorujem0
-ship:54 38
-MOVE 2 49 50 MOVE 0 52 38
+predam
+explorujem1
+ship:35 73
+MOVE 1 35 71
 
 [proboj] ROUND 200/500
-old: 0
-old: 2
-explorujem0
-ship:52 38
-pocitam2
-MOVE 0 50 38 MOVE 2 50 49
+explorujem1
+ship:35 71
+predam
+MOVE 1 35 69
 
 [proboj] ROUND 201/500
-old: 0
-old: 2
-explorujem0
-ship:50 38
-pocitam2
-MOVE 0 48 38 MOVE 2 49 50
+explorujem1
+ship:35 69
+predam
+MOVE 1 35 67
 
 [proboj] ROUND 202/500
-old: 0
-old: 2
-explorujem0
-nasiel som:48 38
-ship:48 38
-pocitam2
-MOVE 0 48 40 MOVE 2 50 50
+explorujem1
+ship:35 67
+predam
+MOVE 1 35 65
 
 [proboj] ROUND 203/500
-old: 2
-old: 0
-mam vsetky
-umrtvil som explorera0
-produkcne: 
-8 93 13
-8 86 55
-7 55 87
-8 52 82
-8 27 80
-produkcne: 
-4 90 53
-4 86 55
-3 52 82
-3 27 80
-3 16 96
-3 48 38
-produkcne: 
-2 88 22
-3 93 13
-2 69 76
-3 55 87
-2 52 82
-3 27 80
-2 54 34
-produkcne: 
-3 82 19
-3 93 13
-3 69 76
-1 16 96
-produkcne: 
-2 55 87
-produkcne: 
-4 90 53
-3 55 87
-4 52 82
-2 18 89
-produkcne: 
-4 88 22
-4 93 13
-4 66 67
-3 53 72
-produkcne: 
-4 66 67
-4 27 80
-4 18 89
-konzumacne: 
--8 88 22
--8 90 53
--6 66 67
--8 69 76
--6 18 89
--8 53 72
--8 54 34
--8 48 38
-konzumacne: 
--5 82 19
--3 93 13
--5 66 67
--5 69 76
--5 55 87
--4 18 89
--3 53 72
--5 54 34
-konzumacne: 
--2 82 19
-konzumacne: 
--1 86 55
--1 55 87
--3 27 80
--1 53 72
-konzumacne: 
--3 54 34
-konzumacne: 
--2 66 67
--2 27 80
-konzumacne: 
--3 54 34
-konzumacne: 
--4 82 19
-pocitam2
-pocitam0
-acquire gold
-MOVE 2 49 50 MOVE 0 48 38
+predam
+explorujem1
+ship:35 65
+MOVE 1 35 63
 
 [proboj] ROUND 204/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 50 38 MOVE 2 50 50
+explorujem1
+ship:35 63
+predam
+MOVE 1 35 61
 
 [proboj] ROUND 205/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 51 37 MOVE 2 49 50
+explorujem1
+ship:35 61
+predam
+MOVE 1 35 59
 
 [proboj] ROUND 206/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 53 37 MOVE 2 50 50
+explorujem1
+ship:35 59
+predam
+MOVE 1 35 57
 
 [proboj] ROUND 207/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 54 36 MOVE 2 49 50
+explorujem1
+ship:35 57
+predam
+MOVE 1 35 55
 
 [proboj] ROUND 208/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 54 34 MOVE 2 50 50
+explorujem1
+ship:35 55
+predam
+MOVE 1 35 53
 
 [proboj] ROUND 209/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 33 MOVE 2 50 49
+explorujem1
+ship:35 53
+predam
+MOVE 1 35 51
 
 [proboj] ROUND 210/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 31 MOVE 2 50 50
+explorujem1
+ship:35 51
+predam
+MOVE 1 35 49
 
 [proboj] ROUND 211/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 29 MOVE 2 49 50
+explorujem1
+ship:35 49
+predam
+MOVE 1 35 47
 
 [proboj] ROUND 212/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 27 MOVE 2 50 50
+explorujem1
+ship:35 47
+predam
+MOVE 1 35 45
 
 [proboj] ROUND 213/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 25 MOVE 2 50 49
+explorujem1
+ship:35 45
+predam
+MOVE 1 35 43
 
 [proboj] ROUND 214/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 23 MOVE 2 50 50
+explorujem1
+ship:35 43
+predam
+MOVE 1 35 41
 
 [proboj] ROUND 215/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 21 MOVE 2 50 49
+explorujem1
+ship:35 41
+predam
+MOVE 1 36 40
 
 [proboj] ROUND 216/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 19 MOVE 2 49 50
+explorujem1
+ship:36 40
+predam
+MOVE 1 38 40
 
 [proboj] ROUND 217/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 17 MOVE 2 50 50
+explorujem1
+ship:38 40
+predam
+MOVE 1 40 40
 
 [proboj] ROUND 218/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-acquire gold
-MOVE 2 49 50 MOVE 0 55 15
+explorujem1
+ship:40 40
+predam
+MOVE 1 42 40
 
 [proboj] ROUND 219/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 13 MOVE 2 50 49
+explorujem1
+ship:42 40
+predam
+MOVE 1 44 40
 
 [proboj] ROUND 220/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-acquire gold
-MOVE 2 49 50 MOVE 0 55 11
+explorujem1
+ship:44 40
+predam
+MOVE 1 45 39
 
 [proboj] ROUND 221/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 9 MOVE 2 50 49
+predam
+explorujem1
+ship:45 39
+MOVE 1 47 39
 
 [proboj] ROUND 222/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 7 MOVE 2 49 50
+explorujem1
+ship:47 39
+predam
+MOVE 1 48 38
 
 [proboj] ROUND 223/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 5 MOVE 2 50 50
+explorujem1
+makeTradeProdtovar: 1
+makeTradeProdtovar: 5
+makeTradeProdtovar: 6
+makeTradeProdtovar: 7
+trades:117
+nasiel som:48 38
+ship:48 38
+predam
+MOVE 1 50 38
 
 [proboj] ROUND 224/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 55 3 MOVE 2 50 49
+explorujem1
+ship:50 38
+predam
+MOVE 1 51 37
 
 [proboj] ROUND 225/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 57 3 MOVE 2 49 50
+explorujem1
+ship:51 37
+predam
+MOVE 1 53 37
 
 [proboj] ROUND 226/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-acquire gold
-MOVE 2 50 49 MOVE 0 59 3
+explorujem1
+ship:53 37
+predam
+MOVE 1 54 36
 
 [proboj] ROUND 227/500
-old: 0
-old: 2
-pocitam0
-acquire gold
-pocitam2
-MOVE 0 61 3 MOVE 2 50 50
+explorujem1
+ship:54 36
+predam
+MOVE 1 54 34
 
 [proboj] ROUND 228/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-acquire gold
-MOVE 2 50 49 MOVE 0 63 3
+explorujem1
+makeTradeCons
+makeTradeCons
+makeTradeProdtovar: 7
+trades:130
+nasiel som:54 34
+predam
+
 
 [proboj] ROUND 229/500
-old: 0
-old: 2
-pocitam0
+mam vsetky
+umrtvil som explorera1
+produkcne: 
+6 90 53
+8 66 67
+7 53 72
+8 52 82
+7 55 87
+produkcne: 
+5 93 13
+5 52 82
+3 27 80
+5 16 96
+4 48 38
+produkcne: 
+4 90 53
+2 69 76
+produkcne: 
+1 82 19
+3 52 82
+3 55 87
+produkcne: 
+4 18 89
+produkcne: 
+2 82 19
+3 88 22
+2 66 67
+4 18 89
+4 48 38
+produkcne: 
+3 82 19
+4 53 72
+3 48 38
+produkcne: 
+5 86 55
+4 27 80
+3 18 89
+4 48 38
+5 54 34
+konzumacne: 
+-6 82 19
+-7 93 13
+-8 86 55
+-7 69 76
+-7 18 89
+-8 16 96
+-7 54 34
+konzumacne: 
+-3 82 19
+-3 88 22
+-4 90 53
+-5 66 67
+-5 53 72
+-3 55 87
+-4 18 89
+-4 54 34
+konzumacne: 
+-2 66 67
+konzumacne: 
+konzumacne: 
+-2 82 19
+-2 88 22
+-4 69 76
+konzumacne: 
+-4 90 53
+-4 52 82
+-4 27 80
+-2 16 96
+konzumacne: 
+-3 88 22
+-3 93 13
+-5 86 55
+-5 55 87
+-3 27 80
+konzumacne: 
+-3 93 13
+-4 53 72
+-4 52 82
+pocitam1
 acquire gold
-pocitam2
-MOVE 0 65 3 MOVE 2 50 50
+predam
+MOVE 1 55 33
 
 [proboj] ROUND 230/500
-old: 2
-old: 0
-pocitam2
-pocitam0
+pocitam1
 acquire gold
-MOVE 2 49 50 MOVE 0 67 3
+predam
+MOVE 1 55 31
 
 [proboj] ROUND 231/500
-old: 2
-old: 0
-pocitam2
-pocitam0
+pocitam1
 acquire gold
-MOVE 2 50 49 MOVE 0 68 3
+predam
+MOVE 1 55 29
 
 [proboj] ROUND 232/500
-old: 0
-old: 2
-pocitam0
+pocitam1
 acquire gold
-pocitam2
-STORE 0 -5 MOVE 2 50 50
+predam
+MOVE 1 55 27
 
 [proboj] ROUND 233/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 5 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 55 25
 
 [proboj] ROUND 234/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 7 MOVE 2 50 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 23
 
 [proboj] ROUND 235/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 9 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 21
 
 [proboj] ROUND 236/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 68 11
+pocitam1
+acquire gold
+predam
+MOVE 1 55 19
 
 [proboj] ROUND 237/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 68 13
+predam
+pocitam1
+acquire gold
+MOVE 1 55 17
 
 [proboj] ROUND 238/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 15 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 15
 
 [proboj] ROUND 239/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 17 MOVE 2 50 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 13
 
 [proboj] ROUND 240/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 19 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 55 11
 
 [proboj] ROUND 241/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 21 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 9
 
 [proboj] ROUND 242/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 23 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 55 7
 
 [proboj] ROUND 243/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 25 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 55 5
 
 [proboj] ROUND 244/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 27 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 55 3
 
 [proboj] ROUND 245/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 68 29
+pocitam1
+acquire gold
+predam
+MOVE 1 57 3
 
 [proboj] ROUND 246/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 31 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 59 3
 
 [proboj] ROUND 247/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 68 33
+predam
+pocitam1
+acquire gold
+MOVE 1 61 3
 
 [proboj] ROUND 248/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 35 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 63 3
 
 [proboj] ROUND 249/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 37 MOVE 2 50 50
+pocitam1
+acquire gold
+predam
+MOVE 1 65 3
 
 [proboj] ROUND 250/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 39 MOVE 2 49 50
+pocitam1
+acquire gold
+predam
+MOVE 1 67 3
 
 [proboj] ROUND 251/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 41 MOVE 2 50 49
+pocitam1
+acquire gold
+predam
+MOVE 1 68 3
 
 [proboj] ROUND 252/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 43 MOVE 2 50 50
+pocitam1
+acquire gold
+predam
+STORE 1 -10
 
 [proboj] ROUND 253/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 45 MOVE 2 49 50
+pocitam1
+calculate: 66 67
+nieci: 66 67
+predam
+MOVE 1 68 5
 
 [proboj] ROUND 254/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 68 47
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 7
 
 [proboj] ROUND 255/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 68 49 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 9
 
 [proboj] ROUND 256/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 66 49 MOVE 2 50 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 11
 
 [proboj] ROUND 257/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 65 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 13
 
 [proboj] ROUND 258/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 64 51 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 15
 
 [proboj] ROUND 259/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 63 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 17
 
 [proboj] ROUND 260/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 62 51 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 19
 
 [proboj] ROUND 261/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 62 49 MOVE 2 50 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 21
 
 [proboj] ROUND 262/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 61 50 MOVE 2 50 50
+predam
+kupim
+suradky: 66 67
+MOVE 1 68 23
 
 [proboj] ROUND 263/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 60 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 25
 
 [proboj] ROUND 264/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 60 51
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 27
 
 [proboj] ROUND 265/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 60 49
+predam
+kupim
+suradky: 66 67
+MOVE 1 68 29
 
 [proboj] ROUND 266/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 60 51
+predam
+kupim
+suradky: 66 67
+MOVE 1 68 31
 
 [proboj] ROUND 267/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 59 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 33
 
 [proboj] ROUND 268/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 58 51 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 35
 
 [proboj] ROUND 269/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 57 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 37
 
 [proboj] ROUND 270/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 56 49 MOVE 2 50 49
+predam
+kupim
+suradky: 66 67
+MOVE 1 68 39
 
 [proboj] ROUND 271/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 55 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 41
 
 [proboj] ROUND 272/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 54 51
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 43
 
 [proboj] ROUND 273/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 53 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 45
 
 [proboj] ROUND 274/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 51 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 47
 
 [proboj] ROUND 275/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 49 MOVE 2 50 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 49
 
 [proboj] ROUND 276/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 51
 
 [proboj] ROUND 277/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 53
 
 [proboj] ROUND 278/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 55
 
 [proboj] ROUND 279/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 57
 
 [proboj] ROUND 280/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 59
 
 [proboj] ROUND 281/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 61
 
 [proboj] ROUND 282/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 63
 
 [proboj] ROUND 283/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 50 49
+kupim
+suradky: 66 67
+predam
+MOVE 1 68 65
 
 [proboj] ROUND 284/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 67 66
 
 [proboj] ROUND 285/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 49 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 66 66
 
 [proboj] ROUND 286/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+kupim
+suradky: 66 67
+predam
+MOVE 1 66 67
 
 [proboj] ROUND 287/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+kupim
+cost: 1 pocet: 1 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 2 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 3 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 4 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 5 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 6 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 7 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 8 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 9 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 10 maximalnyPocet: 10 resources: 10
+cost: 1 pocet: 11 maximalnyPocet: 10 resources: 10
+predam
+TRADE 1 0 10
 
 [proboj] ROUND 288/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 289/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 290/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 291/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 292/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 293/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 294/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 295/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 296/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 50 51
+predam
+predam
+
 
 [proboj] ROUND 297/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 298/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 299/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 300/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 301/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 302/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 303/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 49 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 304/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 305/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 306/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 307/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 308/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 309/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 310/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 311/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 312/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 313/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 314/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 51 52
+predam
+predam
+
 
 [proboj] ROUND 315/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 51 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 316/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 317/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 52 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 318/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 319/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 320/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 52 51 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 321/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 322/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 323/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 324/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 325/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 326/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 327/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 328/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 329/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 330/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 331/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 332/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 49 52
+predam
+predam
+
 
 [proboj] ROUND 333/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 334/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 335/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 336/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 52 49
+predam
+predam
+
 
 [proboj] ROUND 337/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 338/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 339/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 340/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 341/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 52 51 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 342/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 343/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 344/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 49 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 345/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 346/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 347/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 348/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 349/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 350/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 351/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 352/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 353/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 354/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 49 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 355/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 48 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 356/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 357/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 358/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 359/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 360/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 361/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 362/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 50 51
+predam
+predam
+
 
 [proboj] ROUND 363/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 364/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 365/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 366/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 367/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 52 51
+predam
+predam
+
 
 [proboj] ROUND 368/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 369/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 52 51
+predam
+predam
+
 
 [proboj] ROUND 370/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 371/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 372/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 373/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 374/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 375/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 376/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 377/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 52 51
+predam
+predam
+
 
 [proboj] ROUND 378/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 50 51
+predam
+predam
+
 
 [proboj] ROUND 379/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 380/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 381/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 382/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 383/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 384/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 385/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 386/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 387/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 388/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 389/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 390/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 391/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 392/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 393/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 394/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 395/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 396/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 397/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 398/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 399/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 400/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 401/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 402/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 403/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 404/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 405/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 406/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 407/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 408/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 52 51
+predam
+predam
+
 
 [proboj] ROUND 409/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 410/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 411/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 412/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 413/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 51 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 414/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 415/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 416/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 51 52
+predam
+predam
+
 
 [proboj] ROUND 417/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 418/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 52 49
+predam
+predam
+
 
 [proboj] ROUND 419/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 420/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 52 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 421/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 422/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 423/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 50 51
+predam
+predam
+
 
 [proboj] ROUND 424/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 52 51
+predam
+predam
+
 
 [proboj] ROUND 425/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 426/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 52 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 427/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 428/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 52 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 429/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 430/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 52 51
+predam
+predam
+
 
 [proboj] ROUND 431/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 432/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 433/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 434/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 49 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 435/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 436/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 49 52
+predam
+predam
+
 
 [proboj] ROUND 437/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 48 51 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 438/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 439/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 48 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 440/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 441/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 48 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 442/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 48 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 443/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 444/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 445/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 446/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 447/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 448/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 449/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 450/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 451/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 452/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 51 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 453/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 454/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 455/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 456/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 457/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 458/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 459/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 51 50 MOVE 0 51 50
+predam
+predam
+
 
 [proboj] ROUND 460/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 461/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 52 51
+predam
+predam
+
 
 [proboj] ROUND 462/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 51 52
+predam
+predam
+
 
 [proboj] ROUND 463/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 464/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 465/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 52 51 MOVE 0 50 49
+predam
+predam
+
 
 [proboj] ROUND 466/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 467/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 468/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 469/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 470/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 50 50 MOVE 0 50 50
+predam
+predam
+
 
 [proboj] ROUND 471/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 49 50
+predam
+predam
+
 
 [proboj] ROUND 472/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 49 52
+predam
+predam
+
 
 [proboj] ROUND 473/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 48 51
+predam
+predam
+
 
 [proboj] ROUND 474/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 475/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 51 52
+predam
+predam
+
 
 [proboj] ROUND 476/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 477/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 51 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 478/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 479/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 51 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 480/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 49 50 MOVE 0 51 52
+predam
+predam
+
 
 [proboj] ROUND 481/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 482/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 483/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] ROUND 484/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 485/500
-old: 2
-old: 0
-pocitam2
-pocitam0
-MOVE 2 52 49 MOVE 0 50 51
+predam
+predam
+
 
 [proboj] ROUND 486/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 487/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 52 49
+predam
+predam
+
 
 [proboj] ROUND 488/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 489/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 490/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 491/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 52 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 492/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 50 49
+predam
+predam
+
 
 [proboj] ROUND 493/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 50 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 494/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 50 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 495/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 49 52 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 496/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 51 MOVE 2 50 50
+predam
+predam
+
 
 [proboj] ROUND 497/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 51 50 MOVE 2 51 50
+predam
+predam
+
 
 [proboj] ROUND 498/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 50 49 MOVE 2 49 50
+predam
+predam
+
 
 [proboj] ROUND 499/500
-old: 0
-old: 2
-pocitam0
-pocitam2
-MOVE 0 52 49 MOVE 2 50 51
+predam
+predam
+
 
 [proboj] process terminated
  exit: -1
