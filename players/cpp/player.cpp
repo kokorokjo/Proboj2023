@@ -287,10 +287,10 @@ void umrtvitExplorera(vector<Turn>& turns){
 void updateGold(vector<Turn>& turns, Ship ship){
     cerr<<"update gold"<<endl;
     if(ship.coords == world.my_base){
-        if(ship.resources.resources[8] > ship.stats.max_cargo/2)
-        turns.push_back(StoreTurn(ship.index, ship.resources.resources[8] - ship.stats.max_cargo/2));
+        if(ship.resources.resources[8] > ship.stats.max_cargo)
+        turns.push_back(StoreTurn(ship.index, ship.resources.resources[8] - ship.stats.max_cargo));
         else
-        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
+        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo, world.gold)));
         return;
     }
     turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base,ship), condition)));
@@ -358,7 +358,8 @@ void Attack(vector<Turn>& turns, Ship ship){
 } //pohyb utocnej lode
 
 void Calculate(vector<Turn>& turns, Ship ship){ 
-    if(ship.resources.resources[8] != ship.stats.max_cargo/2&&world.gold!=0) updateGold(turns, ship);
+    if(ship.resources.resources[8] > ship.stats.max_cargo) updateGold(turns, ship);
+    else if(ship.resources.resources[8] < ship.stats.max_cargo&&world.gold!=0) updateGold(turns, ship);
     else{
         for(int i=0;i<ship_orders.size();i++){
             if(ship_orders[i].first.index == ship.index){
@@ -366,9 +367,7 @@ void Calculate(vector<Turn>& turns, Ship ship){
                 else{
                     ship_orders[i].second.first = 2;
                     ship_orders[i].second.second=trades[0];
-                    cerr<<"calculate: "<<ship_orders[i].second.second.FromH.coords.x<<" "<<ship_orders[i].second.second.FromH.coords.y<<endl;
-                    cerr<<"nieci: "<<trades[0].FromH.coords.x<<" "<<trades[0].FromH.coords.y<<endl;
-                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(trades[0].FromH.coords,ship), condition)));
+                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(ship_orders[i].second.second.FromH.coords,ship), condition)));
                 }
 
                 break;
@@ -409,7 +408,7 @@ for (auto i:ship_orders){
             ResourceEnum res = RESOURCES[i.second.second.tovar];
             int kolko=ship.resources[res];
             turns.push_back(TradeTurn(ship.index, res, -kolko));
-            ship_orders[f].second.first = 1;
+            ship_orders[f].second.first = 5;
             return;
         }
         else{
@@ -516,6 +515,7 @@ vector<Turn> do_turn() {
 
     if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
     if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
+    if(world.gold>=125) turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
     //zaciatocne kupovanie lodiek
 
     updateOrders();

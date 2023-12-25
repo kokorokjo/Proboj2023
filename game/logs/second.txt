@@ -1,9 +1,10 @@
 New world
 [proboj] ROUND 0/500
-BUY 0
+BUY 0 BUY 1
 
 [proboj] ROUND 1/500
 new ship: 0
+new ship: 1
 Zharbor: 13 93 - 
 Zharbor: 19 82 - 
 Zharbor: 22 88 - 
@@ -20,17 +21,17 @@ Zharbor: 87 55 -
 Zharbor: 89 18 - 
 Zharbor: 96 16 - 
 0000000000000000000000000000000000000000000000000000000000000000000222200000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000002222220000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000022222220000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000222232222000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000022222222000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000002222222220000000000000000004000000
-0000000000000000000000000000000000000000000000000000000000000000000222002222222000000000000044400000
-0000000000000000000000000000000000000000000000000000000000000000000020002222222200000000000444440000
-0000000000000000000000000000000000000000000000000000000000000000000000000222222200000000004444444000
-0000000000000000000000000000000000000000000000000000000000000000000000000222222220000000044242444400
-0000000000000000000000000000000000000000000000000000000000000000000000000222222222000000442222444440
-0000000000000000000000000000000000000000000000000000000000000000000000000222222222200004222222444444
+0000000000000000000000000000000000000000000000000000000000000000000222220000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000022220000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000002220000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000002222000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000022220000000000000000024000000
+0000000000000000000000000000000000000000000000000000000000000000000000002222222000000000000222400000
+0000000000000000000000000000000000000000000000000000000000000000000000002222222200000000002222240000
+0000000000000000000000000000000000000000000000000000000000000000000000000222222200000000022222224000
+0000000000000000000000000000000000000000000000000000000000000000000000000222222220000000222232222400
+0000000000000000000000000000000000000000000000000000000000000000000000000222222222000000422222224440
+0000000000000000000000000000000000000000000000000000000000000000000000000222222222200004222222244444
 0000000000000000000000000000000000000000000000000000000000000000000000000022222222222224222222444444
 0000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222221444444
 0000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222222444444
@@ -121,2936 +122,4207 @@ Zharbor: 96 16 -
 0000000000044444444444000000000000000000000000000000000000000000000000000000000000000000000000000000
 explorer: 0
 explorujem0
-ship:92 9
-BUY 0 MOVE 0 93 8
+ship:68 3
+pocitam1
+update gold
+MOVE 0 68 5 STORE 1 -10
 
 [proboj] ROUND 2/500
-new ship: 3
-pocitam3
-acquire gold
+pocitam1
+ship:68 3
 explorujem0
-ship:93 8
-STORE 3 -10 MOVE 0 94 9
+ship:68 5
+MOVE 1 68 4 MOVE 0 68 7
 
 [proboj] ROUND 3/500
+pocitam1
+ship:68 4
 explorujem0
-ship:94 9
-pocitam3
-ship:92 9
-MOVE 0 94 11 MOVE 3 93 8
+ship:68 7
+MOVE 1 68 5 MOVE 0 68 9
 
 [proboj] ROUND 4/500
 explorujem0
-ship:94 11
-pocitam3
-ship:93 8
-MOVE 0 94 13 MOVE 3 94 9
+ship:68 9
+pocitam1
+ship:68 5
+MOVE 0 68 11 MOVE 1 68 6
 
 [proboj] ROUND 5/500
-pocitam3
-ship:94 9
 explorujem0
-ship:94 13
-MOVE 3 94 9 MOVE 0 93 13
+ship:68 11
+pocitam1
+ship:68 6
+MOVE 0 68 13 MOVE 1 68 7
 
 [proboj] ROUND 6/500
 explorujem0
-makeTradeCons
-makeTradeProdtovar: 1
-makeTradeCons
-makeTradeCons
-trades:0
-nasiel som:93 13
-ship:93 13
-pocitam3
-ship:94 9
-MOVE 0 94 14 MOVE 3 94 11
+ship:68 13
+pocitam1
+ship:68 7
+MOVE 0 68 15 MOVE 1 68 8
 
 [proboj] ROUND 7/500
-pocitam3
-ship:94 11
+pocitam1
+ship:68 8
 explorujem0
-ship:94 14
-MOVE 3 94 13 MOVE 0 94 16
+ship:68 15
+MOVE 1 68 9 MOVE 0 68 17
 
 [proboj] ROUND 8/500
 explorujem0
-ship:94 16
-pocitam3
-ship:94 13
-MOVE 0 94 18 MOVE 3 94 15
+ship:68 17
+pocitam1
+ship:68 9
+MOVE 0 68 19 MOVE 1 68 10
 
 [proboj] ROUND 9/500
-pocitam3
-ship:94 15
 explorujem0
-ship:94 18
-MOVE 3 94 17 MOVE 0 94 20
+ship:68 19
+pocitam1
+ship:68 10
+MOVE 0 69 20 MOVE 1 68 11
 
 [proboj] ROUND 10/500
-pocitam3
-ship:94 17
 explorujem0
-ship:94 20
-MOVE 3 94 19 MOVE 0 94 22
+ship:69 20
+pocitam1
+ship:68 11
+MOVE 0 71 20 MOVE 1 68 12
 
 [proboj] ROUND 11/500
-pocitam3
-ship:94 19
 explorujem0
-ship:94 22
-MOVE 3 94 21 MOVE 0 93 23
+ship:71 20
+pocitam1
+ship:68 12
+MOVE 0 73 20 MOVE 1 68 13
 
 [proboj] ROUND 12/500
 explorujem0
-ship:93 23
-pocitam3
-ship:94 21
-MOVE 0 91 23 MOVE 3 93 22
+ship:73 20
+pocitam1
+ship:68 13
+MOVE 0 75 20 MOVE 1 68 14
 
 [proboj] ROUND 13/500
-pocitam3
-ship:93 22
 explorujem0
-ship:91 23
-MOVE 3 93 24 MOVE 0 89 23
+ship:75 20
+pocitam1
+ship:68 14
+MOVE 0 77 20 MOVE 1 68 15
 
 [proboj] ROUND 14/500
 explorujem0
-ship:89 23
-pocitam3
-ship:93 24
-MOVE 0 88 22 MOVE 3 91 24
+ship:77 20
+pocitam1
+ship:68 15
+MOVE 0 79 20 MOVE 1 68 16
 
 [proboj] ROUND 15/500
 explorujem0
+ship:79 20
+pocitam1
+ship:68 16
+MOVE 0 81 20 MOVE 1 68 17
+
+[proboj] ROUND 16/500
+pocitam1
+ship:68 17
+explorujem0
+ship:81 20
+MOVE 1 68 18 MOVE 0 82 19
+
+[proboj] ROUND 17/500
+explorujem0
+makeTradeProdtovar: 0
+makeTradeProdtovar: 1
 makeTradeCons
+makeTradeProdtovar: 4
+trades:0
+nasiel som:82 19
+ship:82 19
+pocitam1
+ship:68 18
+MOVE 0 82 21 MOVE 1 68 19
+
+[proboj] ROUND 18/500
+explorujem0
+ship:82 21
+pocitam1
+ship:68 19
+MOVE 0 83 22 MOVE 1 68 20
+
+[proboj] ROUND 19/500
+explorujem0
+ship:83 22
+pocitam1
+ship:68 20
+MOVE 0 85 22 MOVE 1 68 21
+
+[proboj] ROUND 20/500
+explorujem0
+ship:85 22
+pocitam1
+ship:68 21
+MOVE 0 87 22 MOVE 1 68 22
+
+[proboj] ROUND 21/500
+explorujem0
+ship:87 22
+pocitam1
+ship:68 22
+MOVE 0 88 22 MOVE 1 68 23
+
+[proboj] ROUND 22/500
+explorujem0
+makeTradeProdtovar: 0
 makeTradeCons
-makeTradeProdtovar: 5
 makeTradeCons
 trades:1
 nasiel som:88 22
 ship:88 22
-pocitam3
-calculate: 93 13
-nieci: 93 13
-MOVE 0 86 22 MOVE 3 91 22
-
-[proboj] ROUND 16/500
-explorujem0
-ship:86 22
-kupim
-suradky: 93 13
-MOVE 0 85 21 MOVE 3 92 21
-
-[proboj] ROUND 17/500
-explorujem0
-ship:85 21
-kupim
-suradky: 93 13
-MOVE 0 83 21 MOVE 3 93 20
-
-[proboj] ROUND 18/500
-kupim
-suradky: 93 13
-explorujem0
-ship:83 21
-MOVE 3 94 19 MOVE 0 82 20
-
-[proboj] ROUND 19/500
-explorujem0
-ship:82 20
-kupim
-suradky: 93 13
-MOVE 0 82 19 MOVE 3 94 17
-
-[proboj] ROUND 20/500
-explorujem0
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 3
-makeTradeCons
-makeTradeProdtovar: 5
-makeTradeProdtovar: 6
-trades:4
-nasiel som:82 19
-ship:82 19
-kupim
-suradky: 93 13
-MOVE 0 82 21 MOVE 3 94 15
-
-[proboj] ROUND 21/500
-kupim
-suradky: 93 13
-explorujem0
-ship:82 21
-MOVE 3 94 13 MOVE 0 82 23
-
-[proboj] ROUND 22/500
-explorujem0
-ship:82 23
-kupim
-suradky: 93 13
-MOVE 0 82 25 MOVE 3 93 13
+pocitam1
+MOVE 0 89 23 MOVE 1 68 22
 
 [proboj] ROUND 23/500
 explorujem0
-ship:82 25
+ship:89 23
 kupim
-cost: 8 pocet: 1 maximalnyPocet: 1 resources: 10
-cost: 8 pocet: 2 maximalnyPocet: 1 resources: 10
-MOVE 0 82 27 TRADE 3 1 1
+suradky: 82 19
+MOVE 0 91 23 MOVE 1 68 21
 
 [proboj] ROUND 24/500
 explorujem0
-ship:82 27
-predam
-MOVE 0 82 29
+ship:91 23
+kupim
+suradky: 82 19
+MOVE 0 92 22 MOVE 1 68 20
 
 [proboj] ROUND 25/500
 explorujem0
-ship:82 29
-predam
-MOVE 0 82 31
+ship:92 22
+kupim
+suradky: 82 19
+MOVE 0 93 21 MOVE 1 69 20
 
 [proboj] ROUND 26/500
 explorujem0
-ship:82 31
-predam
-MOVE 0 82 33
+ship:93 21
+kupim
+suradky: 82 19
+MOVE 0 93 19 MOVE 1 70 20
 
 [proboj] ROUND 27/500
-predam
 explorujem0
-ship:82 33
-MOVE 0 81 34
+ship:93 19
+kupim
+suradky: 82 19
+MOVE 0 95 19 MOVE 1 71 20
 
 [proboj] ROUND 28/500
 explorujem0
-ship:81 34
-predam
-MOVE 0 79 34
+ship:95 19
+kupim
+suradky: 82 19
+MOVE 0 95 17 MOVE 1 72 20
 
 [proboj] ROUND 29/500
 explorujem0
-ship:79 34
-predam
-MOVE 0 77 34
+ship:95 17
+kupim
+suradky: 82 19
+MOVE 0 95 15 MOVE 1 73 20
 
 [proboj] ROUND 30/500
 explorujem0
-ship:77 34
-predam
-MOVE 0 75 34
+ship:95 15
+kupim
+suradky: 82 19
+MOVE 0 95 13 MOVE 1 74 20
 
 [proboj] ROUND 31/500
-predam
 explorujem0
-ship:75 34
-MOVE 0 73 34
+ship:95 13
+kupim
+suradky: 82 19
+MOVE 0 93 13 MOVE 1 75 20
 
 [proboj] ROUND 32/500
 explorujem0
-ship:73 34
-predam
-MOVE 0 71 34
+makeTradeProdtovar: 1
+makeTradeProdtovar: 2
+makeTradeProdtovar: 6
+trades:4
+nasiel som:93 13
+ship:93 13
+kupim
+suradky: 82 19
+MOVE 0 94 14 MOVE 1 76 20
 
 [proboj] ROUND 33/500
 explorujem0
-ship:71 34
-predam
-MOVE 0 69 34
+ship:94 14
+kupim
+suradky: 82 19
+MOVE 0 94 16 MOVE 1 77 20
 
 [proboj] ROUND 34/500
 explorujem0
-ship:69 34
-predam
-MOVE 0 67 34
+ship:94 16
+kupim
+suradky: 82 19
+MOVE 0 94 18 MOVE 1 78 20
 
 [proboj] ROUND 35/500
 explorujem0
-ship:67 34
-predam
-MOVE 0 65 34
+ship:94 18
+kupim
+suradky: 82 19
+MOVE 0 94 20 MOVE 1 79 20
 
 [proboj] ROUND 36/500
+kupim
+suradky: 82 19
 explorujem0
-ship:65 34
-predam
-MOVE 0 63 34
+ship:94 20
+MOVE 1 80 20 MOVE 0 94 22
 
 [proboj] ROUND 37/500
-predam
 explorujem0
-ship:63 34
-MOVE 0 61 34
+ship:94 22
+kupim
+suradky: 82 19
+MOVE 0 94 24 MOVE 1 81 20
 
 [proboj] ROUND 38/500
-predam
 explorujem0
-ship:61 34
-MOVE 0 59 34
+ship:94 24
+kupim
+suradky: 82 19
+MOVE 0 94 26 MOVE 1 82 20
 
 [proboj] ROUND 39/500
-predam
 explorujem0
-ship:59 34
-MOVE 0 57 34
+ship:94 26
+kupim
+suradky: 82 19
+MOVE 0 94 28 MOVE 1 82 19
 
 [proboj] ROUND 40/500
-predam
 explorujem0
-ship:57 34
-MOVE 0 55 34
+ship:94 28
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+MOVE 0 94 30 TRADE 1 1 2
 
 [proboj] ROUND 41/500
 predam
 explorujem0
-ship:55 34
-MOVE 0 54 34
+ship:94 30
+MOVE 1 82 20 MOVE 0 94 32
 
 [proboj] ROUND 42/500
-explorujem0
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 7
-trades:6
-nasiel som:54 34
-ship:54 34
 predam
-MOVE 0 54 36
+explorujem0
+ship:94 32
+MOVE 1 82 21 MOVE 0 94 34
 
 [proboj] ROUND 43/500
-explorujem0
-ship:54 36
 predam
-MOVE 0 54 38
+explorujem0
+ship:94 34
+MOVE 1 82 22 MOVE 0 94 36
 
 [proboj] ROUND 44/500
-explorujem0
-ship:54 38
 predam
-MOVE 0 52 38
+explorujem0
+ship:94 36
+MOVE 1 83 22 MOVE 0 94 38
 
 [proboj] ROUND 45/500
-predam
 explorujem0
-ship:52 38
-MOVE 0 50 38
+ship:94 38
+predam
+MOVE 0 94 40 MOVE 1 84 22
 
 [proboj] ROUND 46/500
 explorujem0
-ship:50 38
+ship:94 40
 predam
-MOVE 0 48 38
+MOVE 0 94 42 MOVE 1 85 22
 
 [proboj] ROUND 47/500
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 5
-makeTradeProdtovar: 6
-makeTradeProdtovar: 7
-trades:12
-nasiel som:48 38
-ship:48 38
+ship:94 42
 predam
-MOVE 0 48 40
+MOVE 0 94 44 MOVE 1 86 22
 
 [proboj] ROUND 48/500
-predam
 explorujem0
-ship:48 40
-MOVE 0 48 42
+ship:94 44
+predam
+MOVE 0 94 46 MOVE 1 87 22
 
 [proboj] ROUND 49/500
-predam
 explorujem0
-ship:48 42
-MOVE 0 48 44
+ship:94 46
+predam
+MOVE 0 94 48 MOVE 1 88 22
 
 [proboj] ROUND 50/500
 explorujem0
-ship:48 44
+ship:94 48
 predam
-MOVE 0 48 46
+MOVE 0 94 50 TRADE 1 1 -2
 
 [proboj] ROUND 51/500
+pocitam0
 predam
-explorujem0
-ship:48 46
-MOVE 0 48 48
+MOVE 0 94 48 TRADE 1 1 0
 
 [proboj] ROUND 52/500
-explorujem0
-ship:48 48
+pocitam0
 predam
-MOVE 0 48 50
+MOVE 0 94 46 TRADE 1 1 0
 
 [proboj] ROUND 53/500
+pocitam0
 predam
-explorujem0
-ship:48 50
-MOVE 0 48 52
+MOVE 0 94 44 TRADE 1 1 0
 
 [proboj] ROUND 54/500
+pocitam0
 predam
-explorujem0
-ship:48 52
-MOVE 0 48 54
+MOVE 0 94 42 TRADE 1 1 0
 
 [proboj] ROUND 55/500
-explorujem0
-ship:48 54
+pocitam0
 predam
-MOVE 0 48 56
+MOVE 0 94 40 TRADE 1 1 0
 
 [proboj] ROUND 56/500
-explorujem0
-ship:48 56
+pocitam0
 predam
-MOVE 0 48 58
+MOVE 0 94 38 TRADE 1 1 0
 
 [proboj] ROUND 57/500
+pocitam0
 predam
-explorujem0
-ship:48 58
-MOVE 0 48 60
+MOVE 0 94 36 TRADE 1 1 0
 
 [proboj] ROUND 58/500
+pocitam0
 predam
-explorujem0
-ship:48 60
-MOVE 0 48 62
+MOVE 0 94 34 TRADE 1 1 0
 
 [proboj] ROUND 59/500
-explorujem0
-ship:48 62
+pocitam0
 predam
-MOVE 0 48 64
+MOVE 0 94 32 TRADE 1 1 0
 
 [proboj] ROUND 60/500
-explorujem0
-ship:48 64
+pocitam0
 predam
-MOVE 0 48 66
+MOVE 0 94 30 TRADE 1 1 0
 
 [proboj] ROUND 61/500
-explorujem0
-ship:48 66
+pocitam0
 predam
-MOVE 0 48 68
+MOVE 0 94 28 TRADE 1 1 0
 
 [proboj] ROUND 62/500
+pocitam0
 predam
-explorujem0
-ship:48 68
-MOVE 0 48 70
+MOVE 0 94 26 TRADE 1 1 0
 
 [proboj] ROUND 63/500
-explorujem0
-ship:48 70
+pocitam0
 predam
-MOVE 0 50 70
+MOVE 0 94 24 TRADE 1 1 0
 
 [proboj] ROUND 64/500
-explorujem0
-ship:50 70
+pocitam0
 predam
-MOVE 0 52 70
+MOVE 0 92 24 TRADE 1 1 0
 
 [proboj] ROUND 65/500
-explorujem0
-ship:52 70
+pocitam0
 predam
-MOVE 0 53 71
+MOVE 0 91 23 TRADE 1 1 0
 
 [proboj] ROUND 66/500
 predam
-explorujem0
-ship:53 71
-MOVE 0 53 72
+pocitam0
+TRADE 1 1 0 MOVE 0 89 23
 
 [proboj] ROUND 67/500
-explorujem0
-makeTradeProdtovar: 0
-makeTradeCons
-makeTradeProdtovar: 6
-makeTradeCons
-trades:21
-nasiel som:53 72
-ship:53 72
-predam
-MOVE 0 53 70
+kupim
+suradky: 82 19
+pocitam1
+MOVE 0 88 22 MOVE 1 87 22
 
 [proboj] ROUND 68/500
-explorujem0
-ship:53 70
-predam
-MOVE 0 53 68
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 87 23 MOVE 1 86 22
 
 [proboj] ROUND 69/500
-predam
-explorujem0
-ship:53 68
-MOVE 0 53 66
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 85 23 MOVE 1 85 22
 
 [proboj] ROUND 70/500
-predam
-explorujem0
-ship:53 66
-MOVE 0 55 66
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 85 21 MOVE 0 84 22
 
 [proboj] ROUND 71/500
-explorujem0
-ship:55 66
-predam
-MOVE 0 57 66
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 83 21 MOVE 1 84 21
 
 [proboj] ROUND 72/500
-explorujem0
-ship:57 66
-predam
-MOVE 0 59 66
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 82 20 MOVE 1 84 22
 
 [proboj] ROUND 73/500
-explorujem0
-ship:59 66
-predam
-MOVE 0 59 66
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 84 22 MOVE 0 82 19
 
 [proboj] ROUND 74/500
-explorujem0
-ship:59 66
-predam
-MOVE 0 59 66
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
+kupim
+suradky: 82 19
+TRADE 0 1 0 MOVE 1 84 21
 
 [proboj] ROUND 75/500
-explorujem0
-ship:59 66
 predam
-MOVE 0 61 66
+kupim
+suradky: 82 19
+MOVE 0 82 21 MOVE 1 83 21
 
 [proboj] ROUND 76/500
-explorujem0
-ship:61 66
 predam
-MOVE 0 62 65
+kupim
+suradky: 82 19
+MOVE 0 83 22 MOVE 1 83 20
 
 [proboj] ROUND 77/500
-explorujem0
-ship:62 65
 predam
-MOVE 0 63 66
+kupim
+suradky: 82 19
+MOVE 0 85 22 MOVE 1 82 20
 
 [proboj] ROUND 78/500
-explorujem0
-ship:63 66
 predam
-MOVE 0 65 66
+kupim
+suradky: 82 19
+MOVE 0 87 22 MOVE 1 82 19
 
 [proboj] ROUND 79/500
 predam
-explorujem0
-ship:65 66
-MOVE 0 66 66
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 2 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 3 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 4 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 5 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 6 maximalnyPocet: 5 resources: 22
+MOVE 0 88 22 TRADE 1 1 5
 
 [proboj] ROUND 80/500
-explorujem0
-ship:66 66
 predam
-MOVE 0 66 67
+predam
+TRADE 0 1 0 MOVE 1 82 20
 
 [proboj] ROUND 81/500
-explorujem0
-makeTradeProdtovar: 0
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 5
-trades:26
-nasiel som:66 67
-ship:66 67
+pocitam0
 predam
-MOVE 0 67 66
+MOVE 0 88 22 MOVE 1 82 21
 
 [proboj] ROUND 82/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:67 66
-MOVE 0 69 66
+MOVE 0 86 22 MOVE 1 82 22
 
 [proboj] ROUND 83/500
-explorujem0
-ship:69 66
+kupim
+suradky: 82 19
 predam
-MOVE 0 70 67
+MOVE 0 85 21 MOVE 1 82 23
 
 [proboj] ROUND 84/500
-explorujem0
-ship:70 67
+kupim
+suradky: 82 19
 predam
-MOVE 0 71 68
+MOVE 0 83 21 MOVE 1 82 22
 
 [proboj] ROUND 85/500
-explorujem0
-ship:71 68
+kupim
+suradky: 82 19
 predam
-MOVE 0 72 69
+MOVE 0 82 20 MOVE 1 83 22
 
 [proboj] ROUND 86/500
-explorujem0
-ship:72 69
+kupim
+suradky: 82 19
 predam
-MOVE 0 72 71
+MOVE 0 82 19 MOVE 1 84 22
 
 [proboj] ROUND 87/500
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
 predam
-explorujem0
-ship:72 71
-MOVE 0 72 73
+TRADE 0 1 0 MOVE 1 85 22
 
 [proboj] ROUND 88/500
-explorujem0
-ship:72 73
 predam
-MOVE 0 72 75
+predam
+MOVE 0 82 21 MOVE 1 86 22
 
 [proboj] ROUND 89/500
 predam
-explorujem0
-ship:72 75
-MOVE 0 71 76
+predam
+MOVE 0 82 23 MOVE 1 87 22
 
 [proboj] ROUND 90/500
 predam
-explorujem0
-ship:71 76
-MOVE 0 69 76
+predam
+MOVE 0 84 23 MOVE 1 88 22
 
 [proboj] ROUND 91/500
-explorujem0
-makeTradeCons
-makeTradeProdtovar: 2
-makeTradeCons
-trades:29
-nasiel som:69 76
-ship:69 76
 predam
-MOVE 0 69 78
+predam
+MOVE 0 85 22 TRADE 1 1 -5
 
 [proboj] ROUND 92/500
+pocitam0
 predam
-explorujem0
-ship:69 78
-MOVE 0 69 80
+MOVE 0 84 21 TRADE 1 1 0
 
 [proboj] ROUND 93/500
-explorujem0
-ship:69 80
+pocitam0
 predam
-MOVE 0 69 82
+MOVE 0 83 20 TRADE 1 1 0
 
 [proboj] ROUND 94/500
+pocitam0
 predam
-explorujem0
-ship:69 82
-MOVE 0 69 84
+MOVE 0 82 19 TRADE 1 1 0
 
 [proboj] ROUND 95/500
-explorujem0
-ship:69 84
+pocitam0
 predam
-MOVE 0 69 86
+MOVE 0 82 19 TRADE 1 1 0
 
 [proboj] ROUND 96/500
+pocitam0
 predam
-explorujem0
-ship:69 86
-MOVE 0 69 88
+MOVE 0 82 19 TRADE 1 1 0
 
 [proboj] ROUND 97/500
-explorujem0
-ship:69 88
 predam
-MOVE 0 67 88
+pocitam0
+TRADE 1 1 0 MOVE 0 82 19
 
 [proboj] ROUND 98/500
-predam
-explorujem0
-ship:67 88
-MOVE 0 65 88
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 87 22
 
 [proboj] ROUND 99/500
-explorujem0
-ship:65 88
 predam
-MOVE 0 63 88
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 86 22
 
 [proboj] ROUND 100/500
-explorujem0
-ship:63 88
 predam
-MOVE 0 61 88
+pocitam1
+update gold
+MOVE 0 82 23 MOVE 1 85 22
 
 [proboj] ROUND 101/500
-explorujem0
-ship:61 88
 predam
-MOVE 0 59 88
+pocitam1
+update gold
+MOVE 0 84 23 MOVE 1 85 21
 
 [proboj] ROUND 102/500
-explorujem0
-ship:59 88
 predam
-MOVE 0 57 88
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 84 21
 
 [proboj] ROUND 103/500
-explorujem0
-ship:57 88
 predam
-MOVE 0 55 88
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 83 21
 
 [proboj] ROUND 104/500
-explorujem0
-ship:55 88
+pocitam1
+update gold
 predam
-MOVE 0 54 87
+MOVE 1 83 20 MOVE 0 88 22
 
 [proboj] ROUND 105/500
-explorujem0
-ship:54 87
 predam
-MOVE 0 55 87
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 82 20
 
 [proboj] ROUND 106/500
-explorujem0
-makeTradeProdtovar: 0
-makeTradeCons
-makeTradeProdtovar: 3
-makeTradeCons
-trades:38
-nasiel som:55 87
-ship:55 87
-predam
-MOVE 0 54 88
+pocitam0
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 81 20
 
 [proboj] ROUND 107/500
-explorujem0
-ship:54 88
-predam
-MOVE 0 53 87
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 1 80 20 MOVE 0 86 22
 
 [proboj] ROUND 108/500
-explorujem0
-ship:53 87
-predam
-MOVE 0 52 86
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 79 20
 
 [proboj] ROUND 109/500
-predam
-explorujem0
-ship:52 86
-MOVE 0 52 84
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 1 79 19 MOVE 0 83 21
 
 [proboj] ROUND 110/500
-explorujem0
-ship:52 84
-predam
-MOVE 0 51 83
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 78 19
 
 [proboj] ROUND 111/500
-explorujem0
-ship:51 83
-predam
-MOVE 0 51 82
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 77 19
 
 [proboj] ROUND 112/500
-predam
-explorujem0
-ship:51 82
-MOVE 0 52 82
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 76 19
 
 [proboj] ROUND 113/500
-explorujem0
-makeTradeProdtovar: 0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 3
-makeTradeCons
-makeTradeCons
-trades:54
-nasiel som:52 82
-ship:52 82
 predam
-MOVE 0 50 82
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 76 18
 
 [proboj] ROUND 114/500
 predam
-explorujem0
-ship:50 82
-MOVE 0 49 81
+pocitam1
+update gold
+MOVE 0 83 22 MOVE 1 76 17
 
 [proboj] ROUND 115/500
-explorujem0
-ship:49 81
 predam
-MOVE 0 47 81
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 75 17
 
 [proboj] ROUND 116/500
 predam
-explorujem0
-ship:47 81
-MOVE 0 45 81
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 74 17
 
 [proboj] ROUND 117/500
-explorujem0
-ship:45 81
 predam
-MOVE 0 43 81
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 74 16
 
 [proboj] ROUND 118/500
-explorujem0
-ship:43 81
 predam
-MOVE 0 41 81
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 74 15
 
 [proboj] ROUND 119/500
-explorujem0
-ship:41 81
-predam
-MOVE 0 39 81
+pocitam0
+pocitam1
+update gold
+MOVE 0 86 22 MOVE 1 73 15
 
 [proboj] ROUND 120/500
-explorujem0
-ship:39 81
-predam
-MOVE 0 37 81
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 73 14
 
 [proboj] ROUND 121/500
-predam
-explorujem0
-ship:37 81
-MOVE 0 35 81
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 83 21 MOVE 1 73 13
 
 [proboj] ROUND 122/500
-explorujem0
-ship:35 81
-predam
-MOVE 0 33 81
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 73 12
 
 [proboj] ROUND 123/500
-explorujem0
-ship:33 81
-predam
-MOVE 0 31 81
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 72 12
 
 [proboj] ROUND 124/500
-explorujem0
-ship:31 81
-predam
-MOVE 0 29 81
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 72 11
 
 [proboj] ROUND 125/500
 predam
-explorujem0
-ship:29 81
-MOVE 0 27 81
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 72 10
 
 [proboj] ROUND 126/500
-explorujem0
-ship:27 81
 predam
-MOVE 0 27 80
+pocitam1
+update gold
+MOVE 0 83 22 MOVE 1 72 9
 
 [proboj] ROUND 127/500
-explorujem0
-makeTradeProdtovar: 1
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 7
-trades:70
-nasiel som:27 80
-ship:27 80
 predam
-MOVE 0 27 82
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 72 8
 
 [proboj] ROUND 128/500
-explorujem0
-ship:27 82
+pocitam1
+update gold
 predam
-MOVE 0 27 84
+MOVE 1 71 8 MOVE 0 87 22
 
 [proboj] ROUND 129/500
 predam
-explorujem0
-ship:27 84
-MOVE 0 27 86
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 71 7
 
 [proboj] ROUND 130/500
-explorujem0
-ship:27 86
 predam
-MOVE 0 27 88
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 71 6
 
 [proboj] ROUND 131/500
-predam
-explorujem0
-ship:27 88
-MOVE 0 25 88
+pocitam0
+pocitam1
+update gold
+MOVE 0 86 22 MOVE 1 70 6
 
 [proboj] ROUND 132/500
-predam
-explorujem0
-ship:25 88
-MOVE 0 23 88
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 70 5
 
 [proboj] ROUND 133/500
-predam
-explorujem0
-ship:23 88
-MOVE 0 21 88
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 1 69 5 MOVE 0 83 21
 
 [proboj] ROUND 134/500
-explorujem0
-ship:21 88
-predam
-MOVE 0 19 88
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 68 5
 
 [proboj] ROUND 135/500
-explorujem0
-ship:19 88
-predam
-MOVE 0 18 88
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 68 4
 
 [proboj] ROUND 136/500
-explorujem0
-ship:18 88
-predam
-MOVE 0 18 89
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 0
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 68 3
 
 [proboj] ROUND 137/500
-explorujem0
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 4
-makeTradeProdtovar: 5
-makeTradeProdtovar: 7
-trades:86
-nasiel som:18 89
-ship:18 89
 predam
-MOVE 0 20 89
+pocitam1
+update gold
+MOVE 0 82 21 STORE 1 2
 
 [proboj] ROUND 138/500
-explorujem0
-ship:20 89
 predam
-MOVE 0 21 90
+pocitam1
+MOVE 0 83 22 MOVE 1 68 4
 
 [proboj] ROUND 139/500
 predam
-explorujem0
-ship:21 90
-MOVE 0 21 92
+kupim
+suradky: 82 19
+MOVE 0 85 22 MOVE 1 68 5
 
 [proboj] ROUND 140/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:21 92
-MOVE 0 22 93
+MOVE 1 68 6 MOVE 0 87 22
 
 [proboj] ROUND 141/500
-explorujem0
-ship:22 93
 predam
-MOVE 0 22 95
+kupim
+suradky: 82 19
+MOVE 0 88 22 MOVE 1 68 7
 
 [proboj] ROUND 142/500
-explorujem0
-ship:22 95
 predam
-MOVE 0 22 97
+kupim
+suradky: 82 19
+TRADE 0 1 0 MOVE 1 68 8
 
 [proboj] ROUND 143/500
-explorujem0
-ship:22 97
-predam
-MOVE 0 21 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 86 22 MOVE 1 68 9
 
 [proboj] ROUND 144/500
-predam
-explorujem0
-ship:21 98
-MOVE 0 19 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 85 21 MOVE 1 68 10
 
 [proboj] ROUND 145/500
-explorujem0
-ship:19 98
-predam
-MOVE 0 17 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 83 21 MOVE 1 68 11
 
 [proboj] ROUND 146/500
-explorujem0
-ship:17 98
-predam
-MOVE 0 16 97
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 82 20 MOVE 1 68 12
 
 [proboj] ROUND 147/500
-explorujem0
-ship:16 97
-predam
-MOVE 0 15 96
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 80 20 MOVE 1 68 12
 
 [proboj] ROUND 148/500
-explorujem0
-ship:15 96
-predam
-MOVE 0 16 96
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 79 19 MOVE 1 68 13
 
 [proboj] ROUND 149/500
-explorujem0
-makeTradeCons
-makeTradeProdtovar: 1
-makeTradeCons
-trades:102
-nasiel som:16 96
-ship:16 96
-predam
-MOVE 0 16 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 77 19 MOVE 1 68 14
 
 [proboj] ROUND 150/500
-explorujem0
-ship:16 98
-predam
-MOVE 0 18 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 76 18 MOVE 1 68 15
 
 [proboj] ROUND 151/500
-predam
-explorujem0
-ship:18 98
-MOVE 0 20 98
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 75 17 MOVE 1 68 16
 
 [proboj] ROUND 152/500
-predam
-explorujem0
-ship:20 98
-MOVE 0 21 97
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 74 16 MOVE 1 68 17
 
 [proboj] ROUND 153/500
-explorujem0
-ship:21 97
-predam
-MOVE 0 22 96
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 73 15 MOVE 1 68 18
 
 [proboj] ROUND 154/500
-explorujem0
-ship:22 96
-predam
-MOVE 0 22 94
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 73 13 MOVE 1 68 19
 
 [proboj] ROUND 155/500
-explorujem0
-ship:22 94
-predam
-MOVE 0 22 92
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 72 12 MOVE 1 68 20
 
 [proboj] ROUND 156/500
-explorujem0
-ship:22 92
-predam
-MOVE 0 22 90
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 72 10 MOVE 1 69 20
 
 [proboj] ROUND 157/500
-explorujem0
-ship:22 90
-predam
-MOVE 0 22 88
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 72 8 MOVE 1 70 20
 
 [proboj] ROUND 158/500
-explorujem0
-ship:22 88
-predam
-MOVE 0 22 86
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 71 7 MOVE 1 71 20
 
 [proboj] ROUND 159/500
-predam
-explorujem0
-ship:22 86
-MOVE 0 22 84
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 70 6 MOVE 1 72 20
 
 [proboj] ROUND 160/500
-predam
-explorujem0
-ship:22 84
-MOVE 0 23 83
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 69 5 MOVE 1 73 20
 
 [proboj] ROUND 161/500
-explorujem0
-ship:23 83
-predam
-MOVE 0 25 83
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 4 MOVE 1 74 20
 
 [proboj] ROUND 162/500
-explorujem0
-ship:25 83
-predam
-MOVE 0 26 82
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 3 MOVE 1 75 20
 
 [proboj] ROUND 163/500
-predam
-explorujem0
-ship:26 82
-MOVE 0 27 81
+pocitam0
+update gold
+kupim
+suradky: 82 19
+STORE 0 -2 MOVE 1 76 20
 
 [proboj] ROUND 164/500
-explorujem0
-ship:27 81
-predam
-MOVE 0 29 81
+kupim
+suradky: 82 19
+pocitam0
+MOVE 1 77 20 MOVE 0 68 5
 
 [proboj] ROUND 165/500
-explorujem0
-ship:29 81
-predam
-MOVE 0 30 80
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 7 MOVE 1 78 20
 
 [proboj] ROUND 166/500
-explorujem0
-ship:30 80
-predam
-MOVE 0 31 79
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 9 MOVE 1 79 20
 
 [proboj] ROUND 167/500
-explorujem0
-ship:31 79
-predam
-MOVE 0 32 78
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 11 MOVE 1 80 20
 
 [proboj] ROUND 168/500
-explorujem0
-ship:32 78
-predam
-MOVE 0 33 77
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 13 MOVE 1 81 20
 
 [proboj] ROUND 169/500
-predam
-explorujem0
-ship:33 77
-MOVE 0 34 76
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 82 20 MOVE 0 68 15
 
 [proboj] ROUND 170/500
-predam
-explorujem0
-ship:34 76
-MOVE 0 34 74
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 15 MOVE 1 82 19
 
 [proboj] ROUND 171/500
-predam
-explorujem0
-ship:34 74
-MOVE 0 35 73
+kupim
+suradky: 82 19
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+MOVE 0 68 17 TRADE 1 1 12
 
 [proboj] ROUND 172/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:35 73
-MOVE 0 35 71
+MOVE 0 68 19 MOVE 1 82 20
 
 [proboj] ROUND 173/500
-explorujem0
-ship:35 71
+kupim
+suradky: 82 19
 predam
-MOVE 0 35 69
+MOVE 0 68 19 MOVE 1 82 21
 
 [proboj] ROUND 174/500
-explorujem0
-ship:35 69
+kupim
+suradky: 82 19
 predam
-MOVE 0 35 67
+MOVE 0 69 20 MOVE 1 82 22
 
 [proboj] ROUND 175/500
-explorujem0
-ship:35 67
+kupim
+suradky: 82 19
 predam
-MOVE 0 35 65
+MOVE 0 71 20 MOVE 1 83 22
 
 [proboj] ROUND 176/500
-explorujem0
-ship:35 65
+kupim
+suradky: 82 19
 predam
-MOVE 0 35 63
+MOVE 0 73 20 MOVE 1 84 22
 
 [proboj] ROUND 177/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:35 63
-MOVE 0 35 61
+MOVE 0 75 20 MOVE 1 85 22
 
 [proboj] ROUND 178/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:35 61
-MOVE 0 35 59
+MOVE 0 77 20 MOVE 1 86 22
 
 [proboj] ROUND 179/500
-explorujem0
-ship:35 59
+kupim
+suradky: 82 19
 predam
-MOVE 0 35 57
+MOVE 0 79 20 MOVE 1 87 22
 
 [proboj] ROUND 180/500
+kupim
+suradky: 82 19
 predam
-explorujem0
-ship:35 57
-MOVE 0 36 56
+MOVE 0 81 20 MOVE 1 88 22
 
 [proboj] ROUND 181/500
-explorujem0
-ship:36 56
+kupim
+suradky: 82 19
 predam
-MOVE 0 38 56
+MOVE 0 82 19 TRADE 1 1 -12
 
 [proboj] ROUND 182/500
+pocitam0
 predam
-explorujem0
-ship:38 56
-MOVE 0 40 56
+MOVE 0 82 19 TRADE 1 1 0
 
 [proboj] ROUND 183/500
-explorujem0
-ship:40 56
 predam
-MOVE 0 42 56
+pocitam0
+TRADE 1 1 0 MOVE 0 82 19
 
 [proboj] ROUND 184/500
-explorujem0
-ship:42 56
-predam
-MOVE 0 44 56
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 2
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 87 22
 
 [proboj] ROUND 185/500
 predam
-explorujem0
-ship:44 56
-MOVE 0 46 56
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 86 22
 
 [proboj] ROUND 186/500
-explorujem0
-ship:46 56
 predam
-MOVE 0 48 56
+pocitam1
+update gold
+MOVE 0 82 23 MOVE 1 85 22
 
 [proboj] ROUND 187/500
-explorujem0
-ship:48 56
+pocitam1
+update gold
 predam
-MOVE 0 50 56
+MOVE 1 85 21 MOVE 0 84 23
 
 [proboj] ROUND 188/500
-explorujem0
-ship:50 56
 predam
-MOVE 0 52 56
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 84 21
 
 [proboj] ROUND 189/500
 predam
-explorujem0
-ship:52 56
-MOVE 0 54 56
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 83 21
 
 [proboj] ROUND 190/500
-explorujem0
-ship:54 56
 predam
-MOVE 0 56 56
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 83 20
 
 [proboj] ROUND 191/500
-explorujem0
-ship:56 56
 predam
-MOVE 0 58 56
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 82 20
 
 [proboj] ROUND 192/500
-explorujem0
-ship:58 56
-predam
-MOVE 0 60 56
+pocitam0
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 81 20
 
 [proboj] ROUND 193/500
-explorujem0
-ship:60 56
-predam
-MOVE 0 62 56
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 86 22 MOVE 1 80 20
 
 [proboj] ROUND 194/500
-explorujem0
-ship:62 56
-predam
-MOVE 0 64 56
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 79 20
 
 [proboj] ROUND 195/500
-explorujem0
-ship:64 56
-predam
-MOVE 0 66 56
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 1 79 19 MOVE 0 83 21
 
 [proboj] ROUND 196/500
-predam
-explorujem0
-ship:66 56
-MOVE 0 68 56
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 78 19
 
 [proboj] ROUND 197/500
-predam
-explorujem0
-ship:68 56
-MOVE 0 70 56
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 77 19
 
 [proboj] ROUND 198/500
-explorujem0
-ship:70 56
-predam
-MOVE 0 72 56
+pocitam1
+update gold
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 2
+MOVE 1 76 19 TRADE 0 1 0
 
 [proboj] ROUND 199/500
 predam
-explorujem0
-ship:72 56
-MOVE 0 74 56
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 76 18
 
 [proboj] ROUND 200/500
-explorujem0
-ship:74 56
 predam
-MOVE 0 76 56
+pocitam1
+update gold
+MOVE 0 83 22 MOVE 1 76 17
 
 [proboj] ROUND 201/500
 predam
-explorujem0
-ship:76 56
-MOVE 0 78 56
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 75 17
 
 [proboj] ROUND 202/500
 predam
-explorujem0
-ship:78 56
-MOVE 0 80 56
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 74 17
 
 [proboj] ROUND 203/500
-explorujem0
-ship:80 56
 predam
-MOVE 0 82 56
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 74 16
 
 [proboj] ROUND 204/500
-explorujem0
-ship:82 56
 predam
-MOVE 0 84 56
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 74 15
 
 [proboj] ROUND 205/500
-predam
-explorujem0
-ship:84 56
-MOVE 0 86 56
+pocitam0
+pocitam1
+update gold
+MOVE 0 86 22 MOVE 1 73 15
 
 [proboj] ROUND 206/500
-predam
-explorujem0
-ship:86 56
-MOVE 0 86 55
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 73 14
 
 [proboj] ROUND 207/500
-predam
-explorujem0
-makeTradeCons
-makeTradeCons
-makeTradeProdtovar: 7
-trades:112
-nasiel som:86 55
-ship:86 55
-MOVE 0 87 56
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 83 21 MOVE 1 73 13
 
 [proboj] ROUND 208/500
-explorujem0
-ship:87 56
-predam
-MOVE 0 88 55
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 73 12
 
 [proboj] ROUND 209/500
-explorujem0
-ship:88 55
-predam
-MOVE 0 90 55
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 72 12
 
 [proboj] ROUND 210/500
-predam
-explorujem0
-ship:90 55
-MOVE 0 90 53
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 2
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 72 11
 
 [proboj] ROUND 211/500
-explorujem0
-makeTradeProdtovar: 0
-makeTradeCons
-makeTradeProdtovar: 2
-makeTradeCons
-trades:130
-nasiel som:90 53
 predam
-
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 72 10
 
 [proboj] ROUND 212/500
-mam vsetky
-umrtvil som explorera0
-produkcne: 
-7 53 72
-8 66 67
-7 55 87
-8 52 82
-6 90 53
-produkcne: 
-5 93 13
-4 48 38
-5 52 82
-3 27 80
-5 16 96
-produkcne: 
-2 69 76
-4 90 53
-produkcne: 
-1 82 19
-3 55 87
-3 52 82
-produkcne: 
-4 18 89
-produkcne: 
-3 88 22
-2 82 19
-4 48 38
-2 66 67
-4 18 89
-produkcne: 
-3 82 19
-3 48 38
-4 53 72
-produkcne: 
-5 54 34
-4 48 38
-4 27 80
-3 18 89
-5 86 55
-konzumacne: 
--7 93 13
--6 82 19
--7 54 34
--7 69 76
--7 18 89
--8 16 96
--8 86 55
-konzumacne: 
--3 88 22
--3 82 19
--4 54 34
--5 53 72
--5 66 67
--3 55 87
--4 18 89
--4 90 53
-konzumacne: 
--2 66 67
-konzumacne: 
-konzumacne: 
--2 88 22
--2 82 19
--4 69 76
-konzumacne: 
--4 52 82
--4 27 80
--2 16 96
--4 90 53
-konzumacne: 
--3 93 13
--3 88 22
--5 55 87
--3 27 80
--5 86 55
-konzumacne: 
--3 93 13
--4 53 72
--4 52 82
-pocitam0
-acquire gold
 predam
-MOVE 0 92 53
+pocitam1
+update gold
+MOVE 0 83 22 MOVE 1 72 9
 
 [proboj] ROUND 213/500
-pocitam0
-acquire gold
+pocitam1
+update gold
 predam
-MOVE 0 93 52
+MOVE 1 72 8 MOVE 0 85 22
 
 [proboj] ROUND 214/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 50
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 71 8
 
 [proboj] ROUND 215/500
-pocitam0
-acquire gold
+pocitam1
+update gold
 predam
-MOVE 0 93 48
+MOVE 1 71 7 MOVE 0 88 22
 
 [proboj] ROUND 216/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 46
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 71 6
 
 [proboj] ROUND 217/500
 pocitam0
-acquire gold
-predam
-MOVE 0 93 44
+pocitam1
+update gold
+MOVE 0 86 22 MOVE 1 70 6
 
 [proboj] ROUND 218/500
-pocitam0
-acquire gold
-predam
-MOVE 0 93 42
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 70 5
 
 [proboj] ROUND 219/500
-pocitam0
-acquire gold
-predam
-MOVE 0 93 40
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 83 21 MOVE 1 69 5
 
 [proboj] ROUND 220/500
-pocitam0
-acquire gold
-predam
-MOVE 0 93 38
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 20 MOVE 1 68 5
 
 [proboj] ROUND 221/500
-pocitam0
-acquire gold
-predam
-MOVE 0 93 36
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 82 19 MOVE 1 68 4
 
 [proboj] ROUND 222/500
-predam
-pocitam0
-acquire gold
-MOVE 0 93 34
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 0 resources: 2
+pocitam1
+update gold
+TRADE 0 1 0 MOVE 1 68 3
 
 [proboj] ROUND 223/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 32
+pocitam1
+update gold
+MOVE 0 82 21 STORE 1 72
 
 [proboj] ROUND 224/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 30
+pocitam1
+MOVE 0 83 22 MOVE 1 68 4
 
 [proboj] ROUND 225/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 28
+kupim
+suradky: 82 19
+MOVE 0 85 22 MOVE 1 68 5
 
 [proboj] ROUND 226/500
 predam
-pocitam0
-acquire gold
-MOVE 0 93 26
+kupim
+suradky: 82 19
+MOVE 0 87 22 MOVE 1 68 6
 
 [proboj] ROUND 227/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 24
+kupim
+suradky: 82 19
+MOVE 0 88 22 MOVE 1 68 7
 
 [proboj] ROUND 228/500
-pocitam0
-acquire gold
 predam
-MOVE 0 93 22
+kupim
+suradky: 82 19
+TRADE 0 1 0 MOVE 1 68 8
 
 [proboj] ROUND 229/500
 pocitam0
-acquire gold
-predam
-MOVE 0 93 20
+update gold
+kupim
+suradky: 82 19
+MOVE 0 86 22 MOVE 1 68 9
 
 [proboj] ROUND 230/500
 pocitam0
-acquire gold
-predam
-MOVE 0 94 19
+update gold
+kupim
+suradky: 82 19
+MOVE 0 85 21 MOVE 1 68 10
 
 [proboj] ROUND 231/500
-predam
 pocitam0
-acquire gold
-MOVE 0 94 17
+update gold
+kupim
+suradky: 82 19
+MOVE 0 83 21 MOVE 1 68 11
 
 [proboj] ROUND 232/500
 pocitam0
-acquire gold
-predam
-MOVE 0 94 15
+update gold
+kupim
+suradky: 82 19
+MOVE 0 82 20 MOVE 1 68 12
 
 [proboj] ROUND 233/500
 pocitam0
-acquire gold
-predam
-MOVE 0 94 13
+update gold
+kupim
+suradky: 82 19
+MOVE 0 80 20 MOVE 1 68 12
 
 [proboj] ROUND 234/500
 pocitam0
-acquire gold
-predam
-MOVE 0 94 11
+update gold
+kupim
+suradky: 82 19
+MOVE 0 79 19 MOVE 1 68 13
 
 [proboj] ROUND 235/500
 pocitam0
-acquire gold
-predam
-MOVE 0 94 9
+update gold
+kupim
+suradky: 82 19
+MOVE 0 77 19 MOVE 1 68 14
 
 [proboj] ROUND 236/500
 pocitam0
-acquire gold
-predam
-MOVE 0 93 8
+update gold
+kupim
+suradky: 82 19
+MOVE 0 76 18 MOVE 1 68 15
 
 [proboj] ROUND 237/500
-predam
 pocitam0
-acquire gold
-MOVE 0 92 8
+update gold
+kupim
+suradky: 82 19
+MOVE 0 75 17 MOVE 1 68 16
 
 [proboj] ROUND 238/500
 pocitam0
-acquire gold
-predam
-MOVE 0 92 9
+update gold
+kupim
+suradky: 82 19
+MOVE 0 74 16 MOVE 1 68 17
 
 [proboj] ROUND 239/500
+kupim
+suradky: 82 19
 pocitam0
-acquire gold
-predam
-STORE 0 -10
+update gold
+MOVE 1 68 18 MOVE 0 73 15
 
 [proboj] ROUND 240/500
 pocitam0
-calculate: 93 13
-nieci: 93 13
-predam
-MOVE 0 93 8
+update gold
+kupim
+suradky: 82 19
+MOVE 0 73 13 MOVE 1 68 19
 
 [proboj] ROUND 241/500
+pocitam0
+update gold
 kupim
-suradky: 93 13
-predam
-MOVE 0 94 9
+suradky: 82 19
+MOVE 0 72 12 MOVE 1 68 20
 
 [proboj] ROUND 242/500
+pocitam0
+update gold
 kupim
-suradky: 93 13
-predam
-MOVE 0 94 11
+suradky: 82 19
+MOVE 0 72 10 MOVE 1 69 20
 
 [proboj] ROUND 243/500
-predam
+pocitam0
+update gold
 kupim
-suradky: 93 13
-MOVE 0 94 13
+suradky: 82 19
+MOVE 0 72 8 MOVE 1 70 20
 
 [proboj] ROUND 244/500
+pocitam0
+update gold
 kupim
-suradky: 93 13
-predam
-MOVE 0 93 13
+suradky: 82 19
+MOVE 0 71 7 MOVE 1 71 20
 
 [proboj] ROUND 245/500
+pocitam0
+update gold
 kupim
-cost: 8 pocet: 1 maximalnyPocet: 1 resources: 10
-cost: 8 pocet: 2 maximalnyPocet: 1 resources: 10
-predam
-TRADE 0 1 1
+suradky: 82 19
+MOVE 0 70 6 MOVE 1 72 20
 
 [proboj] ROUND 246/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 69 5 MOVE 1 73 20
 
 [proboj] ROUND 247/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 4 MOVE 1 74 20
 
 [proboj] ROUND 248/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 3 MOVE 1 75 20
 
 [proboj] ROUND 249/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+STORE 0 -10 MOVE 1 76 20
 
 [proboj] ROUND 250/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+STORE 0 2 MOVE 1 77 20
 
 [proboj] ROUND 251/500
-predam
-predam
-
+pocitam0
+kupim
+suradky: 82 19
+MOVE 0 68 5 MOVE 1 78 20
 
 [proboj] ROUND 252/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 7 MOVE 1 79 20
 
 [proboj] ROUND 253/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 80 20 MOVE 0 68 9
 
 [proboj] ROUND 254/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 11 MOVE 1 81 20
 
 [proboj] ROUND 255/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 82 20 MOVE 0 68 13
 
 [proboj] ROUND 256/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 68 13 MOVE 1 82 19
 
 [proboj] ROUND 257/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+MOVE 0 68 15 TRADE 1 1 12
 
 [proboj] ROUND 258/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 68 17 MOVE 1 82 20
 
 [proboj] ROUND 259/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 68 17 MOVE 1 82 21
 
 [proboj] ROUND 260/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 68 19 MOVE 1 82 22
 
 [proboj] ROUND 261/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 69 20 MOVE 1 83 22
 
 [proboj] ROUND 262/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 71 20 MOVE 1 84 22
 
 [proboj] ROUND 263/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 73 20 MOVE 1 85 22
 
 [proboj] ROUND 264/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 75 20 MOVE 1 86 22
 
 [proboj] ROUND 265/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 77 20 MOVE 1 87 22
 
 [proboj] ROUND 266/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 79 20 MOVE 1 88 22
 
 [proboj] ROUND 267/500
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 81 20 TRADE 1 1 -12
 
 [proboj] ROUND 268/500
 predam
-predam
-
+pocitam0
+TRADE 1 1 0 MOVE 0 82 19
 
 [proboj] ROUND 269/500
-predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+pocitam1
+update gold
+TRADE 0 1 2 MOVE 1 87 22
 
 [proboj] ROUND 270/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 82 21 MOVE 1 86 22
 
 [proboj] ROUND 271/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 82 23 MOVE 1 85 22
 
 [proboj] ROUND 272/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 84 23 MOVE 1 85 21
 
 [proboj] ROUND 273/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 85 22 MOVE 1 84 21
 
 [proboj] ROUND 274/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 87 22 MOVE 1 83 21
 
 [proboj] ROUND 275/500
 predam
-predam
-
+pocitam1
+update gold
+MOVE 0 88 22 MOVE 1 83 20
 
 [proboj] ROUND 276/500
 predam
-predam
-
+pocitam1
+update gold
+TRADE 0 1 -2 MOVE 1 82 20
 
 [proboj] ROUND 277/500
-predam
-predam
-
+pocitam1
+update gold
+pocitam0
+update gold
+MOVE 1 81 20 MOVE 0 86 22
 
 [proboj] ROUND 278/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 85 21 MOVE 1 80 20
 
 [proboj] ROUND 279/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 83 21 MOVE 1 79 20
 
 [proboj] ROUND 280/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 81 21 MOVE 1 79 19
 
 [proboj] ROUND 281/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 80 20 MOVE 1 78 19
 
 [proboj] ROUND 282/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 78 20 MOVE 1 77 19
 
 [proboj] ROUND 283/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 76 20 MOVE 1 76 19
 
 [proboj] ROUND 284/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 75 19 MOVE 1 76 18
 
 [proboj] ROUND 285/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 75 17 MOVE 1 76 17
 
 [proboj] ROUND 286/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 74 16 MOVE 1 76 18
 
 [proboj] ROUND 287/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 73 15 MOVE 1 76 17
 
 [proboj] ROUND 288/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 73 13 MOVE 1 75 17
 
 [proboj] ROUND 289/500
-predam
-predam
-
+pocitam1
+update gold
+pocitam0
+update gold
+MOVE 1 74 17 MOVE 0 72 12
 
 [proboj] ROUND 290/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 72 10 MOVE 1 74 16
 
 [proboj] ROUND 291/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 72 8 MOVE 1 74 15
 
 [proboj] ROUND 292/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 71 7 MOVE 1 73 15
 
 [proboj] ROUND 293/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 70 6 MOVE 1 73 14
 
 [proboj] ROUND 294/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 69 5 MOVE 1 73 13
 
 [proboj] ROUND 295/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 68 4 MOVE 1 73 12
 
 [proboj] ROUND 296/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 0 68 3 MOVE 1 72 12
 
 [proboj] ROUND 297/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+STORE 0 12 MOVE 1 72 11
 
 [proboj] ROUND 298/500
-predam
-predam
-
+pocitam0
+pocitam1
+update gold
+MOVE 0 68 5 MOVE 1 72 10
 
 [proboj] ROUND 299/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 7 MOVE 1 72 9
 
 [proboj] ROUND 300/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 9 MOVE 1 72 8
 
 [proboj] ROUND 301/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 11 MOVE 1 71 8
 
 [proboj] ROUND 302/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 13 MOVE 1 71 7
 
 [proboj] ROUND 303/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 15 MOVE 1 71 6
 
 [proboj] ROUND 304/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 17 MOVE 1 70 6
 
 [proboj] ROUND 305/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 68 19 MOVE 1 70 5
 
 [proboj] ROUND 306/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 69 20 MOVE 1 69 5
 
 [proboj] ROUND 307/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 71 20 MOVE 1 68 5
 
 [proboj] ROUND 308/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 73 20 MOVE 1 68 4
 
 [proboj] ROUND 309/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 75 20 MOVE 1 68 3
 
 [proboj] ROUND 310/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 0 77 20 STORE 1 72
 
 [proboj] ROUND 311/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+BUY 2 MOVE 0 79 20 MOVE 1 68 4
 
 [proboj] ROUND 312/500
-predam
-predam
-
+new ship: 4
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 81 20 MOVE 1 68 5 STORE 4 -48
 
 [proboj] ROUND 313/500
-predam
-predam
-
+pocitam4
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 67 5 MOVE 0 82 19 MOVE 1 68 6
 
 [proboj] ROUND 314/500
-predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+TRADE 0 1 2 MOVE 1 68 7 MOVE 4 67 8
 
 [proboj] ROUND 315/500
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 82 21 MOVE 1 68 8 MOVE 4 67 11
 
 [proboj] ROUND 316/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 1 68 9 MOVE 4 67 14 MOVE 0 83 22
 
 [proboj] ROUND 317/500
+kupim
+suradky: 82 19
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 4 67 17 MOVE 0 85 22 MOVE 1 68 10
 
 [proboj] ROUND 318/500
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 87 22 MOVE 1 68 11 MOVE 4 67 20
 
 [proboj] ROUND 319/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 1 68 12 MOVE 4 70 20 MOVE 0 88 22
 
 [proboj] ROUND 320/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 1 68 13 MOVE 4 73 20 TRADE 0 1 -2
 
 [proboj] ROUND 321/500
+kupim
+suradky: 82 19
 predam
-predam
-
+pocitam1
+MOVE 4 76 20 TRADE 0 1 0 MOVE 1 68 14
 
 [proboj] ROUND 322/500
 predam
-predam
-
+kupim
+suradky: 82 19
+pocitam4
+TRADE 0 1 0 MOVE 1 68 15 MOVE 4 79 20
 
 [proboj] ROUND 323/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 68 16 MOVE 4 82 20 MOVE 0 86 22
 
 [proboj] ROUND 324/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 85 21 MOVE 1 68 16 MOVE 4 82 19
 
 [proboj] ROUND 325/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 48
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 48
+MOVE 0 83 21 MOVE 1 68 17 TRADE 4 1 12
 
 [proboj] ROUND 326/500
 predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 82 22 MOVE 0 82 20 MOVE 1 68 18
 
 [proboj] ROUND 327/500
 predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 85 22 MOVE 0 80 20 MOVE 1 68 18
 
 [proboj] ROUND 328/500
+pocitam0
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 79 19 MOVE 1 68 19 MOVE 4 87 22
 
 [proboj] ROUND 329/500
+pocitam0
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 0 77 19 MOVE 1 68 20 MOVE 4 88 22
 
 [proboj] ROUND 330/500
+kupim
+suradky: 82 19
 predam
-predam
-
+pocitam0
+update gold
+MOVE 1 69 20 TRADE 4 1 -12 MOVE 0 76 18
 
 [proboj] ROUND 331/500
+pocitam0
+update gold
+pocitam1
 predam
-predam
-
+MOVE 0 75 17 MOVE 1 70 20 TRADE 4 1 0
 
 [proboj] ROUND 332/500
 predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+TRADE 4 1 0 MOVE 0 74 16 MOVE 1 71 20
 
 [proboj] ROUND 333/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 73 15 MOVE 1 72 20 MOVE 4 85 22
 
 [proboj] ROUND 334/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 73 13 MOVE 1 73 20 MOVE 4 83 21
 
 [proboj] ROUND 335/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 81 20 MOVE 0 72 12 MOVE 1 74 20
 
 [proboj] ROUND 336/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 79 19 MOVE 0 72 10 MOVE 1 74 21
 
 [proboj] ROUND 337/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 72 8 MOVE 1 74 20 MOVE 4 76 19
 
 [proboj] ROUND 338/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 75 17 MOVE 0 71 7 MOVE 1 75 20
 
 [proboj] ROUND 339/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 70 6 MOVE 1 76 20 MOVE 4 74 15
 
 [proboj] ROUND 340/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 69 5 MOVE 1 77 20 MOVE 4 73 13
 
 [proboj] ROUND 341/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 72 11 MOVE 0 68 4 MOVE 1 78 20
 
 [proboj] ROUND 342/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 68 3 MOVE 1 79 20 MOVE 4 72 8
 
 [proboj] ROUND 343/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 71 6 STORE 0 12 MOVE 1 80 20
 
 [proboj] ROUND 344/500
-predam
-predam
-
+pocitam0
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 68 5 MOVE 1 81 20 MOVE 4 69 5
 
 [proboj] ROUND 345/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+MOVE 0 68 7 MOVE 1 82 20 MOVE 4 67 6
 
 [proboj] ROUND 346/500
-predam
-predam
-
+pocitam4
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 67 3 MOVE 0 68 7 MOVE 1 82 19
 
 [proboj] ROUND 347/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+pocitam4
+update gold
+MOVE 0 68 9 TRADE 1 1 12 MOVE 4 68 3
 
 [proboj] ROUND 348/500
+pocitam4
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+STORE 4 70 MOVE 0 68 11 MOVE 1 82 20
 
 [proboj] ROUND 349/500
+kupim
+suradky: 82 19
 predam
-predam
-
+pocitam4
+MOVE 0 68 11 MOVE 1 82 21 MOVE 4 68 3
 
 [proboj] ROUND 350/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 68 6 MOVE 0 68 13 MOVE 1 82 22
 
 [proboj] ROUND 351/500
+kupim
+suradky: 82 19
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 0 68 15 MOVE 1 83 22 MOVE 4 68 9
 
 [proboj] ROUND 352/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 68 12 MOVE 0 68 17 MOVE 1 84 22
 
 [proboj] ROUND 353/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 68 15 MOVE 0 68 19 MOVE 1 85 22
 
 [proboj] ROUND 354/500
+kupim
+suradky: 82 19
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 0 69 20 MOVE 1 86 22 MOVE 4 68 18
 
 [proboj] ROUND 355/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 70 19 MOVE 0 71 20 MOVE 1 87 22
 
 [proboj] ROUND 356/500
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 1 88 22 MOVE 4 72 20 MOVE 0 73 20
 
 [proboj] ROUND 357/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 74 21 MOVE 0 75 20 TRADE 1 1 -12
 
 [proboj] ROUND 358/500
+kupim
+suradky: 82 19
 predam
-predam
-
+pocitam4
+MOVE 0 77 20 TRADE 1 1 0 MOVE 4 76 20
 
 [proboj] ROUND 359/500
+pocitam0
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 0 79 20 TRADE 1 1 0 MOVE 4 78 21
 
 [proboj] ROUND 360/500
+kupim
+suradky: 82 19
+pocitam0
 predam
-predam
-
+MOVE 4 80 20 MOVE 0 81 20 TRADE 1 1 0
 
 [proboj] ROUND 361/500
+pocitam4
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 4 82 21 MOVE 0 82 19 TRADE 1 1 0
 
 [proboj] ROUND 362/500
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
 predam
-predam
-
+pocitam4
+TRADE 0 1 2 TRADE 1 1 0 MOVE 4 82 19
 
 [proboj] ROUND 363/500
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+pocitam0
+update gold
 predam
-predam
-
+TRADE 4 1 12 MOVE 0 81 20 TRADE 1 1 0
 
 [proboj] ROUND 364/500
+pocitam4
+update gold
+pocitam0
+update gold
 predam
-predam
-
+MOVE 4 81 21 MOVE 0 79 20 TRADE 1 1 0
 
 [proboj] ROUND 365/500
+pocitam0
+update gold
 predam
-predam
-
+pocitam4
+update gold
+MOVE 0 78 19 TRADE 1 1 0 MOVE 4 78 21
 
 [proboj] ROUND 366/500
+pocitam0
+update gold
 predam
-predam
-
+pocitam4
+update gold
+MOVE 0 76 19 TRADE 1 1 0 MOVE 4 77 19
 
 [proboj] ROUND 367/500
+pocitam0
+update gold
 predam
-predam
-
+pocitam4
+update gold
+MOVE 0 76 17 TRADE 1 1 0 MOVE 4 75 20
 
 [proboj] ROUND 368/500
+pocitam4
+update gold
+pocitam0
+update gold
 predam
-predam
-
+MOVE 4 75 17 MOVE 0 74 17 TRADE 1 1 0
 
 [proboj] ROUND 369/500
+pocitam0
+update gold
 predam
-predam
-
+pocitam4
+update gold
+MOVE 0 74 15 TRADE 1 1 0 MOVE 4 73 18
 
 [proboj] ROUND 370/500
+pocitam4
+update gold
+pocitam0
+update gold
 predam
-predam
-
+MOVE 4 73 15 MOVE 0 73 14 TRADE 1 1 0
 
 [proboj] ROUND 371/500
+pocitam0
+update gold
 predam
-predam
-
+pocitam4
+update gold
+MOVE 0 73 12 TRADE 1 1 0 MOVE 4 72 13
 
 [proboj] ROUND 372/500
+pocitam4
+update gold
+pocitam0
+update gold
 predam
-predam
-
+MOVE 4 72 10 MOVE 0 72 11 TRADE 1 1 0
 
 [proboj] ROUND 373/500
 predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+TRADE 1 1 0 MOVE 4 71 8 MOVE 0 71 10
 
 [proboj] ROUND 374/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 70 9 MOVE 1 87 22 MOVE 4 70 6
 
 [proboj] ROUND 375/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 70 7 MOVE 1 86 22 MOVE 4 68 5
 
 [proboj] ROUND 376/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 4 68 3 MOVE 0 69 6 MOVE 1 85 22
 
 [proboj] ROUND 377/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 68 5 MOVE 1 85 21 STORE 4 -50
 
 [proboj] ROUND 378/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+pocitam1
+update gold
+STORE 4 26 MOVE 0 67 4 MOVE 1 84 21
 
 [proboj] ROUND 379/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+MOVE 0 67 3 MOVE 1 83 21 MOVE 4 68 6
 
 [proboj] ROUND 380/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 3 MOVE 1 83 20 MOVE 4 68 9
 
 [proboj] ROUND 381/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+kupim
+suradky: 82 19
+STORE 0 -10 MOVE 1 82 20 MOVE 4 68 12
 
 [proboj] ROUND 382/500
-predam
-predam
-
+pocitam1
+update gold
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 81 20 MOVE 4 68 12 STORE 0 6
 
 [proboj] ROUND 383/500
-predam
-predam
-
+pocitam1
+update gold
+kupim
+suradky: 82 19
+pocitam0
+MOVE 1 80 20 MOVE 4 68 15 MOVE 0 68 5
 
 [proboj] ROUND 384/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 68 18 MOVE 0 68 7 MOVE 1 79 20
 
 [proboj] ROUND 385/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 9 MOVE 1 79 19 MOVE 4 68 21
 
 [proboj] ROUND 386/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 11 MOVE 1 78 19 MOVE 4 70 20
 
 [proboj] ROUND 387/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 13 MOVE 1 77 19 MOVE 4 73 20
 
 [proboj] ROUND 388/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 76 20 MOVE 0 68 15 MOVE 1 76 19
 
 [proboj] ROUND 389/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 79 20 MOVE 0 68 17 MOVE 1 76 18
 
 [proboj] ROUND 390/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 19 MOVE 1 76 17 MOVE 4 82 20
 
 [proboj] ROUND 391/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+suradky: 82 19
+MOVE 0 68 19 MOVE 1 75 17 MOVE 4 82 19
 
 [proboj] ROUND 392/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+MOVE 0 69 20 MOVE 1 74 17 TRADE 4 1 12
 
 [proboj] ROUND 393/500
+pocitam1
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 1 74 16 MOVE 4 82 22 MOVE 0 71 20
 
 [proboj] ROUND 394/500
 predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 85 22 MOVE 0 73 20 MOVE 1 74 15
 
 [proboj] ROUND 395/500
+kupim
+suradky: 82 19
+pocitam1
+update gold
 predam
-predam
-
+MOVE 0 75 20 MOVE 1 73 15 MOVE 4 87 22
 
 [proboj] ROUND 396/500
+kupim
+suradky: 82 19
+pocitam1
+update gold
 predam
-predam
-
+MOVE 0 77 20 MOVE 1 73 14 MOVE 4 88 22
 
 [proboj] ROUND 397/500
+pocitam1
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 1 73 13 TRADE 4 1 -24 MOVE 0 79 20
 
 [proboj] ROUND 398/500
 predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+TRADE 4 1 0 MOVE 0 81 20 MOVE 1 73 12
 
 [proboj] ROUND 399/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 82 19 MOVE 1 72 12 MOVE 4 85 22
 
 [proboj] ROUND 400/500
-predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+pocitam1
+update gold
+pocitam4
+update gold
+TRADE 0 1 2 MOVE 1 72 11 MOVE 4 83 21
 
 [proboj] ROUND 401/500
 predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 82 21 MOVE 1 72 10 MOVE 4 81 20
 
 [proboj] ROUND 402/500
 predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 83 22 MOVE 1 72 9 MOVE 4 79 19
 
 [proboj] ROUND 403/500
+pocitam4
+update gold
 predam
-predam
-
+pocitam1
+update gold
+MOVE 4 76 19 MOVE 0 85 22 MOVE 1 72 8
 
 [proboj] ROUND 404/500
 predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 87 22 MOVE 1 71 8 MOVE 4 75 17
 
 [proboj] ROUND 405/500
+pocitam4
+update gold
 predam
-predam
-
+pocitam1
+update gold
+MOVE 4 74 15 MOVE 0 88 22 MOVE 1 71 7
 
 [proboj] ROUND 406/500
+pocitam1
+update gold
+pocitam4
+update gold
 predam
-predam
-
+MOVE 1 71 6 MOVE 4 73 13 TRADE 0 1 -4
 
 [proboj] ROUND 407/500
+pocitam4
+update gold
 predam
-predam
-
+pocitam1
+update gold
+MOVE 4 72 11 TRADE 0 1 0 MOVE 1 70 6
 
 [proboj] ROUND 408/500
 predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+TRADE 0 1 0 MOVE 1 70 5 MOVE 4 72 8
 
 [proboj] ROUND 409/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 86 22 MOVE 1 69 5 MOVE 4 71 6
 
 [proboj] ROUND 410/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam0
+update gold
+pocitam1
+update gold
+MOVE 4 68 6 MOVE 0 85 21 MOVE 1 68 5
 
 [proboj] ROUND 411/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 83 21 MOVE 1 68 4 MOVE 4 67 4
 
 [proboj] ROUND 412/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 82 20 MOVE 1 68 3 MOVE 4 68 3
 
 [proboj] ROUND 413/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 0 80 20 STORE 1 72 STORE 4 168
 
 [proboj] ROUND 414/500
-predam
-predam
-
+pocitam0
+update gold
+pocitam1
+pocitam4
+BUY 2 MOVE 0 79 19 MOVE 1 68 4 MOVE 4 68 6
 
 [proboj] ROUND 415/500
-predam
-predam
-
+new ship: 6
+kupim
+suradky: 82 19
+pocitam6
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+BUY 2 MOVE 4 68 9 STORE 6 -50 MOVE 0 77 19 MOVE 1 68 5
 
 [proboj] ROUND 416/500
-predam
-predam
-
+new ship: 7
+kupim
+suradky: 82 19
+pocitam6
+pocitam7
+update gold
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 68 12 MOVE 6 67 5 STORE 7 -44 MOVE 0 76 18 MOVE 1 68 6
 
 [proboj] ROUND 417/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam7
+pocitam0
+update gold
+MOVE 1 68 7 MOVE 4 68 15 MOVE 6 67 8 MOVE 7 69 5 MOVE 0 75 17
 
 [proboj] ROUND 418/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 68 8 MOVE 4 68 18 MOVE 6 67 11 MOVE 7 69 8 MOVE 0 74 16
 
 [proboj] ROUND 419/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 69 20 MOVE 6 67 14 MOVE 7 69 11 MOVE 0 73 15 MOVE 1 68 9
 
 [proboj] ROUND 420/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 72 20 MOVE 6 67 17 MOVE 7 69 14 MOVE 0 73 13 MOVE 1 68 10
 
 [proboj] ROUND 421/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 6 68 19 MOVE 7 69 17 MOVE 0 72 12 MOVE 1 68 11 MOVE 4 75 20
 
 [proboj] ROUND 422/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 6 71 19 MOVE 7 70 19 MOVE 0 72 10 MOVE 1 68 12 MOVE 4 78 20
 
 [proboj] ROUND 423/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 68 13 MOVE 4 81 20 MOVE 6 74 19 MOVE 7 71 21 MOVE 0 72 8
 
 [proboj] ROUND 424/500
-predam
-predam
-
+pocitam0
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 71 7 MOVE 1 68 14 MOVE 4 82 19 MOVE 6 75 21 MOVE 7 74 21
 
 [proboj] ROUND 425/500
-predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+TRADE 4 1 12 MOVE 6 77 20 MOVE 7 76 20 MOVE 0 70 6 MOVE 1 68 15
 
 [proboj] ROUND 426/500
+pocitam0
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 69 5 MOVE 1 68 16 MOVE 4 82 22 MOVE 6 80 20 MOVE 7 78 21
 
 [proboj] ROUND 427/500
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 85 22 MOVE 6 82 19 MOVE 7 81 21 MOVE 0 68 4 MOVE 1 68 17
 
 [proboj] ROUND 428/500
+pocitam0
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+MOVE 0 68 3 MOVE 1 68 18 MOVE 4 87 22 TRADE 6 1 12 MOVE 7 82 19
 
 [proboj] ROUND 429/500
 predam
 predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 2 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 3 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 4 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 5 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 6 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 7 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 8 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 9 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 10 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 11 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 12 maximalnyPocet: 11 resources: 44
+pocitam0
+update gold
+kupim
+suradky: 82 19
+MOVE 4 88 22 MOVE 6 82 22 TRADE 7 1 11 STORE 0 28 MOVE 1 68 19
 
 [proboj] ROUND 430/500
 predam
 predam
-
+predam
+pocitam0
+kupim
+suradky: 82 19
+TRADE 4 1 -12 MOVE 6 85 22 MOVE 7 83 21 MOVE 0 68 5 MOVE 1 68 20
 
 [proboj] ROUND 431/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
 predam
 predam
-
+MOVE 0 68 7 MOVE 1 69 20 MOVE 4 86 23 MOVE 6 87 22 MOVE 7 84 23
 
 [proboj] ROUND 432/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
 predam
 predam
-
+MOVE 0 68 9 MOVE 1 70 20 MOVE 4 85 21 MOVE 6 88 22 MOVE 7 86 24
 
 [proboj] ROUND 433/500
 predam
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
 predam
-
+MOVE 7 87 22 MOVE 0 68 11 MOVE 1 71 20 MOVE 4 83 20 TRADE 6 1 -12
 
 [proboj] ROUND 434/500
 predam
-predam
-
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+TRADE 6 1 0 MOVE 7 85 21 MOVE 0 68 13 MOVE 1 72 20 MOVE 4 80 20
 
 [proboj] ROUND 435/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+MOVE 0 68 15 MOVE 1 72 21 MOVE 4 78 19 MOVE 6 85 22 MOVE 7 82 21
 
 [proboj] ROUND 436/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 76 18 MOVE 6 83 21 MOVE 7 80 20 MOVE 0 68 17 MOVE 1 72 20
 
 [proboj] ROUND 437/500
-predam
-predam
-
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+MOVE 7 78 19 MOVE 0 68 19 MOVE 1 72 21 MOVE 4 74 17 MOVE 6 80 21
 
 [proboj] ROUND 438/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+MOVE 0 69 20 MOVE 1 72 20 MOVE 4 73 15 MOVE 6 78 20 MOVE 7 76 18
 
 [proboj] ROUND 439/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 73 12 MOVE 6 76 19 MOVE 7 74 17 MOVE 0 70 21 MOVE 1 72 21
 
 [proboj] ROUND 440/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 72 10 MOVE 6 74 18 MOVE 7 73 15 MOVE 0 71 20 MOVE 1 72 20
 
 [proboj] ROUND 441/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 71 8 MOVE 6 73 16 MOVE 7 73 12 MOVE 0 72 21 MOVE 1 73 20
 
 [proboj] ROUND 442/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+MOVE 0 74 21 MOVE 1 74 20 MOVE 4 70 6 MOVE 6 73 13 MOVE 7 72 10
 
 [proboj] ROUND 443/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 68 5 MOVE 6 72 11 MOVE 7 71 8 MOVE 0 75 20 MOVE 1 75 20
 
 [proboj] ROUND 444/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+MOVE 0 77 20 MOVE 1 74 21 MOVE 4 68 3 MOVE 6 71 9 MOVE 7 70 6
 
 [proboj] ROUND 445/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+MOVE 1 75 21 STORE 4 72 MOVE 6 70 7 MOVE 7 68 5 MOVE 0 79 20
 
 [proboj] ROUND 446/500
-predam
-predam
-
+pocitam4
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 67 5 MOVE 6 68 6 MOVE 7 67 3 MOVE 0 81 20 MOVE 1 76 21
 
 [proboj] ROUND 447/500
-predam
-predam
-
+kupim
+suradky: 82 19
+pocitam6
+update gold
+pocitam7
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 4 67 8 MOVE 6 68 3 MOVE 7 68 3 MOVE 0 82 19 MOVE 1 77 21
 
 [proboj] ROUND 448/500
-predam
-predam
-
+pocitam7
+update gold
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam6
+update gold
+STORE 7 -50 TRADE 0 1 2 MOVE 1 77 20 MOVE 4 67 11 STORE 6 72
 
 [proboj] ROUND 449/500
+pocitam6
+pocitam7
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 6 68 6 STORE 7 22 MOVE 0 82 21 MOVE 1 78 20 MOVE 4 67 14
 
 [proboj] ROUND 450/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam7
 predam
-predam
-
+kupim
+suradky: 82 19
+BUY 2 MOVE 4 67 17 MOVE 6 68 9 MOVE 7 69 5 MOVE 0 83 22 MOVE 1 79 20
 
 [proboj] ROUND 451/500
+new ship: 8
+pocitam8
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+STORE 8 -44 MOVE 0 85 22 MOVE 1 80 20 MOVE 4 67 20 MOVE 6 68 12 MOVE 7 69 8
 
 [proboj] ROUND 452/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam8
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 6 68 15 MOVE 7 69 11 MOVE 8 68 6 MOVE 0 87 22 MOVE 1 81 20 MOVE 4 69 21
 
 [proboj] ROUND 453/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
 predam
-predam
-
+MOVE 1 82 20 MOVE 4 72 21 MOVE 6 68 18 MOVE 7 69 14 MOVE 8 68 9 MOVE 0 88 22
 
 [proboj] ROUND 454/500
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+TRADE 0 1 -2 MOVE 1 82 19 MOVE 4 72 21 MOVE 6 68 18 MOVE 7 69 14 MOVE 8 68 9
 
 [proboj] ROUND 455/500
-predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+MOVE 6 69 20 MOVE 7 69 17 MOVE 8 68 12 MOVE 0 86 22 TRADE 1 1 12 MOVE 4 74 20
 
 [proboj] ROUND 456/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 7 70 19 MOVE 8 68 15 MOVE 0 85 21 MOVE 1 82 20 MOVE 4 77 20 MOVE 6 71 21
 
 [proboj] ROUND 457/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+MOVE 6 71 21 MOVE 7 70 19 MOVE 8 68 15 MOVE 0 83 21 MOVE 1 82 21 MOVE 4 77 20
 
 [proboj] ROUND 458/500
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-predam
-
+MOVE 4 80 20 MOVE 6 74 21 MOVE 7 73 19 MOVE 8 68 18 MOVE 0 82 20 MOVE 1 82 22
 
 [proboj] ROUND 459/500
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 8 68 18 MOVE 0 81 21 MOVE 1 83 22 MOVE 4 80 20 MOVE 6 74 21 MOVE 7 73 19
 
 [proboj] ROUND 460/500
+pocitam0
+update gold
 predam
-predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 79 21 MOVE 1 84 22 MOVE 4 82 19 MOVE 6 76 22 MOVE 7 73 22 MOVE 8 68 21
 
 [proboj] ROUND 461/500
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-predam
-
+TRADE 4 1 12 MOVE 6 77 20 MOVE 7 74 20 MOVE 8 70 20 MOVE 0 79 19 MOVE 1 85 22
 
 [proboj] ROUND 462/500
 predam
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-
+MOVE 4 82 22 MOVE 6 80 20 MOVE 7 76 21 MOVE 8 72 21 MOVE 0 77 19 MOVE 1 86 22
 
 [proboj] ROUND 463/500
+pocitam0
+update gold
 predam
 predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+MOVE 0 76 18 MOVE 1 87 22 MOVE 4 84 23 MOVE 6 82 19 MOVE 7 79 21 MOVE 8 74 22
 
 [proboj] ROUND 464/500
 predam
 predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 88 22 MOVE 4 87 23 TRADE 6 1 12 MOVE 7 81 20 MOVE 8 75 20 MOVE 0 75 17
 
 [proboj] ROUND 465/500
 predam
 predam
-
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam0
+update gold
+predam
+MOVE 4 87 22 MOVE 6 82 22 MOVE 7 82 19 MOVE 8 77 21 MOVE 0 74 16 TRADE 1 1 -12
 
 [proboj] ROUND 466/500
+pocitam0
+update gold
 predam
+pocitam4
 predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 2 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 3 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 4 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 5 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 6 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 7 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 8 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 9 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 10 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 11 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 12 maximalnyPocet: 12 resources: 50
+cost: 4 pocet: 13 maximalnyPocet: 12 resources: 50
+kupim
+suradky: 82 19
+MOVE 0 73 15 TRADE 1 1 0 MOVE 4 85 21 MOVE 6 84 23 TRADE 7 1 12 MOVE 8 79 20
 
 [proboj] ROUND 467/500
 predam
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-
+kupim
+suradky: 82 19
+predam
+MOVE 7 82 22 MOVE 8 82 20 MOVE 0 73 13 TRADE 1 1 0 MOVE 4 83 20 MOVE 6 86 22
 
 [proboj] ROUND 468/500
+kupim
+suradky: 82 19
 predam
+pocitam7
+kupim
+suradky: 82 19
+pocitam0
+update gold
 predam
-
+MOVE 4 83 20 MOVE 6 87 22 MOVE 7 82 22 MOVE 8 82 19 MOVE 0 72 12 TRADE 1 1 0
 
 [proboj] ROUND 469/500
 predam
+kupim
+suradky: 82 19
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 2 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 3 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 4 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 5 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 6 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 7 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 8 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 9 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 10 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 11 maximalnyPocet: 11 resources: 44
+cost: 4 pocet: 12 maximalnyPocet: 11 resources: 44
+pocitam0
+update gold
 predam
-
+pocitam4
+MOVE 6 88 22 MOVE 7 82 19 TRADE 8 1 11 MOVE 0 72 10 TRADE 1 1 0 MOVE 4 82 19
 
 [proboj] ROUND 470/500
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 2 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 3 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 4 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 5 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 6 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 7 maximalnyPocet: 6 resources: 26
+pocitam6
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 2 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 3 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 4 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 5 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 6 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 7 maximalnyPocet: 6 resources: 26
 predam
+pocitam0
+update gold
 predam
-
+TRADE 4 1 6 MOVE 6 85 22 TRADE 7 1 6 MOVE 8 82 22 MOVE 0 72 8 TRADE 1 1 0
 
 [proboj] ROUND 471/500
+pocitam4
+kupim
+suradky: 82 19
 predam
 predam
-
+pocitam0
+update gold
+predam
+MOVE 4 82 19 MOVE 6 83 21 MOVE 7 83 21 MOVE 8 84 23 MOVE 0 71 7 TRADE 1 1 0
 
 [proboj] ROUND 472/500
+pocitam4
+kupim
+suradky: 82 19
 predam
 predam
-
+pocitam0
+update gold
+predam
+MOVE 4 82 19 MOVE 6 82 19 MOVE 7 82 22 MOVE 8 86 22 MOVE 0 70 6 TRADE 1 1 0
 
 [proboj] ROUND 473/500
 predam
+pocitam0
+update gold
 predam
-
+pocitam4
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 2 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 3 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 4 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 5 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 6 maximalnyPocet: 6 resources: 26
+cost: 4 pocet: 7 maximalnyPocet: 6 resources: 26
+predam
+MOVE 8 87 22 MOVE 0 69 5 TRADE 1 1 0 MOVE 4 82 19 TRADE 6 1 6 MOVE 7 84 23
 
 [proboj] ROUND 474/500
 predam
 predam
-
+pocitam8
+pocitam0
+update gold
+predam
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 2 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 3 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 4 maximalnyPocet: 3 resources: 14
+MOVE 6 82 22 MOVE 7 87 23 MOVE 8 85 21 MOVE 0 68 4 TRADE 1 1 0 TRADE 4 1 3
 
 [proboj] ROUND 475/500
 predam
 predam
-
+pocitam6
+predam
+kupim
+suradky: 82 19
+pocitam0
+update gold
+TRADE 1 1 0 MOVE 4 83 21 MOVE 6 82 19 MOVE 7 87 22 MOVE 8 83 20 MOVE 0 68 3
 
 [proboj] ROUND 476/500
+pocitam1
+update gold
 predam
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 2 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 3 maximalnyPocet: 3 resources: 14
+cost: 4 pocet: 4 maximalnyPocet: 3 resources: 14
 predam
-
+kupim
+suradky: 82 19
+pocitam0
+update gold
+MOVE 1 88 23 MOVE 4 84 23 TRADE 6 1 3 MOVE 7 88 22 MOVE 8 82 19 STORE 0 12
 
 [proboj] ROUND 477/500
 predam
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 2 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 3 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 4 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 5 maximalnyPocet: 5 resources: 22
+cost: 4 pocet: 6 maximalnyPocet: 5 resources: 22
+pocitam0
+pocitam1
+update gold
 predam
-
+predam
+TRADE 7 1 -29 TRADE 8 1 5 MOVE 0 68 5 MOVE 1 88 22 MOVE 4 86 22 MOVE 6 82 22
 
 [proboj] ROUND 478/500
 predam
+pocitam7
+update gold
 predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+predam
+MOVE 6 84 23 MOVE 7 86 23 MOVE 8 83 21 MOVE 0 68 7 MOVE 1 88 23 MOVE 4 87 22
 
 [proboj] ROUND 479/500
+kupim
+suradky: 82 19
+pocitam1
+update gold
 predam
 predam
-
+pocitam7
+update gold
+predam
+MOVE 0 68 9 MOVE 1 88 24 MOVE 4 88 22 MOVE 6 84 23 MOVE 7 84 22 MOVE 8 83 21
 
 [proboj] ROUND 480/500
+pocitam1
+update gold
 predam
 predam
-
+pocitam7
+update gold
+predam
+kupim
+suradky: 82 19
+MOVE 1 87 24 TRADE 4 1 -21 MOVE 6 86 22 MOVE 7 82 21 MOVE 8 85 22 MOVE 0 68 11
 
 [proboj] ROUND 481/500
 predam
+pocitam7
+update gold
 predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+predam
+MOVE 6 87 22 MOVE 7 80 20 MOVE 8 87 23 MOVE 0 68 13 MOVE 1 87 23 TRADE 4 1 0
 
 [proboj] ROUND 482/500
 predam
+pocitam6
+update gold
+pocitam7
+update gold
 predam
-
+kupim
+suradky: 82 19
+pocitam1
+update gold
+TRADE 4 1 0 MOVE 6 85 21 MOVE 7 78 19 MOVE 8 88 22 MOVE 0 68 15 MOVE 1 86 24
 
 [proboj] ROUND 483/500
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
 predam
-predam
-
+MOVE 0 68 17 MOVE 1 86 23 MOVE 4 85 22 MOVE 6 83 20 MOVE 7 76 18 TRADE 8 1 -16
 
 [proboj] ROUND 484/500
 predam
-predam
-
+pocitam0
+pocitam1
+update gold
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+TRADE 8 1 0 MOVE 0 68 19 MOVE 1 85 23 MOVE 4 83 21 MOVE 6 80 20 MOVE 7 74 17
 
 [proboj] ROUND 485/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 80 21 MOVE 6 78 19 MOVE 7 73 15 MOVE 8 85 22 MOVE 0 68 21 MOVE 1 85 22
 
 [proboj] ROUND 486/500
-predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+MOVE 1 84 23 MOVE 4 78 20 MOVE 6 76 18 MOVE 7 73 12 MOVE 8 83 21 MOVE 0 69 20
 
 [proboj] ROUND 487/500
-predam
-predam
-
+pocitam1
+update gold
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+MOVE 1 84 22 MOVE 4 76 19 MOVE 6 74 17 MOVE 7 72 10 MOVE 8 81 20 MOVE 0 70 21
 
 [proboj] ROUND 488/500
-predam
-predam
-
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 6 73 15 MOVE 7 71 8 MOVE 8 78 20 MOVE 0 72 21 MOVE 1 84 21 MOVE 4 74 18
 
 [proboj] ROUND 489/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 73 16 MOVE 6 73 12 MOVE 7 70 6 MOVE 8 76 19 MOVE 0 74 21 MOVE 1 83 21
 
 [proboj] ROUND 490/500
-predam
-predam
-
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+pocitam6
+update gold
+MOVE 7 68 5 MOVE 8 75 17 MOVE 0 75 20 MOVE 1 83 20 MOVE 4 73 13 MOVE 6 72 10
 
 [proboj] ROUND 491/500
-predam
-predam
-
+pocitam4
+update gold
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+MOVE 4 72 11 MOVE 6 71 8 MOVE 7 68 3 MOVE 8 74 15 MOVE 0 77 20 MOVE 1 82 20
 
 [proboj] ROUND 492/500
-predam
-predam
-
+pocitam6
+update gold
+pocitam7
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 6 70 6 STORE 7 196 MOVE 8 73 13 MOVE 0 77 20 MOVE 1 81 20 MOVE 4 71 9
 
 [proboj] ROUND 493/500
-predam
-predam
-
+pocitam6
+update gold
+pocitam7
+pocitam8
+update gold
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+BUY 2 MOVE 6 68 5 MOVE 7 68 6 MOVE 8 72 11 MOVE 0 78 21 MOVE 1 80 20 MOVE 4 70 7
 
 [proboj] ROUND 494/500
-predam
-predam
-
+new ship: 9
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+kupim
+suradky: 82 19
+pocitam6
+update gold
+pocitam8
+update gold
+pocitam9
+update gold
+MOVE 0 80 21 MOVE 1 79 20 MOVE 4 67 7 MOVE 7 68 9 MOVE 6 67 3 MOVE 8 72 8 STORE 9 -50
 
 [proboj] ROUND 495/500
-predam
-predam
-
+pocitam6
+update gold
+pocitam8
+update gold
+pocitam9
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+kupim
+suradky: 82 19
+MOVE 6 68 4 MOVE 8 71 6 MOVE 9 68 6 MOVE 0 81 20 MOVE 1 79 19 MOVE 4 67 4 MOVE 7 68 12
 
 [proboj] ROUND 496/500
-predam
-predam
-
+pocitam6
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+kupim
+suradky: 82 19
+pocitam1
+update gold
+pocitam4
+update gold
+MOVE 6 68 3 MOVE 8 69 5 MOVE 9 68 9 MOVE 7 68 15 MOVE 0 82 19 MOVE 1 78 19 MOVE 4 68 3
 
 [proboj] ROUND 497/500
-predam
-predam
-
+kupim
+cost: 4 pocet: 1 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 2 maximalnyPocet: 2 resources: 10
+cost: 4 pocet: 3 maximalnyPocet: 2 resources: 10
+pocitam1
+update gold
+pocitam4
+update gold
+kupim
+suradky: 82 19
+pocitam6
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
+TRADE 0 1 2 MOVE 1 77 19 STORE 4 126 MOVE 7 68 18 STORE 6 -50 MOVE 8 67 4 MOVE 9 68 12
 
 [proboj] ROUND 498/500
+pocitam6
+update gold
+pocitam8
+update gold
+kupim
+suradky: 82 19
 predam
-predam
-
+pocitam1
+update gold
+pocitam4
+kupim
+suradky: 82 19
+BUY 2 STORE 6 8 MOVE 8 67 3 MOVE 9 68 15 MOVE 0 82 21 MOVE 1 76 19 MOVE 4 68 6 MOVE 7 69 20
 
 [proboj] ROUND 499/500
+new ship: 10
+kupim
+suradky: 82 19
+pocitam10
+update gold
 predam
-predam
-
+pocitam1
+update gold
+kupim
+suradky: 82 19
+pocitam6
+pocitam8
+update gold
+kupim
+suradky: 82 19
+MOVE 7 72 20 STORE 10 -42 MOVE 0 83 22 MOVE 1 76 18 MOVE 4 68 9 MOVE 6 69 5 MOVE 8 68 4 MOVE 9 68 18
 
 [proboj] process terminated
  exit: -1
