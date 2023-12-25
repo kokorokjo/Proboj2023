@@ -340,9 +340,8 @@ void Explore(vector<Turn>& turns, Ship ship){
             if(mamHrbours())return;
             cerr<<"ship:"<<ship.coords.x<<" "<<ship.coords.y<<endl;
             unordered_map<XY, pair<int, XY>> dist;
-            vector<XY>& transitions = SMERY;
             vector<Harbor> harbors = world.harbors;
-            bfs(ship.coords, condition, dist, transitions);
+            bfs(ship.coords, condition, dist);
             int min_dist = 1000000;
             XY min_harbor;
             for(int i=0;i<harbors.size();i++){
@@ -420,6 +419,7 @@ for (auto i:ship_orders){
             return;
         }
     }
+    f++;
 
 }
 
@@ -460,15 +460,15 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 Explore(turns,curr);
                 break;
             case 3:
-                cerr<<"utocim"<<endl;
+                cerr<<"utocim"<<curr.index<<endl;
                 Attack(turns,curr);
                 break;
             case 2:
-                cerr<<"kupim"<<endl;
+                cerr<<"kupim"<<curr.index<<endl;
                 Buy(turns,curr);
                 break;
             case 1:
-                cerr<<"predam"<<endl;
+                cerr<<"predam"<<curr.index<<endl;
                 Sell(turns,curr);
                 break;
             case 5:
@@ -476,7 +476,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 Calculate(turns,curr);
                 break;
             default:
-                cerr<<"nic"<<endl;
+                cerr<<"nic"<<curr.index<<endl;
                 break;
             
         }
@@ -528,11 +528,11 @@ vector<Turn> do_turn() {
 
     if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
     if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
-    if(world.gold>=125) turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
+    if(world.gold>=125)  turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
     //zaciatocne kupovanie lodiek
-
+    
     updateOrders();
-    //aktualizacia lodiek
+    //aktualizacia lodiek    
 
     add_ship_turns(turns, world.my_ships());
     //pohyb lodi
