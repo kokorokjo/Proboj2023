@@ -3,8 +3,36 @@
 using namespace std;
 World world;
 
-vector<ResourceEnum> RESOURCES = { ResourceEnum::Wood, ResourceEnum::Stone, ResourceEnum::Iron, ResourceEnum::Gem, ResourceEnum::Wool, ResourceEnum::Hide, ResourceEnum::Wheat, ResourceEnum::Pineapple, ResourceEnum::Gold };
+vector<ResourceEnum> RESOURCES = 
+{ 
+    ResourceEnum::Wood,
+    ResourceEnum::Stone,
+    ResourceEnum::Iron,
+    ResourceEnum::Gem,
+    ResourceEnum::Wool,
+    ResourceEnum::Hide,
+    ResourceEnum::Wheat,
+    ResourceEnum::Pineapple,
+    ResourceEnum::Gold 
+};
 
+unordered_map<int, ShipsEnum> classTradeMap = 
+{
+    {10,ShipsEnum::Cln},
+    {30,ShipsEnum::Plt},
+    {100,ShipsEnum::SmallMerchantShip},
+    {200,ShipsEnum::LargeMerchantShip}
+};
+unordered_map<int, ShipsEnum> classAttackMap = 
+{
+    {15,ShipsEnum::SomalianPirateShip},
+    {50,ShipsEnum::BlackPearl},
+    {30,ShipsEnum::SniperAttackShip},
+};
+unordered_map<int, ShipsEnum> classLootMap = 
+{
+    {50,ShipsEnum::LooterScooter}
+};
 
 
 struct Trade{
@@ -39,7 +67,23 @@ int manyToBuy(pair<Ship,pair<int,Trade>> s,ResourceEnum res,int pocet){
     return manyToBuy(s,res,pocet+1);
 
 
-}
+}//vypocitq kolko resourcov kupit
+
+int pocetLodiciek(ShipsEnum lodka){
+    int pocet=0;
+    for(Ship ship:world.my_ships()){
+        if(ship.stats.ship_class==ShipClass::SHIP_TRADE){
+            if(classTradeMap[ship.stats.price]==lodka) pocet++;
+        }
+        if(ship.stats.ship_class==ShipClass::SHIP_ATTACK){
+            if(classAttackMap[ship.stats.price]==lodka) pocet++;
+        }
+        if(ship.stats.ship_class==ShipClass::SHIP_LOOT){
+            if(classLootMap[ship.stats.price]==lodka) pocet++;
+        }
+    }
+    return pocet;
+}//pocet lodiek daneho typu
 
 bool condition(XY a, XY b) {
     if(b.x < 0 || b.x >= world.mapa.width || b.y < 0 || b.y >= world.mapa.height) return false;
@@ -105,8 +149,7 @@ void makeTradeProd(int tovar,Harbor harbor){
         trades.push_back(trade);
 
     }
-}
-
+}//vytvori trade s pristavmi co konzumuju
 void makeTradeCons(int tovar,Harbor harbor){
     cerr<<"makeTradeCons"<<endl;
     for(auto production:production_of_harbors[tovar]){
@@ -124,7 +167,7 @@ void makeTradeCons(int tovar,Harbor harbor){
 
     }
 
-}
+}//vytvori trade s pristavmi co produkuju
 
 void allHarbours(){
     for(Harbor harbor : world.harbors){
@@ -165,7 +208,7 @@ void updateOrders(){
             if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].second.first = 5;   
         }
     }
-}
+}//da lodkam defaultny order
 
 void createMap(){
     mapkaD.resize(world.mapa.height,vector<int> (world.mapa.width,0));
@@ -216,12 +259,12 @@ void updateMap(){
         if(mapka[ship.coords.y][ship.coords.x]==0||mapka[ship.coords.y][ship.coords.x]==4)
         mapka[ship.coords.y][ship.coords.x]=2;
     }
-}
+}//aktualizujem mapku podla lodiek
 
 void zijuciExplorer(vector<Turn>& turns){
     if(world.my_ships().size()==0) return;
     for(int i=0;i<ship_orders.size();i++){
-        if(ship_orders[i].second.first == 0){
+        if(ship_orders[i].second.first == 0&&ship_orders[i].first.stats.max_cargo==10){
             indexOfExploringShip = ship_orders[i].first.index;
             ship_orders[i].second.first = 4;
             cerr<<"explorer: "<<indexOfExploringShip<<endl;
@@ -241,16 +284,19 @@ void umrtvitExplorera(vector<Turn>& turns){
     }   
 }//zrusim explorera
 
-void acquireGold(vector<Turn>& turns, Ship ship){
-    cerr<<"acquire gold"<<endl;
+void updateGold(vector<Turn>& turns, Ship ship){
+    cerr<<"update gold"<<endl;
     if(ship.coords == world.my_base){
-        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo, world.gold)));
+        if(ship.resources.resources[8] > ship.stats.max_cargo/2)
+        turns.push_back(StoreTurn(ship.index, ship.resources.resources[8] - ship.stats.max_cargo/2));
+        else
+        turns.push_back(StoreTurn(ship.index, -min(ship.stats.max_cargo/2, world.gold)));
         return;
     }
     turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base,ship), condition)));
     return;
 
-}
+}//zoberiem zlato z baseky
 
 
 void Explore(vector<Turn>& turns, Ship ship){
@@ -311,8 +357,8 @@ void Explore(vector<Turn>& turns, Ship ship){
 void Attack(vector<Turn>& turns, Ship ship){
 } //pohyb utocnej lode
 
-void Calculate(vector<Turn>& turns, Ship ship){
-    if(ship.resources.resources[8] == 0) acquireGold(turns, ship);
+void Calculate(vector<Turn>& turns, Ship ship){ 
+    if(ship.resources.resources[8] != ship.stats.max_cargo/2&&world.gold!=0) updateGold(turns, ship);
     else{
         for(int i=0;i<ship_orders.size();i++){
             if(ship_orders[i].first.index == ship.index){
@@ -355,7 +401,26 @@ void Buy(vector<Turn>& turns, Ship ship){
     }
 }//kupovanie resourcov
 
-void Sell(){
+void Sell(vector<Turn>& turns, Ship ship){
+int f=0;
+for (auto i:ship_orders){
+    if(i.first.index ==ship.index){
+        if(ship.coords == i.second.second.ToH.coords){
+            ResourceEnum res = RESOURCES[i.second.second.tovar];
+            int kolko=ship.resources[res];
+            turns.push_back(TradeTurn(ship.index, res, -kolko));
+            ship_orders[f].second.first = 1;
+            return;
+        }
+        else{
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.ToH.coords,ship), condition)));
+            return;
+        }
+    }
+
+}
+
+
 
 }//predavanie resourcov
 
@@ -401,7 +466,7 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 break;
             case 1:
                 cerr<<"predam"<<endl;
-                Sell();
+                Sell(turns,curr);
                 break;
             case 5:
                 cerr<<"pocitam"<<curr.index<<endl;
@@ -449,7 +514,8 @@ vector<Turn> do_turn() {
     }
     //explorovanie
 
-    if (world.my_ships().size() < 2) turns.push_back(BuyTurn(ShipsEnum::Cln));
+    if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
+    if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
     //zaciatocne kupovanie lodiek
 
     updateOrders();
