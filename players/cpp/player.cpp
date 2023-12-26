@@ -52,8 +52,10 @@ vector<vector<int>> mapka,mapkaD;
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
 vector<Harbor> vector_of_found_harbors; //nasiel som
 vector<vector<pair<int,Harbor>>> production_of_harbors(8),consumption_of_harbours(8); //produkcia pristavov, konzumacia pristavov
-vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit, 3=utocit,4=explore,5=calculate
+vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit, 3=utocit,4=explore,5=calculate,6=stacionarne,7=stoji
 vector<Trade> trades; //vsetky trades
+vector<pair<Harbor,int>> occupied_harbors; //obsadene pristavy
+vector<pair<int,XY>> destinations; //destinacie lodiek
 
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
@@ -175,8 +177,10 @@ void makeTradeCons(int tovar,Harbor harbor){
 void allHarbours(){
     for(Harbor harbor : world.harbors){
             coords_of_all_harbors.push_back(make_pair(harbor.coords,false));
+            occupied_harbors.push_back(make_pair(harbor,0));
             cerr<<"Zharbor: "<<harbor.coords.y<<" "<<harbor.coords.x<<" - "<<endl;
         }
+            
 } //da vsetky pristavy do vectora coords_of_all_harbors
 
 void updateShips(vector<Ship> ships){
@@ -203,6 +207,31 @@ bool expoler =false;
     ship_orders = new_ship_orders;
     if(!expoler) indexOfExploringShip = -1;
 } //aktualizacia lodiek
+
+void updateStacionarne(){
+    for(int i=0;i<ship_orders.size();i++){
+        if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_TRADE&&ship_orders[i].first.stats.max_cargo==10){
+            if(ship_orders[i].second.first == 0){
+                ship_orders[i].second.first = 6;
+            }
+        }
+    }
+}//aktualizacia stacionarnych lodiek
+
+void sortnutieOccupied(){
+    cerr<<"sortnutie";
+            unordered_map<XY, pair<int, XY>> dist;
+            bfs(world.my_base, condition, dist);
+            for(int i=0;i<occupied_harbors.size();i++){
+                occupied_harbors[i].second=dist[occupied_harbors[i].first.coords].first; 
+            }
+            sort(occupied_harbors.begin(),occupied_harbors.end(),[](pair<Harbor,int> a,pair<Harbor,int> b){return a.second<b.second;});
+            for(auto i:occupied_harbors){
+                cerr<<i.second<<" ";
+            }
+            cerr<<endl;
+        
+}
 
 void updateOrders(){
     for(int i=0;i<ship_orders.size();i++){
@@ -281,8 +310,13 @@ void umrtvitExplorera(vector<Turn>& turns){
     for(int i=0;i<ship_orders.size();i++){
         if(ship_orders[i].second.first == 4){
             indexOfExploringShip = -1;
-            ship_orders[i].second.first = 5;
+            ship_orders[i].second.first = 6;
             cerr<<"umrtvil som explorera"<<ship_orders[i].first.index<<endl;
+            // turns.push_back(MoveTurn(ship_orders[i].first.index, move_to(ship_orders[i].first, world.my_base, condition,nieco,asi)));
+            // cerr<<occupied_harbors[0].first.coords.x<<" "<<occupied_harbors[0].first.coords.y<<endl;
+                turns.push_back(MoveTurn(ship_orders[i].first.index, move_to(ship_orders[i].first, closest(occupied_harbors[0].first.coords,ship_orders[i].first), condition,nieco,asi)));
+                destinations.push_back(make_pair(ship_orders[i].first.index,occupied_harbors[0].first.coords));
+                occupied_harbors.erase(occupied_harbors.begin());
             return;
         }
     }   
@@ -427,6 +461,30 @@ for (auto i:ship_orders){
 
 }//predavanie resourcov
 
+void Stacionarne(vector<Turn>& turns, Ship ship){
+    
+    for(auto i:destinations){
+        if(i.first==ship.index){
+            if(ship.coords == i.second){
+                for(int i=0;i<ship_orders.size();i++){
+                    if(ship_orders[i].first.index == ship.index){
+                        cerr<<"zmena:"<<ship_orders[i].first.index<<endl;
+                        ship_orders[i].second.first = 7;
+                        return;
+                    }
+                }
+            }
+            turns.push_back(MoveTurn(ship.index, move_to(ship, i.second, condition,nieco,asi)));
+            return;
+        }
+    }
+            
+                cerr<<occupied_harbors[0].first.coords.x<<" "<<occupied_harbors[0].first.coords.y<<endl;
+                turns.push_back(MoveTurn(ship.index, move_to(ship, closest(occupied_harbors[0].first.coords,ship), condition,nieco,asi)));
+                destinations.push_back(make_pair(ship.index,occupied_harbors[0].first.coords));
+                occupied_harbors.erase(occupied_harbors.begin());
+                return;
+}
 
 void vypisProduction(){
     for(int i=0;i<8;i++){
@@ -475,6 +533,14 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
                 cerr<<"pocitam"<<curr.index<<endl;
                 Calculate(turns,curr);
                 break;
+            case 6:
+                cerr<<"stacionarne"<<curr.index<<endl;
+                Stacionarne(turns,curr);
+                break;
+            case 7:
+                cerr<<"stoji"<<curr.index<<endl;
+                turns.push_back(MoveTurn(curr.index, move_to(curr, curr.coords, condition,nieco,asi)));
+                break;
             default:
                 cerr<<"nic"<<curr.index<<endl;
                 break;
@@ -508,6 +574,7 @@ vector<Turn> do_turn() {
     if(tah == 1) {
         allHarbours();
         createMap();
+        sortnutieOccupied();
      //   test();
         }
     tah++;
@@ -515,22 +582,24 @@ vector<Turn> do_turn() {
     //predpocitanie
 
     if(mamHrbours()&&trebaExplorovat){ 
-    trebaExplorovat = false;
-    cerr<<"mam vsetky"<<endl;
-    umrtvitExplorera(turns);
-    vypisProduction();
-    vypisComsumption();
+        trebaExplorovat = false;
+        cerr<<"mam vsetky"<<endl;
+        umrtvitExplorera(turns);
+        vypisProduction();
+        vypisComsumption();
     }
     else if(indexOfExploringShip ==-1&&trebaExplorovat){ 
-    zijuciExplorer(turns);
+        zijuciExplorer(turns);
     }
     //explorovanie
 
     if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
     if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
+    if(world.gold>=60&&pocetLodiciek(ShipsEnum::Cln)<4)  turns.push_back(BuyTurn(ShipsEnum::Cln));
     if(world.gold>=125)  turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
+
     //zaciatocne kupovanie lodiek
-    
+    updateStacionarne();
     updateOrders();
     //aktualizacia lodiek    
 
