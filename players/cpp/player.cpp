@@ -105,14 +105,14 @@ vector<vector<int>> manhattanBody(int n,int m, int x, int y, int vzdialenost) {
 }//vrati vsetky body v manhattan vzdialenosti a menej
 XY closest(XY destination,Ship ship){
     if(ship.coords == destination) return destination;
+    if(mapka[destination.y][destination.x]==0) return destination;
+    int vzdialenost = 1;
     while(true){
-        int vzdialenost = 1;
-        if(mapka[destination.y][destination.x]==0) return destination;
         vector<vector<int>> body = manhattanBody(world.mapa.height,world.mapa.width, destination.x, destination.y, vzdialenost);
         for(vector<int> bod : body){
             if(mapka[bod[1]][bod[0]]!=2) return XY(bod[0],bod[1]);
         }
-
+        vzdialenost++;
     }
 }//najblizsi bod kam pohnut
 void makeTradeProd(int tovar,Harbor harbor){
