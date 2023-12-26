@@ -25,7 +25,7 @@ int main() {
   m=5;
   y=2;
   x=3;
-  vzdialenost=3;
+  vzdialenost=0;
   vector<vector<int>> hlavny(n,vector<int>(m,0));
     hlavny[y][x]=1;
 
