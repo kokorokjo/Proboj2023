@@ -64,7 +64,8 @@ vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit,
 vector<Trade> trades; //vsetky trades
 vector<pair<Harbor,int>> occupied_harbors; //obsadene pristavy
 vector<pair<int,XY>> destinations; //destinacie lodiek
-vector<pair<bool,infoH>> storageHarbors; //info o pristavoch
+vector<pair<bool,infoH>> storageHarbors; //storage a prod pristavov
+
 
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
@@ -317,8 +318,8 @@ for (auto i:ship_orders){
 void Stacionarne(vector<Turn>& turns, Ship ship){
     
     for(auto i:destinations){
-        if(i.first==ship.index&&ship.coords == i.second){
-            //TODO: ako po ceste zomrie
+        if(i.first==ship.index){
+            if(ship.coords == i.second){
                 for(int i=0;i<ship_orders.size();i++){
                     if(ship_orders[i].first.index == ship.index){
                         cerr<<"zmena:"<<ship_orders[i].first.index<<endl;
@@ -326,7 +327,7 @@ void Stacionarne(vector<Turn>& turns, Ship ship){
                         return;
                     }
                 }
-            
+            }
             turns.push_back(MoveTurn(ship.index, move_to(ship, i.second, condition)));
             return;
         }

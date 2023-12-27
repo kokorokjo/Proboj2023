@@ -274,8 +274,6 @@ updateShips
 updateMap
 explorujem0
 makeTradeProdtovar: 0
-makeTradeProdtovar: 2
-makeTradeProdtovar: 5
 trades:0
 nasiel som:82 19
 ship:82 19
@@ -317,19 +315,19 @@ explorujem0
 ship:87 22
 pocitam1
 ship:68 22
-MOVE 0 88 22 MOVE 1 69 22
+MOVE 0 88 22 MOVE 1 68 23
 
 [proboj] ROUND 22/500
 updateShips
 updateMap
+pocitam1
+ship:68 23
 explorujem0
-makeTradeProdtovar: 0
-trades:0
+makeTradeProdtovar: 1
+trades:2
 nasiel som:88 22
 ship:88 22
-pocitam1
-ship:69 22
-MOVE 0 89 23 MOVE 1 69 23
+MOVE 1 68 22 MOVE 0 89 23
 
 [proboj] ROUND 23/500
 updateShips
@@ -337,5244 +335,7199 @@ updateMap
 explorujem0
 ship:89 23
 pocitam1
-ship:69 23
-MOVE 0 91 23 MOVE 1 69 24
+MOVE 0 91 23 MOVE 1 68 21
 
 [proboj] ROUND 24/500
 updateShips
 updateMap
 explorujem0
 ship:91 23
-pocitam1
-ship:69 24
-MOVE 0 92 22 MOVE 1 69 25
+kupim1
+suradky: 82 19
+MOVE 0 92 22 MOVE 1 68 20
 
 [proboj] ROUND 25/500
 updateShips
 updateMap
 explorujem0
 ship:92 22
-pocitam1
-ship:69 25
-MOVE 0 93 21 MOVE 1 69 26
+kupim1
+suradky: 82 19
+MOVE 0 93 21 MOVE 1 69 20
 
 [proboj] ROUND 26/500
 updateShips
 updateMap
 explorujem0
 ship:93 21
-pocitam1
-ship:69 26
-MOVE 0 93 19 MOVE 1 69 27
+kupim1
+suradky: 82 19
+MOVE 0 93 19 MOVE 1 70 20
 
 [proboj] ROUND 27/500
 updateShips
 updateMap
 explorujem0
 ship:93 19
-pocitam1
-ship:69 27
-MOVE 0 94 18 MOVE 1 69 28
+kupim1
+suradky: 82 19
+MOVE 0 94 20 MOVE 1 71 20
 
 [proboj] ROUND 28/500
-updateShips
-updateMap
-explorujem0
-ship:94 18
-pocitam1
-ship:69 28
-MOVE 0 94 16 MOVE 1 69 29
-
-[proboj] ROUND 29/500
-updateShips
-updateMap
-explorujem0
-ship:94 16
-pocitam1
-ship:69 29
-MOVE 0 94 14 MOVE 1 69 30
-
-[proboj] ROUND 30/500
-updateShips
-updateMap
-explorujem0
-ship:94 14
-pocitam1
-ship:69 30
-MOVE 0 93 13 MOVE 1 69 31
-
-[proboj] ROUND 31/500
-updateShips
-updateMap
-explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 3
-makeTradeProdtovar: 6
-trades:3
-nasiel som:93 13
-ship:93 13
-pocitam1
-MOVE 0 94 14 MOVE 1 69 30
-
-[proboj] ROUND 32/500
-updateShips
-updateMap
-explorujem0
-ship:94 14
-kupim1
-suradky: 82 19
-MOVE 0 94 16 MOVE 1 69 29
-
-[proboj] ROUND 33/500
-updateShips
-updateMap
-kupim1
-suradky: 82 19
-explorujem0
-ship:94 16
-MOVE 1 69 28 MOVE 0 94 18
-
-[proboj] ROUND 34/500
-updateShips
-updateMap
-explorujem0
-ship:94 18
-kupim1
-suradky: 82 19
-MOVE 0 94 20 MOVE 1 69 27
-
-[proboj] ROUND 35/500
 updateShips
 updateMap
 explorujem0
 ship:94 20
 kupim1
 suradky: 82 19
-MOVE 0 94 22 MOVE 1 69 26
+MOVE 0 95 19 MOVE 1 72 20
+
+[proboj] ROUND 29/500
+updateShips
+updateMap
+kupim1
+suradky: 82 19
+explorujem0
+ship:95 19
+MOVE 1 73 20 MOVE 0 95 17
+
+[proboj] ROUND 30/500
+updateShips
+updateMap
+explorujem0
+ship:95 17
+kupim1
+suradky: 82 19
+MOVE 0 95 15 MOVE 1 74 20
+
+[proboj] ROUND 31/500
+updateShips
+updateMap
+explorujem0
+ship:95 15
+kupim1
+suradky: 82 19
+MOVE 0 95 13 MOVE 1 75 20
+
+[proboj] ROUND 32/500
+updateShips
+updateMap
+explorujem0
+ship:95 13
+kupim1
+suradky: 82 19
+MOVE 0 93 13 MOVE 1 76 20
+
+[proboj] ROUND 33/500
+updateShips
+updateMap
+explorujem0
+makeTradeProdtovar: 0
+makeTradeProdtovar: 1
+makeTradeProdtovar: 4
+makeTradeProdtovar: 6
+makeTradeProdtovar: 7
+trades:6
+nasiel som:93 13
+ship:93 13
+kupim1
+suradky: 82 19
+MOVE 0 94 14 MOVE 1 77 20
+
+[proboj] ROUND 34/500
+updateShips
+updateMap
+explorujem0
+ship:94 14
+kupim1
+suradky: 82 19
+MOVE 0 94 16 MOVE 1 78 20
+
+[proboj] ROUND 35/500
+updateShips
+updateMap
+explorujem0
+ship:94 16
+kupim1
+suradky: 82 19
+MOVE 0 94 18 MOVE 1 79 20
 
 [proboj] ROUND 36/500
 updateShips
 updateMap
+explorujem0
+ship:94 18
 kupim1
 suradky: 82 19
-explorujem0
-ship:94 22
-MOVE 1 69 25 MOVE 0 94 24
+MOVE 0 94 20 MOVE 1 80 20
 
 [proboj] ROUND 37/500
 updateShips
 updateMap
+explorujem0
+ship:94 20
 kupim1
 suradky: 82 19
-explorujem0
-ship:94 24
-MOVE 1 69 24 MOVE 0 94 26
+MOVE 0 94 22 MOVE 1 81 20
 
 [proboj] ROUND 38/500
 updateShips
 updateMap
 explorujem0
-ship:94 26
+ship:94 22
 kupim1
 suradky: 82 19
-MOVE 0 94 28 MOVE 1 69 23
+MOVE 0 94 24 MOVE 1 82 20
 
 [proboj] ROUND 39/500
 updateShips
 updateMap
 explorujem0
-ship:94 28
+ship:94 24
 kupim1
 suradky: 82 19
-MOVE 0 94 30 MOVE 1 69 22
+MOVE 0 94 26 MOVE 1 82 19
 
 [proboj] ROUND 40/500
 updateShips
 updateMap
-kupim1
-suradky: 82 19
 explorujem0
-ship:94 30
-MOVE 1 69 21 MOVE 0 94 32
+ship:94 26
+kupim1
+MOVE 0 94 28 TRADE 1 0 5
 
 [proboj] ROUND 41/500
 updateShips
 updateMap
 explorujem0
-ship:94 32
-kupim1
-suradky: 82 19
-MOVE 0 94 34 MOVE 1 69 20
+ship:94 28
+predam1
+MOVE 0 94 30 MOVE 1 82 20
 
 [proboj] ROUND 42/500
 updateShips
 updateMap
 explorujem0
-ship:94 34
-kupim1
-suradky: 82 19
-MOVE 0 94 36 MOVE 1 70 20
+ship:94 30
+predam1
+MOVE 0 94 32 MOVE 1 82 21
 
 [proboj] ROUND 43/500
 updateShips
 updateMap
 explorujem0
-ship:94 36
-kupim1
-suradky: 82 19
-MOVE 0 94 38 MOVE 1 71 20
+ship:94 32
+predam1
+MOVE 0 94 34 MOVE 1 82 22
 
 [proboj] ROUND 44/500
 updateShips
 updateMap
 explorujem0
-ship:94 38
-kupim1
-suradky: 82 19
-MOVE 0 94 40 MOVE 1 72 20
+ship:94 34
+predam1
+MOVE 0 94 36 MOVE 1 83 22
 
 [proboj] ROUND 45/500
 updateShips
 updateMap
 explorujem0
-ship:94 40
-kupim1
-suradky: 82 19
-MOVE 0 94 42 MOVE 1 73 20
+ship:94 36
+predam1
+MOVE 0 94 38 MOVE 1 84 22
 
 [proboj] ROUND 46/500
 updateShips
 updateMap
 explorujem0
-ship:94 42
-kupim1
-suradky: 82 19
-MOVE 0 94 44 MOVE 1 74 20
+ship:94 38
+predam1
+MOVE 0 94 40 MOVE 1 85 22
 
 [proboj] ROUND 47/500
 updateShips
 updateMap
 explorujem0
-ship:94 44
-kupim1
-suradky: 82 19
-MOVE 0 94 46 MOVE 1 75 20
+ship:94 40
+predam1
+MOVE 0 94 42 MOVE 1 86 22
 
 [proboj] ROUND 48/500
 updateShips
 updateMap
 explorujem0
-ship:94 46
-kupim1
-suradky: 82 19
-MOVE 0 94 48 MOVE 1 76 20
+ship:94 42
+predam1
+MOVE 0 94 44 MOVE 1 87 22
 
 [proboj] ROUND 49/500
 updateShips
 updateMap
 explorujem0
-ship:94 48
-kupim1
-suradky: 82 19
-MOVE 0 94 50 MOVE 1 77 20
+ship:94 44
+predam1
+MOVE 0 94 46 MOVE 1 88 22
 
 [proboj] ROUND 50/500
 updateShips
 updateMap
 explorujem0
-ship:94 50
-kupim1
-suradky: 82 19
-MOVE 0 94 52 MOVE 1 78 20
+ship:94 46
+predam1
+MOVE 0 94 48 TRADE 1 0 -5
 
 [proboj] ROUND 51/500
 updateShips
 updateMap
 explorujem0
-ship:94 52
-kupim1
-suradky: 82 19
-MOVE 0 93 53 MOVE 1 79 20
+ship:94 48
+pocitam1
+MOVE 0 94 50 MOVE 1 88 23
 
 [proboj] ROUND 52/500
 updateShips
 updateMap
-explorujem0
-ship:93 53
 kupim1
-suradky: 82 19
-MOVE 0 91 53 MOVE 1 80 20
+suradky: 93 13
+explorujem0
+ship:94 50
+MOVE 1 89 23 MOVE 0 94 52
 
 [proboj] ROUND 53/500
 updateShips
 updateMap
 explorujem0
-ship:91 53
+ship:94 52
 kupim1
-suradky: 82 19
-MOVE 0 90 53 MOVE 1 81 20
+suradky: 93 13
+MOVE 0 93 53 MOVE 1 90 23
 
 [proboj] ROUND 54/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 4
-trades:5
-nasiel som:90 53
-ship:90 53
+ship:93 53
 kupim1
-suradky: 82 19
-MOVE 0 90 55 MOVE 1 82 20
+suradky: 93 13
+MOVE 0 91 53 MOVE 1 91 23
 
 [proboj] ROUND 55/500
 updateShips
 updateMap
 explorujem0
-ship:90 55
+ship:91 53
 kupim1
-suradky: 82 19
-MOVE 0 89 56 MOVE 1 82 19
+suradky: 93 13
+MOVE 0 90 53 MOVE 1 91 22
 
 [proboj] ROUND 56/500
 updateShips
 updateMap
 explorujem0
-ship:89 56
+makeTradeProdtovar: 0
+makeTradeProdtovar: 1
+makeTradeProdtovar: 5
+makeTradeProdtovar: 7
+trades:9
+nasiel som:90 53
+ship:90 53
 kupim1
-MOVE 0 87 56 TRADE 1 0 10
+suradky: 93 13
+MOVE 0 90 55 MOVE 1 92 22
 
 [proboj] ROUND 57/500
 updateShips
 updateMap
 explorujem0
-ship:87 56
-predam1
-MOVE 0 86 55 MOVE 1 82 20
+ship:90 55
+kupim1
+suradky: 93 13
+MOVE 0 89 56 MOVE 1 92 21
 
 [proboj] ROUND 58/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 2
-makeTradeProdtovar: 3
-makeTradeProdtovar: 4
-trades:11
-nasiel som:86 55
-ship:86 55
-predam1
-MOVE 0 86 57 MOVE 1 82 21
+ship:89 56
+kupim1
+suradky: 93 13
+MOVE 0 87 56 MOVE 1 93 21
 
 [proboj] ROUND 59/500
 updateShips
 updateMap
 explorujem0
-ship:86 57
-predam1
-MOVE 0 86 59 MOVE 1 82 22
+ship:87 56
+kupim1
+suradky: 93 13
+MOVE 0 86 55 MOVE 1 93 20
 
 [proboj] ROUND 60/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:86 59
-predam1
-MOVE 0 86 61 MOVE 1 82 23
+makeTradeProdtovar: 3
+makeTradeProdtovar: 6
+trades:17
+nasiel som:86 55
+ship:86 55
+MOVE 1 93 20 MOVE 0 86 57
 
 [proboj] ROUND 61/500
 updateShips
 updateMap
 explorujem0
-ship:86 61
-predam1
-MOVE 0 86 63 MOVE 1 83 23
+ship:86 57
+kupim1
+suradky: 93 13
+MOVE 0 86 59 MOVE 1 93 19
 
 [proboj] ROUND 62/500
 updateShips
 updateMap
 explorujem0
-ship:86 63
-predam1
-MOVE 0 86 65 MOVE 1 84 23
+ship:86 59
+kupim1
+suradky: 93 13
+MOVE 0 86 61 MOVE 1 94 19
 
 [proboj] ROUND 63/500
 updateShips
 updateMap
 explorujem0
-ship:86 65
-predam1
-MOVE 0 85 66 MOVE 1 84 24
+ship:86 61
+kupim1
+suradky: 93 13
+MOVE 0 86 63 MOVE 1 94 18
 
 [proboj] ROUND 64/500
 updateShips
 updateMap
-predam1
+kupim1
+suradky: 93 13
 explorujem0
-ship:85 66
-MOVE 1 85 24 MOVE 0 83 66
+ship:86 63
+MOVE 1 94 17 MOVE 0 86 65
 
 [proboj] ROUND 65/500
 updateShips
 updateMap
 explorujem0
-ship:83 66
-predam1
-MOVE 0 81 66 MOVE 1 86 24
+ship:86 65
+kupim1
+suradky: 93 13
+MOVE 0 85 66 MOVE 1 94 16
 
 [proboj] ROUND 66/500
 updateShips
 updateMap
 explorujem0
-ship:81 66
-predam1
-MOVE 0 79 66 MOVE 1 87 24
+ship:85 66
+kupim1
+suradky: 93 13
+MOVE 0 83 66 MOVE 1 94 15
 
 [proboj] ROUND 67/500
 updateShips
 updateMap
 explorujem0
-ship:79 66
-predam1
-MOVE 0 77 66 MOVE 1 87 23
+ship:83 66
+kupim1
+suradky: 93 13
+MOVE 0 81 66 MOVE 1 94 14
 
 [proboj] ROUND 68/500
 updateShips
 updateMap
 explorujem0
-ship:77 66
-predam1
-MOVE 0 75 66 MOVE 1 88 23
+ship:81 66
+kupim1
+suradky: 93 13
+MOVE 0 79 66 MOVE 1 94 13
 
 [proboj] ROUND 69/500
 updateShips
 updateMap
 explorujem0
-ship:75 66
-predam1
-MOVE 0 73 66 MOVE 1 89 23
+ship:79 66
+kupim1
+suradky: 93 13
+MOVE 0 77 66 MOVE 1 93 13
 
 [proboj] ROUND 70/500
 updateShips
 updateMap
 explorujem0
-ship:73 66
-predam1
-MOVE 0 71 66 MOVE 1 90 23
+ship:77 66
+kupim1
+MOVE 0 75 66 TRADE 1 0 25
 
 [proboj] ROUND 71/500
 updateShips
 updateMap
-explorujem0
-ship:71 66
 predam1
-MOVE 0 69 66 MOVE 1 91 23
+explorujem0
+ship:75 66
+MOVE 1 94 13 MOVE 0 73 66
 
 [proboj] ROUND 72/500
 updateShips
 updateMap
 explorujem0
-ship:69 66
+ship:73 66
 predam1
-MOVE 0 67 66 MOVE 1 91 22
+MOVE 0 71 66 MOVE 1 94 14
 
 [proboj] ROUND 73/500
 updateShips
 updateMap
 explorujem0
-ship:67 66
+ship:71 66
 predam1
-MOVE 0 66 66 MOVE 1 92 22
+MOVE 0 69 66 MOVE 1 94 15
 
 [proboj] ROUND 74/500
 updateShips
 updateMap
-predam1
 explorujem0
-ship:66 66
-MOVE 1 92 21 MOVE 0 66 67
+ship:69 66
+predam1
+MOVE 0 67 66 MOVE 1 94 16
 
 [proboj] ROUND 75/500
 updateShips
 updateMap
-predam1
 explorujem0
-makeTradeProdtovar: 0
-makeTradeProdtovar: 6
-trades:16
-nasiel som:66 67
-ship:66 67
-MOVE 1 93 21 MOVE 0 65 66
+ship:67 66
+predam1
+MOVE 0 66 66 MOVE 1 94 17
 
 [proboj] ROUND 76/500
 updateShips
 updateMap
 explorujem0
-ship:65 66
+ship:66 66
 predam1
-MOVE 0 63 66 MOVE 1 93 20
+MOVE 0 66 67 MOVE 1 94 18
 
 [proboj] ROUND 77/500
 updateShips
 updateMap
 explorujem0
-ship:63 66
+makeTradeProdtovar: 7
+trades:21
+nasiel som:66 67
+ship:66 67
 predam1
-MOVE 0 62 67 MOVE 1 93 19
+MOVE 0 66 67 MOVE 1 94 19
 
 [proboj] ROUND 78/500
 updateShips
 updateMap
 explorujem0
-ship:62 67
+makeTradeProdtovar: 7
+trades:25
+nasiel som:66 67
+ship:66 67
 predam1
-MOVE 0 61 68 MOVE 1 94 19
+MOVE 0 65 66 MOVE 1 94 20
 
 [proboj] ROUND 79/500
 updateShips
 updateMap
-predam1
 explorujem0
-ship:61 68
-MOVE 1 94 18 MOVE 0 60 69
+ship:65 66
+predam1
+MOVE 0 63 66 MOVE 1 94 21
 
 [proboj] ROUND 80/500
 updateShips
 updateMap
 explorujem0
-ship:60 69
+ship:63 66
 predam1
-MOVE 0 58 69 MOVE 1 94 17
+MOVE 0 62 67 MOVE 1 94 22
 
 [proboj] ROUND 81/500
 updateShips
 updateMap
 explorujem0
-ship:58 69
+ship:62 67
 predam1
-MOVE 0 57 70 MOVE 1 94 16
+MOVE 0 61 68 MOVE 1 94 23
 
 [proboj] ROUND 82/500
 updateShips
 updateMap
 explorujem0
-ship:57 70
+ship:61 68
 predam1
-MOVE 0 56 71 MOVE 1 94 15
+MOVE 0 60 69 MOVE 1 94 24
 
 [proboj] ROUND 83/500
 updateShips
 updateMap
 explorujem0
-ship:56 71
+ship:60 69
 predam1
-MOVE 0 54 71 MOVE 1 94 14
+MOVE 0 58 69 MOVE 1 93 24
 
 [proboj] ROUND 84/500
 updateShips
 updateMap
 explorujem0
-ship:54 71
+ship:58 69
 predam1
-MOVE 0 53 71 MOVE 1 94 13
+MOVE 0 57 70 MOVE 1 92 24
 
 [proboj] ROUND 85/500
 updateShips
 updateMap
 explorujem0
-ship:53 71
+ship:57 70
 predam1
-MOVE 0 53 72 MOVE 1 93 13
+MOVE 0 56 71 MOVE 1 92 23
 
 [proboj] ROUND 86/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 2
-makeTradeProdtovar: 3
-makeTradeProdtovar: 7
-trades:26
-nasiel som:53 72
-ship:53 72
+ship:56 71
 predam1
-MOVE 0 53 70 TRADE 1 0 -10
+MOVE 0 54 71 MOVE 1 91 23
 
 [proboj] ROUND 87/500
 updateShips
 updateMap
 explorujem0
-ship:53 70
-pocitam1
-MOVE 0 51 70 MOVE 1 94 13
+ship:54 71
+predam1
+MOVE 0 53 71 MOVE 1 90 23
 
 [proboj] ROUND 88/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
+predam1
 explorujem0
-ship:51 70
-MOVE 1 94 14 MOVE 0 49 70
+ship:53 71
+MOVE 1 89 23 MOVE 0 53 72
 
 [proboj] ROUND 89/500
 updateShips
 updateMap
 explorujem0
-ship:49 70
-kupim1
-suradky: 88 22
-MOVE 0 48 71 MOVE 1 94 15
+makeTradeProdtovar: 0
+makeTradeProdtovar: 7
+trades:34
+nasiel som:53 72
+ship:53 72
+predam1
+MOVE 0 53 70 MOVE 1 88 23
 
 [proboj] ROUND 90/500
 updateShips
 updateMap
 explorujem0
-ship:48 71
-kupim1
-suradky: 88 22
-MOVE 0 46 71 MOVE 1 94 16
+ship:53 70
+predam1
+MOVE 0 51 70 MOVE 1 88 22
 
 [proboj] ROUND 91/500
 updateShips
 updateMap
 explorujem0
-ship:46 71
-kupim1
-suradky: 88 22
-MOVE 0 45 72 MOVE 1 94 17
+ship:51 70
+predam1
+MOVE 0 49 70 TRADE 1 0 -25
 
 [proboj] ROUND 92/500
 updateShips
 updateMap
 explorujem0
-ship:45 72
-kupim1
-suradky: 88 22
-MOVE 0 45 74 MOVE 1 94 18
+ship:49 70
+pocitam1
+MOVE 0 48 71 MOVE 1 87 22
 
 [proboj] ROUND 93/500
 updateShips
 updateMap
 explorujem0
-ship:45 74
-kupim1
-suradky: 88 22
-MOVE 0 45 76 MOVE 1 94 19
+ship:48 71
+pocitam1
+MOVE 0 46 71 MOVE 1 86 22
 
 [proboj] ROUND 94/500
 updateShips
 updateMap
 explorujem0
-ship:45 76
-kupim1
-suradky: 88 22
-MOVE 0 45 78 MOVE 1 94 20
+ship:46 71
+pocitam1
+MOVE 0 45 72 MOVE 1 85 22
 
 [proboj] ROUND 95/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
 explorujem0
-ship:45 78
-MOVE 1 94 21 MOVE 0 45 80
+ship:45 72
+pocitam1
+MOVE 0 45 74 MOVE 1 85 21
 
 [proboj] ROUND 96/500
 updateShips
 updateMap
 explorujem0
-ship:45 80
-kupim1
-suradky: 88 22
-MOVE 0 45 82 MOVE 1 94 22
+ship:45 74
+pocitam1
+MOVE 0 45 76 MOVE 1 84 21
 
 [proboj] ROUND 97/500
 updateShips
 updateMap
 explorujem0
-ship:45 82
-kupim1
-suradky: 88 22
-MOVE 0 47 82 MOVE 1 94 23
+ship:45 76
+pocitam1
+MOVE 0 45 78 MOVE 1 83 21
 
 [proboj] ROUND 98/500
 updateShips
 updateMap
 explorujem0
-ship:47 82
-kupim1
-suradky: 88 22
-MOVE 0 49 82 MOVE 1 93 23
+ship:45 78
+pocitam1
+MOVE 0 45 80 MOVE 1 83 20
 
 [proboj] ROUND 99/500
 updateShips
 updateMap
 explorujem0
-ship:49 82
-kupim1
-suradky: 88 22
-MOVE 0 51 82 MOVE 1 92 23
+ship:45 80
+pocitam1
+MOVE 0 45 82 MOVE 1 82 20
 
 [proboj] ROUND 100/500
 updateShips
 updateMap
 explorujem0
-ship:51 82
-kupim1
-suradky: 88 22
-MOVE 0 52 82 MOVE 1 91 23
+ship:45 82
+pocitam1
+MOVE 0 47 82 MOVE 1 81 20
 
 [proboj] ROUND 101/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 0
-makeTradeProdtovar: 7
-trades:36
-nasiel som:52 82
-ship:52 82
-kupim1
-suradky: 88 22
-MOVE 0 51 83 MOVE 1 90 23
+ship:47 82
+pocitam1
+MOVE 0 49 82 MOVE 1 80 20
 
 [proboj] ROUND 102/500
 updateShips
 updateMap
 explorujem0
-ship:51 83
-kupim1
-suradky: 88 22
-MOVE 0 51 85 MOVE 1 89 23
+ship:49 82
+pocitam1
+MOVE 0 51 82 MOVE 1 79 20
 
 [proboj] ROUND 103/500
 updateShips
 updateMap
+pocitam1
 explorujem0
-ship:51 85
-kupim1
-suradky: 88 22
-MOVE 0 51 87 MOVE 1 88 23
+ship:51 82
+MOVE 1 79 19 MOVE 0 52 82
 
 [proboj] ROUND 104/500
 updateShips
 updateMap
+pocitam1
 explorujem0
-ship:51 87
-kupim1
-suradky: 88 22
-MOVE 0 53 87 MOVE 1 88 22
+makeTradeProdtovar: 0
+makeTradeProdtovar: 6
+trades:40
+nasiel som:52 82
+ship:52 82
+MOVE 1 78 19 MOVE 0 51 83
 
 [proboj] ROUND 105/500
 updateShips
 updateMap
 explorujem0
-ship:53 87
-kupim1
-MOVE 0 54 87 TRADE 1 0 40
+ship:51 83
+pocitam1
+MOVE 0 51 85 MOVE 1 77 19
 
 [proboj] ROUND 106/500
 updateShips
 updateMap
+pocitam1
 explorujem0
-ship:54 87
-predam1
-MOVE 0 55 87 MOVE 1 88 23
+ship:51 85
+MOVE 1 76 19 MOVE 0 51 87
 
 [proboj] ROUND 107/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 0
-makeTradeProdtovar: 1
-trades:44
-nasiel som:55 87
-ship:55 87
-predam1
-MOVE 0 56 88 MOVE 1 89 23
+ship:51 87
+pocitam1
+MOVE 0 53 87 MOVE 1 76 18
 
 [proboj] ROUND 108/500
 updateShips
 updateMap
-predam1
 explorujem0
-ship:56 88
-MOVE 1 90 23 MOVE 0 57 87
+ship:53 87
+pocitam1
+MOVE 0 54 87 MOVE 1 76 17
 
 [proboj] ROUND 109/500
 updateShips
 updateMap
 explorujem0
-ship:57 87
-predam1
-MOVE 0 58 86 MOVE 1 91 23
+ship:54 87
+pocitam1
+MOVE 0 55 87 MOVE 1 75 17
 
 [proboj] ROUND 110/500
 updateShips
 updateMap
 explorujem0
-ship:58 86
-predam1
-MOVE 0 59 85 MOVE 1 91 22
+makeTradeProdtovar: 1
+trades:48
+nasiel som:55 87
+ship:55 87
+pocitam1
+MOVE 0 56 88 MOVE 1 74 17
 
 [proboj] ROUND 111/500
 updateShips
 updateMap
+pocitam1
 explorujem0
-ship:59 85
-predam1
-MOVE 0 59 83 MOVE 1 92 22
+ship:56 88
+MOVE 1 74 16 MOVE 0 57 87
 
 [proboj] ROUND 112/500
 updateShips
 updateMap
-predam1
 explorujem0
-ship:59 83
-MOVE 1 92 21 MOVE 0 60 82
+ship:57 87
+pocitam1
+MOVE 0 58 86 MOVE 1 74 15
 
 [proboj] ROUND 113/500
 updateShips
 updateMap
 explorujem0
-ship:60 82
-predam1
-MOVE 0 61 81 MOVE 1 93 21
+ship:58 86
+pocitam1
+MOVE 0 59 85 MOVE 1 73 15
 
 [proboj] ROUND 114/500
 updateShips
 updateMap
 explorujem0
-ship:61 81
-predam1
-MOVE 0 62 80 MOVE 1 93 20
+ship:59 85
+pocitam1
+MOVE 0 59 83 MOVE 1 73 14
 
 [proboj] ROUND 115/500
 updateShips
 updateMap
 explorujem0
-ship:62 80
-predam1
-MOVE 0 64 80 MOVE 1 93 20
+ship:59 83
+pocitam1
+MOVE 0 60 82 MOVE 1 73 13
 
 [proboj] ROUND 116/500
 updateShips
 updateMap
 explorujem0
-ship:64 80
-predam1
-MOVE 0 65 79 MOVE 1 93 19
+ship:60 82
+pocitam1
+MOVE 0 61 81 MOVE 1 73 12
 
 [proboj] ROUND 117/500
 updateShips
 updateMap
 explorujem0
-ship:65 79
-predam1
-MOVE 0 67 79 MOVE 1 94 19
+ship:61 81
+pocitam1
+MOVE 0 62 80 MOVE 1 72 12
 
 [proboj] ROUND 118/500
 updateShips
 updateMap
 explorujem0
-ship:67 79
-predam1
-MOVE 0 68 78 MOVE 1 94 18
+ship:62 80
+pocitam1
+MOVE 0 64 80 MOVE 1 72 11
 
 [proboj] ROUND 119/500
 updateShips
 updateMap
 explorujem0
-ship:68 78
-predam1
-MOVE 0 69 77 MOVE 1 94 17
+ship:64 80
+pocitam1
+MOVE 0 65 79 MOVE 1 72 10
 
 [proboj] ROUND 120/500
 updateShips
 updateMap
+pocitam1
 explorujem0
-ship:69 77
-predam1
-MOVE 0 69 76 MOVE 1 94 16
+ship:65 79
+MOVE 1 72 9 MOVE 0 67 79
 
 [proboj] ROUND 121/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 4
-trades:59
-nasiel som:69 76
-ship:69 76
-predam1
-MOVE 0 69 78 MOVE 1 94 15
+ship:67 79
+pocitam1
+MOVE 0 68 78 MOVE 1 72 8
 
 [proboj] ROUND 122/500
 updateShips
 updateMap
 explorujem0
-ship:69 78
-predam1
-MOVE 0 69 80 MOVE 1 94 14
+ship:68 78
+pocitam1
+MOVE 0 69 77 MOVE 1 71 8
 
 [proboj] ROUND 123/500
 updateShips
 updateMap
 explorujem0
-ship:69 80
-predam1
-MOVE 0 69 82 MOVE 1 94 13
+ship:69 77
+pocitam1
+MOVE 0 69 76 MOVE 1 71 7
 
 [proboj] ROUND 124/500
 updateShips
 updateMap
 explorujem0
-ship:69 82
-predam1
-MOVE 0 69 84 MOVE 1 93 13
+makeTradeProdtovar: 2
+trades:62
+nasiel som:69 76
+ship:69 76
+pocitam1
+MOVE 0 69 78 MOVE 1 71 6
 
 [proboj] ROUND 125/500
 updateShips
 updateMap
 explorujem0
-ship:69 84
-predam1
-MOVE 0 69 86 TRADE 1 0 -40
+ship:69 78
+pocitam1
+MOVE 0 69 80 MOVE 1 70 6
 
 [proboj] ROUND 126/500
 updateShips
 updateMap
 explorujem0
-ship:69 86
+ship:69 80
 pocitam1
-MOVE 0 69 88 MOVE 1 94 13
+MOVE 0 69 82 MOVE 1 70 5
 
 [proboj] ROUND 127/500
 updateShips
 updateMap
 explorujem0
-ship:69 88
+ship:69 82
 pocitam1
-MOVE 0 67 88 MOVE 1 94 14
+MOVE 0 69 84 MOVE 1 69 5
 
 [proboj] ROUND 128/500
 updateShips
 updateMap
 explorujem0
-ship:67 88
+ship:69 84
 pocitam1
-MOVE 0 65 88 MOVE 1 94 15
+MOVE 0 69 86 MOVE 1 68 5
 
 [proboj] ROUND 129/500
 updateShips
 updateMap
 explorujem0
-ship:65 88
+ship:69 86
 pocitam1
-MOVE 0 63 88 MOVE 1 94 16
+MOVE 0 69 88 MOVE 1 68 4
 
 [proboj] ROUND 130/500
 updateShips
 updateMap
-explorujem0
-ship:63 88
 pocitam1
-MOVE 0 61 88 MOVE 1 94 17
+explorujem0
+ship:69 88
+MOVE 1 68 3 MOVE 0 67 88
 
 [proboj] ROUND 131/500
 updateShips
 updateMap
 explorujem0
-ship:61 88
+ship:67 88
 pocitam1
-MOVE 0 59 88 MOVE 1 94 18
+MOVE 0 65 88 STORE 1 50
 
 [proboj] ROUND 132/500
 updateShips
 updateMap
 explorujem0
-ship:59 88
+ship:65 88
 pocitam1
-MOVE 0 57 88 MOVE 1 94 19
+MOVE 0 63 88 MOVE 1 68 4
 
 [proboj] ROUND 133/500
 updateShips
 updateMap
 explorujem0
-ship:57 88
-pocitam1
-MOVE 0 55 88 MOVE 1 94 20
+ship:63 88
+kupim1
+suradky: 93 13
+MOVE 0 61 88 MOVE 1 68 5
 
 [proboj] ROUND 134/500
 updateShips
 updateMap
 explorujem0
-ship:55 88
-pocitam1
-MOVE 0 54 87 MOVE 1 94 21
+ship:61 88
+kupim1
+suradky: 93 13
+MOVE 0 59 88 MOVE 1 68 6
 
 [proboj] ROUND 135/500
 updateShips
 updateMap
 explorujem0
-ship:54 87
-pocitam1
-MOVE 0 53 86 MOVE 1 94 22
+ship:59 88
+kupim1
+suradky: 93 13
+MOVE 0 57 88 MOVE 1 68 7
 
 [proboj] ROUND 136/500
 updateShips
 updateMap
 explorujem0
-ship:53 86
-pocitam1
-MOVE 0 52 85 MOVE 1 94 23
+ship:57 88
+kupim1
+suradky: 93 13
+MOVE 0 55 88 MOVE 1 68 8
 
 [proboj] ROUND 137/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:52 85
-pocitam1
-MOVE 0 51 84 MOVE 1 94 24
+ship:55 88
+MOVE 1 68 9 MOVE 0 54 87
 
 [proboj] ROUND 138/500
 updateShips
 updateMap
 explorujem0
-ship:51 84
-pocitam1
-MOVE 0 51 82 MOVE 1 93 24
+ship:54 87
+kupim1
+suradky: 93 13
+MOVE 0 53 86 MOVE 1 68 10
 
 [proboj] ROUND 139/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:51 82
-pocitam1
-MOVE 0 50 81 MOVE 1 92 24
+ship:53 86
+MOVE 1 68 11 MOVE 0 52 85
 
 [proboj] ROUND 140/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:50 81
-pocitam1
-MOVE 0 48 81 MOVE 1 92 23
+ship:52 85
+MOVE 1 68 12 MOVE 0 51 84
 
 [proboj] ROUND 141/500
 updateShips
 updateMap
 explorujem0
-ship:48 81
-pocitam1
-MOVE 0 46 81 MOVE 1 91 23
+ship:51 84
+kupim1
+suradky: 93 13
+MOVE 0 51 82 MOVE 1 68 13
 
 [proboj] ROUND 142/500
 updateShips
 updateMap
 explorujem0
-ship:46 81
-pocitam1
-MOVE 0 44 81 MOVE 1 90 23
+ship:51 82
+kupim1
+suradky: 93 13
+MOVE 0 50 81 MOVE 1 68 14
 
 [proboj] ROUND 143/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:44 81
-MOVE 1 89 23 MOVE 0 42 81
+ship:50 81
+kupim1
+suradky: 93 13
+MOVE 0 48 81 MOVE 1 68 15
 
 [proboj] ROUND 144/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:42 81
-pocitam1
-MOVE 0 40 81 MOVE 1 88 23
+ship:48 81
+MOVE 1 68 16 MOVE 0 46 81
 
 [proboj] ROUND 145/500
 updateShips
 updateMap
 explorujem0
-ship:40 81
-pocitam1
-MOVE 0 38 81 MOVE 1 88 22
+ship:46 81
+kupim1
+suradky: 93 13
+MOVE 0 44 81 MOVE 1 68 17
 
 [proboj] ROUND 146/500
 updateShips
 updateMap
 explorujem0
-ship:38 81
-pocitam1
-MOVE 0 36 81 MOVE 1 87 22
+ship:44 81
+kupim1
+suradky: 93 13
+MOVE 0 42 81 MOVE 1 68 18
 
 [proboj] ROUND 147/500
 updateShips
 updateMap
 explorujem0
-ship:36 81
-pocitam1
-MOVE 0 34 81 MOVE 1 86 22
+ship:42 81
+kupim1
+suradky: 93 13
+MOVE 0 40 81 MOVE 1 68 19
 
 [proboj] ROUND 148/500
 updateShips
 updateMap
 explorujem0
-ship:34 81
-pocitam1
-MOVE 0 32 81 MOVE 1 85 22
+ship:40 81
+kupim1
+suradky: 93 13
+MOVE 0 38 81 MOVE 1 68 20
 
 [proboj] ROUND 149/500
 updateShips
 updateMap
 explorujem0
-ship:32 81
-pocitam1
-MOVE 0 30 81 MOVE 1 85 21
+ship:38 81
+kupim1
+suradky: 93 13
+MOVE 0 36 81 MOVE 1 68 21
 
 [proboj] ROUND 150/500
 updateShips
 updateMap
 explorujem0
-ship:30 81
-pocitam1
-MOVE 0 28 81 MOVE 1 84 21
+ship:36 81
+kupim1
+suradky: 93 13
+MOVE 0 34 81 MOVE 1 68 22
 
 [proboj] ROUND 151/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:28 81
-pocitam1
-MOVE 0 27 80 MOVE 1 83 21
+ship:34 81
+MOVE 1 68 23 MOVE 0 32 81
 
 [proboj] ROUND 152/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 3
-makeTradeProdtovar: 4
-makeTradeProdtovar: 6
-trades:72
-nasiel som:27 80
-ship:27 80
-pocitam1
-MOVE 0 27 82 MOVE 1 83 20
+ship:32 81
+kupim1
+suradky: 93 13
+MOVE 0 30 81 MOVE 1 69 23
 
 [proboj] ROUND 153/500
 updateShips
 updateMap
 explorujem0
-ship:27 82
-pocitam1
-MOVE 0 27 84 MOVE 1 82 20
+ship:30 81
+kupim1
+suradky: 93 13
+MOVE 0 28 81 MOVE 1 70 23
 
 [proboj] ROUND 154/500
 updateShips
 updateMap
 explorujem0
-ship:27 84
-pocitam1
-MOVE 0 27 86 MOVE 1 81 20
+ship:28 81
+kupim1
+suradky: 93 13
+MOVE 0 27 80 MOVE 1 71 23
 
 [proboj] ROUND 155/500
 updateShips
 updateMap
 explorujem0
-ship:27 86
-pocitam1
-MOVE 0 27 88 MOVE 1 80 20
+makeTradeProdtovar: 2
+makeTradeProdtovar: 6
+trades:77
+nasiel som:27 80
+ship:27 80
+kupim1
+suradky: 93 13
+MOVE 0 27 82 MOVE 1 72 23
 
 [proboj] ROUND 156/500
 updateShips
 updateMap
 explorujem0
-ship:27 88
-pocitam1
-MOVE 0 25 88 MOVE 1 79 20
+ship:27 82
+kupim1
+suradky: 93 13
+MOVE 0 27 84 MOVE 1 73 23
 
 [proboj] ROUND 157/500
 updateShips
 updateMap
 explorujem0
-ship:25 88
-pocitam1
-MOVE 0 24 89 MOVE 1 79 19
+ship:27 84
+kupim1
+suradky: 93 13
+MOVE 0 27 86 MOVE 1 74 23
 
 [proboj] ROUND 158/500
 updateShips
 updateMap
 explorujem0
-ship:24 89
-pocitam1
-MOVE 0 23 88 MOVE 1 78 19
+ship:27 86
+kupim1
+suradky: 93 13
+MOVE 0 27 88 MOVE 1 75 23
 
 [proboj] ROUND 159/500
 updateShips
 updateMap
 explorujem0
-ship:23 88
-pocitam1
-MOVE 0 21 88 MOVE 1 77 19
+ship:27 88
+kupim1
+suradky: 93 13
+MOVE 0 25 88 MOVE 1 76 23
 
 [proboj] ROUND 160/500
 updateShips
 updateMap
 explorujem0
-ship:21 88
-pocitam1
-MOVE 0 19 88 MOVE 1 76 19
+ship:25 88
+kupim1
+suradky: 93 13
+MOVE 0 23 88 MOVE 1 77 23
 
 [proboj] ROUND 161/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:19 88
-pocitam1
-MOVE 0 18 88 MOVE 1 76 18
+ship:23 88
+MOVE 1 78 23 MOVE 0 21 88
 
 [proboj] ROUND 162/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:18 88
-MOVE 1 76 17 MOVE 0 18 89
+ship:21 88
+kupim1
+suradky: 93 13
+MOVE 0 19 88 MOVE 1 79 23
 
 [proboj] ROUND 163/500
 updateShips
 updateMap
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 2
-makeTradeProdtovar: 5
-trades:89
-nasiel som:18 89
-ship:18 89
-pocitam1
-MOVE 0 20 89 MOVE 1 75 17
+ship:19 88
+kupim1
+suradky: 93 13
+MOVE 0 18 88 MOVE 1 80 23
 
 [proboj] ROUND 164/500
 updateShips
 updateMap
 explorujem0
-ship:20 89
-pocitam1
-MOVE 0 21 90 MOVE 1 74 17
+ship:18 88
+kupim1
+suradky: 93 13
+MOVE 0 18 89 MOVE 1 81 23
 
 [proboj] ROUND 165/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:21 90
-pocitam1
-MOVE 0 21 92 MOVE 1 74 16
+makeTradeProdtovar: 0
+makeTradeProdtovar: 1
+makeTradeProdtovar: 5
+trades:95
+nasiel som:18 89
+ship:18 89
+MOVE 1 82 23 MOVE 0 20 89
 
 [proboj] ROUND 166/500
 updateShips
 updateMap
 explorujem0
-ship:21 92
-pocitam1
-MOVE 0 22 93 MOVE 1 74 15
+ship:20 89
+kupim1
+suradky: 93 13
+MOVE 0 21 90 MOVE 1 83 23
 
 [proboj] ROUND 167/500
 updateShips
 updateMap
 explorujem0
-ship:22 93
-pocitam1
-MOVE 0 22 95 MOVE 1 73 15
+ship:21 90
+kupim1
+suradky: 93 13
+MOVE 0 21 92 MOVE 1 84 23
 
 [proboj] ROUND 168/500
 updateShips
 updateMap
 explorujem0
-ship:22 95
-pocitam1
-MOVE 0 22 97 MOVE 1 73 14
+ship:21 92
+kupim1
+suradky: 93 13
+MOVE 0 22 93 MOVE 1 85 23
 
 [proboj] ROUND 169/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:22 97
-MOVE 1 73 13 MOVE 0 21 98
+ship:22 93
+kupim1
+suradky: 93 13
+MOVE 0 22 95 MOVE 1 86 23
 
 [proboj] ROUND 170/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:21 98
-MOVE 1 73 12 MOVE 0 19 98
+ship:22 95
+kupim1
+suradky: 93 13
+MOVE 0 22 97 MOVE 1 87 23
 
 [proboj] ROUND 171/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:19 98
-MOVE 1 72 12 MOVE 0 17 98
+ship:22 97
+kupim1
+suradky: 93 13
+MOVE 0 21 98 MOVE 1 88 23
 
 [proboj] ROUND 172/500
 updateShips
 updateMap
 explorujem0
-ship:17 98
-pocitam1
-MOVE 0 16 97 MOVE 1 72 11
+ship:21 98
+kupim1
+suradky: 93 13
+MOVE 0 19 98 MOVE 1 88 23
 
 [proboj] ROUND 173/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:16 97
-MOVE 1 72 10 MOVE 0 15 96
+ship:19 98
+kupim1
+suradky: 93 13
+MOVE 0 17 98 MOVE 1 89 23
 
 [proboj] ROUND 174/500
 updateShips
 updateMap
 explorujem0
-ship:15 96
-pocitam1
-MOVE 0 16 96 MOVE 1 72 9
+ship:17 98
+kupim1
+suradky: 93 13
+MOVE 0 16 97 MOVE 1 90 23
 
 [proboj] ROUND 175/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-makeTradeProdtovar: 1
-makeTradeProdtovar: 3
-makeTradeProdtovar: 7
-trades:99
-nasiel som:16 96
-ship:16 96
-MOVE 1 72 8 MOVE 0 16 98
+ship:16 97
+kupim1
+suradky: 93 13
+MOVE 0 15 96 MOVE 1 91 23
 
 [proboj] ROUND 176/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:16 98
-MOVE 1 71 8 MOVE 0 18 98
+ship:15 96
+kupim1
+suradky: 93 13
+MOVE 0 16 96 MOVE 1 91 22
 
 [proboj] ROUND 177/500
 updateShips
 updateMap
 explorujem0
-ship:18 98
-pocitam1
-MOVE 0 20 98 MOVE 1 71 7
+makeTradeProdtovar: 6
+trades:108
+nasiel som:16 96
+ship:16 96
+kupim1
+suradky: 93 13
+MOVE 0 16 98 MOVE 1 92 22
 
 [proboj] ROUND 178/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 explorujem0
-ship:20 98
-pocitam1
-MOVE 0 21 97 MOVE 1 71 6
+ship:16 98
+MOVE 1 92 21 MOVE 0 18 98
 
 [proboj] ROUND 179/500
 updateShips
 updateMap
 explorujem0
-ship:21 97
-pocitam1
-MOVE 0 22 96 MOVE 1 70 6
+ship:18 98
+kupim1
+suradky: 93 13
+MOVE 0 20 98 MOVE 1 93 21
 
 [proboj] ROUND 180/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:22 96
-MOVE 1 70 5 MOVE 0 22 94
+ship:20 98
+kupim1
+suradky: 93 13
+MOVE 0 21 97 MOVE 1 93 20
 
 [proboj] ROUND 181/500
 updateShips
 updateMap
 explorujem0
-ship:22 94
-pocitam1
-MOVE 0 22 92 MOVE 1 69 5
+ship:21 97
+kupim1
+suradky: 93 13
+MOVE 0 22 96 MOVE 1 93 19
 
 [proboj] ROUND 182/500
 updateShips
 updateMap
 explorujem0
-ship:22 92
-pocitam1
-MOVE 0 22 90 MOVE 1 68 5
+ship:22 96
+kupim1
+suradky: 93 13
+MOVE 0 22 94 MOVE 1 94 19
 
 [proboj] ROUND 183/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:22 90
-MOVE 1 68 4 MOVE 0 22 88
+ship:22 94
+kupim1
+suradky: 93 13
+MOVE 0 22 92 MOVE 1 94 18
 
 [proboj] ROUND 184/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:22 88
-MOVE 1 68 3 MOVE 0 22 86
+ship:22 92
+kupim1
+suradky: 93 13
+MOVE 0 22 90 MOVE 1 94 17
 
 [proboj] ROUND 185/500
 updateShips
 updateMap
-pocitam1
 explorujem0
-ship:22 86
-STORE 1 110 MOVE 0 22 84
+ship:22 90
+kupim1
+suradky: 93 13
+MOVE 0 22 88 MOVE 1 94 16
 
 [proboj] ROUND 186/500
 updateShips
 updateMap
 explorujem0
-ship:22 84
-pocitam1
-BUY 0 MOVE 0 23 83 MOVE 1 68 4
+ship:22 88
+kupim1
+suradky: 93 13
+MOVE 0 22 86 MOVE 1 94 15
 
 [proboj] ROUND 187/500
 updateShips
 updateMap
-stacionarne9
-82 19
 explorujem0
-ship:23 83
+ship:22 86
 kupim1
-suradky: 88 22
-BUY 0 MOVE 9 67 4 MOVE 0 25 83 MOVE 1 68 5
+suradky: 93 13
+MOVE 0 22 84 MOVE 1 94 14
 
 [proboj] ROUND 188/500
 updateShips
 updateMap
-stacionarne10
-88 22
-kupim1
-suradky: 88 22
-stacionarne9
 explorujem0
-ship:25 83
-BUY 0 MOVE 10 66 3 MOVE 1 68 6 MOVE 9 67 6 MOVE 0 26 82
+ship:22 84
+kupim1
+suradky: 93 13
+MOVE 0 23 83 MOVE 1 94 13
 
 [proboj] ROUND 189/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
 explorujem0
-ship:26 82
-stacionarne9
-stacionarne11
-54 34
-MOVE 1 68 7 MOVE 10 66 5 MOVE 0 27 81 MOVE 9 67 8 MOVE 11 68 5
+ship:23 83
+kupim1
+suradky: 93 13
+MOVE 0 25 83 MOVE 1 93 13
 
 [proboj] ROUND 190/500
 updateShips
 updateMap
-explorujem0
-ship:27 81
-stacionarne9
-stacionarne11
 kupim1
-suradky: 88 22
-stacionarne10
-MOVE 0 29 81 MOVE 9 67 10 MOVE 11 67 6 MOVE 1 68 8 MOVE 10 66 7
+explorujem0
+ship:25 83
+TRADE 1 0 50 MOVE 0 26 82
 
 [proboj] ROUND 191/500
 updateShips
 updateMap
-stacionarne9
-stacionarne11
 explorujem0
-ship:29 81
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 9 67 12 MOVE 11 67 8 MOVE 0 30 80 MOVE 10 66 9 MOVE 1 68 9
+ship:26 82
+predam1
+MOVE 0 27 81 MOVE 1 94 13
 
 [proboj] ROUND 192/500
 updateShips
 updateMap
-stacionarne9
-stacionarne11
+predam1
 explorujem0
-ship:30 80
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 9 67 14 MOVE 11 67 10 MOVE 0 31 79 MOVE 10 66 11 MOVE 1 68 10
+ship:27 81
+MOVE 1 94 14 MOVE 0 29 81
 
 [proboj] ROUND 193/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
 explorujem0
-ship:31 79
-stacionarne9
-stacionarne11
-MOVE 1 68 11 MOVE 10 66 13 MOVE 0 32 78 MOVE 9 67 16 MOVE 11 67 12
+ship:29 81
+predam1
+MOVE 0 30 80 MOVE 1 94 15
 
 [proboj] ROUND 194/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
 explorujem0
-ship:32 78
-stacionarne9
-stacionarne11
-MOVE 1 68 12 MOVE 10 66 15 MOVE 0 33 77 MOVE 9 67 18 MOVE 11 67 14
+ship:30 80
+predam1
+MOVE 0 31 79 MOVE 1 94 16
 
 [proboj] ROUND 195/500
 updateShips
 updateMap
 explorujem0
-ship:33 77
-stacionarne9
-stacionarne11
-kupim1
-suradky: 88 22
-stacionarne10
-MOVE 0 34 76 MOVE 9 67 20 MOVE 11 67 16 MOVE 1 68 13 MOVE 10 66 17
+ship:31 79
+predam1
+MOVE 0 32 78 MOVE 1 94 17
 
 [proboj] ROUND 196/500
 updateShips
 updateMap
-stacionarne9
-stacionarne11
 explorujem0
-ship:34 76
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 9 69 20 MOVE 11 67 18 MOVE 0 34 74 MOVE 10 66 19 MOVE 1 68 14
+ship:32 78
+predam1
+MOVE 0 33 77 MOVE 1 94 18
 
 [proboj] ROUND 197/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
 explorujem0
-ship:34 74
-stacionarne9
-stacionarne11
-MOVE 1 68 15 MOVE 10 66 21 MOVE 0 35 73 MOVE 9 71 20 MOVE 11 67 20
+ship:33 77
+predam1
+MOVE 0 34 76 MOVE 1 94 19
 
 [proboj] ROUND 198/500
 updateShips
 updateMap
-stacionarne10
-kupim1
-suradky: 88 22
-stacionarne9
-stacionarne11
+predam1
 explorujem0
-ship:35 73
-MOVE 10 67 22 MOVE 1 68 16 MOVE 9 73 20 MOVE 11 67 22 MOVE 0 35 71
+ship:34 76
+MOVE 1 94 20 MOVE 0 34 74
 
 [proboj] ROUND 199/500
 updateShips
 updateMap
-stacionarne11
 explorujem0
-ship:35 71
-stacionarne9
-kupim1
-suradky: 88 22
-stacionarne10
-MOVE 11 66 21 MOVE 0 35 69 MOVE 9 75 20 MOVE 1 68 17 MOVE 10 69 22
+ship:34 74
+predam1
+MOVE 0 35 73 MOVE 1 94 21
 
 [proboj] ROUND 200/500
 updateShips
 updateMap
-stacionarne9
-stacionarne11
 explorujem0
-ship:35 69
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 9 77 20 MOVE 11 66 23 MOVE 0 35 67 MOVE 10 71 22 MOVE 1 68 18
+ship:35 73
+predam1
+MOVE 0 35 71 MOVE 1 94 22
 
 [proboj] ROUND 201/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
-stacionarne9
-stacionarne11
 explorujem0
-ship:35 67
-MOVE 1 68 19 MOVE 10 73 22 MOVE 9 79 20 MOVE 11 66 25 MOVE 0 35 65
+ship:35 71
+predam1
+MOVE 0 35 69 MOVE 1 94 23
 
 [proboj] ROUND 202/500
 updateShips
 updateMap
-stacionarne9
-stacionarne11
 explorujem0
-ship:35 65
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 9 81 20 MOVE 11 66 27 MOVE 0 35 63 MOVE 10 75 22 MOVE 1 68 20
+ship:35 69
+predam1
+MOVE 0 35 67 MOVE 1 93 23
 
 [proboj] ROUND 203/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
-stacionarne9
-stacionarne11
 explorujem0
-ship:35 63
-MOVE 1 68 21 MOVE 10 77 22 MOVE 9 82 19 MOVE 11 66 29 MOVE 0 35 61
+ship:35 67
+predam1
+MOVE 0 35 65 MOVE 1 92 23
 
 [proboj] ROUND 204/500
 updateShips
 updateMap
-stacionarne10
-kupim1
-suradky: 88 22
-stacionarne9
-zmena:9
-stacionarne11
 explorujem0
-ship:35 61
-MOVE 10 79 22 MOVE 1 69 21 MOVE 11 66 31 MOVE 0 35 59
+ship:35 65
+predam1
+MOVE 0 35 63 MOVE 1 91 23
 
 [proboj] ROUND 205/500
 updateShips
 updateMap
-stacionarne10
-kupim1
-suradky: 88 22
-stoji9
-stacionarne11
 explorujem0
-ship:35 59
-MOVE 10 81 22 MOVE 1 70 21 MOVE 11 66 33 MOVE 0 35 57
+ship:35 63
+predam1
+MOVE 0 35 61 MOVE 1 90 23
 
 [proboj] ROUND 206/500
 updateShips
 updateMap
 explorujem0
-ship:35 57
-stoji9
-stacionarne11
-kupim1
-suradky: 88 22
-stacionarne10
-MOVE 0 35 55 MOVE 11 65 34 MOVE 1 71 21 MOVE 10 83 22
+ship:35 61
+predam1
+MOVE 0 35 59 MOVE 1 89 23
 
 [proboj] ROUND 207/500
 updateShips
 updateMap
-stacionarne10
-kupim1
-suradky: 88 22
-stoji9
-stacionarne11
 explorujem0
-ship:35 55
-MOVE 10 85 22 MOVE 1 72 21 MOVE 11 63 34 MOVE 0 35 53
+ship:35 59
+predam1
+MOVE 0 35 57 MOVE 1 88 23
 
 [proboj] ROUND 208/500
 updateShips
 updateMap
-stoji9
-stacionarne11
 explorujem0
-ship:35 53
-stacionarne10
-kupim1
-suradky: 88 22
-MOVE 11 61 34 MOVE 0 35 51 MOVE 10 87 22 MOVE 1 72 22
+ship:35 57
+predam1
+MOVE 0 35 55 MOVE 1 88 22
 
 [proboj] ROUND 209/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stacionarne10
-stacionarne11
 explorujem0
-ship:35 51
-stoji9
-MOVE 1 72 23 MOVE 10 88 22 MOVE 11 59 34 MOVE 0 35 49
+ship:35 55
+predam1
+MOVE 0 35 53 TRADE 1 0 -50
 
 [proboj] ROUND 210/500
 updateShips
 updateMap
-stacionarne10
-zmena:10
-kupim1
-suradky: 88 22
-stoji9
-stacionarne11
 explorujem0
-ship:35 49
-MOVE 1 72 22 MOVE 11 57 34 MOVE 0 35 47
+ship:35 53
+pocitam1
+MOVE 0 35 51 MOVE 1 87 22
 
 [proboj] ROUND 211/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stoji10
 explorujem0
-ship:35 47
-stoji9
-stacionarne11
-MOVE 1 73 22 MOVE 0 35 45 MOVE 11 55 34
+ship:35 51
+pocitam1
+MOVE 0 35 49 MOVE 1 86 22
 
 [proboj] ROUND 212/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stoji10
 explorujem0
-ship:35 45
-stoji9
-stacionarne11
-MOVE 1 74 22 MOVE 0 35 43 MOVE 11 54 34
+ship:35 49
+pocitam1
+MOVE 0 35 47 MOVE 1 85 22
 
 [proboj] ROUND 213/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stoji10
-stacionarne11
-zmena:11
 explorujem0
-ship:35 43
-stoji9
-MOVE 1 75 22 MOVE 0 35 41
+ship:35 47
+pocitam1
+MOVE 0 35 45 MOVE 1 85 21
 
 [proboj] ROUND 214/500
 updateShips
 updateMap
-stoji10
-kupim1
-suradky: 88 22
-stoji9
-stoji11
 explorujem0
-ship:35 41
-MOVE 1 76 22 MOVE 0 36 40
+ship:35 45
+pocitam1
+MOVE 0 35 43 MOVE 1 84 21
 
 [proboj] ROUND 215/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stoji10
-stoji11
+pocitam1
 explorujem0
-ship:36 40
-stoji9
-MOVE 1 77 22 MOVE 0 38 40
+ship:35 43
+MOVE 1 83 21 MOVE 0 35 41
 
 [proboj] ROUND 216/500
 updateShips
 updateMap
-stoji10
-kupim1
-suradky: 88 22
-stoji9
-stoji11
 explorujem0
-ship:38 40
-MOVE 1 78 22 MOVE 0 40 40
+ship:35 41
+pocitam1
+MOVE 0 36 40 MOVE 1 83 20
 
 [proboj] ROUND 217/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-stoji10
 explorujem0
-ship:40 40
-stoji9
-stoji11
-MOVE 1 79 22 MOVE 0 42 40
+ship:36 40
+pocitam1
+MOVE 0 38 40 MOVE 1 82 20
 
 [proboj] ROUND 218/500
 updateShips
 updateMap
 explorujem0
-ship:42 40
-stoji9
-stoji11
-kupim1
-suradky: 88 22
-stoji10
-MOVE 0 44 40 MOVE 1 80 22
+ship:38 40
+pocitam1
+MOVE 0 40 40 MOVE 1 81 20
 
 [proboj] ROUND 219/500
 updateShips
 updateMap
-stoji10
-kupim1
-suradky: 88 22
-stoji9
-stoji11
 explorujem0
-ship:44 40
-MOVE 1 81 22 MOVE 0 45 39
+ship:40 40
+pocitam1
+MOVE 0 42 40 MOVE 1 80 20
 
 [proboj] ROUND 220/500
 updateShips
 updateMap
-stoji9
-stoji11
 explorujem0
-ship:45 39
-kupim1
-suradky: 88 22
-stoji10
-MOVE 0 47 39 MOVE 1 82 22
+ship:42 40
+pocitam1
+MOVE 0 44 40 MOVE 1 79 20
 
 [proboj] ROUND 221/500
 updateShips
 updateMap
-stoji9
-stoji11
 explorujem0
-ship:47 39
-kupim1
-suradky: 88 22
-stoji10
-MOVE 0 48 38 MOVE 1 83 22
+ship:44 40
+pocitam1
+MOVE 0 45 39 MOVE 1 79 19
 
 [proboj] ROUND 222/500
 updateShips
 updateMap
-stoji9
-kupim1
-suradky: 88 22
 explorujem0
-makeTradeProdtovar: 3
-trades:113
-nasiel som:48 38
-ship:48 38
-stoji11
-stoji10
-MOVE 1 84 22 MOVE 0 50 38
+ship:45 39
+pocitam1
+MOVE 0 47 39 MOVE 1 78 19
 
 [proboj] ROUND 223/500
 updateShips
 updateMap
 explorujem0
-ship:50 38
-stoji11
-stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 0 51 37 MOVE 1 85 22
+ship:47 39
+pocitam1
+MOVE 0 48 38 MOVE 1 77 19
 
 [proboj] ROUND 224/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
 explorujem0
-ship:51 37
-stoji11
-stoji10
-stoji9
-MOVE 1 86 22 MOVE 0 53 37
+makeTradeProdtovar: 0
+makeTradeProdtovar: 4
+makeTradeProdtovar: 5
+trades:122
+nasiel som:48 38
+pocitam1
+MOVE 1 76 19
 
 [proboj] ROUND 225/500
 updateShips
 updateMap
-stoji9
-kupim1
-suradky: 88 22
-explorujem0
-ship:53 37
-stoji11
-stoji10
-MOVE 1 87 22 MOVE 0 54 36
+umrtvil som explorera0
+stacionarne0
+pocitam1
+MOVE 0 50 38 MOVE 0 50 38 MOVE 1 76 18
 
 [proboj] ROUND 226/500
 updateShips
 updateMap
-stoji9
-kupim1
-suradky: 88 22
-explorujem0
-ship:54 36
-stoji11
-stoji10
-MOVE 1 88 22 MOVE 0 54 34
+stacionarne0
+pocitam1
+MOVE 0 51 37 MOVE 1 76 17
 
 [proboj] ROUND 227/500
 updateShips
 updateMap
-stoji9
-kupim1
-explorujem0
-makeTradeProdtovar: 4
-makeTradeProdtovar: 6
-trades:137
-nasiel som:54 34
-stoji11
-stoji10
-TRADE 1 0 50
+stacionarne0
+pocitam1
+MOVE 0 53 37 MOVE 1 75 17
 
 [proboj] ROUND 228/500
 updateShips
 updateMap
-umrtvil som explorera0
-stoji10
-stoji9
-predam1
-stoji11
 stacionarne0
-MOVE 0 54 36 MOVE 1 87 22 MOVE 0 54 36
+pocitam1
+MOVE 0 54 36 MOVE 1 74 17
 
 [proboj] ROUND 229/500
 updateShips
 updateMap
 stacionarne0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 0 54 38 MOVE 1 87 22
+pocitam1
+MOVE 0 54 34 MOVE 1 74 16
 
 [proboj] ROUND 230/500
 updateShips
 updateMap
 stacionarne0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 0 52 38 MOVE 1 87 22
+pocitam1
+MOVE 0 55 33 MOVE 1 74 15
 
 [proboj] ROUND 231/500
 updateShips
 updateMap
 stacionarne0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 0 50 38 MOVE 1 87 23
+pocitam1
+MOVE 0 55 31 MOVE 1 73 15
 
 [proboj] ROUND 232/500
 updateShips
 updateMap
-stoji11
 stacionarne0
-stoji10
-stoji9
-predam1
-MOVE 0 48 38 MOVE 1 88 23
+pocitam1
+MOVE 0 55 29 MOVE 1 73 14
 
 [proboj] ROUND 233/500
 updateShips
 updateMap
-predam1
 stacionarne0
-zmena:0
-stoji11
-stoji10
-stoji9
-MOVE 1 89 23
+pocitam1
+MOVE 0 55 27 MOVE 1 73 13
 
 [proboj] ROUND 234/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji0
-stoji11
-MOVE 1 89 23
+stacionarne0
+pocitam1
+MOVE 0 55 25 MOVE 1 73 12
 
 [proboj] ROUND 235/500
 updateShips
 updateMap
-stoji11
-stoji0
-stoji10
-stoji9
-predam1
-MOVE 1 90 23
+stacionarne0
+pocitam1
+MOVE 0 55 23 MOVE 1 72 12
 
 [proboj] ROUND 236/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji11
-stoji0
-MOVE 1 91 23
+stacionarne0
+pocitam1
+MOVE 0 55 21 MOVE 1 72 11
 
 [proboj] ROUND 237/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji11
-stoji0
-stoji10
-MOVE 1 91 22
+stacionarne0
+pocitam1
+MOVE 0 56 20 MOVE 1 72 10
 
 [proboj] ROUND 238/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji11
-stoji0
-MOVE 1 91 23
+stacionarne0
+pocitam1
+MOVE 0 58 20 MOVE 1 72 9
 
 [proboj] ROUND 239/500
 updateShips
 updateMap
-predam1
-stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 91 22
+stacionarne0
+pocitam1
+MOVE 0 60 20 MOVE 1 72 8
 
 [proboj] ROUND 240/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji0
-stoji11
-stoji10
-MOVE 1 92 22
+stacionarne0
+pocitam1
+MOVE 0 62 20 MOVE 1 71 8
 
 [proboj] ROUND 241/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji0
-stoji11
-MOVE 1 92 21
+stacionarne0
+pocitam1
+MOVE 0 64 20 MOVE 1 71 7
 
 [proboj] ROUND 242/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji0
-stoji11
-stoji10
-MOVE 1 93 21
+stacionarne0
+pocitam1
+MOVE 0 66 20 MOVE 1 71 6
 
 [proboj] ROUND 243/500
 updateShips
 updateMap
-stoji0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 1 93 20
+stacionarne0
+pocitam1
+MOVE 0 68 20 MOVE 1 70 6
 
 [proboj] ROUND 244/500
 updateShips
 updateMap
-predam1
-stoji11
-stoji0
-stoji10
-stoji9
-MOVE 1 93 19
+stacionarne0
+pocitam1
+MOVE 0 70 20 MOVE 1 70 5
 
 [proboj] ROUND 245/500
 updateShips
 updateMap
-predam1
-stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 94 19
+stacionarne0
+pocitam1
+MOVE 0 72 20 MOVE 1 69 5
 
 [proboj] ROUND 246/500
 updateShips
 updateMap
-stoji11
-stoji0
-stoji10
-stoji9
-predam1
-MOVE 1 94 18
+stacionarne0
+pocitam1
+MOVE 0 74 20 MOVE 1 68 5
 
 [proboj] ROUND 247/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji0
-stoji11
-MOVE 1 94 17
+stacionarne0
+pocitam1
+MOVE 0 76 20 MOVE 1 68 4
 
 [proboj] ROUND 248/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji11
-stoji0
-stoji10
-MOVE 1 94 16
+pocitam1
+stacionarne0
+MOVE 1 68 3 MOVE 0 78 20
 
 [proboj] ROUND 249/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji11
-stoji0
-MOVE 1 95 16
+stacionarne0
+pocitam1
+MOVE 0 80 20 STORE 1 150
 
 [proboj] ROUND 250/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji0
-stoji11
-stoji10
-MOVE 1 95 15
+stacionarne0
+pocitam1
+BUY 0 BUY 2 MOVE 0 82 20 MOVE 1 68 4
 
 [proboj] ROUND 251/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji0
-stoji11
-MOVE 1 95 14
+stacionarne8
+88 22
+pocitam9
+stacionarne0
+kupim1
+suradky: 93 13
+BUY 0 MOVE 8 67 4 STORE 9 -50 MOVE 0 82 19 MOVE 1 68 5
 
 [proboj] ROUND 252/500
 updateShips
 updateMap
-stoji0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 1 95 13
+stacionarne8
+pocitam9
+stacionarne10
+54 34
+stacionarne0
+zmena:0
+kupim1
+suradky: 93 13
+MOVE 8 67 6 MOVE 9 66 4 MOVE 10 66 3 MOVE 1 68 6
 
 [proboj] ROUND 253/500
 updateShips
 updateMap
-stoji10
-stoji9
-predam1
-stoji11
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-MOVE 1 94 13
+stacionarne8
+MOVE 1 68 7 MOVE 9 66 7 MOVE 10 65 4 MOVE 8 67 8
 
 [proboj] ROUND 254/500
 updateShips
 updateMap
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-stoji10
-stoji9
-predam1
-MOVE 1 93 13
+kupim1
+suradky: 93 13
+stacionarne8
+MOVE 9 66 10 MOVE 10 65 6 MOVE 1 68 8 MOVE 8 67 10
 
 [proboj] ROUND 255/500
 updateShips
 updateMap
-stoji9
-predam1
-stoji11
+stacionarne10
 stoji0
-stoji10
-TRADE 1 0 -50
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne8
+MOVE 10 65 8 MOVE 1 68 9 MOVE 9 66 13 MOVE 8 67 12
 
 [proboj] ROUND 256/500
 updateShips
 updateMap
-pocitam1
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 94 13
+kupim1
+suradky: 93 13
+MOVE 8 67 14 MOVE 9 66 16 MOVE 10 65 10 MOVE 1 68 10
 
 [proboj] ROUND 257/500
 updateShips
 updateMap
-pocitam1
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 95 13
+kupim1
+suradky: 93 13
+MOVE 8 67 16 MOVE 9 66 19 MOVE 10 65 12 MOVE 1 68 11
 
 [proboj] ROUND 258/500
 updateShips
 updateMap
-stoji11
+stacionarne8
+stacionarne10
 stoji0
-stoji10
-stoji9
-pocitam1
-MOVE 1 95 14
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+MOVE 8 67 18 MOVE 10 65 14 MOVE 1 68 12 MOVE 9 66 22
 
 [proboj] ROUND 259/500
 updateShips
 updateMap
-pocitam1
-stoji11
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji10
-stoji9
-MOVE 1 95 15
+kupim1
+suradky: 93 13
+stacionarne8
+MOVE 9 68 23 MOVE 10 65 16 MOVE 1 68 13 MOVE 8 67 20
 
 [proboj] ROUND 260/500
 updateShips
 updateMap
-stoji9
-pocitam1
+stacionarne10
 stoji0
-stoji11
-stoji10
-MOVE 1 95 16
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne8
+MOVE 10 65 18 MOVE 1 68 14 MOVE 9 71 23 MOVE 8 67 22
 
 [proboj] ROUND 261/500
 updateShips
 updateMap
-stoji9
-pocitam1
 stoji0
-stoji11
-stoji10
-MOVE 1 95 17
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne10
+stacionarne8
+MOVE 1 68 15 MOVE 9 74 23 MOVE 10 65 20 MOVE 8 69 22
 
 [proboj] ROUND 262/500
 updateShips
 updateMap
-pocitam1
+stacionarne10
 stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 95 18
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne8
+MOVE 10 65 22 MOVE 1 68 16 MOVE 9 77 23 MOVE 8 71 22
 
 [proboj] ROUND 263/500
 updateShips
 updateMap
-pocitam1
-stoji11
+stacionarne8
+stacionarne10
 stoji0
-stoji10
-stoji9
-MOVE 1 95 19
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+MOVE 8 73 22 MOVE 10 65 24 MOVE 1 68 17 MOVE 9 80 23
 
 [proboj] ROUND 264/500
 updateShips
 updateMap
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-stoji10
-stoji9
-pocitam1
-MOVE 1 95 20
+kupim1
+suradky: 93 13
+MOVE 8 75 22 MOVE 9 83 23 MOVE 10 65 26 MOVE 1 68 18
 
 [proboj] ROUND 265/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-MOVE 1 95 21
+kupim1
+suradky: 93 13
+MOVE 8 77 22 MOVE 9 86 23 MOVE 10 65 28 MOVE 1 68 19
 
 [proboj] ROUND 266/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji11
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji10
-MOVE 1 95 22
+kupim1
+suradky: 93 13
+stacionarne8
+MOVE 9 89 23 MOVE 10 65 30 MOVE 1 68 20 MOVE 8 79 22
 
 [proboj] ROUND 267/500
 updateShips
 updateMap
-stoji9
-pocitam1
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-stoji10
-MOVE 1 95 23
+kupim1
+suradky: 93 13
+stacionarne8
+MOVE 9 91 22 MOVE 10 65 32 MOVE 1 68 21 MOVE 8 81 22
 
 [proboj] ROUND 268/500
 updateShips
 updateMap
-pocitam1
-stoji11
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji10
-stoji9
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+stacionarne8
+MOVE 9 93 21 MOVE 10 65 34 MOVE 1 68 22 MOVE 8 83 22
 
 [proboj] ROUND 269/500
 updateShips
 updateMap
-stoji11
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji10
-stoji9
-pocitam1
-MOVE 1 95 25
+kupim1
+suradky: 93 13
+MOVE 8 85 22 MOVE 9 94 19 MOVE 10 63 34 MOVE 1 68 23
 
 [proboj] ROUND 270/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
+stacionarne8
+kupim9
+suradky: 93 13
+stacionarne10
 stoji0
-stoji11
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+MOVE 8 87 22 MOVE 9 94 16 MOVE 10 61 34 MOVE 1 69 23
 
 [proboj] ROUND 271/500
 updateShips
 updateMap
 stoji0
-stoji11
-stoji10
-stoji9
-pocitam1
-MOVE 1 95 23
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne10
+stacionarne8
+MOVE 1 70 23 MOVE 9 94 13 MOVE 10 59 34 MOVE 8 88 22
 
 [proboj] ROUND 272/500
 updateShips
 updateMap
-pocitam1
 stoji0
-stoji11
-stoji10
-stoji9
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+kupim9
+suradky: 93 13
+stacionarne10
+stacionarne8
+zmena:8
+MOVE 1 70 23 MOVE 9 93 13 MOVE 10 57 34
 
 [proboj] ROUND 273/500
 updateShips
 updateMap
-stoji11
+stoji8
+kupim9
+stacionarne10
 stoji0
-stoji10
-stoji9
-pocitam1
-MOVE 1 95 23
+kupim1
+suradky: 93 13
+TRADE 9 0 50 MOVE 10 55 34 MOVE 1 71 23
 
 [proboj] ROUND 274/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+predam9
+stacionarne10
+stoji8
+MOVE 1 72 23 MOVE 9 95 14 MOVE 10 54 34
 
 [proboj] ROUND 275/500
 updateShips
 updateMap
-pocitam1
-stoji11
+stoji8
+predam9
+stacionarne10
+zmena:10
 stoji0
-stoji10
-stoji9
-MOVE 1 95 23
+kupim1
+suradky: 93 13
+MOVE 9 95 17 MOVE 1 73 23
 
 [proboj] ROUND 276/500
 updateShips
 updateMap
+stoji8
+predam9
 stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+MOVE 9 95 20 MOVE 1 74 23
 
 [proboj] ROUND 277/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
+stoji8
 stoji0
-stoji11
-MOVE 1 95 23
+kupim1
+suradky: 93 13
+predam9
+stoji10
+MOVE 1 74 24 MOVE 9 95 23
 
 [proboj] ROUND 278/500
 updateShips
 updateMap
+predam9
 stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 95 24
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 93 24 MOVE 1 75 24
 
 [proboj] ROUND 279/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji0
-stoji11
+predam9
 stoji10
-MOVE 1 95 25
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 91 23 MOVE 1 75 24
 
 [proboj] ROUND 280/500
 updateShips
 updateMap
-pocitam1
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+predam9
 stoji10
-stoji9
-MOVE 1 95 24
+stoji8
+MOVE 1 75 24 MOVE 9 88 23
 
 [proboj] ROUND 281/500
 updateShips
 updateMap
+predam9
 stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 94 24
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 87 22 MOVE 1 76 24
 
 [proboj] ROUND 282/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji0
-stoji11
+stoji8
+predam9
 stoji10
-MOVE 1 94 23
+stoji0
+kupim1
+suradky: 93 13
+MOVE 9 88 22 MOVE 1 77 24
 
 [proboj] ROUND 283/500
 updateShips
 updateMap
-pocitam1
-stoji0
-stoji11
+predam9
 stoji10
-stoji9
-MOVE 1 93 23
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+TRADE 9 0 -50 MOVE 1 77 23
 
 [proboj] ROUND 284/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji0
-stoji11
+stoji8
+pocitam9
 stoji10
-MOVE 1 92 23
+stoji0
+kupim1
+suradky: 93 13
+MOVE 9 85 22 MOVE 1 78 23
 
 [proboj] ROUND 285/500
 updateShips
 updateMap
-pocitam1
-stoji0
-stoji11
+stoji8
 stoji10
-stoji9
-MOVE 1 92 24
+stoji0
+kupim1
+suradky: 93 13
+pocitam9
+MOVE 1 79 23 MOVE 9 83 21
 
 [proboj] ROUND 286/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
+pocitam9
 stoji10
-stoji9
-pocitam1
-stoji11
 stoji0
-MOVE 1 91 24
+stoji8
+MOVE 1 79 24 MOVE 9 81 20
 
 [proboj] ROUND 287/500
 updateShips
 updateMap
+stoji8
+pocitam9
 stoji10
-stoji9
-pocitam1
-stoji11
 stoji0
-MOVE 1 91 23
+kupim1
+suradky: 93 13
+MOVE 9 79 19 MOVE 1 80 24
 
 [proboj] ROUND 288/500
 updateShips
 updateMap
-pocitam1
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-MOVE 1 90 23
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 76 19 MOVE 1 80 23
 
 [proboj] ROUND 289/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji0
-stoji11
+stoji8
+pocitam9
 stoji10
-MOVE 1 90 24
+stoji0
+kupim1
+suradky: 93 13
+MOVE 9 75 17 MOVE 1 81 23
 
 [proboj] ROUND 290/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
 stoji10
-stoji9
-pocitam1
-MOVE 1 89 24
+stoji0
+kupim1
+suradky: 93 13
+pocitam9
+MOVE 1 81 24 MOVE 9 74 15
 
 [proboj] ROUND 291/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 89 23
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 73 13 MOVE 1 82 24
 
 [proboj] ROUND 292/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 88 23
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 72 11 MOVE 1 82 23
 
 [proboj] ROUND 293/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 88 22
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 72 8 MOVE 1 83 23
 
 [proboj] ROUND 294/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
 stoji10
-stoji9
-pocitam1
-MOVE 1 87 22
+stoji0
+kupim1
+suradky: 93 13
+pocitam9
+MOVE 1 84 23 MOVE 9 71 6
 
 [proboj] ROUND 295/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 86 22
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 69 5 MOVE 1 85 23
 
 [proboj] ROUND 296/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 85 22
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 9 68 3 MOVE 1 86 23
 
 [proboj] ROUND 297/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji0
-stoji11
+pocitam9
 stoji10
-MOVE 1 85 21
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+STORE 9 150 MOVE 1 87 23
 
 [proboj] ROUND 298/500
 updateShips
 updateMap
-stoji9
-pocitam1
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam9
 stoji10
-MOVE 1 84 21
+stoji8
+BUY 0 BUY 2 MOVE 1 88 23 MOVE 9 68 6
 
 [proboj] ROUND 299/500
 updateShips
 updateMap
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+48 38
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 83 21
+pocitam13
+MOVE 1 89 23 MOVE 12 68 5 MOVE 9 68 9 STORE 13 -50
 
 [proboj] ROUND 300/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
-stoji11
+kupim1
+suradky: 93 13
 stoji0
-MOVE 1 83 20
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
+stoji10
+pocitam13
+MOVE 1 90 23 MOVE 12 68 7 MOVE 9 68 12 MOVE 13 67 5
 
 [proboj] ROUND 301/500
 updateShips
 updateMap
-stoji11
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 82 20
+kupim13
+suradky: 93 13
+MOVE 1 91 23 MOVE 12 68 9 MOVE 9 68 15 MOVE 13 67 8
 
 [proboj] ROUND 302/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 81 20
+kupim13
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+MOVE 12 68 11 MOVE 9 68 18 MOVE 13 67 11 MOVE 1 91 22
 
 [proboj] ROUND 303/500
 updateShips
 updateMap
-stoji11
+kupim1
+suradky: 93 13
 stoji0
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 80 20
+kupim13
+suradky: 93 13
+MOVE 1 92 22 MOVE 12 68 13 MOVE 9 68 21 MOVE 13 67 14
 
 [proboj] ROUND 304/500
 updateShips
 updateMap
-stoji11
+kupim1
+suradky: 93 13
 stoji0
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 79 20
+kupim13
+suradky: 93 13
+MOVE 1 92 21 MOVE 12 68 15 MOVE 9 68 24 MOVE 13 67 17
 
 [proboj] ROUND 305/500
 updateShips
 updateMap
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
+kupim13
+suradky: 93 13
 stoji0
-stoji11
-MOVE 1 79 19
+kupim1
+suradky: 93 13
+stacionarne12
+stoji8
+MOVE 9 71 24 MOVE 13 67 20 MOVE 1 93 21 MOVE 12 68 17
 
 [proboj] ROUND 306/500
 updateShips
 updateMap
-pocitam1
-stoji11
-stoji0
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-MOVE 1 78 19
+kupim13
+suradky: 93 13
+kupim1
+suradky: 93 13
+stoji0
+stacionarne12
+stoji8
+MOVE 9 73 23 MOVE 13 67 23 MOVE 1 93 20 MOVE 12 68 19
 
 [proboj] ROUND 307/500
 updateShips
 updateMap
-stoji11
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 77 19
+kupim13
+suradky: 93 13
+MOVE 1 93 19 MOVE 12 68 21 MOVE 9 76 23 MOVE 13 69 24
 
 [proboj] ROUND 308/500
 updateShips
 updateMap
-stoji11
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 76 19
+kupim13
+suradky: 93 13
+MOVE 1 94 19 MOVE 12 68 23 MOVE 9 78 24 MOVE 13 72 24
 
 [proboj] ROUND 309/500
 updateShips
 updateMap
-stoji0
-stoji11
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 76 18
+kupim13
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+MOVE 9 81 24 MOVE 13 74 25 MOVE 1 94 18 MOVE 12 68 25
 
 [proboj] ROUND 310/500
 updateShips
 updateMap
-stoji11
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
 stoji10
-stoji9
-pocitam1
-MOVE 1 76 17
+kupim13
+suradky: 93 13
+kupim9
+suradky: 93 13
+MOVE 1 94 17 MOVE 12 68 27 MOVE 13 77 25 MOVE 9 83 25
 
 [proboj] ROUND 311/500
 updateShips
 updateMap
-stoji9
-pocitam1
-stoji11
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+kupim13
+suradky: 93 13
+kupim9
+suradky: 93 13
 stoji10
-MOVE 1 75 17
+MOVE 1 94 16 MOVE 12 68 29 MOVE 13 79 24 MOVE 9 85 24
 
 [proboj] ROUND 312/500
 updateShips
 updateMap
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
+kupim13
+suradky: 93 13
 stoji0
-stoji11
-MOVE 1 74 17
+kupim1
+suradky: 93 13
+MOVE 12 68 31 MOVE 9 88 24 MOVE 13 81 25 MOVE 1 94 15
 
 [proboj] ROUND 313/500
 updateShips
 updateMap
+stoji8
+stacionarne12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-stoji11
+kupim13
+suradky: 93 13
 stoji0
-MOVE 1 74 16
+kupim1
+suradky: 93 13
+MOVE 12 68 33 MOVE 9 90 23 MOVE 13 82 23 MOVE 1 94 14
 
 [proboj] ROUND 314/500
 updateShips
 updateMap
-stoji0
-stoji11
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 74 15
+kupim13
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+stacionarne12
+MOVE 9 92 22 MOVE 13 83 25 MOVE 1 94 13 MOVE 12 68 35
 
 [proboj] ROUND 315/500
 updateShips
 updateMap
+kupim1
+suradky: 93 13
 stoji0
-stoji11
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 73 15
+kupim13
+suradky: 93 13
+MOVE 1 93 13 MOVE 12 68 37 MOVE 9 92 22 MOVE 13 83 25
 
 [proboj] ROUND 316/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 73 14
+kupim1
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
+stoji10
+kupim13
+suradky: 93 13
+TRADE 1 0 50 MOVE 12 67 38 MOVE 9 94 21 MOVE 13 85 24
 
 [proboj] ROUND 317/500
 updateShips
 updateMap
-stoji0
-stoji11
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 73 13
+kupim13
+suradky: 93 13
+predam1
+stoji0
+MOVE 12 65 38 MOVE 9 94 18 MOVE 13 88 24 MOVE 1 94 13
 
 [proboj] ROUND 318/500
 updateShips
 updateMap
-pocitam1
+predam1
 stoji0
-stoji11
+stacionarne12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-MOVE 1 73 12
+kupim13
+suradky: 93 13
+MOVE 1 94 14 MOVE 12 63 38 MOVE 9 94 18 MOVE 13 88 24
 
 [proboj] ROUND 319/500
 updateShips
 updateMap
-stoji11
 stoji0
+predam1
+stoji8
+stacionarne12
+kupim13
+suradky: 93 13
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 72 12
+MOVE 1 94 15 MOVE 12 61 38 MOVE 13 90 23 MOVE 9 94 15
 
 [proboj] ROUND 320/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
+stacionarne12
 stoji10
-stoji9
-pocitam1
-MOVE 1 72 11
+kupim13
+suradky: 93 13
+kupim9
+suradky: 93 13
+stoji0
+predam1
+MOVE 12 59 38 MOVE 13 93 23 MOVE 9 95 16 MOVE 1 94 16
 
 [proboj] ROUND 321/500
 updateShips
 updateMap
 stoji0
-stoji11
+predam1
+stoji8
+stacionarne12
 stoji10
-stoji9
-pocitam1
-MOVE 1 72 10
+kupim13
+suradky: 93 13
+kupim9
+suradky: 93 13
+MOVE 1 94 17 MOVE 12 57 38 MOVE 13 93 20 MOVE 9 95 13
 
 [proboj] ROUND 322/500
 updateShips
 updateMap
-stoji11
-stoji0
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 1 72 9
+kupim13
+suradky: 93 13
+predam1
+stoji0
+stacionarne12
+stoji8
+MOVE 9 93 13 MOVE 13 94 18 MOVE 1 94 18 MOVE 12 55 38
 
 [proboj] ROUND 323/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
+stacionarne12
+kupim9
 stoji10
-stoji9
-pocitam1
-MOVE 1 72 8
+kupim13
+suradky: 93 13
+stoji0
+predam1
+MOVE 12 53 38 TRADE 9 0 50 MOVE 13 96 19 MOVE 1 95 17
 
 [proboj] ROUND 324/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
 stoji0
-stoji11
-MOVE 1 71 8
+predam1
+stoji8
+stacionarne12
+kupim13
+suradky: 93 13
+predam9
+stoji10
+MOVE 1 95 18 MOVE 12 51 38 MOVE 13 97 17 MOVE 9 94 15
 
 [proboj] ROUND 325/500
 updateShips
 updateMap
-pocitam1
+predam1
 stoji0
-stoji11
+stacionarne12
+stoji8
+predam9
 stoji10
-stoji9
-MOVE 1 71 7
+kupim13
+suradky: 93 13
+MOVE 1 95 19 MOVE 12 49 38 MOVE 9 94 18 MOVE 13 97 14
 
 [proboj] ROUND 326/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
+stacionarne12
+predam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 71 6
+kupim13
+suradky: 93 13
+stoji0
+predam1
+MOVE 12 48 38 MOVE 9 94 21 MOVE 13 95 13 MOVE 1 95 20
 
 [proboj] ROUND 327/500
 updateShips
 updateMap
 stoji0
-stoji11
+predam1
+stoji8
+stacionarne12
+zmena:12
 stoji10
-stoji9
-pocitam1
-MOVE 1 70 6
+kupim13
+suradky: 93 13
+predam9
+MOVE 1 95 21 MOVE 13 93 13 MOVE 9 92 22
 
 [proboj] ROUND 328/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 70 5
+kupim13
+stoji0
+predam1
+MOVE 9 90 23 TRADE 13 0 50 MOVE 1 95 22
 
 [proboj] ROUND 329/500
 updateShips
 updateMap
 stoji0
-stoji11
+predam1
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 69 5
+predam13
+MOVE 1 95 23 MOVE 9 88 22 MOVE 13 94 15
 
 [proboj] ROUND 330/500
 updateShips
 updateMap
 stoji0
-stoji11
+predam1
+stoji8
+stoji12
 stoji10
-stoji9
-pocitam1
-MOVE 1 68 5
+predam13
+predam9
+MOVE 1 94 23 MOVE 13 94 18 TRADE 9 0 -50
 
 [proboj] ROUND 331/500
 updateShips
 updateMap
 stoji0
-stoji11
+predam1
+stoji12
+stoji8
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 68 4
+predam13
+MOVE 1 93 23 MOVE 9 85 22 MOVE 13 94 21
 
 [proboj] ROUND 332/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
-pocitam1
-MOVE 1 68 3
+predam13
+stoji0
+predam1
+stoji12
+stoji8
+MOVE 9 83 21 MOVE 13 92 22 MOVE 1 92 23
 
 [proboj] ROUND 333/500
 updateShips
 updateMap
+stoji8
+stoji12
+pocitam9
 stoji10
-stoji9
-pocitam1
+predam13
 stoji0
-stoji11
-STORE 1 150
+predam1
+MOVE 9 81 20 MOVE 13 90 23 MOVE 1 91 23
 
 [proboj] ROUND 334/500
 updateShips
 updateMap
-stoji11
+predam1
 stoji0
+stoji12
+stoji8
+pocitam9
 stoji10
-stoji9
-pocitam1
-BUY 2 MOVE 1 68 4
+predam13
+MOVE 1 91 24 MOVE 9 79 19 MOVE 13 88 22
 
 [proboj] ROUND 335/500
 updateShips
 updateMap
-pocitam39
-stoji9
-kupim1
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+stoji12
+pocitam9
 stoji10
-BUY 2 STORE 39 -50 MOVE 1 68 5
+predam13
+stoji0
+predam1
+MOVE 9 76 19 TRADE 13 0 -50 MOVE 1 91 23
 
 [proboj] ROUND 336/500
 updateShips
 updateMap
-pocitam40
 stoji0
-stoji11
+predam1
+stoji8
+stoji12
+pocitam9
 stoji10
-pocitam39
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 67 5 MOVE 39 67 5 MOVE 1 68 6
+pocitam13
+MOVE 1 90 23 MOVE 9 75 17 MOVE 13 85 22
 
 [proboj] ROUND 337/500
 updateShips
 updateMap
-stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
 stoji0
-stoji11
-MOVE 39 69 5 MOVE 1 68 7 MOVE 40 67 8
+predam1
+stoji8
+stoji12
+pocitam9
+stoji10
+pocitam13
+MOVE 1 89 23 MOVE 9 74 15 MOVE 13 83 21
 
 [proboj] ROUND 338/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
 stoji0
-stoji11
+predam1
+stoji8
+stoji12
+pocitam9
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-MOVE 1 68 8 MOVE 40 67 11 MOVE 39 69 8
+pocitam13
+MOVE 1 88 23 MOVE 9 73 13 MOVE 13 81 20
 
 [proboj] ROUND 339/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+predam1
 stoji0
-stoji11
+stoji12
+stoji8
+pocitam9
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 67 14 MOVE 39 69 11 MOVE 1 68 9
+pocitam13
+MOVE 1 88 22 MOVE 9 72 11 MOVE 13 79 19
 
 [proboj] ROUND 340/500
 updateShips
 updateMap
-stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
+predam1
 stoji0
-stoji11
-MOVE 39 69 14 MOVE 1 68 10 MOVE 40 67 17
+stoji12
+stoji8
+pocitam9
+stoji10
+pocitam13
+TRADE 1 0 -50 MOVE 9 72 8 MOVE 13 76 19
 
 [proboj] ROUND 341/500
 updateShips
 updateMap
-stoji0
-stoji11
+pocitam9
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
-MOVE 39 69 17 MOVE 1 68 11 MOVE 40 67 20
+pocitam13
+stoji0
+pocitam1
+stoji8
+stoji12
+MOVE 9 71 6 MOVE 13 75 17 MOVE 1 87 22
 
 [proboj] ROUND 342/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 68 22 MOVE 39 69 20 MOVE 1 68 12
+pocitam13
+pocitam9
+stoji0
+pocitam1
+stoji8
+stoji12
+MOVE 13 74 15 MOVE 9 69 5 MOVE 1 86 22
 
 [proboj] ROUND 343/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+stoji12
+pocitam9
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 70 23 MOVE 39 69 23 MOVE 1 68 13
+pocitam13
+stoji0
+pocitam1
+MOVE 9 68 3 MOVE 13 73 13 MOVE 1 85 22
 
 [proboj] ROUND 344/500
 updateShips
 updateMap
+pocitam9
 stoji10
-stoji9
-kupim39
-suradky: 88 22
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
+pocitam13
 stoji0
-stoji11
-MOVE 39 71 22 MOVE 1 68 14 MOVE 40 72 22
+pocitam1
+stoji8
+stoji12
+STORE 9 150 MOVE 13 72 11 MOVE 1 85 21
 
 [proboj] ROUND 345/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
 stoji0
-stoji11
+pocitam1
+stoji8
+stoji12
+pocitam9
 stoji10
-stoji9
-kupim39
-suradky: 88 22
-kupim1
-suradky: 88 22
-MOVE 40 75 22 MOVE 39 73 23 MOVE 1 68 15
+pocitam13
+BUY 2 MOVE 1 84 21 MOVE 9 68 6 MOVE 13 72 8
 
 [proboj] ROUND 346/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-MOVE 1 68 16 MOVE 40 78 22 MOVE 39 76 23
+pocitam13
+stoji0
+pocitam1
+pocitam17
+MOVE 9 68 9 MOVE 13 71 6 MOVE 1 83 21 STORE 17 -50
 
 [proboj] ROUND 347/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji11
+pocitam17
 stoji0
+pocitam1
+stoji8
+stoji12
+pocitam13
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim39
-suradky: 88 22
-kupim1
-suradky: 88 22
-MOVE 40 81 22 MOVE 39 79 23 MOVE 1 68 17
+MOVE 17 68 6 MOVE 1 83 20 MOVE 13 69 5 MOVE 9 68 12
 
 [proboj] ROUND 348/500
 updateShips
 updateMap
+pocitam13
+kupim9
+suradky: 93 13
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-kupim40
-suradky: 88 22
+kupim17
+suradky: 93 13
 stoji0
-stoji11
-MOVE 39 82 23 MOVE 1 68 18 MOVE 40 84 22
+pocitam1
+stoji8
+stoji12
+MOVE 13 68 3 MOVE 9 68 15 MOVE 17 68 9 MOVE 1 82 20
 
 [proboj] ROUND 349/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+stoji12
 stoji10
-kupim39
-suradky: 88 22
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 86 23 MOVE 39 85 23 MOVE 1 68 19
+pocitam13
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji0
+pocitam1
+STORE 13 150 MOVE 9 68 18 MOVE 17 68 12 MOVE 1 81 20
 
 [proboj] ROUND 350/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji11
 stoji0
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim39
-suradky: 88 22
-kupim1
-suradky: 88 22
-MOVE 40 88 22 MOVE 39 87 24 MOVE 1 68 20
+pocitam13
+BUY 2 MOVE 1 80 20 MOVE 17 68 15 MOVE 9 68 21 MOVE 13 68 6
 
 [proboj] ROUND 351/500
 updateShips
 updateMap
-kupim40
-stoji11
 stoji0
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim39
-suradky: 88 22
-kupim1
-suradky: 88 22
-TRADE 40 0 0 MOVE 39 88 22 MOVE 1 68 21
+kupim13
+suradky: 93 13
+pocitam18
+MOVE 1 79 20 MOVE 17 68 18 MOVE 9 69 23 MOVE 13 68 9 STORE 18 -50
 
 [proboj] ROUND 352/500
 updateShips
 updateMap
-predam40
 stoji0
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim39
-kupim1
-suradky: 88 22
-MOVE 40 88 22 TRADE 39 0 30 MOVE 1 68 22
+kupim13
+suradky: 93 13
+pocitam18
+MOVE 1 79 19 MOVE 17 68 21 MOVE 9 72 23 MOVE 13 68 12 MOVE 18 68 6
 
 [proboj] ROUND 353/500
 updateShips
 updateMap
-stoji9
-predam39
-kupim1
-suradky: 88 22
-predam40
 stoji0
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-MOVE 39 90 23 MOVE 1 68 23 MOVE 40 90 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 78 19 MOVE 17 70 22 MOVE 9 75 23 MOVE 13 68 15 MOVE 18 68 9
 
 [proboj] ROUND 354/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-predam40
+kupim17
+suradky: 93 13
 stoji0
-stoji11
+pocitam1
+stoji12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-predam39
-MOVE 1 69 23 MOVE 40 89 24 MOVE 39 92 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 17 73 22 MOVE 1 77 19 MOVE 9 78 23 MOVE 13 68 18 MOVE 18 68 12
 
 [proboj] ROUND 355/500
 updateShips
 updateMap
-predam40
-stoji0
-stoji11
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-predam39
-stoji9
-kupim1
-suradky: 88 22
-MOVE 40 89 24 MOVE 39 92 22 MOVE 1 70 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+stoji0
+pocitam1
+kupim17
+suradky: 93 13
+MOVE 9 80 24 MOVE 13 68 21 MOVE 18 68 15 MOVE 1 76 19 MOVE 17 74 24
 
 [proboj] ROUND 356/500
 updateShips
 updateMap
-predam40
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
 stoji0
+stoji12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-predam39
-kupim1
-suradky: 88 22
-MOVE 40 91 25 MOVE 39 93 20 MOVE 1 70 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 76 18 MOVE 17 76 23 MOVE 9 82 23 MOVE 13 69 23 MOVE 18 68 18
 
 [proboj] ROUND 357/500
 updateShips
 updateMap
-predam40
-stoji11
-stoji0
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-predam39
-kupim1
-suradky: 88 22
-MOVE 40 93 24 MOVE 39 95 19 MOVE 1 71 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+stoji0
+pocitam1
+kupim17
+suradky: 93 13
+MOVE 9 85 23 MOVE 13 71 24 MOVE 18 68 21 MOVE 1 76 17 MOVE 17 78 24
 
 [proboj] ROUND 358/500
 updateShips
 updateMap
 stoji10
-stoji9
-predam39
-kupim1
-suradky: 88 22
-predam40
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
 stoji0
-stoji11
-MOVE 39 95 16 MOVE 1 72 22 MOVE 40 93 21
+pocitam1
+stoji8
+stoji12
+MOVE 13 73 25 MOVE 18 70 22 MOVE 9 88 23 MOVE 17 81 24 MOVE 1 75 17
 
 [proboj] ROUND 359/500
 updateShips
 updateMap
-kupim1
-suradky: 88 22
-predam40
-stoji0
-stoji11
 stoji10
-predam39
-stoji9
-MOVE 1 72 23 MOVE 40 93 21 MOVE 39 95 16
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji0
+pocitam1
+stoji8
+stoji12
+MOVE 13 76 25 MOVE 18 72 23 MOVE 9 91 23 MOVE 17 84 24 MOVE 1 74 17
 
 [proboj] ROUND 360/500
 updateShips
 updateMap
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-predam39
-predam40
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
 stoji0
-stoji11
-MOVE 1 72 22 MOVE 39 95 13 MOVE 40 94 19
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+MOVE 9 91 23 MOVE 13 76 25 MOVE 18 72 23 MOVE 1 74 16 MOVE 17 84 24
 
 [proboj] ROUND 361/500
 updateShips
 updateMap
-predam40
 stoji0
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-predam39
-MOVE 40 94 16 MOVE 1 72 23 MOVE 39 93 13
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 74 15 MOVE 17 86 25 MOVE 9 92 21 MOVE 13 79 25 MOVE 18 74 24
 
 [proboj] ROUND 362/500
 updateShips
 updateMap
-predam39
-predam40
 stoji0
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-TRADE 39 0 -30 MOVE 40 94 13 MOVE 1 72 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 73 15 MOVE 17 86 25 MOVE 9 92 21 MOVE 13 79 25 MOVE 18 74 24
 
 [proboj] ROUND 363/500
 updateShips
 updateMap
-predam40
-stoji0
-stoji11
+stoji8
+stoji12
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 93 13 MOVE 1 73 22 MOVE 39 93 13
+kupim17
+suradky: 93 13
+stoji0
+pocitam1
+MOVE 13 80 23 MOVE 18 76 23 MOVE 9 94 20 MOVE 17 87 23 MOVE 1 73 14
 
 [proboj] ROUND 364/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-stoji11
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 95 14 TRADE 40 0 0 MOVE 1 74 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+stoji0
+pocitam1
+kupim17
+suradky: 93 13
+MOVE 9 95 18 MOVE 13 82 24 MOVE 18 78 24 MOVE 1 73 13 MOVE 17 90 23
 
 [proboj] ROUND 365/500
 updateShips
 updateMap
-pocitam39
-pocitam40
-stoji0
-stoji11
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 95 17 MOVE 40 94 15 MOVE 1 74 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+stoji0
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+MOVE 9 95 15 MOVE 13 85 24 MOVE 18 80 25 MOVE 1 73 12 MOVE 17 92 22
 
 [proboj] ROUND 366/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji12
+stoji8
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 95 20 MOVE 40 96 16 MOVE 1 75 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji0
+pocitam1
+MOVE 9 94 13 MOVE 13 88 24 MOVE 18 83 25 MOVE 17 93 20 MOVE 1 72 12
 
 [proboj] ROUND 367/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+kupim17
+suradky: 93 13
 stoji0
-stoji11
+pocitam1
+stoji8
+stoji12
+kupim18
+suradky: 93 13
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 96 19 MOVE 1 75 22 MOVE 39 95 23
+kupim13
+suradky: 93 13
+MOVE 17 93 20 MOVE 1 72 11 MOVE 18 83 25 MOVE 9 93 13 MOVE 13 88 24
 
 [proboj] ROUND 368/500
 updateShips
 updateMap
-stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-kupim40
-suradky: 88 22
 stoji0
-stoji11
-MOVE 1 76 22 MOVE 39 93 24 MOVE 40 96 22
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+kupim9
+stoji10
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 72 10 MOVE 17 94 18 TRADE 9 0 50 MOVE 13 90 23 MOVE 18 84 23
 
 [proboj] ROUND 369/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
 stoji0
-stoji11
+pocitam1
+kupim17
+suradky: 93 13
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 94 23 MOVE 1 76 23 MOVE 39 91 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 1 72 9 MOVE 17 94 15 MOVE 9 94 15 MOVE 13 92 22 MOVE 18 86 24
 
 [proboj] ROUND 370/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+kupim17
+suradky: 93 13
 stoji0
-stoji11
+pocitam1
+stoji12
+stoji8
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 94 26 MOVE 1 76 22 MOVE 39 88 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+MOVE 17 93 13 MOVE 1 72 8 MOVE 9 95 14 MOVE 13 93 20 MOVE 18 88 23
 
 [proboj] ROUND 371/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji11
-stoji0
+stoji8
+stoji12
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 86 22 MOVE 40 92 25 MOVE 1 77 22
+kupim17
+stoji0
+pocitam1
+MOVE 13 94 18 MOVE 18 89 25 MOVE 9 95 17 TRADE 17 0 50 MOVE 1 71 8
 
 [proboj] ROUND 372/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji12
+stoji8
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 84 21 MOVE 40 90 26 MOVE 1 77 23
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam17
+stoji0
+pocitam1
+MOVE 9 95 20 MOVE 13 94 15 MOVE 18 91 24 MOVE 17 94 15 MOVE 1 71 7
 
 [proboj] ROUND 373/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+stoji12
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 82 20 MOVE 40 87 26 MOVE 1 77 22
+kupim13
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam9
+predam17
+stoji0
+pocitam1
+MOVE 13 93 13 MOVE 18 92 22 MOVE 9 95 23 MOVE 17 95 14 MOVE 1 71 6
 
 [proboj] ROUND 374/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
 stoji0
-stoji11
+pocitam1
+predam17
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 87 23 MOVE 1 78 22 MOVE 39 79 20
+kupim13
+kupim18
+suradky: 93 13
+MOVE 1 70 6 MOVE 17 95 17 MOVE 9 92 23 TRADE 13 0 50 MOVE 18 93 20
 
 [proboj] ROUND 375/500
 updateShips
 updateMap
+pocitam1
+predam17
 stoji0
-stoji11
+stoji12
+stoji8
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-kupim40
-suradky: 88 22
-MOVE 1 79 22 MOVE 39 77 19 MOVE 40 87 22
+predam13
+kupim18
+suradky: 93 13
+MOVE 1 70 5 MOVE 17 95 20 MOVE 9 89 23 MOVE 13 94 15 MOVE 18 95 19
 
 [proboj] ROUND 376/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
+predam17
 stoji0
-stoji11
+pocitam1
+stoji8
+stoji12
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 76 17 MOVE 40 88 22 MOVE 1 79 23
+predam13
+kupim18
+suradky: 93 13
+predam9
+MOVE 17 95 23 MOVE 1 69 5 MOVE 13 95 17 MOVE 18 95 16 MOVE 9 88 25
 
 [proboj] ROUND 377/500
 updateShips
 updateMap
-pocitam39
-kupim40
-stoji0
-stoji11
+stoji8
+stoji12
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 74 16 TRADE 40 0 0 MOVE 1 79 22
+predam13
+kupim18
+suradky: 93 13
+predam9
+predam17
+stoji0
+pocitam1
+MOVE 13 95 20 MOVE 18 94 14 MOVE 9 87 23 MOVE 17 95 26 MOVE 1 68 5
 
 [proboj] ROUND 378/500
 updateShips
 updateMap
-pocitam39
-predam40
 stoji0
-stoji11
+pocitam1
+predam17
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 73 14 MOVE 40 90 23 MOVE 1 80 22
+predam13
+kupim18
+suradky: 93 13
+MOVE 1 68 4 MOVE 17 95 23 MOVE 9 87 22 MOVE 13 95 23 MOVE 18 93 13
 
 [proboj] ROUND 379/500
 updateShips
 updateMap
-pocitam39
-predam40
 stoji0
-stoji11
+pocitam1
+predam17
+stoji8
+stoji12
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 72 12 MOVE 40 92 22 MOVE 1 81 22
+predam13
+kupim18
+MOVE 1 68 3 MOVE 17 92 23 MOVE 9 88 22 MOVE 13 94 22 TRADE 18 0 50
 
 [proboj] ROUND 380/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-stoji11
+stoji12
+stoji8
+predam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-MOVE 39 72 9 MOVE 40 93 20 MOVE 1 81 22
+predam13
+predam18
+pocitam1
+predam17
+stoji0
+TRADE 9 0 -50 MOVE 13 93 24 MOVE 18 94 15 STORE 1 150 MOVE 17 89 23
 
 [proboj] ROUND 381/500
 updateShips
 updateMap
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-predam40
-stoji0
-stoji11
+stoji8
+stoji12
+predam18
+pocitam9
 stoji10
-MOVE 1 81 23 MOVE 39 71 7 MOVE 40 96 20
+predam13
+predam17
+stoji0
+pocitam1
+BUY 2 MOVE 18 94 18 MOVE 9 85 22 MOVE 13 90 24 MOVE 17 87 22 MOVE 1 68 4
 
 [proboj] ROUND 382/500
 updateShips
 updateMap
-pocitam39
-predam40
 stoji0
-stoji11
-stoji10
-stoji9
 kupim1
-suradky: 88 22
-MOVE 39 70 5 MOVE 40 96 17 MOVE 1 82 23
+suradky: 93 13
+predam17
+stoji8
+stoji12
+pocitam9
+stoji10
+predam13
+predam18
+pocitam22
+MOVE 1 68 5 MOVE 17 88 22 MOVE 9 83 21 MOVE 13 88 23 MOVE 18 94 21 STORE 22 -50
 
 [proboj] ROUND 383/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
+predam13
+predam18
+pocitam22
 kupim1
-suradky: 88 22
-MOVE 39 68 4 MOVE 40 96 14 MOVE 1 82 23
+suradky: 93 13
+predam17
+stoji0
+stoji12
+stoji8
+MOVE 9 81 20 MOVE 13 87 22 MOVE 18 94 24 MOVE 22 67 5 MOVE 1 68 6 TRADE 17 0 -50
 
 [proboj] ROUND 384/500
 updateShips
 updateMap
-predam40
+pocitam17
 stoji0
-stoji11
-stoji10
-stoji9
 kupim1
-suradky: 88 22
-pocitam39
-MOVE 40 94 13 MOVE 1 82 23 MOVE 39 67 3
+suradky: 93 13
+stoji8
+stoji12
+predam13
+predam18
+kupim22
+suradky: 93 13
+pocitam9
+stoji10
+MOVE 17 86 23 MOVE 1 68 7 MOVE 13 88 22 MOVE 18 91 24 MOVE 22 67 8 MOVE 9 79 19
 
 [proboj] ROUND 385/500
 updateShips
 updateMap
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-predam40
+predam13
+predam18
+kupim22
+suradky: 93 13
+pocitam9
+pocitam17
 stoji0
-stoji11
-MOVE 1 82 22 MOVE 39 68 3 MOVE 40 93 13
+kupim1
+suradky: 93 13
+stoji8
+stoji12
+TRADE 13 0 -50 MOVE 18 89 23 MOVE 22 67 11 MOVE 9 76 19 MOVE 17 85 21 MOVE 1 68 8
 
 [proboj] ROUND 386/500
 updateShips
 updateMap
+pocitam9
 stoji10
-stoji9
-kupim1
-suradky: 88 22
-pocitam39
-predam40
+pocitam13
+predam18
+kupim22
+suradky: 93 13
 stoji0
-stoji11
-MOVE 1 82 23 STORE 39 70 TRADE 40 0 0
+kupim1
+suradky: 93 13
+pocitam17
+stoji8
+stoji12
+MOVE 9 75 17 MOVE 13 85 22 MOVE 18 87 22 MOVE 22 67 14 MOVE 1 68 9 MOVE 17 83 20
 
 [proboj] ROUND 387/500
 updateShips
 updateMap
-pocitam39
-pocitam40
-stoji0
-stoji11
+pocitam13
+predam18
+kupim22
+suradky: 93 13
+pocitam9
 stoji10
-stoji9
+pocitam17
+stoji0
 kupim1
-suradky: 88 22
-MOVE 39 68 6 MOVE 40 95 14 MOVE 1 82 22
+suradky: 93 13
+stoji8
+stoji12
+MOVE 13 83 21 MOVE 18 88 22 MOVE 22 67 17 MOVE 9 74 15 MOVE 17 80 20 MOVE 1 68 10
 
 [proboj] ROUND 388/500
 updateShips
 updateMap
-pocitam40
-stoji11
-stoji0
+pocitam9
 stoji10
-stoji9
+pocitam13
+predam18
+kupim22
+suradky: 93 13
+pocitam17
+stoji0
 kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 95 17 MOVE 1 83 22 MOVE 39 68 9
+suradky: 93 13
+stoji12
+stoji8
+MOVE 9 73 13 MOVE 13 80 21 TRADE 18 0 -50 MOVE 22 67 20 MOVE 17 78 19 MOVE 1 68 11
 
 [proboj] ROUND 389/500
 updateShips
 updateMap
-pocitam40
+pocitam17
 stoji0
-stoji11
-stoji10
-stoji9
 kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 94 19 MOVE 1 83 23 MOVE 39 68 12
+suradky: 93 13
+stoji12
+stoji8
+pocitam9
+stoji10
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+MOVE 17 76 18 MOVE 1 68 12 MOVE 9 72 11 MOVE 13 78 20 MOVE 18 86 23 MOVE 22 67 23
 
 [proboj] ROUND 390/500
 updateShips
 updateMap
-pocitam40
+pocitam17
 stoji0
-stoji11
-stoji10
-stoji9
 kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 94 22 MOVE 1 83 24 MOVE 39 68 15
+suradky: 93 13
+stoji12
+stoji8
+pocitam9
+stoji10
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+MOVE 17 74 17 MOVE 1 68 13 MOVE 9 72 8 MOVE 13 76 19 MOVE 18 85 21 MOVE 22 67 26
 
 [proboj] ROUND 391/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+stoji0
 kupim1
-suradky: 88 22
-MOVE 39 68 18 MOVE 40 94 25 MOVE 1 83 23
+suradky: 93 13
+pocitam17
+stoji8
+stoji12
+MOVE 9 71 6 MOVE 13 74 18 MOVE 18 83 20 MOVE 22 67 23 MOVE 1 68 14 MOVE 17 73 15
 
 [proboj] ROUND 392/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
 kupim1
-suradky: 88 22
-MOVE 39 68 21 MOVE 40 92 24 MOVE 1 84 23
+suradky: 93 13
+pocitam17
+stoji0
+stoji12
+stoji8
+MOVE 9 69 5 MOVE 13 73 16 MOVE 18 80 20 MOVE 22 70 23 MOVE 1 68 15 MOVE 17 73 12
 
 [proboj] ROUND 393/500
 updateShips
 updateMap
-stoji9
-kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
-stoji11
-stoji0
+stoji12
+stoji8
+pocitam9
 stoji10
-MOVE 1 84 22 MOVE 39 70 22 MOVE 40 89 24
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam17
+stoji0
+kupim1
+suradky: 93 13
+MOVE 9 68 3 MOVE 13 73 13 MOVE 18 78 19 MOVE 22 72 24 MOVE 17 72 10 MOVE 1 68 16
 
 [proboj] ROUND 394/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+pocitam9
 stoji10
-stoji9
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam17
+stoji0
 kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 88 22 MOVE 1 85 22 MOVE 39 72 23
+suradky: 93 13
+stoji12
+stoji8
+STORE 9 150 MOVE 13 72 11 MOVE 18 76 18 MOVE 22 74 23 MOVE 17 71 8 MOVE 1 68 17
 
 [proboj] ROUND 395/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+stoji8
+stoji12
+pocitam9
 stoji10
-stoji9
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+stoji0
 kupim1
-suradky: 88 22
-MOVE 39 75 23 MOVE 40 86 23 MOVE 1 86 22
+suradky: 93 13
+pocitam17
+BUY 2 MOVE 9 68 6 MOVE 13 71 9 MOVE 18 74 17 MOVE 22 76 24 MOVE 1 68 18 MOVE 17 70 6
 
 [proboj] ROUND 396/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
 stoji10
-stoji9
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam25
+pocitam17
+stoji0
 kupim1
-suradky: 88 22
-MOVE 39 77 24 MOVE 40 85 21 MOVE 1 87 22
+suradky: 93 13
+stoji8
+stoji12
+MOVE 13 70 7 MOVE 18 73 15 MOVE 22 78 25 MOVE 9 68 9 STORE 25 -50 MOVE 17 68 5 MOVE 1 68 19
 
 [proboj] ROUND 397/500
 updateShips
 updateMap
-stoji10
-stoji9
-kupim1
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
+pocitam25
 stoji0
-stoji11
-MOVE 1 88 22 MOVE 39 79 23 MOVE 40 83 20
+kupim1
+suradky: 93 13
+pocitam17
+stoji8
+stoji12
+kupim9
+suradky: 93 13
+stoji10
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+MOVE 25 67 5 MOVE 1 68 20 MOVE 17 67 3 MOVE 9 68 12 MOVE 13 68 6 MOVE 18 73 12 MOVE 22 81 25
 
 [proboj] ROUND 398/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+pocitam18
+kupim22
+suradky: 93 13
+kupim9
+suradky: 93 13
 stoji10
-stoji9
+pocitam13
+kupim25
+suradky: 93 13
+pocitam17
+stoji0
 kupim1
-MOVE 39 81 22 MOVE 40 80 20 TRADE 1 0 50
+suradky: 93 13
+stoji8
+stoji12
+MOVE 18 72 10 MOVE 22 83 24 MOVE 9 68 15 MOVE 13 68 3 MOVE 25 67 8 MOVE 17 68 3 MOVE 1 68 21
 
 [proboj] ROUND 399/500
 updateShips
 updateMap
-pocitam40
+kupim25
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam17
+stoji8
+stoji12
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-predam1
-kupim39
-suradky: 88 22
-MOVE 40 78 19 MOVE 1 88 23 MOVE 39 84 22
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+MOVE 25 67 11 MOVE 1 68 22 STORE 17 150 MOVE 9 68 18 STORE 13 150 MOVE 18 71 8 MOVE 22 86 24
 
 [proboj] ROUND 400/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+kupim9
+suradky: 93 13
 stoji10
-stoji9
-predam1
-kupim39
-suradky: 88 22
-MOVE 40 76 18 MOVE 1 88 24 MOVE 39 87 22
+pocitam13
+pocitam18
+kupim22
+suradky: 93 13
+kupim25
+suradky: 93 13
+pocitam17
+stoji0
+kupim1
+suradky: 93 13
+stoji12
+stoji8
+BUY 2 MOVE 9 68 21 MOVE 13 68 6 MOVE 18 70 6 MOVE 22 89 24 MOVE 25 67 14 MOVE 17 68 6 MOVE 1 68 23
 
 [proboj] ROUND 401/500
 updateShips
 updateMap
-pocitam40
+kupim25
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+pocitam26
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-kupim39
-suradky: 88 22
-MOVE 40 74 17 MOVE 1 89 24 MOVE 39 88 22
+kupim13
+suradky: 93 13
+BUY 2 MOVE 25 67 17 MOVE 1 68 24 STORE 26 -50 MOVE 9 69 23 MOVE 18 68 5 MOVE 22 91 23 MOVE 17 69 5 MOVE 13 68 9
 
 [proboj] ROUND 402/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
 stoji10
-stoji9
-predam1
-kupim39
-MOVE 40 73 15 MOVE 1 89 23 TRADE 39 0 50
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+MOVE 13 68 12 MOVE 25 67 20 MOVE 1 68 25 MOVE 18 67 3 MOVE 22 92 21 MOVE 26 67 5 MOVE 9 70 25 MOVE 17 69 8 STORE 27 -50
 
 [proboj] ROUND 403/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 73 12 MOVE 1 90 23 MOVE 39 87 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+MOVE 13 68 12 MOVE 25 67 20 MOVE 1 68 25 MOVE 26 67 5 MOVE 9 70 25 MOVE 18 68 3 MOVE 22 92 21 MOVE 17 69 8 MOVE 27 68 3
 
 [proboj] ROUND 404/500
 updateShips
 updateMap
-predam39
-pocitam40
-stoji11
-stoji0
+stoji8
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-MOVE 39 88 26 MOVE 40 72 10 MOVE 1 90 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+MOVE 22 92 21 MOVE 26 67 5 MOVE 9 70 25 STORE 18 150 MOVE 17 69 8 MOVE 27 68 3 MOVE 13 68 12 MOVE 25 67 20 MOVE 1 68 25
 
 [proboj] ROUND 405/500
 updateShips
 updateMap
-predam39
-pocitam40
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-MOVE 39 88 26 MOVE 40 71 8 MOVE 1 90 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+BUY 2 MOVE 17 69 11 MOVE 27 68 6 MOVE 13 68 15 MOVE 25 67 23 MOVE 1 68 24 MOVE 22 94 22 MOVE 26 67 8 MOVE 9 71 23 MOVE 18 68 6
 
 [proboj] ROUND 406/500
 updateShips
 updateMap
-predam1
-predam39
-pocitam40
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-MOVE 1 90 24 MOVE 39 88 26 MOVE 40 70 6
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+pocitam29
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+MOVE 17 69 14 MOVE 27 68 9 MOVE 13 68 18 MOVE 25 68 25 MOVE 1 68 25 STORE 29 -50 MOVE 9 74 23 MOVE 18 69 5 MOVE 22 95 20 MOVE 26 67 11
 
 [proboj] ROUND 407/500
 updateShips
 updateMap
-pocitam40
+kupim25
+suradky: 93 13
+kupim1
+suradky: 93 13
+pocitam29
 stoji0
-stoji11
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim13
+suradky: 93 13
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 68 5 MOVE 1 91 24 MOVE 39 90 25
+MOVE 25 70 24 MOVE 1 69 24 MOVE 29 68 6 MOVE 9 77 23 MOVE 18 69 8 MOVE 22 96 18 MOVE 26 67 14 MOVE 17 69 17 MOVE 27 68 12 MOVE 13 68 21
 
 [proboj] ROUND 408/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 67 3 MOVE 1 92 24 MOVE 39 92 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+MOVE 17 69 20 MOVE 27 68 15 MOVE 13 68 24 MOVE 25 72 25 MOVE 1 69 25 MOVE 29 68 9 MOVE 9 78 25 MOVE 18 69 11 MOVE 22 96 15 MOVE 26 67 17
 
 [proboj] ROUND 409/500
 updateShips
 updateMap
-predam1
-predam39
-pocitam40
-stoji0
-stoji11
+stoji12
 stoji10
-stoji9
-MOVE 1 92 23 MOVE 39 92 26 MOVE 40 68 3
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim27
+suradky: 93 13
+kupim17
+suradky: 93 13
+MOVE 13 71 24 MOVE 25 74 26 MOVE 29 68 12 MOVE 1 69 26 MOVE 9 81 25 MOVE 18 69 14 MOVE 22 95 13 MOVE 26 67 20 MOVE 27 68 18 MOVE 17 69 23
 
 [proboj] ROUND 410/500
 updateShips
 updateMap
-pocitam40
-stoji11
+kupim29
+suradky: 93 13
 stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-STORE 40 -50 MOVE 1 93 23 MOVE 39 93 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+MOVE 29 68 15 MOVE 1 69 25 MOVE 26 68 22 MOVE 9 83 24 MOVE 18 69 17 MOVE 22 93 13 MOVE 17 72 23 MOVE 27 68 21 MOVE 13 74 24 MOVE 25 75 24
 
 [proboj] ROUND 411/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 68 6 MOVE 1 93 22 MOVE 39 94 22
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+kupim22
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+MOVE 17 75 23 MOVE 27 70 22 MOVE 13 76 25 MOVE 25 77 25 MOVE 29 68 18 MOVE 1 70 25 MOVE 18 69 20 TRADE 22 0 50 MOVE 26 71 22 MOVE 9 86 24
 
 [proboj] ROUND 412/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 68 9 MOVE 1 93 21 MOVE 39 96 21
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+MOVE 29 68 21 MOVE 1 70 26 MOVE 9 89 24 MOVE 18 71 21 MOVE 22 94 15 MOVE 26 74 22 MOVE 17 78 23 MOVE 27 71 24 MOVE 13 78 26 MOVE 25 80 25
 
 [proboj] ROUND 413/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 68 12 MOVE 1 93 20 MOVE 39 96 18
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+MOVE 9 91 23 MOVE 18 74 21 MOVE 22 94 18 MOVE 26 77 22 MOVE 17 81 23 MOVE 27 74 24 MOVE 13 79 24 MOVE 25 81 23 MOVE 1 70 25 MOVE 29 69 23
 
 [proboj] ROUND 414/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-MOVE 40 68 15 MOVE 1 93 19 MOVE 39 96 15
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+MOVE 17 82 25 MOVE 27 75 26 MOVE 13 81 25 MOVE 25 83 25 MOVE 1 70 26 MOVE 29 72 23 MOVE 9 92 21 MOVE 18 75 23 MOVE 22 93 20 MOVE 26 79 23
 
 [proboj] ROUND 415/500
 updateShips
 updateMap
-predam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-MOVE 39 95 13 MOVE 40 68 18 MOVE 1 94 19
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+MOVE 17 83 23 MOVE 27 76 24 MOVE 13 82 23 MOVE 25 84 23 MOVE 1 70 25 MOVE 29 74 24 MOVE 9 94 22 MOVE 18 77 24 MOVE 22 93 23 MOVE 26 82 23
 
 [proboj] ROUND 416/500
 updateShips
 updateMap
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-predam39
-kupim40
-suradky: 88 22
-MOVE 1 94 18 MOVE 39 93 13 MOVE 40 68 21
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+MOVE 29 76 25 MOVE 1 71 25 MOVE 18 80 24 MOVE 22 90 23 MOVE 26 81 24 MOVE 9 96 21 MOVE 17 85 24 MOVE 27 78 25 MOVE 13 84 24 MOVE 25 87 23
 
 [proboj] ROUND 417/500
 updateShips
 updateMap
-predam39
-kupim40
-suradky: 88 22
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim27
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-TRADE 39 0 -50 MOVE 40 70 22 MOVE 1 94 17
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+MOVE 29 78 26 MOVE 1 71 26 MOVE 9 95 19 MOVE 18 82 25 MOVE 22 92 24 MOVE 26 83 25 MOVE 27 81 25 MOVE 17 87 25 MOVE 13 86 25 MOVE 25 88 25
 
 [proboj] ROUND 418/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-MOVE 39 93 13 MOVE 40 73 22 MOVE 1 94 17
+kupim13
+suradky: 93 13
+MOVE 25 89 23 MOVE 29 78 23 MOVE 1 71 25 MOVE 9 95 16 MOVE 18 83 23 MOVE 22 90 23 MOVE 26 84 23 MOVE 17 88 23 MOVE 27 82 23 MOVE 13 87 23
 
 [proboj] ROUND 419/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+predam22
+kupim26
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-MOVE 39 94 15 MOVE 40 75 23 MOVE 1 94 16
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+MOVE 22 88 24 MOVE 26 86 24 MOVE 9 95 13 MOVE 18 85 24 MOVE 17 90 24 MOVE 27 84 24 MOVE 13 89 24 MOVE 25 91 24 MOVE 29 80 24 MOVE 1 71 24
 
 [proboj] ROUND 420/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
 stoji10
-stoji9
-predam1
-MOVE 39 96 16 MOVE 40 78 23 MOVE 1 95 16
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+MOVE 13 91 25 MOVE 25 93 23 MOVE 29 82 25 MOVE 1 71 25 MOVE 9 93 13 MOVE 18 87 25 MOVE 22 87 22 MOVE 26 88 25 MOVE 17 92 25 MOVE 27 86 25
 
 [proboj] ROUND 421/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim13
+suradky: 93 13
 stoji10
-stoji9
-predam1
-MOVE 39 96 19 MOVE 40 80 22 MOVE 1 95 15
+kupim25
+suradky: 93 13
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+stoji8
+kupim9
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+MOVE 13 91 25 MOVE 25 93 23 MOVE 1 71 25 MOVE 29 82 25 TRADE 9 0 50 MOVE 18 87 25 MOVE 22 88 22 MOVE 26 88 25 MOVE 17 92 25 MOVE 27 86 25
 
 [proboj] ROUND 422/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim26
+suradky: 93 13
+predam9
+kupim18
+suradky: 93 13
+predam22
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 82 23 MOVE 1 95 14 MOVE 39 96 22
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 26 88 25 MOVE 9 93 13 MOVE 18 87 25 TRADE 22 0 -50 MOVE 17 92 25 MOVE 27 86 25 MOVE 13 91 25 MOVE 25 93 23 MOVE 29 82 25 MOVE 1 71 25
 
 [proboj] ROUND 423/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim27
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 85 23 MOVE 1 95 13 MOVE 39 94 23
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+MOVE 29 82 25 MOVE 1 71 25 MOVE 9 93 13 MOVE 18 87 25 MOVE 22 85 22 MOVE 26 88 25 MOVE 27 86 25 MOVE 17 92 25 MOVE 13 91 25 MOVE 25 93 23
 
 [proboj] ROUND 424/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 87 22 MOVE 1 95 13 MOVE 39 92 24
+kupim13
+suradky: 93 13
+MOVE 25 93 23 MOVE 29 82 25 MOVE 1 71 25 MOVE 26 88 25 MOVE 9 93 13 MOVE 18 87 25 MOVE 22 83 21 MOVE 17 92 25 MOVE 27 86 25 MOVE 13 91 25
 
 [proboj] ROUND 425/500
 updateShips
 updateMap
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 88 22 MOVE 1 95 13 MOVE 39 89 24
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+predam9
+MOVE 17 94 24 MOVE 27 88 26 MOVE 13 93 26 MOVE 25 93 20 MOVE 29 84 26 MOVE 1 71 26 MOVE 18 89 26 MOVE 22 81 20 MOVE 26 90 26 MOVE 9 94 15
 
 [proboj] ROUND 426/500
 updateShips
 updateMap
-kupim40
-stoji11
-stoji0
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-TRADE 40 0 50 MOVE 1 95 13 MOVE 39 88 22
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+MOVE 17 94 21 MOVE 27 90 25 MOVE 13 93 23 MOVE 25 94 18 MOVE 1 71 25 MOVE 29 86 25 MOVE 9 94 18 MOVE 18 90 24 MOVE 22 79 19 MOVE 26 90 23
 
 [proboj] ROUND 427/500
 updateShips
 updateMap
-predam40
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 88 25 MOVE 1 94 13 MOVE 39 85 22
+kupim13
+suradky: 93 13
+MOVE 25 95 16 MOVE 29 88 26 MOVE 1 71 26 MOVE 9 96 16 MOVE 18 91 22 MOVE 22 76 19 MOVE 26 92 22 MOVE 17 95 19 MOVE 27 91 23 MOVE 13 95 22
 
 [proboj] ROUND 428/500
 updateShips
 updateMap
-predam40
-stoji0
-stoji11
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-predam1
-pocitam39
-MOVE 40 88 25 MOVE 1 93 13 MOVE 39 83 21
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+MOVE 9 96 19 MOVE 18 91 22 MOVE 22 75 17 MOVE 26 92 22 MOVE 17 95 19 MOVE 27 91 23 MOVE 13 95 22 MOVE 25 95 16 MOVE 1 71 26 MOVE 29 88 26
 
 [proboj] ROUND 429/500
 updateShips
 updateMap
-stoji9
-predam1
-pocitam39
-predam40
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim13
+suradky: 93 13
 stoji10
-TRADE 1 0 -50 MOVE 39 81 20 MOVE 40 91 25
+kupim25
+suradky: 93 13
+MOVE 1 71 26 MOVE 29 88 26 MOVE 9 96 22 MOVE 18 91 22 MOVE 22 74 15 MOVE 26 92 22 MOVE 17 95 19 MOVE 27 91 23 MOVE 13 95 22 MOVE 25 95 16
 
 [proboj] ROUND 430/500
 updateShips
 updateMap
-pocitam39
-predam40
+kupim25
+suradky: 93 13
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+pocitam22
+kupim26
+suradky: 93 13
+predam9
+kupim18
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-MOVE 39 79 19 MOVE 40 91 25 MOVE 1 93 13
+kupim13
+suradky: 93 13
+MOVE 25 95 13 MOVE 29 90 25 MOVE 1 71 25 MOVE 22 73 13 MOVE 26 93 20 MOVE 9 96 25 MOVE 18 91 22 MOVE 17 96 17 MOVE 27 93 22 MOVE 13 94 20
 
 [proboj] ROUND 431/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-stoji11
 stoji10
-stoji9
-pocitam1
-MOVE 39 76 19 MOVE 40 92 23 MOVE 1 94 13
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+MOVE 13 94 17 MOVE 25 93 13 MOVE 1 71 26 MOVE 29 92 24 MOVE 9 93 25 MOVE 18 93 21 MOVE 22 72 11 MOVE 26 94 18 MOVE 17 96 14 MOVE 27 95 21
 
 [proboj] ROUND 432/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji11
-stoji0
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim13
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 39 75 17 MOVE 40 92 23 MOVE 1 94 14
+kupim25
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji0
+MOVE 9 92 23 MOVE 18 94 19 MOVE 22 72 8 MOVE 26 96 17 MOVE 17 94 13 MOVE 27 95 18 MOVE 13 94 14 TRADE 25 0 50 MOVE 1 71 25 MOVE 29 94 23
 
 [proboj] ROUND 433/500
 updateShips
 updateMap
-predam40
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-MOVE 40 93 21 MOVE 1 94 15 MOVE 39 74 15
+kupim13
+suradky: 93 13
+predam25
+MOVE 1 71 25 MOVE 29 94 23 MOVE 9 90 24 MOVE 18 94 19 MOVE 22 71 6 MOVE 26 96 17 MOVE 17 93 13 MOVE 27 95 18 MOVE 13 94 14 MOVE 25 93 13
 
 [proboj] ROUND 434/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-stoji11
+stoji12
 stoji10
-stoji9
-pocitam1
-MOVE 39 73 13 MOVE 40 94 19 MOVE 1 94 16
+kupim13
+suradky: 93 13
+predam25
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim17
+kupim27
+suradky: 93 13
+MOVE 13 93 13 MOVE 25 95 14 MOVE 1 71 24 MOVE 29 94 20 MOVE 9 88 23 MOVE 18 94 16 MOVE 22 69 5 MOVE 26 95 15 TRADE 17 0 50 MOVE 27 95 15
 
 [proboj] ROUND 435/500
 updateShips
 updateMap
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+predam17
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-predam40
+kupim13
+predam25
+kupim29
+suradky: 93 13
 stoji0
-stoji11
-MOVE 1 94 17 MOVE 39 72 11 MOVE 40 95 17
+kupim1
+suradky: 93 13
+MOVE 9 87 22 MOVE 18 94 13 MOVE 22 68 3 MOVE 26 94 13 MOVE 17 96 13 MOVE 27 98 18 TRADE 13 0 50 MOVE 25 97 15 MOVE 29 96 19 MOVE 1 72 24
 
 [proboj] ROUND 436/500
 updateShips
 updateMap
-predam40
-stoji0
-stoji11
+predam17
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-MOVE 40 95 14 MOVE 1 94 16 MOVE 39 72 8
+predam13
+predam25
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+MOVE 17 94 14 MOVE 27 98 18 MOVE 13 93 13 MOVE 25 95 14 MOVE 1 72 24 MOVE 29 96 19 MOVE 9 88 22 MOVE 18 93 13 STORE 22 150 MOVE 26 95 15
 
 [proboj] ROUND 437/500
 updateShips
 updateMap
-stoji0
-stoji11
+predam17
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-predam40
-MOVE 1 94 17 MOVE 39 71 6 MOVE 40 93 13
+predam13
+predam25
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+predam9
+kupim18
+pocitam22
+kupim26
+suradky: 93 13
+BUY 2 MOVE 17 94 17 MOVE 27 98 15 MOVE 13 95 12 MOVE 25 96 16 MOVE 29 96 16 MOVE 1 72 23 TRADE 9 0 -50 TRADE 18 0 50 MOVE 22 68 6 MOVE 26 98 15
 
 [proboj] ROUND 438/500
 updateShips
 updateMap
-predam40
+kupim29
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim27
+suradky: 93 13
+predam17
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-TRADE 40 0 -50 MOVE 1 94 18 MOVE 39 69 5
+predam13
+predam25
+MOVE 29 97 17 MOVE 1 72 24 MOVE 9 85 22 MOVE 18 95 14 MOVE 22 68 9 MOVE 26 94 13 STORE 34 -50 MOVE 27 97 13 MOVE 17 94 20 MOVE 13 96 14 MOVE 25 95 18
 
 [proboj] ROUND 439/500
 updateShips
 updateMap
-pocitam39
-pocitam40
-stoji11
-stoji0
+predam17
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-stoji9
-pocitam1
-MOVE 39 68 3 MOVE 40 94 15 MOVE 1 94 19
+predam13
+predam25
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam34
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+MOVE 17 93 22 MOVE 27 97 13 MOVE 13 97 16 MOVE 25 95 21 MOVE 29 97 17 MOVE 1 72 24 MOVE 34 68 3 MOVE 9 83 21 MOVE 18 96 16 MOVE 22 68 9 MOVE 26 93 13
 
 [proboj] ROUND 440/500
 updateShips
 updateMap
-stoji9
-pocitam1
-pocitam39
-pocitam40
-stoji0
-stoji11
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+kupim26
+kupim34
+suradky: 93 13
+predam17
+kupim27
+suradky: 93 13
+stoji12
 stoji10
-MOVE 1 94 20 STORE 39 150 MOVE 40 94 18
+predam13
+predam25
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+MOVE 9 81 20 MOVE 18 95 18 MOVE 22 68 12 TRADE 26 0 50 MOVE 34 68 6 MOVE 17 94 24 MOVE 27 95 14 MOVE 13 98 18 MOVE 25 95 24 MOVE 1 73 24 MOVE 29 98 15
 
 [proboj] ROUND 441/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam39
-BUY 2 MOVE 40 95 20 MOVE 1 94 21 MOVE 39 68 6
+predam13
+predam25
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+kupim27
+suradky: 93 13
+predam17
+MOVE 13 98 21 MOVE 25 93 25 MOVE 29 95 15 MOVE 1 73 25 MOVE 9 79 19 MOVE 18 95 21 MOVE 22 68 15 MOVE 26 94 15 MOVE 34 68 9 MOVE 27 93 13 MOVE 17 91 24
 
 [proboj] ROUND 442/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+predam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam9
+predam17
+kupim27
+stoji12
 stoji10
-stoji9
-pocitam1
-pocitam88
-MOVE 39 68 9 MOVE 40 96 22 MOVE 1 94 22 STORE 88 -50
+predam13
+predam25
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 18 94 23 MOVE 22 68 18 MOVE 26 95 17 MOVE 34 68 12 MOVE 9 76 19 MOVE 17 88 24 TRADE 27 0 50 MOVE 13 98 24 MOVE 25 90 25 MOVE 29 94 13 MOVE 1 74 25
 
 [proboj] ROUND 443/500
 updateShips
 updateMap
-stoji9
-pocitam1
-pocitam88
-kupim39
-suradky: 88 22
-pocitam40
-stoji11
-stoji0
+stoji12
 stoji10
-MOVE 1 94 23 MOVE 88 68 6 MOVE 39 68 12 MOVE 40 95 24
+predam13
+predam25
+kupim29
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim34
+suradky: 93 13
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+predam17
+predam27
+MOVE 13 97 26 MOVE 25 87 25 MOVE 29 93 13 MOVE 1 74 25 MOVE 34 68 12 MOVE 9 75 17 MOVE 18 94 26 MOVE 22 68 18 MOVE 26 95 20 MOVE 17 87 22 MOVE 27 93 13
 
 [proboj] ROUND 444/500
 updateShips
 updateMap
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+stoji12
+predam13
 stoji10
-MOVE 1 94 24 MOVE 88 68 9 MOVE 39 68 15 MOVE 40 92 24
+predam25
+kupim1
+suradky: 93 13
+kupim29
+stoji0
+stoji8
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+predam17
+predam27
+MOVE 13 96 24 MOVE 25 88 23 MOVE 1 74 26 TRADE 29 0 50 MOVE 9 74 15 MOVE 18 93 24 MOVE 22 68 21 MOVE 26 95 23 MOVE 34 68 15 MOVE 17 88 22 MOVE 27 96 13
 
 [proboj] ROUND 445/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+stoji8
+kupim34
+suradky: 93 13
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+predam17
+predam27
+stoji12
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-MOVE 39 68 18 MOVE 40 89 24 MOVE 1 94 25 MOVE 88 68 12
+predam13
+predam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+MOVE 34 68 18 MOVE 9 73 13 MOVE 18 91 25 MOVE 22 68 24 MOVE 26 92 23 TRADE 17 0 -50 MOVE 27 96 16 MOVE 13 94 25 MOVE 25 87 22 MOVE 29 95 14 MOVE 1 74 25
 
 [proboj] ROUND 446/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam9
+predam18
+pocitam17
+predam27
+stoji12
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-MOVE 39 68 21 MOVE 40 88 22 MOVE 1 93 25 MOVE 88 68 15
+predam13
+predam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 22 69 26 MOVE 26 92 26 MOVE 34 68 21 MOVE 9 72 11 MOVE 18 89 24 MOVE 17 87 24 MOVE 27 96 19 MOVE 13 92 26 MOVE 25 88 22 MOVE 29 95 17 MOVE 1 74 26
 
 [proboj] ROUND 447/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+predam29
+stoji8
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+stoji12
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-MOVE 39 69 23 MOVE 40 86 23 MOVE 1 92 25 MOVE 88 68 18
+predam13
+predam25
+MOVE 1 75 26 MOVE 29 95 20 MOVE 9 72 8 MOVE 18 88 22 MOVE 22 71 27 MOVE 26 91 24 MOVE 34 68 24 MOVE 17 86 22 MOVE 27 96 22 MOVE 13 92 24 TRADE 25 0 -50
 
 [proboj] ROUND 448/500
 updateShips
 updateMap
-pocitam40
-stoji11
+pocitam25
 stoji0
+kupim1
+suradky: 93 13
+predam29
+stoji8
+pocitam9
+predam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+stoji12
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 85 21 MOVE 1 91 25 MOVE 88 68 21 MOVE 39 71 24
+predam13
+MOVE 25 87 24 MOVE 1 75 25 MOVE 29 94 22 MOVE 9 71 6 TRADE 18 0 -50 MOVE 22 71 24 MOVE 26 89 23 MOVE 34 71 24 MOVE 17 84 21 MOVE 27 93 22 MOVE 13 93 22
 
 [proboj] ROUND 449/500
 updateShips
 updateMap
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
+kupim34
+suradky: 93 13
+pocitam9
+pocitam18
+kupim22
+suradky: 93 13
+predam26
+pocitam17
+predam27
+stoji12
 stoji10
-stoji9
-MOVE 1 90 25 MOVE 88 70 22 MOVE 39 72 22 MOVE 40 83 20
+predam13
+pocitam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+MOVE 34 69 26 MOVE 9 69 5 MOVE 18 85 22 MOVE 22 72 26 MOVE 26 87 22 MOVE 17 82 20 MOVE 27 93 25 MOVE 13 90 25 MOVE 25 86 22 MOVE 29 94 25 MOVE 1 75 26
 
 [proboj] ROUND 450/500
 updateShips
 updateMap
-kupim39
-suradky: 88 22
-pocitam40
-stoji0
-stoji11
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-MOVE 39 75 22 MOVE 40 80 20 MOVE 1 90 26 MOVE 88 72 23
+predam13
+pocitam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam9
+pocitam17
+predam27
+stoji12
+MOVE 13 88 24 MOVE 25 84 23 MOVE 29 92 26 MOVE 1 75 25 MOVE 18 83 21 MOVE 22 73 24 MOVE 26 88 22 MOVE 34 70 24 MOVE 9 68 3 MOVE 17 79 20 MOVE 27 91 24
 
 [proboj] ROUND 451/500
 updateShips
 updateMap
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
-stoji11
-stoji0
+stoji12
 stoji10
-stoji9
-MOVE 1 89 26 MOVE 88 75 23 MOVE 39 78 22 MOVE 40 78 19
+predam13
+pocitam25
+stoji0
+kupim1
+suradky: 93 13
+predam29
+stoji8
+pocitam9
+pocitam18
+kupim22
+suradky: 93 13
+predam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+MOVE 13 87 22 MOVE 25 82 22 MOVE 1 76 25 MOVE 29 90 25 STORE 9 150 MOVE 18 80 21 MOVE 22 76 24 TRADE 26 0 -50 MOVE 34 71 26 MOVE 17 77 19 MOVE 27 89 25
 
 [proboj] ROUND 452/500
 updateShips
 updateMap
-pocitam40
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+predam29
+stoji8
+pocitam9
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+stoji12
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-MOVE 40 76 18 MOVE 1 89 25 MOVE 88 78 23 MOVE 39 81 22
+predam13
+pocitam25
+BUY 2 MOVE 1 77 25 MOVE 29 89 23 MOVE 9 68 6 MOVE 18 78 20 MOVE 22 78 23 MOVE 26 86 23 MOVE 34 71 23 MOVE 17 76 17 MOVE 27 88 23 MOVE 13 88 22 MOVE 25 81 20
 
 [proboj] ROUND 453/500
 updateShips
 updateMap
+pocitam37
+stoji12
+predam13
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
+pocitam25
+kupim1
+suradky: 93 13
+predam29
 stoji0
-stoji11
-MOVE 1 89 24 MOVE 88 81 23 MOVE 39 84 22 MOVE 40 74 17
+stoji8
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+STORE 37 -50 TRADE 13 0 -50 MOVE 25 79 19 MOVE 1 77 26 MOVE 29 89 26 MOVE 9 68 9 MOVE 18 76 19 MOVE 22 78 26 MOVE 26 85 21 MOVE 34 71 26 MOVE 17 74 16 MOVE 27 87 22
 
 [proboj] ROUND 454/500
 updateShips
 updateMap
-stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
+pocitam25
+kupim1
+suradky: 93 13
+predam29
 stoji0
-stoji11
-MOVE 1 88 24 MOVE 88 84 23 MOVE 39 87 22 MOVE 40 73 15
+stoji8
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam17
+predam27
+pocitam37
+stoji12
+pocitam13
+stoji10
+MOVE 25 77 20 MOVE 1 77 27 MOVE 29 89 23 MOVE 9 68 12 MOVE 18 75 17 MOVE 22 81 26 MOVE 26 83 20 MOVE 34 73 27 MOVE 17 73 14 MOVE 27 88 22 MOVE 37 68 6 MOVE 13 86 23
 
 [proboj] ROUND 455/500
 updateShips
 updateMap
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-suradky: 88 22
-pocitam40
-stoji11
-stoji0
 stoji10
-MOVE 1 88 23 MOVE 88 87 23 MOVE 39 88 22 MOVE 40 73 12
+pocitam13
+pocitam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam17
+predam27
+stoji12
+kupim37
+suradky: 93 13
+MOVE 13 85 21 MOVE 25 76 18 MOVE 29 88 22 MOVE 1 77 27 MOVE 18 74 15 MOVE 22 81 26 MOVE 26 80 20 MOVE 34 73 27 MOVE 9 68 12 MOVE 17 72 12 TRADE 27 0 -50 MOVE 37 68 6
 
 [proboj] ROUND 456/500
 updateShips
 updateMap
-stoji11
-stoji0
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-kupim39
-pocitam40
-MOVE 1 88 22 MOVE 88 87 22 TRADE 39 0 50 MOVE 40 72 10
+pocitam13
+pocitam25
+predam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+pocitam17
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
+MOVE 13 82 21 MOVE 25 74 17 TRADE 29 0 -50 MOVE 1 77 27 MOVE 22 81 26 MOVE 26 78 19 MOVE 34 73 27 MOVE 9 68 12 MOVE 18 73 13 MOVE 17 72 9 MOVE 27 86 23 MOVE 37 68 6
 
 [proboj] ROUND 457/500
 updateShips
 updateMap
-predam39
-pocitam40
+pocitam25
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam29
+stoji8
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam17
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-kupim88
-suradky: 88 22
-MOVE 39 88 22 MOVE 40 71 8 MOVE 1 88 22 MOVE 88 88 22
+pocitam13
+MOVE 25 73 15 MOVE 1 77 27 MOVE 29 85 22 MOVE 9 68 12 MOVE 18 72 11 MOVE 22 81 26 MOVE 26 76 18 MOVE 34 73 27 MOVE 17 71 7 MOVE 27 85 21 MOVE 37 68 6 MOVE 13 80 20
 
 [proboj] ROUND 458/500
 updateShips
 updateMap
-predam39
-pocitam40
-stoji0
-stoji11
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-kupim88
-MOVE 39 88 22 MOVE 40 70 6 MOVE 1 88 23 TRADE 88 0 50
+pocitam13
+pocitam25
+pocitam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam27
+pocitam17
+MOVE 37 68 9 MOVE 13 78 19 MOVE 25 73 12 MOVE 29 83 21 MOVE 1 77 26 MOVE 9 68 15 MOVE 18 72 8 MOVE 22 82 24 MOVE 26 74 17 MOVE 34 73 24 MOVE 27 82 21 MOVE 17 70 5
 
 [proboj] ROUND 459/500
 updateShips
 updateMap
-pocitam40
-stoji11
-stoji0
 stoji10
-stoji9
-pocitam1
-predam88
-predam39
-MOVE 40 68 5 MOVE 1 89 23 MOVE 88 88 22 MOVE 39 88 22
+pocitam13
+pocitam25
+pocitam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam17
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
+MOVE 13 76 18 MOVE 25 72 10 MOVE 29 81 20 MOVE 1 77 26 MOVE 26 73 15 MOVE 34 73 24 MOVE 9 68 15 MOVE 18 71 6 MOVE 22 82 24 MOVE 17 68 4 MOVE 27 80 20 MOVE 37 68 9
 
 [proboj] ROUND 460/500
 updateShips
 updateMap
-stoji0
-stoji11
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-predam88
-predam39
-pocitam40
-MOVE 1 90 23 MOVE 88 88 22 MOVE 39 88 22 MOVE 40 67 3
+pocitam13
+pocitam25
+pocitam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+pocitam17
+pocitam27
+MOVE 37 68 12 MOVE 13 74 17 MOVE 25 71 8 MOVE 29 79 21 MOVE 1 77 25 MOVE 22 84 25 MOVE 26 73 12 MOVE 34 75 25 MOVE 9 68 18 MOVE 18 69 5 MOVE 17 67 3 MOVE 27 78 19
 
 [proboj] ROUND 461/500
 updateShips
 updateMap
-pocitam40
-stoji0
-stoji11
+pocitam17
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-predam88
-predam39
-MOVE 40 68 3 MOVE 1 90 24 MOVE 88 88 25 MOVE 39 88 25
+pocitam13
+pocitam25
+pocitam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+pocitam18
+MOVE 17 68 3 MOVE 27 76 18 MOVE 37 68 15 MOVE 13 73 15 MOVE 25 70 6 MOVE 29 77 20 MOVE 1 77 26 MOVE 22 87 25 MOVE 26 72 10 MOVE 34 77 26 MOVE 9 68 21 MOVE 18 68 3
 
 [proboj] ROUND 462/500
 updateShips
 updateMap
-predam39
-pocitam40
-stoji0
-stoji11
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-predam88
-MOVE 39 88 22 STORE 40 150 MOVE 1 90 23 MOVE 88 88 25
+pocitam13
+pocitam25
+pocitam29
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam27
+pocitam17
+MOVE 37 68 15 MOVE 13 73 12 MOVE 25 68 5 MOVE 29 75 19 MOVE 1 77 26 MOVE 9 68 21 STORE 18 150 MOVE 22 87 25 MOVE 26 71 8 MOVE 34 75 25 MOVE 27 74 17 STORE 17 150
 
 [proboj] ROUND 463/500
 updateShips
 updateMap
-predam39
-pocitam40
-stoji0
-stoji11
+kupim9
+suradky: 93 13
+pocitam18
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+pocitam17
+pocitam27
+kupim37
+suradky: 93 13
+stoji12
+pocitam13
 stoji10
-stoji9
-pocitam1
-predam88
-BUY 2 MOVE 39 88 22 MOVE 40 68 6 MOVE 1 89 23 MOVE 88 88 25
+pocitam25
+kupim1
+suradky: 93 13
+pocitam29
+stoji0
+stoji8
+BUY 2 MOVE 9 69 23 MOVE 18 67 5 MOVE 22 88 23 MOVE 26 70 6 MOVE 34 76 23 MOVE 17 67 5 MOVE 27 73 15 MOVE 37 68 18 MOVE 13 72 10 MOVE 25 67 3 MOVE 1 77 25 MOVE 29 73 18
 
 [proboj] ROUND 464/500
 updateShips
 updateMap
-stoji9
-pocitam1
-predam88
-predam39
-pocitam97
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-MOVE 1 88 23 MOVE 88 90 24 MOVE 39 89 24 STORE 97 -50 MOVE 40 68 9
+pocitam13
+pocitam25
+pocitam29
+pocitam40
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+BUY 2 MOVE 17 68 6 MOVE 27 73 12 MOVE 37 68 21 MOVE 13 71 8 MOVE 25 68 3 MOVE 29 72 16 STORE 40 -50 MOVE 1 77 26 MOVE 22 91 23 MOVE 26 68 5 MOVE 34 76 26 MOVE 9 69 26 MOVE 18 67 8
 
 [proboj] ROUND 465/500
 updateShips
 updateMap
-predam88
-predam39
-pocitam97
-kupim40
-suradky: 88 22
+pocitam40
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam29
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 88 91 22 MOVE 39 91 23 MOVE 97 68 6 MOVE 40 68 12 MOVE 1 88 22
+pocitam13
+pocitam25
+pocitam41
+MOVE 40 68 3 MOVE 1 77 26 MOVE 29 72 13 MOVE 9 69 26 MOVE 18 67 8 MOVE 22 91 23 MOVE 26 67 3 MOVE 34 76 26 MOVE 17 68 6 MOVE 27 72 10 MOVE 37 68 21 MOVE 13 69 7 STORE 25 150 STORE 41 -50
 
 [proboj] ROUND 466/500
 updateShips
 updateMap
-predam39
+pocitam29
 kupim40
-suradky: 88 22
-kupim97
-suradky: 88 22
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-predam88
-MOVE 39 92 21 MOVE 40 68 15 MOVE 97 68 9 MOVE 1 88 23 MOVE 88 93 21
+pocitam13
+pocitam41
+pocitam25
+BUY 2 MOVE 29 71 11 MOVE 40 69 5 MOVE 1 77 25 MOVE 26 68 3 MOVE 34 78 25 MOVE 9 71 25 MOVE 18 67 11 MOVE 22 92 21 MOVE 17 68 9 MOVE 27 71 8 MOVE 37 68 24 MOVE 13 68 5 MOVE 41 69 5 MOVE 25 69 5
 
 [proboj] ROUND 467/500
 updateShips
 updateMap
-stoji9
-pocitam1
-predam88
-predam39
-kupim40
-suradky: 88 22
-kupim97
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-MOVE 1 88 22 MOVE 88 94 19 MOVE 39 94 22 MOVE 40 68 18 MOVE 97 68 12
+pocitam13
+kupim41
+suradky: 93 13
+pocitam43
+kupim25
+suradky: 93 13
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+MOVE 17 68 9 MOVE 27 70 6 MOVE 37 68 24 MOVE 13 67 3 MOVE 41 68 3 STORE 43 -50 MOVE 25 68 3 MOVE 29 70 9 MOVE 40 69 5 MOVE 1 77 25 STORE 26 150 MOVE 34 78 25 MOVE 9 71 25 MOVE 18 67 11 MOVE 22 92 21
 
 [proboj] ROUND 468/500
 updateShips
 updateMap
-kupim97
-suradky: 88 22
-kupim40
-suradky: 88 22
-stoji0
-stoji11
 stoji10
-stoji9
-pocitam1
-predam88
-predam39
-MOVE 97 68 15 MOVE 40 68 21 MOVE 1 87 22 MOVE 88 95 17 MOVE 39 95 20
+pocitam13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+pocitam43
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+pocitam26
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
+BUY 2 MOVE 13 68 3 MOVE 25 68 6 MOVE 41 68 6 MOVE 43 68 6 MOVE 29 69 7 MOVE 40 69 8 MOVE 1 77 24 MOVE 18 67 14 MOVE 22 95 21 MOVE 26 68 6 MOVE 34 80 24 MOVE 9 73 24 MOVE 17 68 12 MOVE 27 68 5 MOVE 37 71 24
 
 [proboj] ROUND 469/500
 updateShips
 updateMap
-pocitam1
-predam88
-predam39
-kupim97
-suradky: 88 22
-kupim40
-suradky: 88 22
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+pocitam44
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam29
+kupim40
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-MOVE 1 86 22 MOVE 88 95 17 MOVE 39 95 20 MOVE 97 68 18 MOVE 40 69 23
+pocitam13
+MOVE 25 68 6 MOVE 41 68 3 MOVE 43 68 3 STORE 44 -50 MOVE 1 77 24 MOVE 29 67 6 MOVE 40 69 8 MOVE 9 73 24 MOVE 18 67 14 MOVE 22 95 21 MOVE 26 68 3 MOVE 34 80 24 MOVE 17 68 12 MOVE 27 67 3 MOVE 37 71 24 STORE 13 150
 
 [proboj] ROUND 470/500
 updateShips
 updateMap
-predam39
-kupim40
-suradky: 88 22
-kupim97
-suradky: 88 22
-stoji0
-stoji11
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim17
+suradky: 93 13
+pocitam27
+kupim37
+suradky: 93 13
+stoji12
+pocitam13
 stoji10
-stoji9
-pocitam1
-predam88
-MOVE 39 96 18 MOVE 40 72 23 MOVE 97 68 21 MOVE 1 85 22 MOVE 88 95 14
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+pocitam44
+kupim1
+suradky: 93 13
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+BUY 2 MOVE 9 73 24 MOVE 18 67 14 MOVE 22 95 21 MOVE 26 68 3 MOVE 34 80 24 MOVE 17 68 12 MOVE 27 68 3 MOVE 37 71 24 MOVE 13 68 3 MOVE 25 68 6 MOVE 41 68 3 MOVE 43 68 3 MOVE 44 68 3 MOVE 1 77 24 MOVE 29 68 4 MOVE 40 69 8
 
 [proboj] ROUND 471/500
 updateShips
 updateMap
-predam88
-predam39
-kupim97
-suradky: 88 22
-kupim40
-suradky: 88 22
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+pocitam29
+kupim40
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+pocitam46
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 88 93 13 MOVE 39 95 16 MOVE 97 70 22 MOVE 40 75 23 MOVE 1 85 21
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+MOVE 1 77 24 MOVE 29 67 3 MOVE 40 69 8 MOVE 9 73 24 MOVE 18 67 14 MOVE 22 95 21 MOVE 26 68 3 MOVE 34 80 24 STORE 46 -50 MOVE 17 68 12 STORE 27 150 MOVE 37 71 24 MOVE 13 68 3 MOVE 25 68 6 MOVE 41 68 3 MOVE 43 68 3 MOVE 44 68 3
 
 [proboj] ROUND 472/500
 updateShips
 updateMap
-predam39
-kupim40
-suradky: 88 22
-kupim97
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+pocitam27
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-predam88
-MOVE 39 95 13 MOVE 40 77 22 MOVE 97 73 22 MOVE 1 84 21 TRADE 88 0 -50
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+pocitam46
+BUY 2 MOVE 17 68 15 MOVE 27 69 5 MOVE 37 73 25 MOVE 13 69 5 MOVE 41 69 5 MOVE 43 69 5 MOVE 25 68 9 MOVE 44 69 5 MOVE 29 68 3 MOVE 40 69 11 MOVE 1 77 25 MOVE 26 69 5 MOVE 34 83 24 MOVE 9 75 25 MOVE 18 67 17 MOVE 22 95 18 MOVE 46 69 5
 
 [proboj] ROUND 473/500
 updateShips
 updateMap
-predam39
-kupim97
-suradky: 88 22
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-pocitam88
-MOVE 39 93 13 MOVE 97 75 23 MOVE 40 80 22 MOVE 1 83 21 MOVE 88 95 12
+kupim13
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim44
+suradky: 93 13
+pocitam47
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim46
+suradky: 93 13
+MOVE 17 68 18 MOVE 27 69 8 MOVE 37 74 23 MOVE 13 68 6 MOVE 43 68 6 MOVE 25 68 12 MOVE 41 68 6 MOVE 44 68 6 STORE 47 -50 STORE 29 150 MOVE 40 69 14 MOVE 1 77 24 MOVE 34 85 23 MOVE 9 76 23 MOVE 18 67 20 MOVE 22 94 16 MOVE 26 68 6 MOVE 46 68 6
 
 [proboj] ROUND 474/500
 updateShips
 updateMap
-predam39
-kupim97
-suradky: 88 22
-kupim40
-suradky: 88 22
-stoji0
-stoji11
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-pocitam88
-TRADE 39 0 -50 MOVE 97 78 23 MOVE 40 83 22 MOVE 1 83 20 MOVE 88 97 13
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+pocitam47
+pocitam29
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+BUY 2 MOVE 46 69 5 MOVE 17 68 21 MOVE 27 69 11 MOVE 37 76 22 MOVE 13 68 9 MOVE 41 69 5 MOVE 43 69 5 MOVE 25 68 15 MOVE 44 69 5 MOVE 47 69 5 MOVE 29 69 5 MOVE 40 69 17 MOVE 1 78 24 MOVE 22 94 13 MOVE 26 69 5 MOVE 34 88 23 MOVE 9 78 22 MOVE 18 68 22
 
 [proboj] ROUND 475/500
 updateShips
 updateMap
-pocitam88
-pocitam39
-kupim97
-suradky: 88 22
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
 kupim40
-suradky: 88 22
+suradky: 93 13
 stoji0
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim22
+suradky: 93 13
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+pocitam48
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam1
-MOVE 88 97 16 MOVE 39 93 13 MOVE 97 81 23 MOVE 40 86 22 MOVE 1 82 20
+kupim13
+suradky: 93 13
+MOVE 41 68 3 MOVE 43 68 3 MOVE 25 68 15 MOVE 44 68 3 MOVE 47 68 3 MOVE 29 68 3 MOVE 40 69 17 MOVE 1 78 24 MOVE 22 93 13 MOVE 26 68 3 MOVE 34 88 23 MOVE 9 78 22 MOVE 18 68 22 STORE 48 -50 MOVE 46 69 5 MOVE 17 68 21 MOVE 27 69 11 MOVE 37 76 22 MOVE 13 68 9
 
 [proboj] ROUND 476/500
 updateShips
 updateMap
-pocitam39
-kupim40
-suradky: 88 22
-stoji0
-pocitam1
-pocitam88
-kupim97
-suradky: 88 22
-stoji11
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+kupim37
+suradky: 93 13
+stoji12
+kupim13
+suradky: 93 13
 stoji10
-stoji9
-MOVE 39 93 13 MOVE 40 87 22 MOVE 1 81 20 MOVE 88 97 19 MOVE 97 84 23
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji0
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim22
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+pocitam48
+MOVE 46 69 8 MOVE 17 69 23 MOVE 27 69 14 MOVE 37 76 25 MOVE 13 68 12 MOVE 25 68 18 MOVE 41 68 6 MOVE 43 68 6 MOVE 47 68 6 MOVE 44 68 6 MOVE 1 78 25 MOVE 29 68 6 MOVE 40 69 20 MOVE 9 79 24 MOVE 18 68 25 TRADE 22 0 50 MOVE 26 68 6 MOVE 34 90 24 MOVE 48 68 6
 
 [proboj] ROUND 477/500
 updateShips
 updateMap
-kupim97
-suradky: 88 22
-stoji11
-stoji10
-stoji9
-pocitam39
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
 kupim40
-suradky: 88 22
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 87 23 MOVE 39 95 14 MOVE 40 88 22 MOVE 1 80 20 MOVE 88 97 22
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
+stoji10
+kupim13
+suradky: 93 13
+MOVE 41 68 9 MOVE 43 69 5 MOVE 25 68 21 MOVE 44 69 5 MOVE 47 69 5 MOVE 29 69 5 MOVE 40 70 22 MOVE 1 78 24 MOVE 26 69 5 MOVE 34 91 22 MOVE 9 81 23 MOVE 18 70 24 MOVE 22 94 15 MOVE 48 69 5 MOVE 46 69 11 MOVE 17 72 23 MOVE 27 69 17 MOVE 37 77 23 MOVE 13 68 15
 
 [proboj] ROUND 478/500
 updateShips
 updateMap
-pocitam39
-kupim40
-stoji0
-pocitam1
-pocitam88
-kupim97
-suradky: 88 22
-stoji11
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-MOVE 39 97 15 TRADE 40 0 50 MOVE 1 79 20 MOVE 88 97 25 MOVE 97 87 22
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+predam22
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+MOVE 37 78 25 MOVE 13 68 18 MOVE 41 68 12 MOVE 43 69 8 MOVE 25 68 24 MOVE 44 68 6 MOVE 47 68 6 MOVE 29 68 6 MOVE 40 71 24 MOVE 1 78 25 MOVE 22 94 18 MOVE 26 68 6 MOVE 34 93 21 MOVE 9 82 25 MOVE 18 72 25 MOVE 48 68 6 MOVE 46 69 14 MOVE 17 73 25 MOVE 27 69 20
 
 [proboj] ROUND 479/500
 updateShips
 updateMap
-predam40
-stoji0
-pocitam1
-pocitam88
-kupim97
-suradky: 88 22
-stoji11
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-MOVE 40 88 22 MOVE 1 79 19 MOVE 88 95 26 MOVE 97 88 22 MOVE 39 96 17
+kupim13
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+MOVE 9 84 24 MOVE 18 74 26 MOVE 22 94 21 MOVE 26 69 5 MOVE 34 94 19 MOVE 48 69 5 MOVE 46 69 17 MOVE 17 75 26 MOVE 27 69 23 MOVE 37 80 24 MOVE 13 68 21 MOVE 43 69 11 MOVE 25 70 23 MOVE 41 68 15 MOVE 44 68 9 MOVE 47 69 5 MOVE 40 73 23 MOVE 1 79 24 MOVE 29 69 5
 
 [proboj] ROUND 480/500
 updateShips
 updateMap
-pocitam1
-pocitam88
-kupim97
-stoji11
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-MOVE 1 78 19 MOVE 88 93 25 TRADE 97 0 50 MOVE 39 96 20 MOVE 40 88 25
+kupim1
+suradky: 93 13
+stoji8
+predam22
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim48
+suradky: 93 13
+MOVE 46 69 20 MOVE 17 75 23 MOVE 27 71 24 MOVE 37 82 23 MOVE 13 70 22 MOVE 41 68 18 MOVE 43 69 14 MOVE 25 72 24 MOVE 44 68 12 MOVE 47 68 6 MOVE 29 68 6 MOVE 40 76 23 MOVE 1 79 23 MOVE 22 93 23 MOVE 26 69 8 MOVE 34 94 16 MOVE 9 86 23 MOVE 18 74 23 MOVE 48 68 6
 
 [proboj] ROUND 481/500
 updateShips
 updateMap
-predam97
-stoji11
+stoji8
+kupim34
+suradky: 93 13
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim13
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 88 22 MOVE 39 94 21 MOVE 40 89 23 MOVE 1 77 19 MOVE 88 90 25
+kupim1
+suradky: 93 13
+MOVE 34 94 13 MOVE 9 89 23 MOVE 18 75 25 MOVE 22 90 23 MOVE 26 69 11 MOVE 48 69 5 MOVE 46 69 23 MOVE 17 76 25 MOVE 27 73 25 MOVE 37 83 25 MOVE 13 70 25 MOVE 43 69 17 MOVE 25 74 25 MOVE 41 68 21 MOVE 44 68 15 MOVE 47 68 9 MOVE 29 69 5 MOVE 40 77 25 MOVE 1 79 24
 
 [proboj] ROUND 482/500
 updateShips
 updateMap
-predam97
-stoji11
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim34
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim27
+suradky: 93 13
+kupim17
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 88 22 MOVE 39 93 23 MOVE 40 91 22 MOVE 1 76 19 MOVE 88 88 24
+kupim1
+suradky: 93 13
+MOVE 9 89 23 MOVE 18 75 25 MOVE 22 91 25 MOVE 26 69 11 MOVE 34 93 13 MOVE 48 69 5 MOVE 46 69 23 MOVE 27 73 25 MOVE 17 76 25 MOVE 37 83 25 MOVE 13 70 25 MOVE 25 74 25 MOVE 41 68 21 MOVE 43 69 17 MOVE 47 68 9 MOVE 44 68 15 MOVE 29 68 3 MOVE 40 77 25 MOVE 1 79 24
 
 [proboj] ROUND 483/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
 stoji10
-stoji9
-MOVE 39 90 23 MOVE 40 92 24 MOVE 1 76 18 MOVE 88 87 22 MOVE 97 89 24
+kupim13
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+kupim34
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
+MOVE 13 72 26 MOVE 43 69 20 MOVE 25 76 26 MOVE 41 68 24 MOVE 44 68 18 MOVE 47 68 12 MOVE 40 79 26 MOVE 1 79 25 MOVE 29 68 6 MOVE 9 91 22 MOVE 18 77 26 MOVE 22 89 24 MOVE 26 69 14 TRADE 34 0 50 MOVE 48 69 8 MOVE 46 69 26 MOVE 17 78 26 MOVE 27 75 26 MOVE 37 85 26
 
 [proboj] ROUND 484/500
 updateShips
 updateMap
-predam97
-stoji11
-stoji10
-stoji9
-pocitam39
-predam40
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 89 24 MOVE 39 87 23 MOVE 40 92 24 MOVE 1 76 17 MOVE 88 85 21
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+predam34
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
+stoji10
+kupim13
+suradky: 93 13
+MOVE 25 78 27 MOVE 41 71 24 MOVE 43 69 23 MOVE 44 68 21 MOVE 47 68 15 MOVE 1 80 25 MOVE 29 68 9 MOVE 40 81 25 MOVE 9 93 21 MOVE 18 79 27 MOVE 22 88 22 MOVE 26 69 17 MOVE 34 95 14 MOVE 48 69 11 MOVE 46 71 27 MOVE 17 80 27 MOVE 27 77 27 MOVE 37 87 25 MOVE 13 74 27
 
 [proboj] ROUND 485/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-MOVE 39 85 22 MOVE 40 92 21 MOVE 1 75 17 MOVE 88 83 20 MOVE 97 91 23
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+predam22
+kupim26
+suradky: 93 13
+predam34
+kupim48
+suradky: 93 13
+MOVE 46 72 25 MOVE 17 82 26 MOVE 27 77 24 MOVE 37 89 24 MOVE 13 74 24 MOVE 25 78 24 MOVE 41 74 24 MOVE 43 72 23 MOVE 44 70 22 MOVE 47 68 18 MOVE 1 80 24 MOVE 29 68 12 MOVE 40 83 24 MOVE 9 94 19 MOVE 18 79 24 TRADE 22 0 -50 MOVE 26 69 20 MOVE 34 95 17 MOVE 48 69 14
 
 [proboj] ROUND 486/500
 updateShips
 updateMap
-pocitam39
-predam40
-stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-MOVE 39 83 21 MOVE 40 93 19 MOVE 1 74 17 MOVE 88 80 20 MOVE 97 93 22
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+predam34
+kupim9
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+MOVE 17 84 27 MOVE 27 77 27 MOVE 37 91 23 MOVE 13 74 27 MOVE 25 78 27 MOVE 41 71 27 MOVE 43 73 25 MOVE 44 70 25 MOVE 47 68 21 MOVE 29 68 15 MOVE 40 83 27 MOVE 1 80 25 MOVE 18 79 27 MOVE 22 85 22 MOVE 26 69 23 MOVE 34 96 19 MOVE 9 94 16 MOVE 48 69 17 MOVE 46 73 27
 
 [proboj] ROUND 487/500
 updateShips
 updateMap
-predam97
-stoji11
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 94 20 MOVE 39 80 21 MOVE 40 95 18 MOVE 1 74 16 MOVE 88 78 19
+kupim1
+suradky: 93 13
+stoji8
+pocitam22
+kupim26
+suradky: 93 13
+predam34
+kupim9
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim48
+suradky: 93 13
+MOVE 46 74 25 MOVE 17 84 24 MOVE 27 77 24 MOVE 37 93 22 MOVE 13 74 24 MOVE 41 71 24 MOVE 43 75 24 MOVE 25 78 24 MOVE 44 72 24 MOVE 47 68 24 MOVE 29 68 18 MOVE 40 83 24 MOVE 1 80 24 MOVE 22 83 21 MOVE 26 71 24 MOVE 34 94 20 MOVE 9 94 13 MOVE 18 79 24 MOVE 48 69 20
 
 [proboj] ROUND 488/500
 updateShips
 updateMap
-predam40
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+predam34
+kupim9
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-MOVE 40 95 15 MOVE 1 74 15 MOVE 88 76 18 MOVE 97 94 17 MOVE 39 78 20
+kupim13
+suradky: 93 13
+MOVE 25 78 24 MOVE 41 71 24 MOVE 43 75 24 MOVE 44 72 24 MOVE 47 68 24 MOVE 29 68 18 MOVE 40 83 24 MOVE 1 80 24 MOVE 18 79 24 MOVE 22 81 20 MOVE 26 69 23 MOVE 34 94 23 MOVE 9 93 13 MOVE 48 69 20 MOVE 46 74 25 MOVE 17 84 24 MOVE 27 77 24 MOVE 37 93 22 MOVE 13 74 24
 
 [proboj] ROUND 489/500
 updateShips
 updateMap
-pocitam1
-pocitam88
-predam97
-stoji11
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-MOVE 1 73 15 MOVE 88 74 17 MOVE 97 97 17 MOVE 39 76 19 MOVE 40 94 13
+kupim1
+suradky: 93 13
+stoji8
+kupim26
+suradky: 93 13
+predam34
+kupim9
+kupim18
+suradky: 93 13
+pocitam22
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+MOVE 37 93 19 MOVE 13 76 23 MOVE 41 73 23 MOVE 43 77 23 MOVE 25 80 23 MOVE 44 74 23 MOVE 47 70 23 MOVE 29 68 21 MOVE 40 85 23 MOVE 1 80 23 MOVE 26 72 23 MOVE 34 91 23 TRADE 9 0 50 MOVE 18 81 23 MOVE 22 79 19 MOVE 48 70 22 MOVE 46 76 24 MOVE 17 86 23 MOVE 27 79 23
 
 [proboj] ROUND 490/500
 updateShips
 updateMap
-pocitam39
-predam40
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
+kupim1
+suradky: 93 13
+stoji8
+pocitam22
+kupim26
+suradky: 93 13
+predam34
+predam9
+kupim18
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
 stoji10
-stoji9
-MOVE 39 74 18 MOVE 40 93 13 MOVE 1 73 14 MOVE 88 72 16 MOVE 97 97 17
+kupim13
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+MOVE 29 68 24 MOVE 40 85 26 MOVE 1 80 25 MOVE 22 76 19 MOVE 26 72 26 MOVE 34 88 23 MOVE 9 95 14 MOVE 18 81 26 MOVE 48 71 24 MOVE 46 77 26 MOVE 17 86 26 MOVE 27 79 26 MOVE 37 94 17 MOVE 13 78 22 MOVE 41 73 26 MOVE 43 77 26 MOVE 25 82 22 MOVE 44 74 26 MOVE 47 70 26
 
 [proboj] ROUND 491/500
 updateShips
 updateMap
-predam97
-stoji11
+kupim37
+suradky: 93 13
+stoji12
+kupim13
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-predam40
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim1
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 97 17 MOVE 39 74 15 TRADE 40 0 -50 MOVE 1 73 13 MOVE 88 72 13
+stoji8
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+predam34
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+MOVE 37 94 17 MOVE 13 78 22 MOVE 25 82 22 MOVE 41 73 26 MOVE 43 77 23 MOVE 47 70 26 MOVE 44 74 26 MOVE 1 80 25 MOVE 29 68 24 MOVE 40 85 26 MOVE 9 96 16 MOVE 18 81 26 MOVE 22 75 17 MOVE 26 72 26 MOVE 34 87 22 MOVE 48 71 24 MOVE 46 77 26 MOVE 17 86 26 MOVE 27 79 26
 
 [proboj] ROUND 492/500
 updateShips
 updateMap
-predam97
-stoji11
-stoji10
-stoji9
-pocitam39
-pocitam40
+kupim43
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim41
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 97 17 MOVE 39 72 14 MOVE 40 93 13 MOVE 1 73 12 MOVE 88 72 10
+kupim1
+suradky: 93 13
+stoji8
+predam34
+predam9
+kupim18
+suradky: 93 13
+pocitam22
+kupim26
+suradky: 93 13
+kupim48
+suradky: 93 13
+kupim46
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
+stoji10
+kupim13
+suradky: 93 13
+MOVE 43 79 24 MOVE 25 82 25 MOVE 41 75 27 MOVE 44 76 27 MOVE 47 72 27 MOVE 29 70 25 MOVE 40 87 25 MOVE 1 81 25 MOVE 34 88 22 MOVE 9 96 16 MOVE 18 83 25 MOVE 22 74 15 MOVE 26 74 27 MOVE 48 74 24 MOVE 46 79 27 MOVE 17 88 25 MOVE 27 81 27 MOVE 37 94 14 MOVE 13 79 24
 
 [proboj] ROUND 493/500
 updateShips
 updateMap
-pocitam1
-pocitam88
-predam97
-stoji11
-stoji10
-stoji9
-pocitam39
-pocitam40
+kupim41
+suradky: 93 13
 stoji0
-MOVE 1 72 12 MOVE 88 71 8 MOVE 97 97 14 MOVE 39 72 11 MOVE 40 94 15
+kupim1
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim26
+suradky: 93 13
+predam34
+kupim46
+suradky: 93 13
+stoji12
+kupim37
+suradky: 93 13
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+predam9
+pocitam22
+kupim48
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji10
+MOVE 41 75 24 MOVE 1 81 24 MOVE 18 84 23 MOVE 26 75 25 TRADE 34 0 -50 MOVE 46 80 25 MOVE 37 93 13 MOVE 13 80 23 MOVE 25 83 23 MOVE 43 81 23 MOVE 44 76 24 MOVE 47 72 24 MOVE 29 71 23 MOVE 40 88 23 MOVE 9 96 19 MOVE 22 73 13 MOVE 48 76 23 MOVE 17 90 24 MOVE 27 83 26
 
 [proboj] ROUND 494/500
 updateShips
 updateMap
-pocitam39
-pocitam40
-stoji0
-pocitam1
-pocitam88
-predam97
-stoji11
 stoji10
-stoji9
-MOVE 39 71 9 MOVE 40 96 16 MOVE 1 71 12 MOVE 88 70 6 MOVE 97 95 13
+kupim41
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim18
+suradky: 93 13
+kupim46
+suradky: 93 13
+stoji12
+kupim37
+kupim13
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+kupim48
+suradky: 93 13
+predam9
+pocitam22
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+MOVE 41 76 22 MOVE 1 81 25 MOVE 26 77 26 MOVE 34 85 22 MOVE 18 85 25 MOVE 46 83 25 TRADE 37 0 50 MOVE 13 82 22 MOVE 44 77 26 MOVE 47 73 26 MOVE 25 84 25 MOVE 43 82 25 MOVE 29 71 26 MOVE 40 91 23 MOVE 48 78 22 MOVE 9 96 22 MOVE 22 72 11 MOVE 17 92 23 MOVE 27 85 25
 
 [proboj] ROUND 495/500
 updateShips
 updateMap
-predam97
-stoji11
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+predam9
+pocitam22
+kupim48
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-pocitam40
+kupim41
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 93 13 MOVE 39 70 7 MOVE 40 95 18 MOVE 1 71 11 MOVE 88 68 5
+kupim1
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim46
+suradky: 93 13
+stoji12
+predam37
+kupim13
+suradky: 93 13
+MOVE 25 86 26 MOVE 43 83 27 MOVE 44 79 24 MOVE 47 75 27 MOVE 29 73 27 MOVE 40 93 22 MOVE 9 96 25 MOVE 22 72 8 MOVE 48 79 24 MOVE 17 94 22 MOVE 27 86 26 MOVE 41 77 24 MOVE 1 81 26 MOVE 18 87 26 MOVE 26 79 27 MOVE 34 83 21 MOVE 46 85 24 MOVE 37 94 15 MOVE 13 83 24
 
 [proboj] ROUND 496/500
 updateShips
 updateMap
-predam97
-stoji11
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+kupim48
+suradky: 93 13
+predam9
+pocitam22
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-pocitam40
+kupim41
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-TRADE 97 0 -50 MOVE 39 68 6 MOVE 40 96 20 MOVE 1 71 10 MOVE 88 67 3
+kupim1
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim18
+suradky: 93 13
+kupim46
+suradky: 93 13
+stoji12
+predam37
+kupim13
+suradky: 93 13
+MOVE 44 81 23 MOVE 47 75 24 MOVE 25 86 23 MOVE 43 84 25 MOVE 29 73 24 MOVE 40 95 23 MOVE 48 80 23 MOVE 9 95 23 MOVE 22 71 6 MOVE 17 94 19 MOVE 27 84 24 MOVE 41 79 23 MOVE 1 81 25 MOVE 26 80 25 MOVE 34 81 20 MOVE 18 87 23 MOVE 46 87 23 MOVE 37 94 18 MOVE 13 85 23
 
 [proboj] ROUND 497/500
 updateShips
 updateMap
-pocitam97
-stoji11
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+predam9
+pocitam22
+kupim48
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
 stoji10
-stoji9
-pocitam39
-pocitam40
+kupim41
+suradky: 93 13
 stoji0
-pocitam1
-pocitam88
-MOVE 97 94 15 MOVE 39 68 3 MOVE 40 96 23 MOVE 1 71 9 MOVE 88 68 3
+kupim1
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim46
+suradky: 93 13
+stoji12
+predam37
+MOVE 13 85 23 MOVE 25 86 23 MOVE 43 84 25 MOVE 44 81 23 MOVE 47 75 24 MOVE 29 73 24 MOVE 40 95 23 MOVE 9 94 26 MOVE 22 69 5 MOVE 48 80 23 MOVE 17 94 19 MOVE 27 84 24 MOVE 41 79 23 MOVE 1 81 25 MOVE 18 87 23 MOVE 26 80 25 MOVE 34 79 19 MOVE 46 85 24 MOVE 37 97 18
 
 [proboj] ROUND 498/500
 updateShips
 updateMap
-pocitam39
-pocitam40
-stoji0
-pocitam1
-pocitam88
-pocitam97
-stoji11
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+predam9
+pocitam22
+kupim48
+suradky: 93 13
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
 stoji10
-stoji9
-STORE 39 150 MOVE 40 94 24 MOVE 1 71 8 STORE 88 150 MOVE 97 95 17
+kupim41
+suradky: 93 13
+stoji0
+kupim1
+suradky: 93 13
+kupim18
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim46
+suradky: 93 13
+stoji12
+predam37
+kupim13
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+MOVE 29 74 26 MOVE 40 95 20 MOVE 9 94 23 MOVE 22 68 3 MOVE 48 82 24 MOVE 17 94 16 MOVE 27 83 26 MOVE 41 79 26 MOVE 1 81 26 MOVE 18 90 23 MOVE 26 82 26 MOVE 34 76 19 MOVE 46 88 24 MOVE 37 97 21 MOVE 13 83 24 MOVE 25 88 24 MOVE 43 86 24 MOVE 44 82 25 MOVE 47 76 26
 
 [proboj] ROUND 499/500
 updateShips
 updateMap
-pocitam97
-stoji11
-stoji10
-stoji9
-pocitam39
-pocitam40
 stoji0
-pocitam1
-pocitam88
-BUY 2 MOVE 97 95 20 MOVE 39 68 6 MOVE 40 92 23 MOVE 1 71 7 MOVE 88 68 6
+kupim1
+suradky: 93 13
+kupim26
+suradky: 93 13
+pocitam34
+kupim18
+suradky: 93 13
+kupim46
+suradky: 93 13
+stoji12
+predam37
+kupim13
+suradky: 93 13
+kupim44
+suradky: 93 13
+kupim47
+suradky: 93 13
+kupim25
+suradky: 93 13
+kupim43
+suradky: 93 13
+kupim29
+suradky: 93 13
+kupim40
+suradky: 93 13
+stoji8
+kupim48
+suradky: 93 13
+predam9
+pocitam22
+kupim17
+suradky: 93 13
+kupim27
+suradky: 93 13
+stoji10
+kupim41
+suradky: 93 13
+MOVE 1 81 27 MOVE 26 84 27 MOVE 34 75 17 MOVE 18 92 22 MOVE 46 91 24 MOVE 37 97 24 MOVE 13 85 25 MOVE 44 85 25 MOVE 47 78 27 MOVE 25 89 23 MOVE 43 88 25 MOVE 29 76 27 MOVE 40 96 18 MOVE 48 84 23 MOVE 9 92 24 STORE 22 150 MOVE 17 94 13 MOVE 27 85 25 MOVE 41 81 27
 
 [proboj] process terminated
  exit: -1
