@@ -44,6 +44,17 @@ struct Trade{
     
 }t;
 
+struct infoH{
+    Harbor harbor;
+    vector<int> storage;
+    vector<int> production;
+
+    void init(vector<int> &storage, vector<int> &production){
+        storage.resize(8,0);
+        production.resize(8,0);
+    }
+}i;
+
 
 vector<vector<int>> mapka,mapkaD;
 vector<pair<XY,bool>> coords_of_all_harbors; //bool = ci uz som ho nasiel
@@ -53,6 +64,7 @@ vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit,
 vector<Trade> trades; //vsetky trades
 vector<pair<Harbor,int>> occupied_harbors; //obsadene pristavy
 vector<pair<int,XY>> destinations; //destinacie lodiek
+vector<pair<bool,infoH>> storageHarbors; //info o pristavoch
 
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
@@ -179,6 +191,14 @@ void Explore(vector<Turn>& turns, Ship ship){
             for(Harbor harbor : world.harbors){
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
+                    infoH info;
+                    info.init(info.storage,info.production);
+                    info.harbor=harbor;
+                    for(int i=0;i<8;i++){
+                        info.storage[i]=harbor.storage.resources[i];
+                        info.production[i]=harbor.production.resources[i];
+                    }
+                    storageHarbors.push_back(make_pair(false,info));
                     if(vector_of_found_harbors.size() == world.harbors.size()) trebaExplorovat = false;
                     for(int i=0;i<8;i++){
                         if(harbor.production.resources[i]>0){
@@ -297,8 +317,8 @@ for (auto i:ship_orders){
 void Stacionarne(vector<Turn>& turns, Ship ship){
     
     for(auto i:destinations){
-        if(i.first==ship.index){
-            if(ship.coords == i.second){
+        if(i.first==ship.index&&ship.coords == i.second){
+            //TODO: ako po ceste zomrie
                 for(int i=0;i<ship_orders.size();i++){
                     if(ship_orders[i].first.index == ship.index){
                         cerr<<"zmena:"<<ship_orders[i].first.index<<endl;
@@ -306,7 +326,7 @@ void Stacionarne(vector<Turn>& turns, Ship ship){
                         return;
                     }
                 }
-            }
+            
             turns.push_back(MoveTurn(ship.index, move_to(ship, i.second, condition)));
             return;
         }
