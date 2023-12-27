@@ -121,12 +121,13 @@ std::vector<XY> recreate_path(XY destination, std::unordered_map<XY, std::pair<i
 XY move_to(Ship& ship, XY destination, bool (*condition)(XY, XY),
            std::vector<XY>& transitions = SMERY) {
     XY start = ship.coords;
-    int range = ship.stats.max_move_range;
+    // int range = ship.stats.max_move_range;
     std::unordered_map<XY, std::pair<int, XY>> dist;
     bfs(start, condition, dist, transitions);
     if (dist.find(destination) == dist.end())
         return ship.coords;
     std::vector<XY> path = recreate_path(destination, dist);
-    return path[std::min((int)path.size() - 1, range)];
+    // return path[std::min((int)path.size() - 1, range)];
+    return path[std::min((int)path.size() - 1, 1)];
 }
 #endif
