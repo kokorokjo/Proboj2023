@@ -14,7 +14,7 @@ vector<ResourceEnum> RESOURCES =
     ResourceEnum::Wheat,
     ResourceEnum::Pineapple,
     ResourceEnum::Gold 
-};
+};//vsetky resourcy
 
 unordered_map<int, ShipsEnum> classTradeMap = 
 {
@@ -22,19 +22,20 @@ unordered_map<int, ShipsEnum> classTradeMap =
     {30,ShipsEnum::Plt},
     {100,ShipsEnum::SmallMerchantShip},
     {200,ShipsEnum::LargeMerchantShip}
-};
+};//cena trde lodi
 unordered_map<int, ShipsEnum> classAttackMap = 
 {
     {15,ShipsEnum::SomalianPirateShip},
     {50,ShipsEnum::BlackPearl},
     {30,ShipsEnum::SniperAttackShip},
-};
+};//cena utocnej lodi
 unordered_map<int, ShipsEnum> classLootMap = 
 {
     {50,ShipsEnum::LooterScooter}
-};
+};//cena loot lodi
 
-unordered_map<XY,vector<XY>> medzera= {
+unordered_map<XY,vector<XY>> medzera = 
+{
     {XY{0,0},{}},
     {XY{1,0},{}},
     {XY{0,1},{}},
@@ -63,7 +64,7 @@ unordered_map<XY,vector<XY>> medzera= {
     {XY{1,-2},{{0,-1},{0,-2},{0,-1},{1,-1},{1,0},{1,-1}}},
     {XY{-1,-2},{{0,-1},{0,-2},{0,-1},{-1,-1},{-1,0},{-1,-1}}}
     //tri smery
-};
+};//policka medzi dvoma bodmi
 
 struct Trade{
     double odhad;
@@ -132,7 +133,7 @@ vector<XY> ziskanieSmery(Ship ship){
 
     return smery;
     
-} 
+}//vrati vsetky smery v manhattan vzdialenosti a menej
 ShipsEnum getShipName(Ship ship){
     if(ship.stats.ship_class==ShipClass::SHIP_TRADE)
         return classTradeMap[ship.stats.price];
@@ -185,7 +186,7 @@ bool medzi(XY a,XY b){
     if(tmp)return true;
     return false;
 
-}
+}//ci je medzi bodmi cesta
 bool condition(XY a, XY b) {
     if(b.x < 0 || b.x >= world.mapa.width || b.y < 0 || b.y >= world.mapa.height) return false;
     if(mapka[b.y][b.x]==2||mapka[b.y][b.x]==5) return false;
@@ -368,7 +369,7 @@ void Calculate(vector<Turn>& turns, Ship ship){
     return;
     
 
-}
+}//vypocitanie tradu
 void Buy(vector<Turn>& turns, Ship ship){
     int f=0;
     for(auto i:ship_orders){
