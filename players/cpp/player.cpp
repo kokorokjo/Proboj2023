@@ -34,6 +34,36 @@ unordered_map<int, ShipsEnum> classLootMap =
     {50,ShipsEnum::LooterScooter}
 };
 
+unordered_map<XY,vector<XY>> medzera= {
+    {XY{0,0},{}},
+    {XY{1,0},{}},
+    {XY{0,1},{}},
+    {XY{-1,0},{}},
+    {XY{0,-1},{}},
+    {XY{2,0},{{1,0}}},
+    {XY{-2,0},{{-1,0}}},
+    {XY{0,2},{{0,1}}},
+    {XY{0,-2},{{0,-1}}},
+    {XY{3,0},{{2,0},{1,0}}},
+    {XY{-3,0},{{-2,0},{-1,0}}},
+    {XY{0,3},{{0,2},{0,1}}},
+    {XY{0,-3},{{0,-2},{0,-1}}},
+    //jenden smer
+    {XY{1,1},{{1,0},{0,1}}},
+    {XY{-1,1},{{-1,0},{0,1}}},
+    {XY{1,-1},{{1,0},{0,-1}}},
+    {XY{-1,-1},{{-1,0},{0,-1}}},
+    //dva smery    
+    {XY{2,1},{{1,0},{2,0},{1,0},{1,1},{0,1},{1,1}}},
+    {XY{2,-1},{{1,0},{2,0},{1,0},{1,-1},{0,-1},{1,-1}}},
+    {XY{-2,1},{{-1,0},{-2,0},{-1,0},{-1,1},{0,1},{-1,1}}},
+    {XY{-2,-1},{{-1,0},{-2,0},{-1,0},{-1,-1},{0,-1},{-1,-1}}},
+    {XY{1,2},{{0,1},{0,2},{0,1},{1,1},{1,0},{1,1}}},
+    {XY{-1,2},{{0,1},{0,2},{0,1},{-1,1},{-1,0},{-1,1}}},
+    {XY{1,-2},{{0,-1},{0,-2},{0,-1},{1,-1},{1,0},{1,-1}}},
+    {XY{-1,-2},{{0,-1},{0,-2},{0,-1},{-1,-1},{-1,0},{-1,-1}}}
+    //tri smery
+};
 
 struct Trade{
     double odhad;
@@ -70,36 +100,9 @@ vector<pair<bool,infoH>> storageHarbors; //storage a prod pristavov
 int tah=0; //pocitam si tahy
 bool trebaExplorovat = true; //ci treba explorovat
 
-ShipsEnum getShipName(Ship ship){
-    if(ship.stats.ship_class==ShipClass::SHIP_TRADE)
-        return classTradeMap[ship.stats.price];
-    if(ship.stats.ship_class==ShipClass::SHIP_ATTACK)
-        return classAttackMap[ship.stats.price];
-    if(ship.stats.ship_class==ShipClass::SHIP_LOOT)
-        return classLootMap[ship.stats.price];
-    return ShipsEnum::Cln;
-}//vrati meno lode
-bool condition(XY a, XY b) {
-    if(b.x < 0 || b.x >= world.mapa.width || b.y < 0 || b.y >= world.mapa.height) return false;
-    if(mapka[b.y][b.x]==2) return false;
-    return true;
-}//ci sa mozem pohnut na dany bod
 int distance(XY& a, XY& b){
     return abs(a.x - b.x) + abs(a.y - b.y); 
 } //vzdialenost dvoch bodov
-int manyToBuy(pair<Ship,pair<int,Trade>> s,ResourceEnum res,int pocet){
-    int cost=s.second.second.FromH.resource_cost(res);
-    int maximalnyPocet=s.first.resources.resources[8]/cost;
-    if(pocet>maximalnyPocet) return pocet-1;
-    return manyToBuy(s,res,pocet+1);
-}//vypocitq kolko resourcov kupit
-int pocetLodiciek(ShipsEnum lodka){
-    int pocet=0;
-    for(Ship ship:world.my_ships()){
-        if(getShipName(ship)==lodka) pocet++;
-    }
-    return pocet;
-}//pocet lodiek daneho typu
 int manhattanDistance(int x1, int y1, int x2, int y2) {
   return abs(x1 - x2) + abs(y1 - y2);
 } //manhattan vzdialenost
@@ -130,14 +133,89 @@ vector<XY> ziskanieSmery(Ship ship){
     return smery;
     
 } 
+ShipsEnum getShipName(Ship ship){
+    if(ship.stats.ship_class==ShipClass::SHIP_TRADE)
+        return classTradeMap[ship.stats.price];
+    if(ship.stats.ship_class==ShipClass::SHIP_ATTACK)
+        return classAttackMap[ship.stats.price];
+    if(ship.stats.ship_class==ShipClass::SHIP_LOOT)
+        return classLootMap[ship.stats.price];
+    return ShipsEnum::Cln;
+}//vrati meno lode
+bool medzi(XY a,XY b){
+    XY nieco=XY{b.x-a.x,b.y-a.y};
+    if(abs(nieco.x)==1&&abs(nieco.y)==1){
+        for(int i=0;i<2;i++){
+            bool tmp=true;
+            XY najdene=XY{a.x+medzera[nieco][i*2].x,a.y+medzera[nieco][i*2].y};
+            if(mapka[najdene.y][najdene.x]==2)tmp= false;
+            if(tmp)return true;
+        }
+        return false;
+    }
+
+    if(abs(nieco.x)==1&&abs(nieco.y)==2){
+        for(int i=0;i<3;i++){
+            bool tmp=true;
+            for(int j=0;j<2;j++){
+                XY najdene=XY{a.x+medzera[nieco][i*2+j].x,a.y+medzera[nieco][i*2+j].y};
+                if(mapka[najdene.y][najdene.x]==2)tmp= false;
+                
+            }
+            if(tmp)return true;
+        }
+        return false;
+    }
+    if(abs(nieco.x)==2&&abs(nieco.y)==1){
+        for(int i=0;i<3;i++){
+            bool tmp=true;
+            for(int j=0;j<2;j++){
+                XY najdene=XY{a.x+medzera[nieco][i*2+j].x,a.y+medzera[nieco][i*2+j].y};
+                if(mapka[najdene.y][najdene.x]==2)tmp=false;
+            }
+            if(tmp)return true;
+        }
+        return false;
+    }
+    bool tmp=true;
+    for(int j=0;j<medzera[nieco].size();j++){
+        XY najdene=XY{a.x+medzera[nieco][j].x,a.y+medzera[nieco][j].y};
+        if(mapka[najdene.y][najdene.x]==2)tmp= false;            
+    }
+    if(tmp)return true;
+    return false;
+
+}
+bool condition(XY a, XY b) {
+    if(b.x < 0 || b.x >= world.mapa.width || b.y < 0 || b.y >= world.mapa.height) return false;
+    if(mapka[b.y][b.x]==2||mapka[b.y][b.x]==5) return false;
+    if(medzi(a,b)==false) return false;
+    return true;
+}//ci sa mozem pohnut na dany bod
+int manyToBuy(pair<Ship,pair<int,Trade>> s,ResourceEnum res,int pocet){
+    int cost=s.second.second.FromH.resource_cost(res);
+    int maximalnyPocet=s.first.resources.resources[8]/cost;
+    if(pocet>maximalnyPocet) return pocet-1;
+    return manyToBuy(s,res,pocet+1);
+}//vypocitq kolko resourcov kupit
+int pocetLodiciek(ShipsEnum lodka){
+    int pocet=0;
+    for(Ship ship:world.my_ships()){
+        if(getShipName(ship)==lodka) pocet++;
+    }
+    return pocet;
+}//pocet lodiek daneho typu
+
 XY closest(XY destination,Ship ship){
     if(ship.coords == destination) return destination;
-    if(mapka[destination.y][destination.x]==0) return destination;
+    // if(mapka[destination.y][destination.x]==0) return destination;
+    if(mapka[destination.y][destination.x]!=2&&mapka[destination.y][destination.x]!=5) return destination;
+
     int vzdialenost = 1;
     while(true){
         vector<vector<int>> body = manhattanBody(world.mapa.height,world.mapa.width, destination.x, destination.y, vzdialenost);
         for(vector<int> bod : body){
-            if(mapka[bod[1]][bod[0]]!=2) return XY(bod[0],bod[1]);
+            if(mapka[bod[1]][bod[0]]!=2&&mapka[bod[1]][bod[0]]!=5) return XY(bod[0],bod[1]);
         }
         vzdialenost++;
     }
@@ -464,7 +542,7 @@ void updateMap(){
     mapka=mapkaD;
     for(Ship ship:world.ships){
         if(mapka[ship.coords.y][ship.coords.x]==0||mapka[ship.coords.y][ship.coords.x]==4)
-        mapka[ship.coords.y][ship.coords.x]=2;
+        mapka[ship.coords.y][ship.coords.x]=5;
     }
 }//aktualizujem mapku podla lodiek
 //update mapy
