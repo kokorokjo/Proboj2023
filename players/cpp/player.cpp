@@ -96,6 +96,7 @@ vector<Trade> trades; //vsetky trades
 vector<pair<Harbor,int>> occupied_harbors; //obsadene pristavy
 vector<pair<int,XY>> destinations; //destinacie lodiek
 vector<pair<bool,infoH>> storageHarbors; //storage a prod pristavov
+unordered_map<int,vector<XY>> cesty; //cesty lodiek
 
 
 int tah=0; //pocitam si tahy
@@ -207,6 +208,24 @@ int pocetLodiciek(ShipsEnum lodka){
     return pocet;
 }//pocet lodiek daneho typu
 
+void vypocetCesty(XY dest,Ship ship){
+    cerr<<"vypocetCesty"<<endl;
+    XY start = ship.coords;
+    vector<XY> smery = ziskanieSmery(ship);
+    unordered_map<XY, pair<int, XY>> dist;
+    bfs(start, condition, dist, smery);
+    if (dist.find(dest) == dist.end())
+        return ;
+    std::vector<XY> path = recreate_path(dest, dist);
+    cesty[ship.index]=path;    
+}
+XY moveTo(Ship ship){
+    cerr<<"moveTo"<<endl;
+    vector<XY> path=cesty[ship.index];
+    return path[min((int)path.size() - 1, 1)];
+
+    
+}
 XY closest(XY destination,Ship ship){
     if(ship.coords == destination) return destination;
     // if(mapka[destination.y][destination.x]==0) return destination;
@@ -269,7 +288,7 @@ void zijuciExplorer(){
 }//nastavi explorera
 void updateGold(vector<Turn>& turns, Ship ship){
     if(ship.coords == world.my_base){
-
+        cesty[ship.index].clear();
         if(ship.resources.resources[8] > ship.stats.max_cargo)
         turns.push_back(StoreTurn(ship.index, ship.resources.resources[8] - ship.stats.max_cargo));
         else
@@ -277,7 +296,14 @@ void updateGold(vector<Turn>& turns, Ship ship){
         return;
     }
     vector<XY> smery = ziskanieSmery(ship);
-    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(world.my_base,ship), condition, smery)));
+    if(cesty[ship.index].size()==0) {
+        vypocetCesty(world.my_base,ship);
+        if(cesty[ship.index].size()==0) return;
+        cesty[ship.index].erase(cesty[ship.index].begin());
+        cerr<<"cesta:"<<cesty[ship.index][0]<<endl;
+        }
+    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(cesty[ship.index][0],ship), condition, smery)));
+    if(cesty[ship.index].size()>1) cesty[ship.index].erase(cesty[ship.index].begin());
     return;
 }//zoberiem zlato z baseky
 //pomocne funkcie
@@ -286,6 +312,7 @@ void Explore(vector<Turn>& turns, Ship ship){
     if(world.mapa.tiles[ship.coords.y][ship.coords.x].type == TileEnum::TILE_HARBOR){
             for(Harbor harbor : world.harbors){
                 if(harbor.coords == ship.coords){
+                    cesty[ship.index].clear();
                     vector_of_found_harbors.push_back(harbor);
                     infoH info;
                     info.init(info.storage,info.production);
@@ -340,8 +367,16 @@ void Explore(vector<Turn>& turns, Ship ship){
                 
             }
             vector<XY> smery = ziskanieSmery(ship);
-
-            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(min_harbor,ship), condition, smery)));
+            cerr<<"min_harbor:"<<min_harbor.x<<" "<<min_harbor.y<<endl;
+            if(cesty[ship.index].size()==0){
+                vypocetCesty(min_harbor,ship);
+                if(cesty[ship.index].size()==0) return;
+                cesty[ship.index].erase(cesty[ship.index].begin());
+                cerr<<"cesta:"<<cesty[ship.index][0]<<endl;
+                
+            }
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(cesty[ship.index][0],ship), condition, smery)));
+            if(cesty[ship.index].size()>1) cesty[ship.index].erase(cesty[ship.index].begin());
             return;
         
 }// najdem najblizsi pristav a pohnem sa na neho
@@ -357,9 +392,16 @@ void Calculate(vector<Turn>& turns, Ship ship){
                 else{
                     ship_orders[i].second.first = 2;
                     ship_orders[i].second.second=trades[0];
-                        vector<XY> smery = ziskanieSmery(ship);
+                    vector<XY> smery = ziskanieSmery(ship);
+                    if(cesty[ship.index].size()==0){
+                        vypocetCesty(trades[0].FromH.coords,ship);
+                        if(cesty[ship.index].size()==0) return;
+                        cesty[ship.index].erase(cesty[ship.index].begin());
+                        cerr<<"cesta:"<<cesty[ship.index][0]<<endl;
 
-                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(ship_orders[i].second.second.FromH.coords,ship), condition,smery)));
+                    } 
+                    turns.push_back(MoveTurn(ship.index, move_to(ship, closest(cesty[ship.index][0],ship), condition,smery)));
+                    if(cesty[ship.index].size()>1) cesty[ship.index].erase(cesty[ship.index].begin());
                 }
 
                 break;
@@ -375,6 +417,7 @@ void Buy(vector<Turn>& turns, Ship ship){
     for(auto i:ship_orders){
     if(i.first.index == ship.index){
     if(ship.coords == i.second.second.FromH.coords){
+        cesty[ship.index].clear();
         ResourceEnum res = RESOURCES[i.second.second.tovar];
         int kolko=manyToBuy(i,res,1);
         turns.push_back(TradeTurn(ship.index, res, kolko));
@@ -384,8 +427,15 @@ void Buy(vector<Turn>& turns, Ship ship){
     else{
         cerr<<"suradky: "<<i.second.second.FromH.coords.x<<" "<<i.second.second.FromH.coords.y<<endl;
             vector<XY> smery = ziskanieSmery(ship);
-
-        turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.FromH.coords,ship), condition,smery)));
+        if(cesty[ship.index].size()==0) {
+            vypocetCesty(i.second.second.FromH.coords,ship);
+            if(cesty[ship.index].size()==0) return;
+            cesty[ship.index].erase(cesty[ship.index].begin());
+            cerr<<"cesta:"<<cesty[ship.index][0]<<endl;
+            
+        }
+        turns.push_back(MoveTurn(ship.index, move_to(ship, closest(cesty[ship.index][0],ship), condition,smery)));
+        if(cesty[ship.index].size()>1) cesty[ship.index].erase(cesty[ship.index].begin());
         return;
         }
     }
@@ -397,6 +447,7 @@ int f=0;
 for (auto i:ship_orders){
     if(i.first.index ==ship.index){
         if(ship.coords == i.second.second.ToH.coords){
+            cesty[ship.index].clear();
             ResourceEnum res = RESOURCES[i.second.second.tovar];
             int kolko=ship.resources[res];
             turns.push_back(TradeTurn(ship.index, res, -kolko));
@@ -405,8 +456,14 @@ for (auto i:ship_orders){
         }
         else{
                 vector<XY> smery = ziskanieSmery(ship);
-
-            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(i.second.second.ToH.coords,ship), condition,smery)));
+            if(cesty[ship.index].size()==0) {
+                vypocetCesty(i.second.second.ToH.coords,ship);
+                if(cesty[ship.index].size()==0) return;
+                cesty[ship.index].erase(cesty[ship.index].begin());
+                cerr<<"cesta:"<<cesty[ship.index][0]<<endl;
+            }
+            turns.push_back(MoveTurn(ship.index, move_to(ship, closest(cesty[ship.index][0],ship), condition,smery)));
+            if(cesty[ship.index].size()>1) cesty[ship.index].erase(cesty[ship.index].begin());
             return;
         }
     }
@@ -417,34 +474,6 @@ for (auto i:ship_orders){
 
 
 }//predavanie resourcov
-void Stacionarne(vector<Turn>& turns, Ship ship){
-    
-    for(auto i:destinations){
-        if(i.first==ship.index){
-            if(ship.coords == i.second){
-                for(int i=0;i<ship_orders.size();i++){
-                    if(ship_orders[i].first.index == ship.index){
-                        cerr<<"zmena:"<<ship_orders[i].first.index<<endl;
-                        ship_orders[i].second.first = 7;
-                        return;
-                    }
-                }
-            }
-                vector<XY> smery = ziskanieSmery(ship);
-
-            turns.push_back(MoveTurn(ship.index, move_to(ship, i.second, condition,smery)));
-            return;
-        }
-    }
-            
-                cerr<<occupied_harbors[0].first.coords.x<<" "<<occupied_harbors[0].first.coords.y<<endl;
-                    vector<XY> smery = ziskanieSmery(ship);
-
-                turns.push_back(MoveTurn(ship.index, move_to(ship, closest(occupied_harbors[0].first.coords,ship), condition,smery)));
-                destinations.push_back(make_pair(ship.index,occupied_harbors[0].first.coords));
-                occupied_harbors.erase(occupied_harbors.begin());
-                return;
-}
 //hlavny funkcie
 
 void updateShips(vector<Ship> ships){
@@ -550,11 +579,11 @@ void updateMap(){
 void umrtvitExplorera(vector<Turn>& turns){
     for(int i=0;i<ship_orders.size();i++){
         if(ship_orders[i].second.first == 4){
-            ship_orders[i].second.first = 6;
+            ship_orders[i].second.first = 5;
             cerr<<"umrtvil som explorera"<<ship_orders[i].first.index<<endl;
                 vector<XY> smery = ziskanieSmery(ship_orders[i].first);
 
-            turns.push_back(MoveTurn(ship_orders[i].first.index, move_to(ship_orders[i].first, closest(occupied_harbors[0].first.coords,ship_orders[i].first), condition,smery)));
+            turns.push_back(MoveTurn(ship_orders[i].first.index, move_to(ship_orders[i].first, closest(world.my_base,ship_orders[i].first), condition,smery)));
             destinations.push_back(make_pair(ship_orders[i].first.index,occupied_harbors[0].first.coords));
             occupied_harbors.erase(occupied_harbors.begin());
             return;
@@ -569,7 +598,7 @@ void updateOrders(){
         if(ship_orders[i].second.first == 0){
             if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_ATTACK) ship_orders[i].second.first = 3;
             if(ship_orders[i].first.stats.ship_class==ShipClass::SHIP_TRADE) ship_orders[i].second.first = 5;  
-            if(getShipName(ship_orders[i].first)==ShipsEnum::Cln) ship_orders[i].second.first = 6;
+            if(getShipName(ship_orders[i].first)==ShipsEnum::Cln) ship_orders[i].second.first = 5;
         }
     }
 }//da lodkam defaultny order
@@ -603,10 +632,6 @@ void add_ship_turns(vector<Turn>& turns, vector<Ship> ships){
             case 5:
                 cerr<<"pocitam"<<curr.index<<endl;
                 Calculate(turns,curr);
-                break;
-            case 6:
-                cerr<<"stacionarne"<<curr.index<<endl;
-                Stacionarne(turns,curr);
                 break;
             case 7:
                 cerr<<"stoji"<<curr.index<<endl;
@@ -644,7 +669,7 @@ vector<Turn> do_turn() {
 
     if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
     if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
-    if(world.gold>=60&&pocetLodiciek(ShipsEnum::Cln)<4)  turns.push_back(BuyTurn(ShipsEnum::Cln));
+    // if(world.gold>=40&&pocetLodiciek(ShipsEnum::Cln)<3)  turns.push_back(BuyTurn(ShipsEnum::Cln));
     if(world.gold>=125)  turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
 
     //zaciatocne kupovanie lodiek
