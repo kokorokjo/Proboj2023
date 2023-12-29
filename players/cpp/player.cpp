@@ -95,7 +95,7 @@ vector<pair<Ship,pair<int,Trade>>> ship_orders; //,0=default, 1=predat, 2=kupit,
 vector<Trade> trades; //vsetky trades
 vector<pair<Harbor,int>> occupied_harbors; //obsadene pristavy
 vector<pair<int,XY>> destinations; //destinacie lodiek
-vector<pair<bool,infoH>> storageHarbors; //storage a prod pristavov
+unordered_map<XY,pair<bool,infoH>> storageHarborsMap; //storage a prod pristavov
 
 
 int tah=0; //pocitam si tahy
@@ -287,14 +287,6 @@ void Explore(vector<Turn>& turns, Ship ship){
             for(Harbor harbor : world.harbors){
                 if(harbor.coords == ship.coords){
                     vector_of_found_harbors.push_back(harbor);
-                    infoH info;
-                    info.init(info.storage,info.production);
-                    info.harbor=harbor;
-                    for(int i=0;i<8;i++){
-                        info.storage[i]=harbor.storage.resources[i];
-                        info.production[i]=harbor.production.resources[i];
-                    }
-                    storageHarbors.push_back(make_pair(false,info));
                     if(vector_of_found_harbors.size() == world.harbors.size()) trebaExplorovat = false;
                     for(int i=0;i<8;i++){
                         if(harbor.production.resources[i]>0){
@@ -547,6 +539,35 @@ void updateMap(){
     }
 }//aktualizujem mapku podla lodiek
 //update mapy
+void simulovanie(){
+    for(auto i:world.harbors){
+        if(storageHarborsMap.find(i.coords)==storageHarborsMap.end()){
+            infoH info;
+            info.init(info.storage,info.production);
+            info.harbor=i;
+            for(int j=0;j<8;j++){
+                info.storage[j]=i.storage.resources[j];
+                info.production[j]=i.production.resources[j];
+            }
+            storageHarborsMap[i.coords]=make_pair(false,info);
+        }
+        else if(i.visible){
+            for(int j=0;j<8;j++){
+                storageHarborsMap[i.coords].second.storage[j]=i.storage.resources[j];
+                storageHarborsMap[i.coords].second.production[j]=i.production.resources[j];
+            }
+
+        }
+        else {
+            for(int j=0;j<8;j++){
+                storageHarborsMap[i.coords].second.storage[j]
+                +=storageHarborsMap[i.coords].second.production[j];
+            }
+        }
+    }
+
+}//odsimuluje produkciu harbov
+//simulovanie
 void umrtvitExplorera(vector<Turn>& turns){
     for(int i=0;i<ship_orders.size();i++){
         if(ship_orders[i].second.first == 4){
@@ -637,6 +658,7 @@ vector<Turn> do_turn() {
         }
     tah++;
     updateMap();
+    simulovanie();
     //predpocitanie
 
     if(!trebaExplorovat) umrtvitExplorera(turns);
@@ -644,7 +666,7 @@ vector<Turn> do_turn() {
 
     if (pocetLodiciek(ShipsEnum::Cln) < 1) turns.push_back(BuyTurn(ShipsEnum::Cln));
     if (pocetLodiciek(ShipsEnum::Plt) < 1) turns.push_back(BuyTurn(ShipsEnum::Plt));
-    if(world.gold>=60&&pocetLodiciek(ShipsEnum::Cln)<4)  turns.push_back(BuyTurn(ShipsEnum::Cln));
+    // if(world.gold>=60&&pocetLodiciek(ShipsEnum::Cln)<4)  turns.push_back(BuyTurn(ShipsEnum::Cln));
     if(world.gold>=125)  turns.push_back(BuyTurn(ShipsEnum::SmallMerchantShip));
 
     //zaciatocne kupovanie lodiek
